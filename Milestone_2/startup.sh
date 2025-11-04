@@ -9,4 +9,4 @@ curl -X POST -H 'Content-type:application/json' \
     http://localhost:8983/solr/media/schema
 
 # Populate collection using mapped path inside container.
-docker exec -it initial_solr solr post -c media /final_data_solr/movies_series.json
+docker exec initial_solr solr post -c media /data/final_data_solr/movies_series.json

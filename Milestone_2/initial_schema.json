@@ -24,7 +24,7 @@
         },
         {
             "name": "mediaType",
-            "class": "solr.StringField",
+            "class": "solr.TextField",
             "indexed": true,
             "stored": true
         }
