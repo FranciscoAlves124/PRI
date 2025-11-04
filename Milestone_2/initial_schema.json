@@ -1,0 +1,45 @@
+{
+	"add-field-type": [
+        {
+            "name":"mediaTitle",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                ]
+            }
+        },
+        {
+            "name": "mediaType",
+            "class": "solr.StringField",
+            "indexed": true,
+            "stored": true
+        }
+    ],
+    "add-field": [
+        {
+            "name": "title",
+            "type": "mediaTitle",
+            "indexed": true
+        }, 
+        {
+            "name": "type",
+            "type": "mediaType",
+            "indexed": true,
+            "stored": true
+        }
+    ]
+}
