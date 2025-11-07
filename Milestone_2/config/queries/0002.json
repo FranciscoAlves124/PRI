@@ -1,0 +1,14 @@
+{
+  "query": "Crime Drama",
+  "fields": ["tconst", "primaryTitle", "startYear", "genres", "averageRating"],
+  "params": {
+    "defType": "edismax",
+    "qf": "primaryTitle^3 genres^2 description",
+    "fq": [
+      "titleType:tvSeries",
+      "averageRating:[8 TO *]"
+    ],
+    "rows": 10,
+    "sort": "averageRating desc"
+  }
+}
