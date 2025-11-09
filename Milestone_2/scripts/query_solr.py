@@ -5,7 +5,7 @@ import json
 import sys
 from pathlib import Path
 import glob
-
+import os
 import requests
 
 
@@ -57,6 +57,12 @@ def main(query_folder: Path, solr_uri, collection):
         )
 
     print(json.dumps(results, indent=2))
+
+    # Save results to a JSON file
+    output_file = "results/solr_results.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(json.dumps(results, indent=2))
+    print(f"Results saved to {output_file}")
 
 
 if __name__ == "__main__":

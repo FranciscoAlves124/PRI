@@ -61,8 +61,18 @@ def main(trec_eval_stdout: str):
     plt.grid(linestyle='--', linewidth=0.5)
     plt.tight_layout()
 
-    # Show the PR curve
-    plt.show()
+    # Save the PR curve to a file instead of trying to show it (headless-friendly)
+    out_dir = "results"
+    try:
+        import os
+
+        os.makedirs(out_dir, exist_ok=True)
+    except Exception:
+        pass
+
+    out_path = os.path.join(out_dir, "pr_curve.png")
+    plt.savefig(out_path)
+    print(f"PR curve written to {out_path}")
 
 
 if __name__ == "__main__":

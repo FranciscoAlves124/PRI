@@ -3,6 +3,7 @@
 import argparse
 import json
 import sys
+import os
 
 
 def solr_to_trec(solr_response, run_id="run0"):
@@ -28,12 +29,31 @@ def solr_to_trec(solr_response, run_id="run0"):
 
             # Enumerate through the results and write them in TREC format
             for rank, doc in enumerate(docs, start=1):
-                print(f"{int(query_id)} Q0 {doc['id']} {rank} {doc['score']} {run_id}")
+                print(f"{int(query_id)} Q0 {doc['tconst'][0]} {rank} {doc['averageRating'][0]} {run_id}")
 
         except KeyError:
             print("Error: Invalid Solr response format. 'docs' key not found.")
             sys.exit(1)
 
+
+def create_qrels(solr_response, output_file="results/trec_qrels.txt"):
+    """
+    Creates a qrels file from the Solr response for evaluation purposes.
+
+    Arguments:
+    - solr_response: Dictionary containing Solr response with document IDs and scores.
+    - output_file: Path to the output qrels file (default: results/qrels.txt).
+    """
+
+    with open(output_file, "w") as f:
+        for query_id, response in solr_response.items():
+            try:
+                docs = response["response"]["docs"]
+                for doc in docs:
+                    f.write(f"{int(query_id)} 0 {doc['tconst'][0]} 1\n")
+            except KeyError:
+                print("Error: Invalid Solr response format. 'docs' key not found.")
+                sys.exit(1)
 
 if __name__ == "__main__":
     # Set up argument parsing for command-line interface
@@ -50,8 +70,12 @@ if __name__ == "__main__":
     # Parse command-line arguments
     args = parser.parse_args()
 
-    # Load Solr response from STDIN
-    solr_response = json.load(sys.stdin)
+    input_file = os.path.join("results", "solr_results.json")
+    with open(input_file, "r") as f:
+        solr_response = json.load(f)
 
-    # Convert Solr results to TREC format and write to STDOUT
+    # Convert all Solr results to TREC format and write to STDOUT
     solr_to_trec(solr_response, args.run_id)
+
+    # Create qrels file for evaluation
+    #create_qrels(solr_response, "results/trec_qrels.txt")

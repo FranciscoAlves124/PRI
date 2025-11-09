@@ -1,0 +1,374 @@
+{
+  "1": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 109,
+      "params": {
+        "json": "{\"query\": \"Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\"], \"params\": {\"defType\": \"edismax\", \"qf\": \"primaryTitle originalTitle genres description\", \"rows\": 10, \"sort\": \"averageRating desc\"}}"
+      }
+    },
+    "response": {
+      "numFound": 7028,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": [
+            "tt35918041"
+          ],
+          "primaryTitle": [
+            "Pelli Kaani Prasad"
+          ],
+          "startYear": [
+            2025
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            9.7
+          ]
+        },
+        {
+          "tconst": [
+            "tt0903747"
+          ],
+          "primaryTitle": [
+            "Breaking Bad"
+          ],
+          "startYear": [
+            2008
+          ],
+          "genres": [
+            "Crime,Drama,Thriller"
+          ],
+          "averageRating": [
+            9.5
+          ]
+        },
+        {
+          "tconst": [
+            "tt34000241"
+          ],
+          "primaryTitle": [
+            "Mannu Kya Karegga"
+          ],
+          "startYear": [
+            2025
+          ],
+          "genres": [
+            "Drama,Romance"
+          ],
+          "averageRating": [
+            9.5
+          ]
+        },
+        {
+          "tconst": [
+            "tt0244911"
+          ],
+          "primaryTitle": [
+            "Malgudi Days"
+          ],
+          "startYear": [
+            1986
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            9.4
+          ]
+        },
+        {
+          "tconst": [
+            "tt6758316"
+          ],
+          "primaryTitle": [
+            "Formula 1"
+          ],
+          "startYear": [
+            1950
+          ],
+          "genres": [
+            "Action,Comedy,Drama"
+          ],
+          "averageRating": [
+            9.4
+          ]
+        },
+        {
+          "tconst": [
+            "tt37376961"
+          ],
+          "primaryTitle": [
+            "Thank You Dear"
+          ],
+          "startYear": [
+            2025
+          ],
+          "genres": [
+            "Drama,Romance"
+          ],
+          "averageRating": [
+            9.4
+          ]
+        },
+        {
+          "tconst": [
+            "tt3109682"
+          ],
+          "primaryTitle": [
+            "The Palestinian Alienation"
+          ],
+          "startYear": [
+            2004
+          ],
+          "genres": [
+            "Drama,History,War"
+          ],
+          "averageRating": [
+            9.4
+          ]
+        },
+        {
+          "tconst": [
+            "tt0111161"
+          ],
+          "primaryTitle": [
+            "The Shawshank Redemption"
+          ],
+          "startYear": [
+            1994
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            9.3
+          ]
+        },
+        {
+          "tconst": [
+            "tt0306414"
+          ],
+          "primaryTitle": [
+            "The Wire"
+          ],
+          "startYear": [
+            2002
+          ],
+          "genres": [
+            "Crime,Drama,Thriller"
+          ],
+          "averageRating": [
+            9.3
+          ]
+        },
+        {
+          "tconst": [
+            "tt5152226"
+          ],
+          "primaryTitle": [
+            "Tree of Life"
+          ],
+          "startYear": [
+            2014
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            9.3
+          ]
+        }
+      ]
+    }
+  },
+  "2": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 50,
+      "params": {
+        "json": "{\"query\": \"Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\"], \"params\": {\"defType\": \"edismax\", \"qf\": \"primaryTitle^3 genres^2 description\", \"fq\": [\"titleType:tvSeries\", \"averageRating:[8 TO *]\"], \"rows\": 10, \"sort\": \"averageRating desc\"}}"
+      }
+    },
+    "response": {
+      "numFound": 901,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": [
+            "tt0903747"
+          ],
+          "primaryTitle": [
+            "Breaking Bad"
+          ],
+          "startYear": [
+            2008
+          ],
+          "genres": [
+            "Crime,Drama,Thriller"
+          ],
+          "averageRating": [
+            9.5
+          ]
+        },
+        {
+          "tconst": [
+            "tt0244911"
+          ],
+          "primaryTitle": [
+            "Malgudi Days"
+          ],
+          "startYear": [
+            1986
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            9.4
+          ]
+        },
+        {
+          "tconst": [
+            "tt6758316"
+          ],
+          "primaryTitle": [
+            "Formula 1"
+          ],
+          "startYear": [
+            1950
+          ],
+          "genres": [
+            "Action,Comedy,Drama"
+          ],
+          "averageRating": [
+            9.4
+          ]
+        },
+        {
+          "tconst": [
+            "tt3109682"
+          ],
+          "primaryTitle": [
+            "The Palestinian Alienation"
+          ],
+          "startYear": [
+            2004
+          ],
+          "genres": [
+            "Drama,History,War"
+          ],
+          "averageRating": [
+            9.4
+          ]
+        },
+        {
+          "tconst": [
+            "tt0306414"
+          ],
+          "primaryTitle": [
+            "The Wire"
+          ],
+          "startYear": [
+            2002
+          ],
+          "genres": [
+            "Crime,Drama,Thriller"
+          ],
+          "averageRating": [
+            9.3
+          ]
+        },
+        {
+          "tconst": [
+            "tt5152226"
+          ],
+          "primaryTitle": [
+            "Tree of Life"
+          ],
+          "startYear": [
+            2014
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            9.3
+          ]
+        },
+        {
+          "tconst": [
+            "tt0389593"
+          ],
+          "primaryTitle": [
+            "Chanakya"
+          ],
+          "startYear": [
+            1990
+          ],
+          "genres": [
+            "Drama,History"
+          ],
+          "averageRating": [
+            9.3
+          ]
+        },
+        {
+          "tconst": [
+            "tt0944947"
+          ],
+          "primaryTitle": [
+            "Game of Thrones"
+          ],
+          "startYear": [
+            2011
+          ],
+          "genres": [
+            "Action,Adventure,Drama"
+          ],
+          "averageRating": [
+            9.2
+          ]
+        },
+        {
+          "tconst": [
+            "tt0141842"
+          ],
+          "primaryTitle": [
+            "The Sopranos"
+          ],
+          "startYear": [
+            1999
+          ],
+          "genres": [
+            "Crime,Drama"
+          ],
+          "averageRating": [
+            9.2
+          ]
+        },
+        {
+          "tconst": [
+            "tt30263074"
+          ],
+          "primaryTitle": [
+            "Sapne Vs Everyone"
+          ],
+          "startYear": [
+            2023
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            9.2
+          ]
+        }
+      ]
+    }
+  }
+}
