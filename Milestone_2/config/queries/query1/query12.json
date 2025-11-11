@@ -1,0 +1,18 @@
+{
+  "query": "Comedy",
+  "fields": [
+    "tconst",
+    "primaryTitle",
+    "startYear",
+    "genres",
+    "averageRating",
+    "titleType"
+  ],
+  "params": {
+    "defType": "edismax",
+    "qf": "primaryTitle^3 genres^2 description^1",
+    "fq": ["titleType:movie", "startYear:[1990 TO 2000]"],
+    "rows": 20,
+    "sort": "score desc"
+  }
+}
