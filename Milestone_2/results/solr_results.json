@@ -2,7 +2,7 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 109,
+      "QTime": 13,
       "params": {
         "json": "{\"query\": \"Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\"], \"params\": {\"defType\": \"edismax\", \"qf\": \"primaryTitle originalTitle genres description\", \"rows\": 10, \"sort\": \"averageRating desc\"}}"
       }
@@ -188,7 +188,7 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 50,
+      "QTime": 15,
       "params": {
         "json": "{\"query\": \"Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\"], \"params\": {\"defType\": \"edismax\", \"qf\": \"primaryTitle^3 genres^2 description\", \"fq\": [\"titleType:tvSeries\", \"averageRating:[8 TO *]\"], \"rows\": 10, \"sort\": \"averageRating desc\"}}"
       }
