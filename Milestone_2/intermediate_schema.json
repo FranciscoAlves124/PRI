@@ -28,18 +28,46 @@
             "indexed": true,
             "stored": true
         }
+
     ],
     "add-field": [
         {
-            "name": "title",
+            "name": "primaryTitle",
             "type": "mediaTitle",
             "indexed": true
         }, 
         {
-            "name": "type",
+            "name": "originalTitle",
             "type": "mediaType",
             "indexed": true,
             "stored": true
+        },
+        {
+            "name": "startYear"
+        },
+        {
+            "name": "endYear"
+        },
+        {
+            "name": "runtimeMinutes"
+        },
+        {
+            "name": "genres"
+        },
+        {
+            "name": "averageRating"
+        },
+        {
+            "name": "numVotes"
+        },
+        {
+            "name": "weightedRating"
+        },
+        {
+            "name": "top_3_cast"            
+        },
+        {
+            "name": "description"
         }
     ]
 }
