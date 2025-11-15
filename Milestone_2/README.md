@@ -1,4 +1,3 @@
-
 # 06-evaluation Simplified
 
 Created queries: 
@@ -32,3 +31,74 @@ python scripts/query_solr.py --queries config/queries --uri http://localhost:898
 Run pipeline 
 
 ./scripts/pipeline.sh
+
+## Running Solr and creating cores (Bash and PowerShell commands)
+
+Notes:
+- The startup script now applies the intermediate schema before indexing (it prefers `apply_schema.py` if present).
+- If you want to force core recreation, run the startup script with `--recreate` (e.g. `./startup.sh intermediate --recreate`).
+
+### Common prerequisites
+- Docker installed and running
+- Python 3 available (for apply_schema.py helper)
+
+---
+
+### Bash (Linux / macOS / WSL)
+
+# start Solr container (runs standalone Solr on port 8983)
+docker pull solr:9
+docker run -d -p 8983:8983 --name initial_solr -v "$(pwd):/data" solr:9
+
+# create schemaless core (basic)
+docker exec initial_solr solr create -c media_basic -n data_driven_schema_configs
+
+# create strict core for intermediate (non-schemaless)
+docker exec initial_solr solr create -c media_intermediate -n basic_configs
+
+# apply intermediate schema (preferred helper)
+python3 apply_schema.py --core media_intermediate --file intermediate_schema.json
+
+# verify schema applied
+curl 'http://localhost:8983/solr/media_intermediate/schema/fields?wt=json' | sed -n '1,200p'
+
+# index documents (only after schema applied)
+docker exec initial_solr solr post -c media_basic /data/final_data_solr/movies_series.json
+docker exec initial_solr solr post -c media_intermediate /data/final_data_solr/movies_series.json
+
+# optional: run the bash startup helper (will apply schema first if apply_schema.py is present)
+bash startup.sh intermediate --recreate
+
+---
+
+### PowerShell (Windows)
+
+# start Solr container (PowerShell; mounts current dir, **current directory (cd) should be on /Milestone_2**)
+docker pull solr:9
+docker run -d -p 8983:8983 --name initial_solr -v ${PWD}:/data solr:9
+
+# create schemaless core (basic)
+docker exec initial_solr solr create -c media_basic -n data_driven_schema_configs
+
+# create strict core for intermediate (non-schemaless)
+docker exec initial_solr solr create -c media_intermediate -n basic_configs
+
+# apply intermediate schema (preferred helper)
+python .\apply_schema.py --core media_intermediate --file .\intermediate_schema.json
+
+# verify schema applied (PowerShell)
+Invoke-RestMethod -Uri 'http://localhost:8983/solr/media_intermediate/schema/fields?wt=json' -Method Get
+
+# index documents (only after schema applied)
+docker exec initial_solr solr post -c media_intermediate /data/final_data_solr/movies_series.json
+
+# optional: run the startup script from WSL/Git-Bash, or run in PowerShell via WSL:
+wsl bash ./startup.sh intermediate --recreate
+
+---
+
+### Troubleshooting notes
+- If schema apply fails with HTTP 400 about "docValues" or missing types:
+  - Use the helper `apply_schema.py` (it will add missing types/fields instead of blindly replacing).
+  - TextField types do not support `docValues=true`; use a StrField (string) or add a copy-field to a StrField for docValues usage.
+- If startup reports "core present but conf dir missing", run `docker exec initial_solr bash -lc 'rm -rf /var/solr/data/media_intermediate || true'` and recreate the core.
