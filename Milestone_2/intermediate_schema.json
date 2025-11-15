@@ -1,73 +1,191 @@
 {
-	"add-field-type": [
+    "add-field-type": [
         {
-            "name":"mediaTitle",
-            "class":"solr.TextField",
-            "indexAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
+            "name": "text_general",
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
                 },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.StopFilterFactory", "words": "lang/stopwords_en.txt,lang/stopwords_es.txt,lang/stopwords_fr.txt,lang/stopwords_de.txt,lang/stopwords_it.txt,lang/stopwords_pt.txt,lang/stopwords_nl.txt,lang/stopwords_ja.txt,lang/stopwords_ar.txt", "ignoreCase": "true", "format": "snowball"},
+                    {"class": "solr.EnglishPossessiveFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"}
                 ]
             },
-            "queryAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
                 },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.StopFilterFactory", "words": "lang/stopwords_en.txt,lang/stopwords_es.txt,lang/stopwords_fr.txt,lang/stopwords_de.txt,lang/stopwords_it.txt,lang/stopwords_pt.txt,lang/stopwords_nl.txt,lang/stopwords_ja.txt,lang/stopwords_ar.txt", "ignoreCase": "true", "format": "snowball"},
+                    {"class": "solr.EnglishPossessiveFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"}
                 ]
             }
         },
         {
-            "name": "mediaType",
+            "name": "title_text",
             "class": "solr.TextField",
-            "indexed": true,
-            "stored": true
+            "positionIncrementGap": "100",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.WordDelimiterGraphFilterFactory", 
+                     "generateWordParts": "1", 
+                     "generateNumberParts": "1", 
+                     "catenateWords": "1", 
+                     "catenateNumbers": "1", 
+                     "splitOnCaseChange": "1"},
+                    {"class": "solr.FlattenGraphFilterFactory"},
+                    {"class": "solr.EdgeNGramFilterFactory", "minGramSize": "2", "maxGramSize": "15"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.WordDelimiterGraphFilterFactory", 
+                     "generateWordParts": "1", 
+                     "generateNumberParts": "1", 
+                     "catenateWords": "0", 
+                     "catenateNumbers": "0", 
+                     "splitOnCaseChange": "1"}
+                ]
+            }
+        },
+        {
+            "name": "string_ci",
+            "class": "solr.TextField",
+            "sortMissingLast": true,
+            "omitNorms": true,
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.KeywordTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.TrimFilterFactory"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.KeywordTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.TrimFilterFactory"}
+                ]
+            }
+        },
+        {
+            "name": "text_ws",
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "analyzer": {
+                "tokenizer": {
+                    "class": "solr.WhitespaceTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"}
+                ]
+            }
         }
-
     ],
     "add-field": [
         {
             "name": "primaryTitle",
-            "type": "mediaTitle",
-            "indexed": true
-        }, 
-        {
-            "name": "originalTitle",
-            "type": "mediaType",
+            "type": "title_text",
             "indexed": true,
             "stored": true
         },
         {
-            "name": "startYear"
+            "name": "originalTitle",
+            "type": "title_text",
+            "indexed": true,
+            "stored": true
         },
         {
-            "name": "endYear"
+            "name": "titleType",
+            "type": "string_ci",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
         },
         {
-            "name": "runtimeMinutes"
+            "name": "startYear",
+            "type": "pint",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
         },
         {
-            "name": "genres"
+            "name": "endYear",
+            "type": "pint",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
         },
         {
-            "name": "averageRating"
+            "name": "runtimeMinutes",
+            "type": "pint",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
         },
         {
-            "name": "numVotes"
+            "name": "genres",
+            "type": "string_ci",
+            "indexed": true,
+            "stored": true,
+            "multiValued": true,
+            "docValues": true
         },
         {
-            "name": "weightedRating"
+            "name": "averageRating",
+            "type": "pfloat",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
         },
         {
-            "name": "top_3_cast"            
+            "name": "numVotes",
+            "type": "pint",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
         },
         {
-            "name": "description"
+            "name": "weightedRating",
+            "type": "pfloat",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
+        },
+        {
+            "name": "top_3_cast",
+            "type": "text_ws",
+            "indexed": true,
+            "stored": true,
+            "multiValued": true
+        },
+        {
+            "name": "description",
+            "type": "text_general",
+            "indexed": true,
+            "stored": true
         }
     ]
 }
