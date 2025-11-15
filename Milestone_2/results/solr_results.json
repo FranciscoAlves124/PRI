@@ -2,184 +2,414 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 13,
+      "QTime": 154,
       "params": {
-        "json": "{\"query\": \"Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\"], \"params\": {\"defType\": \"edismax\", \"qf\": \"primaryTitle originalTitle genres description\", \"rows\": 10, \"sort\": \"averageRating desc\"}}"
+        "json": "{\"query\": \"Comedy\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\"], \"params\": {\"defType\": \"edismax\", \"qf\": \"genres\", \"fq\": [\"titleType:movie\", \"startYear:[1990 TO 2000]\"], \"rows\": 20, \"sort\": \"averageRating desc\"}}"
       }
     },
     "response": {
-      "numFound": 7028,
+      "numFound": 323,
       "start": 0,
       "numFoundExact": true,
       "docs": [
         {
           "tconst": [
-            "tt35918041"
+            "tt0353975"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "Pelli Kaani Prasad"
+            "Sandesham"
           ],
           "startYear": [
-            2025
+            1991
           ],
           "genres": [
-            "Drama"
+            "Comedy,Drama"
           ],
           "averageRating": [
-            9.7
+            9.0
           ]
         },
         {
           "tconst": [
-            "tt0903747"
+            "tt0214915"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "Breaking Bad"
+            "Manichithrathazhu"
           ],
           "startYear": [
-            2008
+            1993
           ],
           "genres": [
-            "Crime,Drama,Thriller"
+            "Comedy,Horror,Mystery"
           ],
           "averageRating": [
-            9.5
+            8.7
           ]
         },
         {
           "tconst": [
-            "tt34000241"
+            "tt0118799"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "Mannu Kya Karegga"
+            "Life Is Beautiful"
           ],
           "startYear": [
-            2025
+            1997
           ],
           "genres": [
-            "Drama,Romance"
+            "Comedy,Drama,Romance"
           ],
           "averageRating": [
-            9.5
+            8.6
           ]
         },
         {
           "tconst": [
-            "tt0244911"
+            "tt0271383"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "Malgudi Days"
+            "A Dog's Will"
           ],
           "startYear": [
-            1986
+            2000
           ],
           "genres": [
-            "Drama"
+            "Comedy,Drama,Fantasy"
           ],
           "averageRating": [
-            9.4
+            8.6
           ]
         },
         {
           "tconst": [
-            "tt6758316"
+            "tt0187231"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "Formula 1"
+            "Barking at the Stars"
           ],
           "startYear": [
-            1950
+            1998
+          ],
+          "genres": [
+            "Comedy,Romance"
+          ],
+          "averageRating": [
+            8.6
+          ]
+        },
+        {
+          "tconst": [
+            "tt2325915"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Poove Unakkaga"
+          ],
+          "startYear": [
+            1996
+          ],
+          "genres": [
+            "Comedy,Drama,Musical"
+          ],
+          "averageRating": [
+            8.6
+          ]
+        },
+        {
+          "tconst": [
+            "tt0255306"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Kilukkam"
+          ],
+          "startYear": [
+            1991
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            8.6
+          ]
+        },
+        {
+          "tconst": [
+            "tt0353496"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Godfather"
+          ],
+          "startYear": [
+            1991
+          ],
+          "genres": [
+            "Comedy,Drama,Romance"
+          ],
+          "averageRating": [
+            8.6
+          ]
+        },
+        {
+          "tconst": [
+            "tt0278501"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "In Harihar Nagar"
+          ],
+          "startYear": [
+            1990
+          ],
+          "genres": [
+            "Comedy,Crime,Mystery"
+          ],
+          "averageRating": [
+            8.6
+          ]
+        },
+        {
+          "tconst": [
+            "tt0140377"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Michael Madana Kama Rajan"
+          ],
+          "startYear": [
+            1990
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            8.5
+          ]
+        },
+        {
+          "tconst": [
+            "tt0290937"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Yoddha"
+          ],
+          "startYear": [
+            1992
           ],
           "genres": [
             "Action,Comedy,Drama"
           ],
           "averageRating": [
-            9.4
+            8.4
           ]
         },
         {
           "tconst": [
-            "tt37376961"
+            "tt0252196"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "Thank You Dear"
+            "Aditya 369"
           ],
           "startYear": [
-            2025
+            1991
           ],
           "genres": [
-            "Drama,Romance"
+            "Action,Adventure,Comedy"
           ],
           "averageRating": [
-            9.4
+            8.4
           ]
         },
         {
           "tconst": [
-            "tt3109682"
+            "tt0114709"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "The Palestinian Alienation"
+            "Toy Story"
           ],
           "startYear": [
-            2004
+            1995
           ],
           "genres": [
-            "Drama,History,War"
+            "Adventure,Animation,Comedy"
           ],
           "averageRating": [
-            9.4
+            8.3
           ]
         },
         {
           "tconst": [
-            "tt0111161"
+            "tt0104860"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "The Shawshank Redemption"
+            "We Are Not Angels"
           ],
           "startYear": [
-            1994
+            1992
           ],
           "genres": [
-            "Drama"
+            "Comedy,Fantasy,Romance"
           ],
           "averageRating": [
-            9.3
+            8.3
           ]
         },
         {
           "tconst": [
-            "tt0306414"
+            "tt0102223"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "The Wire"
+            "Kit Kat"
           ],
           "startYear": [
-            2002
+            1991
           ],
           "genres": [
-            "Crime,Drama,Thriller"
+            "Comedy,Drama,Romance"
           ],
           "averageRating": [
-            9.3
+            8.3
           ]
         },
         {
           "tconst": [
-            "tt5152226"
+            "tt0120382"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "Tree of Life"
+            "The Truman Show"
           ],
           "startYear": [
-            2014
+            1998
           ],
           "genres": [
-            "Drama"
+            "Comedy,Drama"
           ],
           "averageRating": [
-            9.3
+            8.2
+          ]
+        },
+        {
+          "tconst": [
+            "tt0208092"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Snatch"
+          ],
+          "startYear": [
+            2000
+          ],
+          "genres": [
+            "Comedy,Crime"
+          ],
+          "averageRating": [
+            8.2
+          ]
+        },
+        {
+          "tconst": [
+            "tt0242519"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Hera Pheri"
+          ],
+          "startYear": [
+            2000
+          ],
+          "genres": [
+            "Action,Comedy,Crime"
+          ],
+          "averageRating": [
+            8.2
+          ]
+        },
+        {
+          "tconst": [
+            "tt0213969"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Padaiyappa"
+          ],
+          "startYear": [
+            1999
+          ],
+          "genres": [
+            "Action,Comedy,Drama"
+          ],
+          "averageRating": [
+            8.2
+          ]
+        },
+        {
+          "tconst": [
+            "tt0245929"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Devils on the Doorstep"
+          ],
+          "startYear": [
+            2000
+          ],
+          "genres": [
+            "Comedy,Drama,War"
+          ],
+          "averageRating": [
+            8.2
           ]
         }
       ]
@@ -188,184 +418,414 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 15,
+      "QTime": 36,
       "params": {
-        "json": "{\"query\": \"Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\"], \"params\": {\"defType\": \"edismax\", \"qf\": \"primaryTitle^3 genres^2 description\", \"fq\": [\"titleType:tvSeries\", \"averageRating:[8 TO *]\"], \"rows\": 10, \"sort\": \"averageRating desc\"}}"
+        "json": "{\"query\": \"Comedy\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\"], \"params\": {\"defType\": \"edismax\", \"qf\": \"primaryTitle^3 genres^2 description^1\", \"fq\": [\"titleType:movie\", \"startYear:[1990 TO 2000]\"], \"rows\": 20, \"sort\": \"score desc\"}}"
       }
     },
     "response": {
-      "numFound": 901,
+      "numFound": 323,
       "start": 0,
       "numFoundExact": true,
       "docs": [
         {
           "tconst": [
-            "tt0903747"
+            "tt0188766"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "Breaking Bad"
-          ],
-          "startYear": [
-            2008
-          ],
-          "genres": [
-            "Crime,Drama,Thriller"
-          ],
-          "averageRating": [
-            9.5
-          ]
-        },
-        {
-          "tconst": [
-            "tt0244911"
-          ],
-          "primaryTitle": [
-            "Malgudi Days"
-          ],
-          "startYear": [
-            1986
-          ],
-          "genres": [
-            "Drama"
-          ],
-          "averageRating": [
-            9.4
-          ]
-        },
-        {
-          "tconst": [
-            "tt6758316"
-          ],
-          "primaryTitle": [
-            "Formula 1"
-          ],
-          "startYear": [
-            1950
-          ],
-          "genres": [
-            "Action,Comedy,Drama"
-          ],
-          "averageRating": [
-            9.4
-          ]
-        },
-        {
-          "tconst": [
-            "tt3109682"
-          ],
-          "primaryTitle": [
-            "The Palestinian Alienation"
-          ],
-          "startYear": [
-            2004
-          ],
-          "genres": [
-            "Drama,History,War"
-          ],
-          "averageRating": [
-            9.4
-          ]
-        },
-        {
-          "tconst": [
-            "tt0306414"
-          ],
-          "primaryTitle": [
-            "The Wire"
-          ],
-          "startYear": [
-            2002
-          ],
-          "genres": [
-            "Crime,Drama,Thriller"
-          ],
-          "averageRating": [
-            9.3
-          ]
-        },
-        {
-          "tconst": [
-            "tt5152226"
-          ],
-          "primaryTitle": [
-            "Tree of Life"
-          ],
-          "startYear": [
-            2014
-          ],
-          "genres": [
-            "Drama"
-          ],
-          "averageRating": [
-            9.3
-          ]
-        },
-        {
-          "tconst": [
-            "tt0389593"
-          ],
-          "primaryTitle": [
-            "Chanakya"
-          ],
-          "startYear": [
-            1990
-          ],
-          "genres": [
-            "Drama,History"
-          ],
-          "averageRating": [
-            9.3
-          ]
-        },
-        {
-          "tconst": [
-            "tt0944947"
-          ],
-          "primaryTitle": [
-            "Game of Thrones"
-          ],
-          "startYear": [
-            2011
-          ],
-          "genres": [
-            "Action,Adventure,Drama"
-          ],
-          "averageRating": [
-            9.2
-          ]
-        },
-        {
-          "tconst": [
-            "tt0141842"
-          ],
-          "primaryTitle": [
-            "The Sopranos"
+            "King of Comedy"
           ],
           "startYear": [
             1999
           ],
           "genres": [
-            "Crime,Drama"
+            "Comedy,Drama,Romance"
           ],
           "averageRating": [
-            9.2
+            7.2
           ]
         },
         {
           "tconst": [
-            "tt30263074"
+            "tt0109440"
+          ],
+          "titleType": [
+            "movie"
           ],
           "primaryTitle": [
-            "Sapne Vs Everyone"
+            "Fear City: A Family-Style Comedy"
           ],
           "startYear": [
-            2023
+            1994
           ],
           "genres": [
-            "Drama"
+            "Comedy,Horror"
           ],
           "averageRating": [
-            9.2
+            7.5
+          ]
+        },
+        {
+          "tconst": [
+            "tt0138097"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Shakespeare in Love"
+          ],
+          "startYear": [
+            1998
+          ],
+          "genres": [
+            "Comedy,Drama,History"
+          ],
+          "averageRating": [
+            7.1
+          ]
+        },
+        {
+          "tconst": [
+            "tt0187231"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Barking at the Stars"
+          ],
+          "startYear": [
+            1998
+          ],
+          "genres": [
+            "Comedy,Romance"
+          ],
+          "averageRating": [
+            8.6
+          ]
+        },
+        {
+          "tconst": [
+            "tt0237539"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Bread and Tulips"
+          ],
+          "startYear": [
+            2000
+          ],
+          "genres": [
+            "Comedy,Romance"
+          ],
+          "averageRating": [
+            7.3
+          ]
+        },
+        {
+          "tconst": [
+            "tt0208196"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Happy Accidents"
+          ],
+          "startYear": [
+            2000
+          ],
+          "genres": [
+            "Comedy,Romance"
+          ],
+          "averageRating": [
+            7.1
+          ]
+        },
+        {
+          "tconst": [
+            "tt0113819"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Mighty Aphrodite"
+          ],
+          "startYear": [
+            1995
+          ],
+          "genres": [
+            "Comedy,Fantasy,Romance"
+          ],
+          "averageRating": [
+            7.0
+          ]
+        },
+        {
+          "tconst": [
+            "tt0109445"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Clerks"
+          ],
+          "startYear": [
+            1994
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.7
+          ]
+        },
+        {
+          "tconst": [
+            "tt0151804"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Office Space"
+          ],
+          "startYear": [
+            1999
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.6
+          ]
+        },
+        {
+          "tconst": [
+            "tt0106677"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Dazed and Confused"
+          ],
+          "startYear": [
+            1993
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.6
+          ]
+        },
+        {
+          "tconst": [
+            "tt0119038"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Le D\u00eener de Cons"
+          ],
+          "startYear": [
+            1998
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.6
+          ]
+        },
+        {
+          "tconst": [
+            "tt0218839"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Best in Show"
+          ],
+          "startYear": [
+            2000
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.5
+          ]
+        },
+        {
+          "tconst": [
+            "tt0109686"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Dumb and Dumber"
+          ],
+          "startYear": [
+            1994
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.3
+          ]
+        },
+        {
+          "tconst": [
+            "tt0140377"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Michael Madana Kama Rajan"
+          ],
+          "startYear": [
+            1990
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            8.5
+          ]
+        },
+        {
+          "tconst": [
+            "tt0118111"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Waiting for Guffman"
+          ],
+          "startYear": [
+            1996
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.4
+          ]
+        },
+        {
+          "tconst": [
+            "tt0118954"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Deconstructing Harry"
+          ],
+          "startYear": [
+            1997
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.3
+          ]
+        },
+        {
+          "tconst": [
+            "tt0255306"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Kilukkam"
+          ],
+          "startYear": [
+            1991
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            8.6
+          ]
+        },
+        {
+          "tconst": [
+            "tt0115685"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Birdcage"
+          ],
+          "startYear": [
+            1996
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.2
+          ]
+        },
+        {
+          "tconst": [
+            "tt0135007"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Three Men and a Leg"
+          ],
+          "startYear": [
+            1997
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.7
+          ]
+        },
+        {
+          "tconst": [
+            "tt0166396"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Waking Ned Devine"
+          ],
+          "startYear": [
+            1998
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.3
           ]
         }
       ]
