@@ -97,6 +97,8 @@ delete_core() {
     docker exec "${CONTAINER_NAME}" solr delete -c "${core}"
     # give Solr a moment to settle
     sleep 1
+    # remove any leftover data dir so recreation truly starts clean
+    docker exec "${CONTAINER_NAME}" bash -lc "rm -rf /var/solr/data/${core} || true"
   fi
 }
 
@@ -120,24 +122,33 @@ case "$MODE" in
   intermediate)
     if [ "$RECREATE" = true ]; then delete_core media_intermediate; fi
     create_core media_intermediate basic_configs
+
     if [ -f "./intermediate_schema.json" ]; then
-      TMP_SCHEMA="$(mktemp)"
-      prepare_schema_for_replace "./intermediate_schema.json" "${TMP_SCHEMA}"
       echo "Applying intermediate schema to media_intermediate..."
-      RESP="$(curl -s -w "%{http_code}" -X POST -H 'Content-type:application/json' --data-binary "@${TMP_SCHEMA}" "http://localhost:${HOST_PORT}/solr/media_intermediate/schema")"
-      HTTP="${RESP: -3}"
-      BODY="${RESP::-3}"
-      echo "Schema API HTTP=$HTTP"
-      echo "$BODY" | sed -n '1,200p'
-      if [ "$HTTP" -ge 300 ]; then
-        echo "Schema apply failed (HTTP $HTTP). Aborting." >&2
+      # prefer the helper which handles add vs replace
+      if [ -x "./apply_schema.py" ] || [ -f "./apply_schema.py" ]; then
+        python3 ./apply_schema.py --core media_intermediate --file ./intermediate_schema.json || { echo "apply_schema.py failed"; exit 1; }
+      else
+        TMP_SCHEMA="$(mktemp)"
+        prepare_schema_for_replace "./intermediate_schema.json" "${TMP_SCHEMA}"
+        RESP="$(curl -s -w "%{http_code}" -X POST -H 'Content-type:application/json' --data-binary "@${TMP_SCHEMA}" "http://localhost:${HOST_PORT}/solr/media_intermediate/schema")"
+        HTTP="${RESP: -3}"
+        BODY="${RESP::-3}"
+        echo "Schema API HTTP=$HTTP"
+        echo "$BODY" | sed -n '1,200p'
+        if [ "$HTTP" -ge 300 ]; then
+          echo "Schema apply failed (HTTP $HTTP). Aborting." >&2
+          rm -f "${TMP_SCHEMA}"
+          exit 1
+        fi
         rm -f "${TMP_SCHEMA}"
-        exit 1
       fi
-      rm -f "${TMP_SCHEMA}"
+      # small pause so Solr can finish any async schema work
+      sleep 1
     else
       echo "intermediate_schema.json not found, skipping schema apply"
     fi
+
     echo "Indexing data into media_intermediate..."
     docker exec "${CONTAINER_NAME}" solr post -c media_intermediate "${DATA_PATH}"
     ;;
@@ -145,22 +156,29 @@ case "$MODE" in
     if [ "$RECREATE" = true ]; then delete_core media_basic; delete_core media_intermediate; fi
     create_core media_basic data_driven_schema_configs
     create_core media_intermediate basic_configs
+
     if [ -f "./intermediate_schema.json" ]; then
-      TMP_SCHEMA="$(mktemp)"
-      prepare_schema_for_replace "./intermediate_schema.json" "${TMP_SCHEMA}"
       echo "Applying intermediate schema to media_intermediate..."
-      RESP="$(curl -s -w "%{http_code}" -X POST -H 'Content-type:application/json' --data-binary "@${TMP_SCHEMA}" "http://localhost:${HOST_PORT}/solr/media_intermediate/schema")"
-      HTTP="${RESP: -3}"
-      BODY="${RESP::-3}"
-      echo "Schema API HTTP=$HTTP"
-      echo "$BODY" | sed -n '1,200p'
-      if [ "$HTTP" -ge 300 ]; then
-        echo "Schema apply failed (HTTP $HTTP). Aborting." >&2
+      if [ -x "./apply_schema.py" ] || [ -f "./apply_schema.py" ]; then
+        python3 ./apply_schema.py --core media_intermediate --file ./intermediate_schema.json || { echo "apply_schema.py failed"; exit 1; }
+      else
+        TMP_SCHEMA="$(mktemp)"
+        prepare_schema_for_replace "./intermediate_schema.json" "${TMP_SCHEMA}"
+        RESP="$(curl -s -w "%{http_code}" -X POST -H 'Content-type:application/json' --data-binary "@${TMP_SCHEMA}" "http://localhost:${HOST_PORT}/solr/media_intermediate/schema")"
+        HTTP="${RESP: -3}"
+        BODY="${RESP::-3}"
+        echo "Schema API HTTP=$HTTP"
+        echo "$BODY" | sed -n '1,200p'
+        if [ "$HTTP" -ge 300 ]; then
+          echo "Schema apply failed (HTTP $HTTP). Aborting." >&2
+          rm -f "${TMP_SCHEMA}"
+          exit 1
+        fi
         rm -f "${TMP_SCHEMA}"
-        exit 1
       fi
-      rm -f "${TMP_SCHEMA}"
+      sleep 1
     fi
+
     echo "Indexing data into both cores..."
     docker exec "${CONTAINER_NAME}" solr post -c media_basic "${DATA_PATH}"
     docker exec "${CONTAINER_NAME}" solr post -c media_intermediate "${DATA_PATH}"
