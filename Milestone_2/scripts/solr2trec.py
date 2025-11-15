@@ -59,6 +59,15 @@ if __name__ == "__main__":
     # Set up argument parsing for command-line interface
     parser = argparse.ArgumentParser(description="Convert Solr results to TREC format.")
 
+    # Add argument for input file path
+    parser.add_argument(
+        "input_file",
+        type=str,
+        nargs="?",
+        default=os.path.join("results", "solr_results.json"),
+        help="Path to the input Solr results JSON file (default: results/solr_results.json).",
+    )
+
     # Add argument for optional run ID
     parser.add_argument(
         "--run-id",
@@ -70,8 +79,7 @@ if __name__ == "__main__":
     # Parse command-line arguments
     args = parser.parse_args()
 
-    input_file = os.path.join("results", "solr_results.json")
-    with open(input_file, "r") as f:
+    with open(args.input_file, "r") as f:
         solr_response = json.load(f)
 
     # Convert all Solr results to TREC format and write to STDOUT
