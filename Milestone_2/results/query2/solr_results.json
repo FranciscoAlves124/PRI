@@ -13,24 +13,12 @@
       "numFoundExact": true,
       "docs": [
         {
-          "tconst": [
-            "tt0264464"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Catch Me If You Can"
-          ],
-          "startYear": [
-            2002
-          ],
-          "genres": [
-            "Biography,Crime,Drama"
-          ],
-          "averageRating": [
-            8.1
-          ],
+          "tconst": ["tt0264464"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Catch Me If You Can"],
+          "startYear": [2002],
+          "genres": ["Biography,Crime,Drama"],
+          "averageRating": [8.1],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Frank Abagnale Jr.'), ('Tom Hanks', 'Carl Hanratty'), ('Christopher Walken', 'Frank Abagnale')]"
           ],
@@ -39,24 +27,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0107818"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Philadelphia"
-          ],
-          "startYear": [
-            1993
-          ],
-          "genres": [
-            "Drama"
-          ],
-          "averageRating": [
-            7.7
-          ],
+          "tconst": ["tt0107818"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Philadelphia"],
+          "startYear": [1993],
+          "genres": ["Drama"],
+          "averageRating": [7.7],
           "top_3_cast": [
             "[('Tom Hanks', 'Andrew Beckett'), ('Denzel Washington', 'Joe Miller'), ('Roberta Maxwell', 'Judge Tate')]"
           ],
@@ -65,24 +41,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt1345836"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Dark Knight Rises"
-          ],
-          "startYear": [
-            2012
-          ],
-          "genres": [
-            "Action,Crime,Drama"
-          ],
-          "averageRating": [
-            8.4
-          ],
+          "tconst": ["tt1345836"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Dark Knight Rises"],
+          "startYear": [2012],
+          "genres": ["Action,Crime,Drama"],
+          "averageRating": [8.4],
           "top_3_cast": [
             "[('Christian Bale', 'Bruce Wayne'), ('Tom Hardy', 'Bane'), ('Anne Hathaway', 'Selina')]"
           ],
@@ -91,50 +55,24 @@
           ]
         },
         {
-          "tconst": [
-            "tt1433813"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Hubble"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Documentary"
-          ],
-          "averageRating": [
-            7.6
-          ],
-          "top_3_cast": [
-            "[('Leonardo DiCaprio', 'Narrator')]"
-          ],
+          "tconst": ["tt1433813"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Hubble"],
+          "startYear": [2010],
+          "genres": ["Documentary"],
+          "averageRating": [7.6],
+          "top_3_cast": ["[('Leonardo DiCaprio', 'Narrator')]"],
           "description": [
             "An IMAX 3D camera chronicles the effort of 7 astronauts aboard the Space Shuttle Atlantis to repair the Hubble Space Telescope."
           ]
         },
         {
-          "tconst": [
-            "tt1663202"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Revenant"
-          ],
-          "startYear": [
-            2015
-          ],
-          "genres": [
-            "Adventure,Drama,Western"
-          ],
-          "averageRating": [
-            8.0
-          ],
+          "tconst": ["tt1663202"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Revenant"],
+          "startYear": [2015],
+          "genres": ["Adventure,Drama,Western"],
+          "averageRating": [8.0],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Hugh Glass'), ('Tom Hardy', 'John Fitzgerald'), ('Will Poulter', 'Bridger')]"
           ],
@@ -143,24 +81,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0964517"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Fighter"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Action,Biography,Drama"
-          ],
-          "averageRating": [
-            7.8
-          ],
+          "tconst": ["tt0964517"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Fighter"],
+          "startYear": [2010],
+          "genres": ["Action,Biography,Drama"],
+          "averageRating": [7.8],
           "top_3_cast": [
             "[('Mark Wahlberg', 'Micky Ward'), ('Christian Bale', 'Dicky Eklund'), ('Amy Adams', 'Charlene Fleming')]"
           ],
@@ -169,24 +95,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0407887"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Departed"
-          ],
-          "startYear": [
-            2006
-          ],
-          "genres": [
-            "Crime,Drama,Thriller"
-          ],
-          "averageRating": [
-            8.5
-          ],
+          "tconst": ["tt0407887"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Departed"],
+          "startYear": [2006],
+          "genres": ["Crime,Drama,Thriller"],
+          "averageRating": [8.5],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Billy'), ('Matt Damon', 'Colin'), ('Jack Nicholson', 'Costello')]"
           ],
@@ -195,24 +109,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0468569"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Dark Knight"
-          ],
-          "startYear": [
-            2008
-          ],
-          "genres": [
-            "Action,Crime,Drama"
-          ],
-          "averageRating": [
-            9.1
-          ],
+          "tconst": ["tt0468569"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Dark Knight"],
+          "startYear": [2008],
+          "genres": ["Action,Crime,Drama"],
+          "averageRating": [9.1],
           "top_3_cast": [
             "[('Christian Bale', 'Bruce Wayne'), ('Heath Ledger', 'Joker'), ('Aaron Eckhart', 'Harvey Dent')]"
           ],
@@ -221,24 +123,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0139654"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Training Day"
-          ],
-          "startYear": [
-            2001
-          ],
-          "genres": [
-            "Crime,Drama,Thriller"
-          ],
-          "averageRating": [
-            7.8
-          ],
+          "tconst": ["tt0139654"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Training Day"],
+          "startYear": [2001],
+          "genres": ["Crime,Drama,Thriller"],
+          "averageRating": [7.8],
           "top_3_cast": [
             "[('Denzel Washington', 'Alonzo'), ('Ethan Hawke', 'Jake'), ('Scott Glenn', 'Roger')]"
           ],
@@ -247,24 +137,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0765429"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "American Gangster"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Biography,Crime,Drama"
-          ],
-          "averageRating": [
-            7.8
-          ],
+          "tconst": ["tt0765429"],
+          "titleType": ["movie"],
+          "primaryTitle": ["American Gangster"],
+          "startYear": [2007],
+          "genres": ["Biography,Crime,Drama"],
+          "averageRating": [7.8],
           "top_3_cast": [
             "[('Denzel Washington', 'Frank Lucas'), ('Russell Crowe', 'Richie Roberts'), ('Chiwetel Ejiofor', 'Huey Lucas')]"
           ],
@@ -273,24 +151,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0428803"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "March of the Penguins"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Documentary,Family"
-          ],
-          "averageRating": [
-            7.5
-          ],
+          "tconst": ["tt0428803"],
+          "titleType": ["movie"],
+          "primaryTitle": ["March of the Penguins"],
+          "startYear": [2005],
+          "genres": ["Documentary,Family"],
+          "averageRating": [7.5],
           "top_3_cast": [
             "[('Morgan Freeman', 'Narrator'), ('Romane Bohringer', 'La m\u00e8re'), ('Charles Berling', 'Le p\u00e8re')]"
           ],
@@ -299,24 +165,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt5537002"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Killers of the Flower Moon"
-          ],
-          "startYear": [
-            2023
-          ],
-          "genres": [
-            "Crime,Drama,History"
-          ],
-          "averageRating": [
-            7.5
-          ],
+          "tconst": ["tt5537002"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Killers of the Flower Moon"],
+          "startYear": [2023],
+          "genres": ["Crime,Drama,History"],
+          "averageRating": [7.5],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Ernest Burkhart'), ('Robert De Niro', 'William Hale'), ('Lily Gladstone', 'Mollie Burkhart')]"
           ],
@@ -325,24 +179,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0993846"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Wolf of Wall Street"
-          ],
-          "startYear": [
-            2013
-          ],
-          "genres": [
-            "Biography,Comedy,Crime"
-          ],
-          "averageRating": [
-            8.2
-          ],
+          "tconst": ["tt0993846"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Wolf of Wall Street"],
+          "startYear": [2013],
+          "genres": ["Biography,Comedy,Crime"],
+          "averageRating": [8.2],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Jordan Belfort'), ('Jonah Hill', 'Donnie Azoff'), ('Margot Robbie', 'Naomi Lapaglia')]"
           ],
@@ -351,24 +193,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0328107"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Man on Fire"
-          ],
-          "startYear": [
-            2004
-          ],
-          "genres": [
-            "Action,Crime,Drama"
-          ],
-          "averageRating": [
-            7.7
-          ],
+          "tconst": ["tt0328107"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Man on Fire"],
+          "startYear": [2004],
+          "genres": ["Action,Crime,Drama"],
+          "averageRating": [7.7],
           "top_3_cast": [
             "[('Denzel Washington', 'John W. Creasy'), ('Christopher Walken', 'Paul Rayburn'), ('Dakota Fanning', 'Lupita Ramos')]"
           ],
@@ -377,24 +207,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0454848"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Inside Man"
-          ],
-          "startYear": [
-            2006
-          ],
-          "genres": [
-            "Crime,Drama,Mystery"
-          ],
-          "averageRating": [
-            7.6
-          ],
+          "tconst": ["tt0454848"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Inside Man"],
+          "startYear": [2006],
+          "genres": ["Crime,Drama,Mystery"],
+          "averageRating": [7.6],
           "top_3_cast": [
             "[('Denzel Washington', 'Detective Keith Frazier'), ('Clive Owen', 'Dalton Russell'), ('Jodie Foster', 'Madeleine White')]"
           ],
@@ -403,24 +221,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0114369"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Se7en"
-          ],
-          "startYear": [
-            1995
-          ],
-          "genres": [
-            "Crime,Drama,Mystery"
-          ],
-          "averageRating": [
-            8.6
-          ],
+          "tconst": ["tt0114369"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Se7en"],
+          "startYear": [1995],
+          "genres": ["Crime,Drama,Mystery"],
+          "averageRating": [8.6],
           "top_3_cast": [
             "[('Morgan Freeman', 'Somerset'), ('Brad Pitt', 'Mills'), ('Kevin Spacey', 'John Doe')]"
           ],
@@ -429,24 +235,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0217505"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Gangs of New York"
-          ],
-          "startYear": [
-            2002
-          ],
-          "genres": [
-            "Crime,Drama"
-          ],
-          "averageRating": [
-            7.5
-          ],
+          "tconst": ["tt0217505"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Gangs of New York"],
+          "startYear": [2002],
+          "genres": ["Crime,Drama"],
+          "averageRating": [7.5],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Amsterdam Vallon'), ('Cameron Diaz', 'Jenny Everdeane'), ('Daniel Day-Lewis', \"Bill 'The Butcher' Cutting\")]"
           ],
@@ -455,24 +249,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0372784"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Batman Begins"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Action,Crime,Drama"
-          ],
-          "averageRating": [
-            8.2
-          ],
+          "tconst": ["tt0372784"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Batman Begins"],
+          "startYear": [2005],
+          "genres": ["Action,Crime,Drama"],
+          "averageRating": [8.2],
           "top_3_cast": [
             "[('Christian Bale', 'Bruce Wayne'), ('Michael Caine', 'Alfred'), ('Ken Watanabe', \"Ra's Al Ghul\")]"
           ],
@@ -481,24 +263,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0144084"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "American Psycho"
-          ],
-          "startYear": [
-            2000
-          ],
-          "genres": [
-            "Crime,Drama,Horror"
-          ],
-          "averageRating": [
-            7.6
-          ],
+          "tconst": ["tt0144084"],
+          "titleType": ["movie"],
+          "primaryTitle": ["American Psycho"],
+          "startYear": [2000],
+          "genres": ["Crime,Drama,Horror"],
+          "averageRating": [7.6],
           "top_3_cast": [
             "[('Christian Bale', 'Patrick Bateman'), ('Justin Theroux', 'Timothy Bryce'), ('Josh Lucas', 'Craig McDermott')]"
           ],
@@ -507,24 +277,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0381849"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "3:10 to Yuma"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Action,Crime,Drama"
-          ],
-          "averageRating": [
-            7.6
-          ],
+          "tconst": ["tt0381849"],
+          "titleType": ["movie"],
+          "primaryTitle": ["3:10 to Yuma"],
+          "startYear": [2007],
+          "genres": ["Action,Crime,Drama"],
+          "averageRating": [7.6],
           "top_3_cast": [
             "[('Russell Crowe', 'Ben Wade'), ('Christian Bale', 'Dan Evans'), ('Ben Foster', 'Charlie Prince')]"
           ],
@@ -549,24 +307,12 @@
       "numFoundExact": true,
       "docs": [
         {
-          "tconst": [
-            "tt0264464"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Catch Me If You Can"
-          ],
-          "startYear": [
-            2002
-          ],
-          "genres": [
-            "Biography,Crime,Drama"
-          ],
-          "averageRating": [
-            8.1
-          ],
+          "tconst": ["tt0264464"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Catch Me If You Can"],
+          "startYear": [2002],
+          "genres": ["Biography,Crime,Drama"],
+          "averageRating": [8.1],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Frank Abagnale Jr.'), ('Tom Hanks', 'Carl Hanratty'), ('Christopher Walken', 'Frank Abagnale')]"
           ],
@@ -575,24 +321,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0107818"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Philadelphia"
-          ],
-          "startYear": [
-            1993
-          ],
-          "genres": [
-            "Drama"
-          ],
-          "averageRating": [
-            7.7
-          ],
+          "tconst": ["tt0107818"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Philadelphia"],
+          "startYear": [1993],
+          "genres": ["Drama"],
+          "averageRating": [7.7],
           "top_3_cast": [
             "[('Tom Hanks', 'Andrew Beckett'), ('Denzel Washington', 'Joe Miller'), ('Roberta Maxwell', 'Judge Tate')]"
           ],
@@ -601,24 +335,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt1345836"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Dark Knight Rises"
-          ],
-          "startYear": [
-            2012
-          ],
-          "genres": [
-            "Action,Crime,Drama"
-          ],
-          "averageRating": [
-            8.4
-          ],
+          "tconst": ["tt1345836"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Dark Knight Rises"],
+          "startYear": [2012],
+          "genres": ["Action,Crime,Drama"],
+          "averageRating": [8.4],
           "top_3_cast": [
             "[('Christian Bale', 'Bruce Wayne'), ('Tom Hardy', 'Bane'), ('Anne Hathaway', 'Selina')]"
           ],
@@ -627,50 +349,24 @@
           ]
         },
         {
-          "tconst": [
-            "tt1433813"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Hubble"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Documentary"
-          ],
-          "averageRating": [
-            7.6
-          ],
-          "top_3_cast": [
-            "[('Leonardo DiCaprio', 'Narrator')]"
-          ],
+          "tconst": ["tt1433813"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Hubble"],
+          "startYear": [2010],
+          "genres": ["Documentary"],
+          "averageRating": [7.6],
+          "top_3_cast": ["[('Leonardo DiCaprio', 'Narrator')]"],
           "description": [
             "An IMAX 3D camera chronicles the effort of 7 astronauts aboard the Space Shuttle Atlantis to repair the Hubble Space Telescope."
           ]
         },
         {
-          "tconst": [
-            "tt1663202"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Revenant"
-          ],
-          "startYear": [
-            2015
-          ],
-          "genres": [
-            "Adventure,Drama,Western"
-          ],
-          "averageRating": [
-            8.0
-          ],
+          "tconst": ["tt1663202"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Revenant"],
+          "startYear": [2015],
+          "genres": ["Adventure,Drama,Western"],
+          "averageRating": [8.0],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Hugh Glass'), ('Tom Hardy', 'John Fitzgerald'), ('Will Poulter', 'Bridger')]"
           ],
@@ -679,24 +375,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0407887"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Departed"
-          ],
-          "startYear": [
-            2006
-          ],
-          "genres": [
-            "Crime,Drama,Thriller"
-          ],
-          "averageRating": [
-            8.5
-          ],
+          "tconst": ["tt0407887"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Departed"],
+          "startYear": [2006],
+          "genres": ["Crime,Drama,Thriller"],
+          "averageRating": [8.5],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Billy'), ('Matt Damon', 'Colin'), ('Jack Nicholson', 'Costello')]"
           ],
@@ -705,24 +389,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0139654"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Training Day"
-          ],
-          "startYear": [
-            2001
-          ],
-          "genres": [
-            "Crime,Drama,Thriller"
-          ],
-          "averageRating": [
-            7.8
-          ],
+          "tconst": ["tt0139654"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Training Day"],
+          "startYear": [2001],
+          "genres": ["Crime,Drama,Thriller"],
+          "averageRating": [7.8],
           "top_3_cast": [
             "[('Denzel Washington', 'Alonzo'), ('Ethan Hawke', 'Jake'), ('Scott Glenn', 'Roger')]"
           ],
@@ -731,24 +403,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0765429"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "American Gangster"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Biography,Crime,Drama"
-          ],
-          "averageRating": [
-            7.8
-          ],
+          "tconst": ["tt0765429"],
+          "titleType": ["movie"],
+          "primaryTitle": ["American Gangster"],
+          "startYear": [2007],
+          "genres": ["Biography,Crime,Drama"],
+          "averageRating": [7.8],
           "top_3_cast": [
             "[('Denzel Washington', 'Frank Lucas'), ('Russell Crowe', 'Richie Roberts'), ('Chiwetel Ejiofor', 'Huey Lucas')]"
           ],
@@ -757,24 +417,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0993846"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Wolf of Wall Street"
-          ],
-          "startYear": [
-            2013
-          ],
-          "genres": [
-            "Biography,Comedy,Crime"
-          ],
-          "averageRating": [
-            8.2
-          ],
+          "tconst": ["tt0993846"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Wolf of Wall Street"],
+          "startYear": [2013],
+          "genres": ["Biography,Comedy,Crime"],
+          "averageRating": [8.2],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Jordan Belfort'), ('Jonah Hill', 'Donnie Azoff'), ('Margot Robbie', 'Naomi Lapaglia')]"
           ],
@@ -783,24 +431,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0468569"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Dark Knight"
-          ],
-          "startYear": [
-            2008
-          ],
-          "genres": [
-            "Action,Crime,Drama"
-          ],
-          "averageRating": [
-            9.1
-          ],
+          "tconst": ["tt0468569"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Dark Knight"],
+          "startYear": [2008],
+          "genres": ["Action,Crime,Drama"],
+          "averageRating": [9.1],
           "top_3_cast": [
             "[('Christian Bale', 'Bruce Wayne'), ('Heath Ledger', 'Joker'), ('Aaron Eckhart', 'Harvey Dent')]"
           ],
@@ -809,24 +445,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt5537002"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Killers of the Flower Moon"
-          ],
-          "startYear": [
-            2023
-          ],
-          "genres": [
-            "Crime,Drama,History"
-          ],
-          "averageRating": [
-            7.5
-          ],
+          "tconst": ["tt5537002"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Killers of the Flower Moon"],
+          "startYear": [2023],
+          "genres": ["Crime,Drama,History"],
+          "averageRating": [7.5],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Ernest Burkhart'), ('Robert De Niro', 'William Hale'), ('Lily Gladstone', 'Mollie Burkhart')]"
           ],
@@ -835,24 +459,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0964517"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Fighter"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Action,Biography,Drama"
-          ],
-          "averageRating": [
-            7.8
-          ],
+          "tconst": ["tt0964517"],
+          "titleType": ["movie"],
+          "primaryTitle": ["The Fighter"],
+          "startYear": [2010],
+          "genres": ["Action,Biography,Drama"],
+          "averageRating": [7.8],
           "top_3_cast": [
             "[('Mark Wahlberg', 'Micky Ward'), ('Christian Bale', 'Dicky Eklund'), ('Amy Adams', 'Charlene Fleming')]"
           ],
@@ -861,24 +473,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0328107"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Man on Fire"
-          ],
-          "startYear": [
-            2004
-          ],
-          "genres": [
-            "Action,Crime,Drama"
-          ],
-          "averageRating": [
-            7.7
-          ],
+          "tconst": ["tt0328107"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Man on Fire"],
+          "startYear": [2004],
+          "genres": ["Action,Crime,Drama"],
+          "averageRating": [7.7],
           "top_3_cast": [
             "[('Denzel Washington', 'John W. Creasy'), ('Christopher Walken', 'Paul Rayburn'), ('Dakota Fanning', 'Lupita Ramos')]"
           ],
@@ -887,24 +487,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0454848"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Inside Man"
-          ],
-          "startYear": [
-            2006
-          ],
-          "genres": [
-            "Crime,Drama,Mystery"
-          ],
-          "averageRating": [
-            7.6
-          ],
+          "tconst": ["tt0454848"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Inside Man"],
+          "startYear": [2006],
+          "genres": ["Crime,Drama,Mystery"],
+          "averageRating": [7.6],
           "top_3_cast": [
             "[('Denzel Washington', 'Detective Keith Frazier'), ('Clive Owen', 'Dalton Russell'), ('Jodie Foster', 'Madeleine White')]"
           ],
@@ -913,24 +501,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0108550"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "What's Eating Gilbert Grape"
-          ],
-          "startYear": [
-            1993
-          ],
-          "genres": [
-            "Drama"
-          ],
-          "averageRating": [
-            7.7
-          ],
+          "tconst": ["tt0108550"],
+          "titleType": ["movie"],
+          "primaryTitle": ["What's Eating Gilbert Grape"],
+          "startYear": [1993],
+          "genres": ["Drama"],
+          "averageRating": [7.7],
           "top_3_cast": [
             "[('Johnny Depp', 'Gilbert Grape'), ('Leonardo DiCaprio', 'Arnie Grape'), ('Juliette Lewis', 'Becky')]"
           ],
@@ -939,24 +515,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0114369"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Se7en"
-          ],
-          "startYear": [
-            1995
-          ],
-          "genres": [
-            "Crime,Drama,Mystery"
-          ],
-          "averageRating": [
-            8.6
-          ],
+          "tconst": ["tt0114369"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Se7en"],
+          "startYear": [1995],
+          "genres": ["Crime,Drama,Mystery"],
+          "averageRating": [8.6],
           "top_3_cast": [
             "[('Morgan Freeman', 'Somerset'), ('Brad Pitt', 'Mills'), ('Kevin Spacey', 'John Doe')]"
           ],
@@ -965,24 +529,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt1375666"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Inception"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Action,Adventure,Sci-Fi"
-          ],
-          "averageRating": [
-            8.8
-          ],
+          "tconst": ["tt1375666"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Inception"],
+          "startYear": [2010],
+          "genres": ["Action,Adventure,Sci-Fi"],
+          "averageRating": [8.8],
           "top_3_cast": [
             "[('Leonardo DiCaprio', 'Cobb'), ('Joseph Gordon-Levitt', 'Arthur'), ('Elliot Page', 'Ariadne')]"
           ],
@@ -991,24 +543,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0372784"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Batman Begins"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Action,Crime,Drama"
-          ],
-          "averageRating": [
-            8.2
-          ],
+          "tconst": ["tt0372784"],
+          "titleType": ["movie"],
+          "primaryTitle": ["Batman Begins"],
+          "startYear": [2005],
+          "genres": ["Action,Crime,Drama"],
+          "averageRating": [8.2],
           "top_3_cast": [
             "[('Christian Bale', 'Bruce Wayne'), ('Michael Caine', 'Alfred'), ('Ken Watanabe', \"Ra's Al Ghul\")]"
           ],
@@ -1017,24 +557,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0144084"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "American Psycho"
-          ],
-          "startYear": [
-            2000
-          ],
-          "genres": [
-            "Crime,Drama,Horror"
-          ],
-          "averageRating": [
-            7.6
-          ],
+          "tconst": ["tt0144084"],
+          "titleType": ["movie"],
+          "primaryTitle": ["American Psycho"],
+          "startYear": [2000],
+          "genres": ["Crime,Drama,Horror"],
+          "averageRating": [7.6],
           "top_3_cast": [
             "[('Christian Bale', 'Patrick Bateman'), ('Justin Theroux', 'Timothy Bryce'), ('Josh Lucas', 'Craig McDermott')]"
           ],
@@ -1043,24 +571,12 @@
           ]
         },
         {
-          "tconst": [
-            "tt0381849"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "3:10 to Yuma"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Action,Crime,Drama"
-          ],
-          "averageRating": [
-            7.6
-          ],
+          "tconst": ["tt0381849"],
+          "titleType": ["movie"],
+          "primaryTitle": ["3:10 to Yuma"],
+          "startYear": [2007],
+          "genres": ["Action,Crime,Drama"],
+          "averageRating": [7.6],
           "top_3_cast": [
             "[('Russell Crowe', 'Ben Wade'), ('Christian Bale', 'Dan Evans'), ('Ben Foster', 'Charlie Prince')]"
           ],

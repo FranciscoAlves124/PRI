@@ -2,7 +2,7 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 88,
+      "QTime": 3,
       "params": {
         "json": "{\"query\": \"comedy sitcom funny humor jokes television show series\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": \"genres description primaryTitle\", \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
@@ -13,461 +13,221 @@
       "numFoundExact": true,
       "docs": [
         {
-          "tconst": [
-            "tt0912343"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Tim and Eric Awesome Show, Great Job!"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Comedy,Music"
-          ],
-          "averageRating": [
-            7.7
-          ],
+          "tconst": ["tt0912343"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Tim and Eric Awesome Show, Great Job!"],
+          "startYear": [2007],
+          "genres": ["Comedy,Music"],
+          "averageRating": [7.7],
           "description": [
             "Tim and Eric Awesome Show, Great Job! is an American sketch comedy television series, created by and starring Tim Heidecker and Eric Wareheim, which premiered February 11, 2007 on Cartoon Network's Adult Swim comedy block and ran until May 2010. The program features surrealistic and often satirical humor, public-access television\u2013style musical acts, bizarre faux-commercials, and editing and special effects chosen to make the show appear camp.\n\nThe program featured a wide range of actors, spanning from stars such as Will Ferrell, John C. Reilly, David Cross, Bob Odenkirk, Will Forte and Zach Galifianakis, to alternative comedians like Neil Hamburger, to television actors like Alan Thicke, celebrity look-alikes and impressionists.\n\nThe creators of the show have described it as \"the nightmare version of television.\""
           ]
         },
         {
-          "tconst": [
-            "tt1831164"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Leyla and Mecnun"
-          ],
-          "startYear": [
-            2011
-          ],
-          "genres": [
-            "Adventure,Comedy,Drama"
-          ],
-          "averageRating": [
-            9.0
-          ],
+          "tconst": ["tt1831164"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Leyla and Mecnun"],
+          "startYear": [2011],
+          "genres": ["Adventure,Comedy,Drama"],
+          "averageRating": [9.0],
           "description": [
             "Leyla ile Mecnun is a Turkish television comedy series. The show is set in Istanbul, Turkey and premiered in 2011 on TRT. The series is a surreal and absurd comedy that revolves around the fictional love story between Leyla and Mecnun."
           ]
         },
         {
-          "tconst": [
-            "tt0485842"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Studio 60 on the Sunset Strip"
-          ],
-          "startYear": [
-            2006
-          ],
-          "genres": [
-            "Comedy,Drama"
-          ],
-          "averageRating": [
-            8.3
-          ],
+          "tconst": ["tt0485842"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Studio 60 on the Sunset Strip"],
+          "startYear": [2006],
+          "genres": ["Comedy,Drama"],
+          "averageRating": [8.3],
           "description": [
             "A behind-the-scenes look at a fictional sketch-comedy TV show."
           ]
         },
         {
-          "tconst": [
-            "tt5154982"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Bhabi Ji Ghar Par Hai"
-          ],
-          "startYear": [
-            2015
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.6
-          ],
+          "tconst": ["tt5154982"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Bhabi Ji Ghar Par Hai"],
+          "startYear": [2015],
+          "genres": ["Comedy"],
+          "averageRating": [8.6],
           "description": [
             "\"Bhabiji Ghar Par Hain!\" is a popular Hindi sitcom that premiered in 2015 on And TV and is available on ZEE5. Produced by Binaifer Kohli, the show follows two neighboring couples\u2014the Mishras and the Tiwaris. The husbands, Vibhuti Narayan Mishra and Manmohan Tiwari are dissatisfied in their marriages and secretly admire each other's wives. Manmohan, a successful undergarment businessman, is married to Angoori, a simple and naive housewife. Vibhuti, an unemployed former insurance agent, is married to Anita, a confident and modern woman who runs grooming classes. Their constant scheming to impress each other's wives leads to comedic conflicts and chaotic situations, mostly taking place in their homes. The show, inspired by the 1990s sitcom Shrimaan Shrimati, has been well received by both critics and audiences for its humor and engaging storyline."
           ]
         },
         {
-          "tconst": [
-            "tt0479842"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Pastewka"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            7.9
-          ],
+          "tconst": ["tt0479842"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Pastewka"],
+          "startYear": [2005],
+          "genres": ["Comedy"],
+          "averageRating": [7.9],
           "description": [
             "Pastewka is a German television sitcom that began airing on German TV channel Sat.1 in 2005. The series, currently in its sixth season, is set in Cologne, with German actor Bastian Pastewka starring as a fictionalized version of himself. It has been compared to Seinfeld and Larry David's Curb Your Enthusiasm. The series was awarded, among others, the Rose d'Or and the German Television Prize. Series was directed by Joseph Orr and Jan Markus Linhof."
           ]
         },
         {
-          "tconst": [
-            "tt0922037"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "La que se avecina"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            7.6
-          ],
+          "tconst": ["tt0922037"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["La que se avecina"],
+          "startYear": [2007],
+          "genres": ["Comedy"],
+          "averageRating": [7.6],
           "description": [
             "La que se avecina is a Spanish television comedy created by Alberto Caballero, Laura Caballero and Daniel Deorador. The TV-series focusing around the inhabitants of Mirador de Montepinar, a fictional building located on the outskirts of a big city. Both its storylines and cast are heavily based on Aqu\u00ed no hay quien viva, which ended when Telecinco bought Miram\u00f3n Mendi, the series production company.\n\nThe episodes debuted on the Telecinco network, and were later rerun by the same network as well as cable/satellite channels Factor\u00edaDeFicci\u00f3n and Paramount Comedy. The series debuted in 22 April 2007 and became popular thanks to its funny characters, witty script, use of catchphrases and capacity to integrate and poke fun at contemporary issues; the program presents a caustic satire of many of the 'types' found in Spanish society.\n\nThe name of the show involves wordplay, as \"vecina\" is the Spanish word for neighbour."
           ]
         },
         {
-          "tconst": [
-            "tt0205700"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Titus"
-          ],
-          "startYear": [
-            2000
-          ],
-          "genres": [
-            "Comedy,Drama"
-          ],
-          "averageRating": [
-            7.6
-          ],
+          "tconst": ["tt0205700"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Titus"],
+          "startYear": [2000],
+          "genres": ["Comedy,Drama"],
+          "averageRating": [7.6],
           "description": [
             "Titus is an American dark comedy sitcom that debuted on Fox in 2000. The series was created by its star, Christopher Titus, Jack Kenny, and Brian Hargrove. This sitcom was based on Christopher's stand-up comedy act, more specifically his one-man show Norman Rockwell is Bleeding, which was based loosely upon his real-life family; lines from Norman Rockwell is Bleeding were spoken by Titus as commentary. Titus plays an outwardly childish adult, who owns a custom car shop. The show follows him and his dimwitted halfbrother Dave, his girlfriend Erin with the \"heart of gold\", his goody-goody friend Tommy, and his arrogantly lewd, bigoted and multiple-divorced father Ken \"Papa\" Titus."
           ]
         },
         {
-          "tconst": [
-            "tt1582350"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Episodes"
-          ],
-          "startYear": [
-            2011
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            7.8
-          ],
+          "tconst": ["tt1582350"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Episodes"],
+          "startYear": [2011],
+          "genres": ["Comedy"],
+          "averageRating": [7.8],
           "description": [
             "A British husband-and-wife comedy writing team travel to Hollywood to remake their successful British TV series, with disastrous results."
           ]
         },
         {
-          "tconst": [
-            "tt1553644"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Ricky Gervais Show"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Animation,Comedy,Talk-Show"
-          ],
-          "averageRating": [
-            8.4
-          ],
+          "tconst": ["tt1553644"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["The Ricky Gervais Show"],
+          "startYear": [2010],
+          "genres": ["Animation,Comedy,Talk-Show"],
+          "averageRating": [8.4],
           "description": [
             "The Ricky Gervais Show is an American cartoon series produced for and broadcast by HBO and Channel 4. The series is an animated version of the popular British audio podcasts and audiobooks of the same name, which feature Ricky Gervais and Stephen Merchant, along with colleague and friend Karl Pilkington, talking about various subjects behind the microphone. The TV show consists of past audio recordings of these unscripted \"pointless conversations,\" with animation drawn in a style similar to classic era Hanna-Barbera cartoons, presenting jokes and situations in a literal context.\n\nThe animated Ricky Gervais Show has aired 39 episodes across three seasons since it premiered in 2010. There were some plans for a possible fourth season which would have used newly recorded audio, but this was shelved in June 2012. Series 3 of The Ricky Gervais Show premiered on 20 April 2012 on HBO, and on 8 May 2012 on E4."
           ]
         },
         {
-          "tconst": [
-            "tt0285341"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Bernie Mac Show"
-          ],
-          "startYear": [
-            2001
-          ],
-          "genres": [
-            "Comedy,Drama,Family"
-          ],
-          "averageRating": [
-            7.2
-          ],
+          "tconst": ["tt0285341"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["The Bernie Mac Show"],
+          "startYear": [2001],
+          "genres": ["Comedy,Drama,Family"],
+          "averageRating": [7.2],
           "description": [
             "The Bernie Mac Show is an American sitcom that aired on Fox for five seasons from November 14, 2001 to April 14, 2006. The series featured comic actor Bernie Mac and his wife Wanda raising his sister's three kids: Jordan, Bryana, and Vanessa."
           ]
         },
         {
-          "tconst": [
-            "tt0434672"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Comeback"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.0
-          ],
+          "tconst": ["tt0434672"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["The Comeback"],
+          "startYear": [2005],
+          "genres": ["Comedy"],
+          "averageRating": [8.0],
           "description": [
             "For Valerie Cherish, no price is too high to pay for clinging to the spotlight. Desperate to revive her career, she agrees to star in a reality TV series, allowing cameras to follow her every move as she lands a part on a new network sitcom."
           ]
         },
         {
-          "tconst": [
-            "tt3921180"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Scream: The TV Series"
-          ],
-          "startYear": [
-            2015
-          ],
-          "genres": [
-            "Comedy,Crime,Drama"
-          ],
-          "averageRating": [
-            7.0
-          ],
+          "tconst": ["tt3921180"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Scream: The TV Series"],
+          "startYear": [2015],
+          "genres": ["Comedy,Crime,Drama"],
+          "averageRating": [7.0],
           "description": [
             "What starts as a YouTube video going viral, soon leads to problems for the teenagers of Lakewood and serves as the catalyst for a murder that opens up a window to the town's troubled past. Everyone has secrets. Everyone tells lies. Everyone is fair game."
           ]
         },
         {
-          "tconst": [
-            "tt0450357"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Wonder Showzen"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Animation,Comedy"
-          ],
-          "averageRating": [
-            8.4
-          ],
+          "tconst": ["tt0450357"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Wonder Showzen"],
+          "startYear": [2005],
+          "genres": ["Animation,Comedy"],
+          "averageRating": [8.4],
           "description": [
             "Wonder Showzen is an American sketch comedy television series that aired between 2005 and 2006 on MTV2. It was created by John Lee and Vernon Chatman of PFFR. The show is rated TV-MA.\n\nThe show's format is that of educational PBS children's television shows such as Sesame Street and The Electric Company, parodying the format with adult-oriented content. In addition to general controversial comedy, it satirizes politics, religion, war, sex, and culture with black comedy.\n\nEvery episode begins with a disclaimer, accompanied by the sound of someone screaming \"Don't eat my baby!\", which reads:\n\n\"Wonder Showzen contains offensive, despicable content that is too controversial and too awesome for actual children. The stark, ugly and profound truths Wonder Showzen exposes may be soul-crushing to the weak of spirit. If you allow a child to watch this show, you are a bad parent or guardian.\""
           ]
         },
         {
-          "tconst": [
-            "tt0434695"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Klovn"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.5
-          ],
+          "tconst": ["tt0434695"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Klovn"],
+          "startYear": [2005],
+          "genres": ["Comedy"],
+          "averageRating": [8.5],
           "description": [
             "Klovn is a Danish sitcom, which first aired on the Danish TV channel TV2 Zulu. It focuses on the life of the main character Frank and Casper. The show builds its comedy around quiet everyday situations, social awkwardness, uncomfortable silences and general faux pas.\n\nKlovn usually gets compared to the American sitcom Curb Your Enthusiasm by Larry David. It\u2019s also shot handheld, in a pseudo-realistic style. Some have also mistakenly compared the theme to Curb Your Enthusiasm\u2019s, despite it being a direct reference to Jacques Tati\u2019s Mr. Hulot movies. The poster for the first film can be seen in Casper and Frank\u2019s offices throughout the series.  Klovn initially ran 6 seasons on TV2 Zulu from 2005-2009 and was renewed with an additional 3 seasons that aired from 2018-2022."
           ]
         },
         {
-          "tconst": [
-            "tt0408381"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Doc Martin"
-          ],
-          "startYear": [
-            2004
-          ],
-          "genres": [
-            "Comedy,Drama,Romance"
-          ],
-          "averageRating": [
-            8.4
-          ],
+          "tconst": ["tt0408381"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Doc Martin"],
+          "startYear": [2004],
+          "genres": ["Comedy,Drama,Romance"],
+          "averageRating": [8.4],
           "description": [
             "Doc Martin is a British television comedy drama series starring Martin Clunes in the title role. It was created by Dominic Minghella after the character of Dr. Martin Bamford in the 2000 comedy film Saving Grace. The show is set in the fictional seaside village of Portwenn and filmed on location in the village of Port Isaac, Cornwall, England, with most interior scenes shot in a converted local barn. Five series aired between 2004 and 2011, together with a feature-length special that aired on Christmas Day 2006. Series 6 began airing on ITV on 2 September 2013."
           ]
         },
         {
-          "tconst": [
-            "tt0475047"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Hotel Babylon"
-          ],
-          "startYear": [
-            2006
-          ],
-          "genres": [
-            "Comedy,Drama"
-          ],
-          "averageRating": [
-            7.5
-          ],
+          "tconst": ["tt0475047"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Hotel Babylon"],
+          "startYear": [2006],
+          "genres": ["Comedy,Drama"],
+          "averageRating": [7.5],
           "description": [
             "Hotel Babylon is a British television drama series based on the book of the same name by Imogen Edwards-Jones. The show followed the lives of workers at a glamorous five-star hotel."
           ]
         },
         {
-          "tconst": [
-            "tt0443409"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Stella"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.1
-          ],
+          "tconst": ["tt0443409"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Stella"],
+          "startYear": [2005],
+          "genres": ["Comedy"],
+          "averageRating": [8.1],
           "description": [
             "Stella was a short-lived television series that originally ran from June 28, 2005 to August 30, 2005 on the American television channel Comedy Central, created by and starring Michael Ian Black, Michael Showalter, and David Wain, the three members of the sketch comedy troupe of the same name and former cast members of MTV's The State. Stella, as a comedy troupe, has existed since 1997. It has a cult following and plays to sold out shows across the USA. The show aired on Tuesdays at 10:30 PM, EST.\n\nIn September, after 10 episodes, Stella's timeslot was filled by Mind of Mencia. On March 8, 2006, the following message was posted on Stella's official website: \"The STELLA series was on Comedy Central last summer. The network has officially decided not to renew it for a second season,\" thus effectively cancelling the series. The first season DVD was released on September 12, 2006. Episodes have also been available on iTunes and Hulu and some episodes on Joost. Stella premiered in Australia on The Comedy Channel on May 3, 2007."
           ]
         },
         {
-          "tconst": [
-            "tt1020116"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Boris"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.6
-          ],
+          "tconst": ["tt1020116"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Boris"],
+          "startYear": [2007],
+          "genres": ["Comedy"],
+          "averageRating": [8.6],
           "description": [
             "Boris is an Italian television series created by Luca Manzi and Carlo Mazzotta, initially produced from 2007 to 2010, with a revival season premiered in 2022.\n\nThe show brings to the stage the behind the scenes of a television set where a troupe is shooting Gli occhi del cuore 2 (The eyes of the heart 2), a satirical portrait of the many fictions airing on the Italian TV networks."
           ]
         },
         {
-          "tconst": [
-            "tt0241088"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Da Ali G Show"
-          ],
-          "startYear": [
-            2000
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.0
-          ],
+          "tconst": ["tt0241088"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Da Ali G Show"],
+          "startYear": [2000],
+          "genres": ["Comedy"],
+          "averageRating": [8.0],
           "description": [
             "Da Ali G Show is a British satirical television series created by and starring English comedian Sacha Baron Cohen. In the series, Baron Cohen plays three unorthodox journalists: faux-streetwise poseur Ali G, Kazakh reporter Borat Sagdiyev, and gay Austrian fashion enthusiast Br\u00fcno Gehard. These characters conduct real interviews with unsuspecting people, many of whom are celebrities, high-ranking government officials, and other well-known figures, during which they are asked absurd and ridiculous questions."
           ]
         },
         {
-          "tconst": [
-            "tt1819022"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Mrs. Brown's Boys"
-          ],
-          "startYear": [
-            2011
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            7.1
-          ],
+          "tconst": ["tt1819022"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Mrs. Brown's Boys"],
+          "startYear": [2011],
+          "genres": ["Comedy"],
+          "averageRating": [7.1],
           "description": [
             "Mrs. Brown's Boys is a British-Irish award winning sitcom created by and starring writer and performer Brendan O'Carroll. The show is based on O'Carroll's stage plays about the character Agnes Browne, which were developed from books and straight-to-DVD films. The sitcom continues the stories of Agnes, now with the shortened surname \"Brown\", and her family who are played by real life close friends and family of O'Carroll's. After being slated by critics, the show has become a ratings success in both Ireland, where it is set, and the United Kingdom, where it is recorded. On 29 December 2012 the show began its third series. Mrs Brown's Boys is a co-production among BBC Scotland, BocPix and RT\u00c9."
           ]
@@ -478,7 +238,7 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 20,
+      "QTime": 3,
       "params": {
         "json": "{\"query\": \"comedy sitcom funny humor jokes television show series\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": \"genres^8 description^4 primaryTitle^2\", \"pf\": \"genres^12 description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
@@ -489,452 +249,212 @@
       "numFoundExact": true,
       "docs": [
         {
-          "tconst": [
-            "tt1663641"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Face Off"
-          ],
-          "startYear": [
-            2011
-          ],
-          "genres": [
-            "Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            8.2
-          ],
+          "tconst": ["tt1663641"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Face Off"],
+          "startYear": [2011],
+          "genres": ["Game-Show,Reality-TV"],
+          "averageRating": [8.2],
           "description": [
             "In this competition/elimination series, special effects make-up artists participate in elaborate challenges for a grand prize and the honor of being Hollywood's next great effects artist."
           ]
         },
         {
-          "tconst": [
-            "tt0912343"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Tim and Eric Awesome Show, Great Job!"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Comedy,Music"
-          ],
-          "averageRating": [
-            7.7
-          ],
+          "tconst": ["tt0912343"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Tim and Eric Awesome Show, Great Job!"],
+          "startYear": [2007],
+          "genres": ["Comedy,Music"],
+          "averageRating": [7.7],
           "description": [
             "Tim and Eric Awesome Show, Great Job! is an American sketch comedy television series, created by and starring Tim Heidecker and Eric Wareheim, which premiered February 11, 2007 on Cartoon Network's Adult Swim comedy block and ran until May 2010. The program features surrealistic and often satirical humor, public-access television\u2013style musical acts, bizarre faux-commercials, and editing and special effects chosen to make the show appear camp.\n\nThe program featured a wide range of actors, spanning from stars such as Will Ferrell, John C. Reilly, David Cross, Bob Odenkirk, Will Forte and Zach Galifianakis, to alternative comedians like Neil Hamburger, to television actors like Alan Thicke, celebrity look-alikes and impressionists.\n\nThe creators of the show have described it as \"the nightmare version of television.\""
           ]
         },
         {
-          "tconst": [
-            "tt1831164"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Leyla and Mecnun"
-          ],
-          "startYear": [
-            2011
-          ],
-          "genres": [
-            "Adventure,Comedy,Drama"
-          ],
-          "averageRating": [
-            9.0
-          ],
+          "tconst": ["tt1831164"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Leyla and Mecnun"],
+          "startYear": [2011],
+          "genres": ["Adventure,Comedy,Drama"],
+          "averageRating": [9.0],
           "description": [
             "Leyla ile Mecnun is a Turkish television comedy series. The show is set in Istanbul, Turkey and premiered in 2011 on TRT. The series is a surreal and absurd comedy that revolves around the fictional love story between Leyla and Mecnun."
           ]
         },
         {
-          "tconst": [
-            "tt1553644"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Ricky Gervais Show"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Animation,Comedy,Talk-Show"
-          ],
-          "averageRating": [
-            8.4
-          ],
+          "tconst": ["tt1553644"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["The Ricky Gervais Show"],
+          "startYear": [2010],
+          "genres": ["Animation,Comedy,Talk-Show"],
+          "averageRating": [8.4],
           "description": [
             "The Ricky Gervais Show is an American cartoon series produced for and broadcast by HBO and Channel 4. The series is an animated version of the popular British audio podcasts and audiobooks of the same name, which feature Ricky Gervais and Stephen Merchant, along with colleague and friend Karl Pilkington, talking about various subjects behind the microphone. The TV show consists of past audio recordings of these unscripted \"pointless conversations,\" with animation drawn in a style similar to classic era Hanna-Barbera cartoons, presenting jokes and situations in a literal context.\n\nThe animated Ricky Gervais Show has aired 39 episodes across three seasons since it premiered in 2010. There were some plans for a possible fourth season which would have used newly recorded audio, but this was shelved in June 2012. Series 3 of The Ricky Gervais Show premiered on 20 April 2012 on HBO, and on 8 May 2012 on E4."
           ]
         },
         {
-          "tconst": [
-            "tt0485842"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Studio 60 on the Sunset Strip"
-          ],
-          "startYear": [
-            2006
-          ],
-          "genres": [
-            "Comedy,Drama"
-          ],
-          "averageRating": [
-            8.3
-          ],
+          "tconst": ["tt0485842"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Studio 60 on the Sunset Strip"],
+          "startYear": [2006],
+          "genres": ["Comedy,Drama"],
+          "averageRating": [8.3],
           "description": [
             "A behind-the-scenes look at a fictional sketch-comedy TV show."
           ]
         },
         {
-          "tconst": [
-            "tt5154982"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Bhabi Ji Ghar Par Hai"
-          ],
-          "startYear": [
-            2015
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.6
-          ],
+          "tconst": ["tt5154982"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Bhabi Ji Ghar Par Hai"],
+          "startYear": [2015],
+          "genres": ["Comedy"],
+          "averageRating": [8.6],
           "description": [
             "\"Bhabiji Ghar Par Hain!\" is a popular Hindi sitcom that premiered in 2015 on And TV and is available on ZEE5. Produced by Binaifer Kohli, the show follows two neighboring couples\u2014the Mishras and the Tiwaris. The husbands, Vibhuti Narayan Mishra and Manmohan Tiwari are dissatisfied in their marriages and secretly admire each other's wives. Manmohan, a successful undergarment businessman, is married to Angoori, a simple and naive housewife. Vibhuti, an unemployed former insurance agent, is married to Anita, a confident and modern woman who runs grooming classes. Their constant scheming to impress each other's wives leads to comedic conflicts and chaotic situations, mostly taking place in their homes. The show, inspired by the 1990s sitcom Shrimaan Shrimati, has been well received by both critics and audiences for its humor and engaging storyline."
           ]
         },
         {
-          "tconst": [
-            "tt0479842"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Pastewka"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            7.9
-          ],
+          "tconst": ["tt0479842"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Pastewka"],
+          "startYear": [2005],
+          "genres": ["Comedy"],
+          "averageRating": [7.9],
           "description": [
             "Pastewka is a German television sitcom that began airing on German TV channel Sat.1 in 2005. The series, currently in its sixth season, is set in Cologne, with German actor Bastian Pastewka starring as a fictionalized version of himself. It has been compared to Seinfeld and Larry David's Curb Your Enthusiasm. The series was awarded, among others, the Rose d'Or and the German Television Prize. Series was directed by Joseph Orr and Jan Markus Linhof."
           ]
         },
         {
-          "tconst": [
-            "tt2174367"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Comic Book Men"
-          ],
-          "startYear": [
-            2012
-          ],
-          "genres": [
-            "Comedy,Reality-TV"
-          ],
-          "averageRating": [
-            7.7
-          ],
+          "tconst": ["tt2174367"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Comic Book Men"],
+          "startYear": [2012],
+          "genres": ["Comedy,Reality-TV"],
+          "averageRating": [7.7],
           "description": [
             "A show for Fanboys by Fanboys. Set in uber-geek Kevin Smith's iconic comic shop Jay and Silent Bob's Secret Stash, the show explores every nook and cranny of Fanboy culture from A to Z. Endless circular debates about the technical accuracy of the USS Enterprise's warp-core schematics? Snarky comic aficionados with an encyclopedic knowledge of every Marvel back issue? You bet."
           ]
         },
         {
-          "tconst": [
-            "tt1353056"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "RuPaul's Drag Race"
-          ],
-          "startYear": [
-            2009
-          ],
-          "genres": [
-            "Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            8.5
-          ],
+          "tconst": ["tt1353056"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["RuPaul's Drag Race"],
+          "startYear": [2009],
+          "genres": ["Game-Show,Reality-TV"],
+          "averageRating": [8.5],
           "description": [
             "Join RuPaul, the world's most famous drag queen, as the host, mentor and judge for the ultimate in drag queen competitions. The top drag queens in the U.S. will vie for drag stardom as RuPaul, in full glamazon drag, will reign supreme in all judging and eliminations while helping guide the contestants as they prepare for each challenge."
           ]
         },
         {
-          "tconst": [
-            "tt1877368"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Great British Baking Show"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            8.6
-          ]
+          "tconst": ["tt1877368"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["The Great British Baking Show"],
+          "startYear": [2010],
+          "genres": ["Game-Show,Reality-TV"],
+          "averageRating": [8.6]
         },
         {
-          "tconst": [
-            "tt2301351"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "RuPaul's Drag Race All Stars"
-          ],
-          "startYear": [
-            2012
-          ],
-          "genres": [
-            "Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            8.5
-          ],
+          "tconst": ["tt2301351"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["RuPaul's Drag Race All Stars"],
+          "startYear": [2012],
+          "genres": ["Game-Show,Reality-TV"],
+          "averageRating": [8.5],
           "description": [
             "The most celebrated competitors from RuPaul's Drag Race vie for a second chance to enter Drag Race herstory. This drag queen showdown is filled with plenty of heated competition, lip-syncing for the legacy, and, of course, the All-Stars Snatch Game."
           ]
         },
         {
-          "tconst": [
-            "tt4680444"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Forged in Fire"
-          ],
-          "startYear": [
-            2015
-          ],
-          "genres": [
-            "Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            8.2
-          ],
+          "tconst": ["tt4680444"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Forged in Fire"],
+          "startYear": [2015],
+          "genres": ["Game-Show,Reality-TV"],
+          "averageRating": [8.2],
           "description": [
             "Competitors re-create weapons from historical periods ranging from Japanese katanas to medieval broadswords to ancient throwing blades. Each entry is judged on its artistry as well as its functionality and accuracy."
           ]
         },
         {
-          "tconst": [
-            "tt0437005"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Hell's Kitchen"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            7.2
-          ],
+          "tconst": ["tt0437005"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Hell's Kitchen"],
+          "startYear": [2005],
+          "genres": ["Game-Show,Reality-TV"],
+          "averageRating": [7.2],
           "description": [
             "Aspiring restaurateurs brave Ramsay and his fiery command of the kitchen as he puts the competitors through an intense culinary academy to prove they possess the right combination of ingredients to win a life-changing grand prize."
           ]
         },
         {
-          "tconst": [
-            "tt0765425"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Top Chef"
-          ],
-          "startYear": [
-            2006
-          ],
-          "genres": [
-            "Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            7.7
-          ],
+          "tconst": ["tt0765425"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Top Chef"],
+          "startYear": [2006],
+          "genres": ["Game-Show,Reality-TV"],
+          "averageRating": [7.7],
           "description": [
             "An American reality competition show in which chefs compete against each other in culinary challenges and are judged by a panel of professional chefs and other notables from the food and wine industry with one or more contestants eliminated in each episode."
           ]
         },
         {
-          "tconst": [
-            "tt1433870"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "MasterChef Australia"
-          ],
-          "startYear": [
-            2009
-          ],
-          "genres": [
-            "Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            8.2
-          ],
+          "tconst": ["tt1433870"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["MasterChef Australia"],
+          "startYear": [2009],
+          "genres": ["Game-Show,Reality-TV"],
+          "averageRating": [8.2],
           "description": [
             "MasterChef Australia is a Logie Award-winning Australian competitive cooking game show based on the original British MasterChef. It is produced by Shine Australia and screens on Network Ten."
           ]
         },
         {
-          "tconst": [
-            "tt1694423"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "MasterChef USA"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            7.2
-          ]
+          "tconst": ["tt1694423"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["MasterChef USA"],
+          "startYear": [2010],
+          "genres": ["Game-Show,Reality-TV"],
+          "averageRating": [7.2]
         },
         {
-          "tconst": [
-            "tt0434672"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Comeback"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.0
-          ],
+          "tconst": ["tt0434672"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["The Comeback"],
+          "startYear": [2005],
+          "genres": ["Comedy"],
+          "averageRating": [8.0],
           "description": [
             "For Valerie Cherish, no price is too high to pay for clinging to the spotlight. Desperate to revive her career, she agrees to star in a reality TV series, allowing cameras to follow her every move as she lands a part on a new network sitcom."
           ]
         },
         {
-          "tconst": [
-            "tt0384746"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Kenny vs. Spenny"
-          ],
-          "startYear": [
-            2002
-          ],
-          "genres": [
-            "Comedy,Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            8.1
-          ]
+          "tconst": ["tt0384746"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Kenny vs. Spenny"],
+          "startYear": [2002],
+          "genres": ["Comedy,Game-Show,Reality-TV"],
+          "averageRating": [8.1]
         },
         {
-          "tconst": [
-            "tt2185037"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Running Man"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Comedy,Game-Show,Reality-TV"
-          ],
-          "averageRating": [
-            9.1
-          ],
+          "tconst": ["tt2185037"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Running Man"],
+          "startYear": [2010],
+          "genres": ["Comedy,Game-Show,Reality-TV"],
+          "averageRating": [9.1],
           "description": [
             "These days, as variety shows are gradually disappearing, this is one of Korea\u2019s representative variety shows that has been responsible for Sunday evenings for over 10 years. This program features numerous stars and members going around various places, playing games, and completing missions. In particular, among the many fun elements of variety shows, this one focuses solely on laughter.\n\nOpen your eyes! Big fun is coming in!\n\nOpen your mouth! Big laughter is coming in!\n\nOpen your heart! Useful lessons are coming in!"
           ]
         },
         {
-          "tconst": [
-            "tt1637574"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Conan"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Comedy,Music,Talk-Show"
-          ],
-          "averageRating": [
-            8.2
-          ],
+          "tconst": ["tt1637574"],
+          "titleType": ["tvSeries"],
+          "primaryTitle": ["Conan"],
+          "startYear": [2010],
+          "genres": ["Comedy,Music,Talk-Show"],
+          "averageRating": [8.2],
           "description": [
             "A late night television talk show hosted by  Conan O'Brien."
           ]
