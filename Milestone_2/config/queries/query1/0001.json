@@ -1,0 +1,21 @@
+{
+  "query": "comedy sitcom funny humor jokes television show series",
+  "fields": [
+    "tconst",
+    "primaryTitle",
+    "startYear",
+    "genres",
+    "averageRating",
+    "titleType",
+    "description"
+  ],
+  "params": {
+    "defType": "edismax",
+    "q.op": "OR",
+    "fq": ["titleType:tvSeries", "startYear:[2000 TO 2015]"],
+    "qf": "genres description primaryTitle",
+    "sort": "score desc",
+    "start": 0,
+    "rows": 20
+  }
+}
