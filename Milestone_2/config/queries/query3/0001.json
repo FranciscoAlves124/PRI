@@ -1,0 +1,26 @@
+{
+  "query": "action adventure sci-fi superhero epic blockbuster",
+  "fields": [
+    "tconst",
+    "primaryTitle",
+    "startYear",
+    "genres",
+    "averageRating",
+    "numVotes",
+    "titleType",
+    "description"
+  ],
+  "params": {
+    "defType": "edismax",
+    "q.op": "OR",
+    "fq": [
+      "titleType:movie",
+      "startYear:[2010 TO 2015]",
+      "numVotes:[50000 TO *]"
+    ],
+    "qf": "genres primaryTitle description",
+    "sort": "numVotes desc",
+    "start": 0,
+    "rows": 20
+  }
+}

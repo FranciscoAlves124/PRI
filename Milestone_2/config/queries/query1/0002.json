@@ -1,18 +1,23 @@
 {
-  "query": "Comedy, 1990 < startYear < 2000",
+  "query": "comedy sitcom funny humor jokes television show series",
   "fields": [
     "tconst",
     "primaryTitle",
     "startYear",
     "genres",
     "averageRating",
-    "titleType"
+    "titleType",
+    "description"
   ],
   "params": {
     "defType": "edismax",
-    "qf": "primaryTitle^3 genres^2 description^1",
-    "fq": ["titleType:movie", "startYear:[1990 TO 2000]"],
-    "rows": 20,
-    "sort": "score desc"
+    "q.op": "OR",
+    "fq": ["titleType:tvSeries", "startYear:[2000 TO 2015]"],
+    "qf": "genres^8 description^4 primaryTitle^2",
+    "pf": "genres^12 description^6",
+    "ps": 3,
+    "sort": "score desc",
+    "start": 0,
+    "rows": 20
   }
 }
