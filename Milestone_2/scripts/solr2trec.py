@@ -78,4 +78,4 @@ if __name__ == "__main__":
     solr_to_trec(solr_response, args.run_id)
 
     # Create qrels file for evaluation
-    #create_qrels(solr_response, "results/trec_qrels.txt")
+    create_qrels(solr_response, "results/trec_qrels.txt")

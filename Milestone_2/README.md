@@ -25,10 +25,10 @@ sudo apt install -y libfreetype6-dev libpng-dev
 python -m pip install --upgrade pip
 pip install matplotlib numpy pandas scikit-learn pytrec_eval==0.5
 
-Run created queries with query_solr.py script: 
+Run Trec Files pipeline 
 
-python scripts/query_solr.py --queries config/queries --uri http://localhost:8983/solr --collection media
+./pipelines/get_trec_files.sh
 
-Run pipeline 
+Run Analize Querys pipeline
 
-./scripts/pipeline.sh
+./pipelines/analyze_queries.sh
