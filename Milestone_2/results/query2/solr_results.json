@@ -1,0 +1,1074 @@
+{
+  "1": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 3,
+      "params": {
+        "json": "{\"query\": \"Morgan Freeman Leonardo DiCaprio Christian Bale Tom Hanks Denzel Washington crime drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\", \"averageRating:[7.5 TO 10]\"], \"qf\": \"top_3_cast genres description primaryTitle\", \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
+      }
+    },
+    "response": {
+      "numFound": 2767,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": [
+            "tt0264464"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Catch Me If You Can"
+          ],
+          "startYear": [
+            2002
+          ],
+          "genres": [
+            "Biography,Crime,Drama"
+          ],
+          "averageRating": [
+            8.1
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Frank Abagnale Jr.'), ('Tom Hanks', 'Carl Hanratty'), ('Christopher Walken', 'Frank Abagnale')]"
+          ],
+          "description": [
+            "A true story about Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars worth of checks as a Pan Am pilot, doctor, and legal prosecutor. An FBI agent makes it his mission to put him behind bars. But Frank not only eludes capture, he revels in the pursuit."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0107818"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Philadelphia"
+          ],
+          "startYear": [
+            1993
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            7.7
+          ],
+          "top_3_cast": [
+            "[('Tom Hanks', 'Andrew Beckett'), ('Denzel Washington', 'Joe Miller'), ('Roberta Maxwell', 'Judge Tate')]"
+          ],
+          "description": [
+            "Two competing lawyers join forces to sue a prestigious law firm for AIDS discrimination. As their unlikely friendship develops their courage overcomes the prejudice and corruption of their powerful adversaries."
+          ]
+        },
+        {
+          "tconst": [
+            "tt1345836"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Dark Knight Rises"
+          ],
+          "startYear": [
+            2012
+          ],
+          "genres": [
+            "Action,Crime,Drama"
+          ],
+          "averageRating": [
+            8.4
+          ],
+          "top_3_cast": [
+            "[('Christian Bale', 'Bruce Wayne'), ('Tom Hardy', 'Bane'), ('Anne Hathaway', 'Selina')]"
+          ],
+          "description": [
+            "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy."
+          ]
+        },
+        {
+          "tconst": [
+            "tt1433813"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Hubble"
+          ],
+          "startYear": [
+            2010
+          ],
+          "genres": [
+            "Documentary"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Narrator')]"
+          ],
+          "description": [
+            "An IMAX 3D camera chronicles the effort of 7 astronauts aboard the Space Shuttle Atlantis to repair the Hubble Space Telescope."
+          ]
+        },
+        {
+          "tconst": [
+            "tt1663202"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Revenant"
+          ],
+          "startYear": [
+            2015
+          ],
+          "genres": [
+            "Adventure,Drama,Western"
+          ],
+          "averageRating": [
+            8.0
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Hugh Glass'), ('Tom Hardy', 'John Fitzgerald'), ('Will Poulter', 'Bridger')]"
+          ],
+          "description": [
+            "In the 1820s, a frontiersman, Hugh Glass, sets out on a path of vengeance against those who left him for dead after a bear mauling."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0964517"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Fighter"
+          ],
+          "startYear": [
+            2010
+          ],
+          "genres": [
+            "Action,Biography,Drama"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "top_3_cast": [
+            "[('Mark Wahlberg', 'Micky Ward'), ('Christian Bale', 'Dicky Eklund'), ('Amy Adams', 'Charlene Fleming')]"
+          ],
+          "description": [
+            "Boxer \"Irish\" Micky Ward's unlikely road to the world light welterweight title. His Rocky-like rise was shepherded by half-brother Dicky, a boxer-turned-trainer who rebounded in life after nearly being KO'd by drugs and crime."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0407887"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Departed"
+          ],
+          "startYear": [
+            2006
+          ],
+          "genres": [
+            "Crime,Drama,Thriller"
+          ],
+          "averageRating": [
+            8.5
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Billy'), ('Matt Damon', 'Colin'), ('Jack Nicholson', 'Costello')]"
+          ],
+          "description": [
+            "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0468569"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Dark Knight"
+          ],
+          "startYear": [
+            2008
+          ],
+          "genres": [
+            "Action,Crime,Drama"
+          ],
+          "averageRating": [
+            9.1
+          ],
+          "top_3_cast": [
+            "[('Christian Bale', 'Bruce Wayne'), ('Heath Ledger', 'Joker'), ('Aaron Eckhart', 'Harvey Dent')]"
+          ],
+          "description": [
+            "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0139654"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Training Day"
+          ],
+          "startYear": [
+            2001
+          ],
+          "genres": [
+            "Crime,Drama,Thriller"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "top_3_cast": [
+            "[('Denzel Washington', 'Alonzo'), ('Ethan Hawke', 'Jake'), ('Scott Glenn', 'Roger')]"
+          ],
+          "description": [
+            "On his first day on the job as a narcotics officer, a rookie cop works with a rogue detective who isn't what he appears."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0765429"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "American Gangster"
+          ],
+          "startYear": [
+            2007
+          ],
+          "genres": [
+            "Biography,Crime,Drama"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "top_3_cast": [
+            "[('Denzel Washington', 'Frank Lucas'), ('Russell Crowe', 'Richie Roberts'), ('Chiwetel Ejiofor', 'Huey Lucas')]"
+          ],
+          "description": [
+            "Loosely based on the criminal career of Frank Lucas, a gangster from La Grange, North Carolina, who smuggled heroin into the United States on American service planes returning from the Vietnam War, before being detained by a task force led by Newark Detective Richie Roberts."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0428803"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "March of the Penguins"
+          ],
+          "startYear": [
+            2005
+          ],
+          "genres": [
+            "Documentary,Family"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "[('Morgan Freeman', 'Narrator'), ('Romane Bohringer', 'La m\u00e8re'), ('Charles Berling', 'Le p\u00e8re')]"
+          ],
+          "description": [
+            "Every year, thousands of Antarctica's emperor penguins make an astonishing journey to breed their young. They walk, marching day and night in single file 70 miles into the darkest, driest and coldest continent on Earth.  This amazing, true-life tale is touched with humour and alive with thrills. Breathtaking photography captures the transcendent beauty and staggering drama of devoted parent penguins who, in the fierce polar winter, take turns guarding their egg and trekking to the ocean in search of food. Predators hunt them, storms lash them. But the safety of their adorable chicks makes it all worthwhile. So follow the leader... to adventure!!"
+          ]
+        },
+        {
+          "tconst": [
+            "tt5537002"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Killers of the Flower Moon"
+          ],
+          "startYear": [
+            2023
+          ],
+          "genres": [
+            "Crime,Drama,History"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Ernest Burkhart'), ('Robert De Niro', 'William Hale'), ('Lily Gladstone', 'Mollie Burkhart')]"
+          ],
+          "description": [
+            "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one\u2014until the FBI steps in to unravel the mystery."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0993846"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Wolf of Wall Street"
+          ],
+          "startYear": [
+            2013
+          ],
+          "genres": [
+            "Biography,Comedy,Crime"
+          ],
+          "averageRating": [
+            8.2
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Jordan Belfort'), ('Jonah Hill', 'Donnie Azoff'), ('Margot Robbie', 'Naomi Lapaglia')]"
+          ],
+          "description": [
+            "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0328107"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Man on Fire"
+          ],
+          "startYear": [
+            2004
+          ],
+          "genres": [
+            "Action,Crime,Drama"
+          ],
+          "averageRating": [
+            7.7
+          ],
+          "top_3_cast": [
+            "[('Denzel Washington', 'John W. Creasy'), ('Christopher Walken', 'Paul Rayburn'), ('Dakota Fanning', 'Lupita Ramos')]"
+          ],
+          "description": [
+            "Jaded ex-CIA operative John Creasy reluctantly accepts a job as the bodyguard for a 10-year-old girl in Mexico City. They clash at first, but eventually bond, and when she's kidnapped he's consumed by fury and will stop at nothing to save her life."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0454848"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Inside Man"
+          ],
+          "startYear": [
+            2006
+          ],
+          "genres": [
+            "Crime,Drama,Mystery"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "[('Denzel Washington', 'Detective Keith Frazier'), ('Clive Owen', 'Dalton Russell'), ('Jodie Foster', 'Madeleine White')]"
+          ],
+          "description": [
+            "When an armed, masked gang enter a Manhattan bank, lock the doors and take hostages, the detective assigned to effect their release enters negotiations preoccupied with corruption charges he is facing."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0114369"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Se7en"
+          ],
+          "startYear": [
+            1995
+          ],
+          "genres": [
+            "Crime,Drama,Mystery"
+          ],
+          "averageRating": [
+            8.6
+          ],
+          "top_3_cast": [
+            "[('Morgan Freeman', 'Somerset'), ('Brad Pitt', 'Mills'), ('Kevin Spacey', 'John Doe')]"
+          ],
+          "description": [
+            "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0217505"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Gangs of New York"
+          ],
+          "startYear": [
+            2002
+          ],
+          "genres": [
+            "Crime,Drama"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Amsterdam Vallon'), ('Cameron Diaz', 'Jenny Everdeane'), ('Daniel Day-Lewis', \"Bill 'The Butcher' Cutting\")]"
+          ],
+          "description": [
+            "In early 1860s New York, Irish immigrant Amsterdam Vallon is released from prison and returns to the Five Points, seeking revenge against his father's killer, William Cutting, a powerful anti-immigrant gang leader. He knows that revenge can only be attained by infiltrating Cutting's inner circle. Vallon's journey becomes a fight for personal survival and to find a place for the Irish people."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0372784"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Batman Begins"
+          ],
+          "startYear": [
+            2005
+          ],
+          "genres": [
+            "Action,Crime,Drama"
+          ],
+          "averageRating": [
+            8.2
+          ],
+          "top_3_cast": [
+            "[('Christian Bale', 'Bruce Wayne'), ('Michael Caine', 'Alfred'), ('Ken Watanabe', \"Ra's Al Ghul\")]"
+          ],
+          "description": [
+            "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0144084"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "American Psycho"
+          ],
+          "startYear": [
+            2000
+          ],
+          "genres": [
+            "Crime,Drama,Horror"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "[('Christian Bale', 'Patrick Bateman'), ('Justin Theroux', 'Timothy Bryce'), ('Josh Lucas', 'Craig McDermott')]"
+          ],
+          "description": [
+            "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0381849"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "3:10 to Yuma"
+          ],
+          "startYear": [
+            2007
+          ],
+          "genres": [
+            "Action,Crime,Drama"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "[('Russell Crowe', 'Ben Wade'), ('Christian Bale', 'Dan Evans'), ('Ben Foster', 'Charlie Prince')]"
+          ],
+          "description": [
+            "In Arizona in the late 1800s, infamous outlaw Ben Wade and his vicious gang of thieves and murderers have plagued the Southern Railroad. When Wade is captured, Civil War veteran Dan Evans, struggling to survive on his drought-plagued ranch, volunteers to deliver him alive to the \"3:10 to Yuma\", a train that will take the killer to trial."
+          ]
+        }
+      ]
+    }
+  },
+  "2": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 3,
+      "params": {
+        "json": "{\"query\": \"Morgan Freeman Leonardo DiCaprio Christian Bale Tom Hanks Denzel Washington crime drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\", \"averageRating:[7.5 TO 10]\"], \"qf\": \"top_3_cast^10 genres^8 description^4 primaryTitle^2\", \"pf\": \"top_3_cast^15 genres^12\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
+      }
+    },
+    "response": {
+      "numFound": 2767,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": [
+            "tt0264464"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Catch Me If You Can"
+          ],
+          "startYear": [
+            2002
+          ],
+          "genres": [
+            "Biography,Crime,Drama"
+          ],
+          "averageRating": [
+            8.1
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Frank Abagnale Jr.'), ('Tom Hanks', 'Carl Hanratty'), ('Christopher Walken', 'Frank Abagnale')]"
+          ],
+          "description": [
+            "A true story about Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars worth of checks as a Pan Am pilot, doctor, and legal prosecutor. An FBI agent makes it his mission to put him behind bars. But Frank not only eludes capture, he revels in the pursuit."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0107818"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Philadelphia"
+          ],
+          "startYear": [
+            1993
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            7.7
+          ],
+          "top_3_cast": [
+            "[('Tom Hanks', 'Andrew Beckett'), ('Denzel Washington', 'Joe Miller'), ('Roberta Maxwell', 'Judge Tate')]"
+          ],
+          "description": [
+            "Two competing lawyers join forces to sue a prestigious law firm for AIDS discrimination. As their unlikely friendship develops their courage overcomes the prejudice and corruption of their powerful adversaries."
+          ]
+        },
+        {
+          "tconst": [
+            "tt1345836"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Dark Knight Rises"
+          ],
+          "startYear": [
+            2012
+          ],
+          "genres": [
+            "Action,Crime,Drama"
+          ],
+          "averageRating": [
+            8.4
+          ],
+          "top_3_cast": [
+            "[('Christian Bale', 'Bruce Wayne'), ('Tom Hardy', 'Bane'), ('Anne Hathaway', 'Selina')]"
+          ],
+          "description": [
+            "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy."
+          ]
+        },
+        {
+          "tconst": [
+            "tt1433813"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Hubble"
+          ],
+          "startYear": [
+            2010
+          ],
+          "genres": [
+            "Documentary"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Narrator')]"
+          ],
+          "description": [
+            "An IMAX 3D camera chronicles the effort of 7 astronauts aboard the Space Shuttle Atlantis to repair the Hubble Space Telescope."
+          ]
+        },
+        {
+          "tconst": [
+            "tt1663202"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Revenant"
+          ],
+          "startYear": [
+            2015
+          ],
+          "genres": [
+            "Adventure,Drama,Western"
+          ],
+          "averageRating": [
+            8.0
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Hugh Glass'), ('Tom Hardy', 'John Fitzgerald'), ('Will Poulter', 'Bridger')]"
+          ],
+          "description": [
+            "In the 1820s, a frontiersman, Hugh Glass, sets out on a path of vengeance against those who left him for dead after a bear mauling."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0407887"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Departed"
+          ],
+          "startYear": [
+            2006
+          ],
+          "genres": [
+            "Crime,Drama,Thriller"
+          ],
+          "averageRating": [
+            8.5
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Billy'), ('Matt Damon', 'Colin'), ('Jack Nicholson', 'Costello')]"
+          ],
+          "description": [
+            "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0139654"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Training Day"
+          ],
+          "startYear": [
+            2001
+          ],
+          "genres": [
+            "Crime,Drama,Thriller"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "top_3_cast": [
+            "[('Denzel Washington', 'Alonzo'), ('Ethan Hawke', 'Jake'), ('Scott Glenn', 'Roger')]"
+          ],
+          "description": [
+            "On his first day on the job as a narcotics officer, a rookie cop works with a rogue detective who isn't what he appears."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0765429"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "American Gangster"
+          ],
+          "startYear": [
+            2007
+          ],
+          "genres": [
+            "Biography,Crime,Drama"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "top_3_cast": [
+            "[('Denzel Washington', 'Frank Lucas'), ('Russell Crowe', 'Richie Roberts'), ('Chiwetel Ejiofor', 'Huey Lucas')]"
+          ],
+          "description": [
+            "Loosely based on the criminal career of Frank Lucas, a gangster from La Grange, North Carolina, who smuggled heroin into the United States on American service planes returning from the Vietnam War, before being detained by a task force led by Newark Detective Richie Roberts."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0993846"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Wolf of Wall Street"
+          ],
+          "startYear": [
+            2013
+          ],
+          "genres": [
+            "Biography,Comedy,Crime"
+          ],
+          "averageRating": [
+            8.2
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Jordan Belfort'), ('Jonah Hill', 'Donnie Azoff'), ('Margot Robbie', 'Naomi Lapaglia')]"
+          ],
+          "description": [
+            "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0468569"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Dark Knight"
+          ],
+          "startYear": [
+            2008
+          ],
+          "genres": [
+            "Action,Crime,Drama"
+          ],
+          "averageRating": [
+            9.1
+          ],
+          "top_3_cast": [
+            "[('Christian Bale', 'Bruce Wayne'), ('Heath Ledger', 'Joker'), ('Aaron Eckhart', 'Harvey Dent')]"
+          ],
+          "description": [
+            "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker."
+          ]
+        },
+        {
+          "tconst": [
+            "tt5537002"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Killers of the Flower Moon"
+          ],
+          "startYear": [
+            2023
+          ],
+          "genres": [
+            "Crime,Drama,History"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Ernest Burkhart'), ('Robert De Niro', 'William Hale'), ('Lily Gladstone', 'Mollie Burkhart')]"
+          ],
+          "description": [
+            "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one\u2014until the FBI steps in to unravel the mystery."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0964517"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Fighter"
+          ],
+          "startYear": [
+            2010
+          ],
+          "genres": [
+            "Action,Biography,Drama"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "top_3_cast": [
+            "[('Mark Wahlberg', 'Micky Ward'), ('Christian Bale', 'Dicky Eklund'), ('Amy Adams', 'Charlene Fleming')]"
+          ],
+          "description": [
+            "Boxer \"Irish\" Micky Ward's unlikely road to the world light welterweight title. His Rocky-like rise was shepherded by half-brother Dicky, a boxer-turned-trainer who rebounded in life after nearly being KO'd by drugs and crime."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0328107"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Man on Fire"
+          ],
+          "startYear": [
+            2004
+          ],
+          "genres": [
+            "Action,Crime,Drama"
+          ],
+          "averageRating": [
+            7.7
+          ],
+          "top_3_cast": [
+            "[('Denzel Washington', 'John W. Creasy'), ('Christopher Walken', 'Paul Rayburn'), ('Dakota Fanning', 'Lupita Ramos')]"
+          ],
+          "description": [
+            "Jaded ex-CIA operative John Creasy reluctantly accepts a job as the bodyguard for a 10-year-old girl in Mexico City. They clash at first, but eventually bond, and when she's kidnapped he's consumed by fury and will stop at nothing to save her life."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0454848"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Inside Man"
+          ],
+          "startYear": [
+            2006
+          ],
+          "genres": [
+            "Crime,Drama,Mystery"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "[('Denzel Washington', 'Detective Keith Frazier'), ('Clive Owen', 'Dalton Russell'), ('Jodie Foster', 'Madeleine White')]"
+          ],
+          "description": [
+            "When an armed, masked gang enter a Manhattan bank, lock the doors and take hostages, the detective assigned to effect their release enters negotiations preoccupied with corruption charges he is facing."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0108550"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "What's Eating Gilbert Grape"
+          ],
+          "startYear": [
+            1993
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            7.7
+          ],
+          "top_3_cast": [
+            "[('Johnny Depp', 'Gilbert Grape'), ('Leonardo DiCaprio', 'Arnie Grape'), ('Juliette Lewis', 'Becky')]"
+          ],
+          "description": [
+            "Gilbert Grape is a small-town young man with a lot of responsibility. Chief among his concerns are his mother, who is so overweight that she can't leave the house, and his mentally impaired younger brother, Arnie, who has a knack for finding trouble. Settled into a job at a grocery store and an ongoing affair with local woman Betty Carver, Gilbert finally has his life shaken up by the free-spirited Becky."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0114369"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Se7en"
+          ],
+          "startYear": [
+            1995
+          ],
+          "genres": [
+            "Crime,Drama,Mystery"
+          ],
+          "averageRating": [
+            8.6
+          ],
+          "top_3_cast": [
+            "[('Morgan Freeman', 'Somerset'), ('Brad Pitt', 'Mills'), ('Kevin Spacey', 'John Doe')]"
+          ],
+          "description": [
+            "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case."
+          ]
+        },
+        {
+          "tconst": [
+            "tt1375666"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Inception"
+          ],
+          "startYear": [
+            2010
+          ],
+          "genres": [
+            "Action,Adventure,Sci-Fi"
+          ],
+          "averageRating": [
+            8.8
+          ],
+          "top_3_cast": [
+            "[('Leonardo DiCaprio', 'Cobb'), ('Joseph Gordon-Levitt', 'Arthur'), ('Elliot Page', 'Ariadne')]"
+          ],
+          "description": [
+            "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0372784"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Batman Begins"
+          ],
+          "startYear": [
+            2005
+          ],
+          "genres": [
+            "Action,Crime,Drama"
+          ],
+          "averageRating": [
+            8.2
+          ],
+          "top_3_cast": [
+            "[('Christian Bale', 'Bruce Wayne'), ('Michael Caine', 'Alfred'), ('Ken Watanabe', \"Ra's Al Ghul\")]"
+          ],
+          "description": [
+            "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0144084"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "American Psycho"
+          ],
+          "startYear": [
+            2000
+          ],
+          "genres": [
+            "Crime,Drama,Horror"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "[('Christian Bale', 'Patrick Bateman'), ('Justin Theroux', 'Timothy Bryce'), ('Josh Lucas', 'Craig McDermott')]"
+          ],
+          "description": [
+            "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0381849"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "3:10 to Yuma"
+          ],
+          "startYear": [
+            2007
+          ],
+          "genres": [
+            "Action,Crime,Drama"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "[('Russell Crowe', 'Ben Wade'), ('Christian Bale', 'Dan Evans'), ('Ben Foster', 'Charlie Prince')]"
+          ],
+          "description": [
+            "In Arizona in the late 1800s, infamous outlaw Ben Wade and his vicious gang of thieves and murderers have plagued the Southern Railroad. When Wade is captured, Civil War veteran Dan Evans, struggling to survive on his drought-plagued ranch, volunteers to deliver him alive to the \"3:10 to Yuma\", a train that will take the killer to trial."
+          ]
+        }
+      ]
+    }
+  }
+}
