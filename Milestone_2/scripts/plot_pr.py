@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
+import argparse
 import sys
 
 import matplotlib.pyplot as plt
 import numpy as np
 
 
-def main(trec_eval_stdout: str):
+def main(trec_eval_stdout: str, output_folder: str):
 
     # preprocessing - obtain results for each query
     results = {x: {} for x in set([x.split()[1] for x in trec_eval_stdout])}
@@ -62,21 +63,33 @@ def main(trec_eval_stdout: str):
     plt.tight_layout()
 
     # Save the PR curve to a file instead of trying to show it (headless-friendly)
-    out_dir = "results"
     try:
         import os
 
-        os.makedirs(out_dir, exist_ok=True)
+        os.makedirs(output_folder, exist_ok=True)
     except Exception:
         pass
 
-    out_path = os.path.join(out_dir, "pr_curve.png")
+    out_path = os.path.join(output_folder, "pr_curve.png")
     plt.savefig(out_path)
     print(f"PR curve written to {out_path}")
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Convert Solr results to TREC format.")
+
+    # Add argument for optional run ID
+    parser.add_argument(
+        "--output-folder",
+        type=str,
+        default="/results",
+        help="Output folder for the precision-recall curve image.",
+    )
+
+    args = parser.parse_args()
+    output_folder = args.output_folder
+
     # Run the main function with trec_eval's output
     trec_eval_stdout = sys.stdin.readlines()
 
-    main(trec_eval_stdout)
+    main(trec_eval_stdout,output_folder)
