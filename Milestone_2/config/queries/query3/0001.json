@@ -1,26 +1,18 @@
 {
-  "query": "action adventure sci-fi superhero epic blockbuster",
+  "query": "\"artificial intelligence\" AI robots androids machine-learning 'sentient machines'",
   "fields": [
     "tconst",
     "primaryTitle",
-    "startYear",
+    "description",
     "genres",
     "averageRating",
-    "numVotes",
-    "titleType",
-    "description"
+    "startYear"
   ],
   "params": {
     "defType": "edismax",
-    "q.op": "OR",
-    "fq": [
-      "titleType:movie",
-      "startYear:[2010 TO 2015]",
-      "numVotes:[50000 TO *]"
-    ],
-    "qf": "genres primaryTitle description",
-    "sort": "numVotes desc",
-    "start": 0,
-    "rows": 20
+    "qf": "description genres primaryTitle",
+    "fq": ["titleType:movie"],
+    "rows": 20,
+    "sort": "score desc"
   }
 }
