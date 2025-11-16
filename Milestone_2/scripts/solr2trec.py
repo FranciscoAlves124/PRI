@@ -29,13 +29,24 @@ def solr_to_trec(solr_response, run_id="run0"):
 
             # Enumerate through the results and write them in TREC format
             for rank, doc in enumerate(docs, start=1):
-                # Handle both list and scalar formats for tconst and averageRating
+                # Handle both list and scalar formats for tconst and score
                 tconst = doc['tconst'][0] if isinstance(doc['tconst'], list) else doc['tconst']
-                rating = doc['averageRating'][0] if isinstance(doc['averageRating'], list) else doc['averageRating']
-                print(f"{int(query_id)} Q0 {tconst} {rank} {rating} {run_id}")
+                
+                # Try different score fields
+                if 'averageRating' in doc:
+                    score = doc['averageRating'][0] if isinstance(doc['averageRating'], list) else doc['averageRating']
+                elif 'weightedRating' in doc:
+                    score = doc['weightedRating'][0] if isinstance(doc['weightedRating'], list) else doc['weightedRating']
+                elif 'score' in doc:
+                    score = doc['score']
+                else:
+                    score = 1.0  # Default score if none found
+                    
+                print(f"{int(query_id)} Q0 {tconst} {rank} {score} {run_id}")
 
-        except KeyError:
-            print("Error: Invalid Solr response format. 'docs' key not found.")
+        except KeyError as e:
+            print(f"Error: Invalid Solr response format. Missing key: {e}")
+            print(f"Response structure for query {query_id}: {response.keys()}")
             sys.exit(1)
 
 
@@ -56,8 +67,9 @@ def create_qrels(solr_response, output_file="results/trec_qrels.txt"):
                     # Handle both list and scalar formats for tconst
                     tconst = doc['tconst'][0] if isinstance(doc['tconst'], list) else doc['tconst']
                     f.write(f"{int(query_id)} 0 {tconst} 1\n")
-            except KeyError:
-                print("Error: Invalid Solr response format. 'docs' key not found.")
+            except KeyError as e:
+                print(f"Error: Invalid Solr response format. Missing key: {e}")
+                print(f"Response structure for query {query_id}: {response.keys()}")
                 sys.exit(1)
 
 if __name__ == "__main__":

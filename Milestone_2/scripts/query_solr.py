@@ -44,7 +44,7 @@ def fetch_solr_results(query_file, solr_uri, collection):
     return response.json()
 
 
-def main(query_folder: Path, solr_uri, collection):
+def main(query_folder: Path, solr_uri, output_folder, collection):
 
     results = {}
 
@@ -59,7 +59,9 @@ def main(query_folder: Path, solr_uri, collection):
     print(json.dumps(results, indent=2))
 
     # Save results to a JSON file
-    output_file = "results/solr_results.json"
+    output_path = Path(output_folder)
+    output_path.mkdir(parents=True, exist_ok=True)
+    output_file = output_path / "solr_results.json"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(json.dumps(results, indent=2))
     print(f"Results saved to {output_file}")
@@ -85,6 +87,12 @@ if __name__ == "__main__":
         help="The URI of the Solr instance (default: http://localhost:8983/solr).",
     )
     parser.add_argument(
+        "--output-folder",
+        type=str,
+        default="results",
+        help="Folder to save the solr results file (default: results).",
+    )
+    parser.add_argument(
         "--collection",
         type=str,
         default="courses",
@@ -95,4 +103,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Call the function with parsed arguments
-    main(args.queries, args.uri, args.collection)
+    main(args.queries, args.uri, args.output_folder, args.collection)
