@@ -29,7 +29,10 @@ def solr_to_trec(solr_response, run_id="run0"):
 
             # Enumerate through the results and write them in TREC format
             for rank, doc in enumerate(docs, start=1):
-                print(f"{int(query_id)} Q0 {doc['tconst'][0]} {rank} {doc['averageRating'][0]} {run_id}")
+                # Handle both list and scalar formats for tconst and averageRating
+                tconst = doc['tconst'][0] if isinstance(doc['tconst'], list) else doc['tconst']
+                rating = doc['averageRating'][0] if isinstance(doc['averageRating'], list) else doc['averageRating']
+                print(f"{int(query_id)} Q0 {tconst} {rank} {rating} {run_id}")
 
         except KeyError:
             print("Error: Invalid Solr response format. 'docs' key not found.")
@@ -50,7 +53,9 @@ def create_qrels(solr_response, output_file="results/trec_qrels.txt"):
             try:
                 docs = response["response"]["docs"]
                 for doc in docs:
-                    f.write(f"{int(query_id)} 0 {doc['tconst'][0]} 1\n")
+                    # Handle both list and scalar formats for tconst
+                    tconst = doc['tconst'][0] if isinstance(doc['tconst'], list) else doc['tconst']
+                    f.write(f"{int(query_id)} 0 {tconst} 1\n")
             except KeyError:
                 print("Error: Invalid Solr response format. 'docs' key not found.")
                 sys.exit(1)

@@ -3,8 +3,35 @@
 # convert qrels to trec format
 #./scripts/qrels2trec.py --qrels config/qrels > results/trec_qrels.txt
 
-# query solr and convert results to trec format
-python3 scripts/query_solr.py --queries config/queries/query1 --uri http://localhost:8983/solr --collection media
-./scripts/solr2trec.py > results/trec_results.txt
+# Automatically detect all query folders in config/queries/
+for query_folder in config/queries/query*; do
+    # Extract just the folder name (e.g., query1)
+    query_name=$(basename "$query_folder")
+    
+    echo "Processing $query_name..."
+    
+    # Create results directory for this query if it doesn't exist
+    mkdir -p "results/$query_name"
+    
+    # Query solr and save results
+    python3 scripts/query_solr.py --queries "$query_folder" --uri http://localhost:8983/solr --collection media_intermediate
+    
+    # Move solr_results.json to the query-specific folder
+    mv results/solr_results.json "results/$query_name/solr_results.json"
+    
+    # Convert to TREC format and save to query-specific folder
+    python3 scripts/solr2trec.py --output-folder "results/$query_name" > "results/$query_name/trec_results.txt"
+    
+    echo "✓ Completed $query_name"
+done
 
+echo "✓ All queries processed successfully"
 
+# run evaluation pipeline
+#./trec_eval/trec_eval \
+#    -q -m all_trec \
+#    results/trec_qrels.txt results/trec_results.txt | ./scripts/plot_pr.py
+
+# cleanup
+#rm results/trec_qrels.txt
+#rm results/trec_results.txt
