@@ -1,5 +1,5 @@
 {
-  "query": "comedy sitcom funny humor jokes television show series",
+  "query": "comedy show sitcom",
   "fields": [
     "tconst",
     "primaryTitle",

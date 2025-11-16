@@ -1,5 +1,5 @@
 {
-  "query": "Robert De Niro and Al Pacino Drama Crime",
+  "query": "Robert De Niro or Al Pacino Crime Drama",
   "fields": [
     "tconst",
     "primaryTitle",
