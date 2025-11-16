@@ -59,15 +59,6 @@ if __name__ == "__main__":
     # Set up argument parsing for command-line interface
     parser = argparse.ArgumentParser(description="Convert Solr results to TREC format.")
 
-    # Add argument for input file path
-    parser.add_argument(
-        "input_file",
-        type=str,
-        nargs="?",
-        default=os.path.join("results", "solr_results.json"),
-        help="Path to the input Solr results JSON file (default: results/solr_results.json).",
-    )
-
     # Add argument for optional run ID
     parser.add_argument(
         "--run-id",
@@ -76,14 +67,22 @@ if __name__ == "__main__":
         help="Experiment or system identifier (default: run0).",
     )
 
+    parser.add_argument(
+        "--output-folder",
+        type=str,
+        default="results",
+        help="Folder to save the qrels file (default: results).",
+    )
+
     # Parse command-line arguments
     args = parser.parse_args()
 
-    with open(args.input_file, "r") as f:
+    input_file = os.path.join(args.output_folder, "solr_results.json")
+    with open(input_file, "r") as f:
         solr_response = json.load(f)
 
     # Convert all Solr results to TREC format and write to STDOUT
     solr_to_trec(solr_response, args.run_id)
 
     # Create qrels file for evaluation
-    create_qrels(solr_response, "results/trec_qrels.txt")
+    create_qrels(solr_response, args.output_folder + "/trec_qrels.txt")
