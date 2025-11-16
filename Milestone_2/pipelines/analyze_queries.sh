@@ -14,13 +14,13 @@ for query_folder in config/queries/query*; do
     mkdir -p "results/$query_name"
     
     # Query solr and save results
-    python scripts/query_solr.py --queries "$query_folder" --uri http://localhost:8983/solr --collection media
+    python3 scripts/query_solr.py --queries "$query_folder" --uri http://localhost:8983/solr --collection media
     
     # Move solr_results.json to the query-specific folder
     mv results/solr_results.json "results/$query_name/solr_results.json"
     
     # Convert to TREC format and save to query-specific folder
-    ./scripts/solr2trec.py "results/$query_name/solr_results.json" > "results/$query_name/trec_results.txt"
+    python3 scripts/solr2trec.py --output-folder "results/$query_name" > "results/$query_name/trec_results.txt"
     
     echo "✓ Completed $query_name"
 done
