@@ -1,11 +1,11 @@
 {
-  "query": "Robert De Niro e Al Pacino crime drama",
+  "query": "Robert De Niro and Al Pacino Drama Crime",
   "fields": [
     "tconst",
     "primaryTitle",
     "startYear",
     "genres",
-    "averageRating",
+    "weightedRating",
     "titleType",
     "description",
     "top_3_cast"
@@ -13,8 +13,8 @@
   "params": {
     "defType": "edismax",
     "q.op": "OR",
-    "fq": ["titleType:movie", "averageRating:[7.5 TO 10]"],
-    "qf": "top_3_cast genres description primaryTitle",
+    "fq": ["titleType:movie", "weightedRating:[7.5 TO 10]"],
+    "qf": "top_3_cast genres description",
     "sort": "score desc",
     "start": 0,
     "rows": 20

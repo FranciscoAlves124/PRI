@@ -89,7 +89,10 @@ python .\apply_schema.py --core media_intermediate --file .\intermediate_schema.
 # verify schema applied (PowerShell)
 Invoke-RestMethod -Uri 'http://localhost:8983/solr/media_intermediate/schema/fields?wt=json' -Method Get
 
-# index documents (only after schema applied)
+# index documents Basic (only after schema applied)
+docker exec initial_solr solr post -c media_basic /data/final_data_solr/movies_series.json
+
+# index documents Intermediate (only after schema applied)
 docker exec initial_solr solr post -c media_intermediate /data/final_data_solr/movies_series.json
 
 # optional: run the startup script from WSL/Git-Bash, or run in PowerShell via WSL:
