@@ -67,6 +67,29 @@
             }
         },
         {
+            "name": "name_text",
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"}
+                ]
+            }
+        },
+        {
             "name": "string_ci",
             "class": "solr.TextField",
             "sortMissingLast": true,
@@ -102,6 +125,11 @@
                     {"class": "solr.LowerCaseFilterFactory"}
                 ]
             }
+        },
+        {
+            "name": "string_dv",
+            "class": "solr.StrField",
+            "sortMissingLast": true
         }
     ],
     "add-field": [
@@ -121,7 +149,13 @@
             "name": "titleType",
             "type": "string_ci",
             "indexed": true,
-            "stored": true,
+            "stored": true
+        },
+        {
+            "name": "titleType_s",
+            "type": "string_dv",
+            "indexed": false,
+            "stored": false,
             "docValues": true
         },
         {
@@ -150,6 +184,13 @@
             "type": "string_ci",
             "indexed": true,
             "stored": true,
+            "multiValued": true
+        },
+        {
+            "name": "genres_s",
+            "type": "string_dv",
+            "indexed": false,
+            "stored": false,
             "multiValued": true,
             "docValues": true
         },
@@ -176,9 +217,16 @@
         },
         {
             "name": "top_3_cast",
-            "type": "text_ws",
+            "type": "name_text",
             "indexed": true,
             "stored": true,
+            "multiValued": true
+        },
+        {
+            "name": "top_3_cast_search",
+            "type": "text_general",
+            "indexed": true,
+            "stored": false,
             "multiValued": true
         },
         {
@@ -186,6 +234,32 @@
             "type": "text_general",
             "indexed": true,
             "stored": true
+        },
+        {
+            "name": "top_3_cast_s",
+            "type": "string_dv",
+            "indexed": false,
+            "stored": false,
+            "multiValued": true,
+            "docValues": true
+        }
+    ],
+    "add-copy-field": [
+        {
+            "source": "top_3_cast",
+            "dest": "top_3_cast_s"
+        },
+        {
+            "source": "top_3_cast",
+            "dest": "top_3_cast_search"
+        },
+        {
+            "source": "genres",
+            "dest": "genres_s"
+        },
+        {
+            "source": "titleType",
+            "dest": "titleType_s"
         }
     ]
 }
