@@ -2,13 +2,13 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 2,
+      "QTime": 83,
       "params": {
-        "json": "{\"query\": \"Funny TV Show\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": [\"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
+        "json": "{\"query\": \"Funny TV Show\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": [\"primaryTitle\", \"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 164,
+      "numFound": 171,
       "start": 0,
       "numFoundExact": true,
       "docs": [
@@ -437,6 +437,27 @@
         },
         {
           "tconst": [
+            "tt1877368"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "The Great British Baking Show"
+          ],
+          "startYear": [
+            2010
+          ],
+          "genres": [
+            "Game-Show",
+            "Reality-TV"
+          ],
+          "averageRating": [
+            8.6
+          ]
+        },
+        {
+          "tconst": [
             "tt0765425"
           ],
           "titleType": [
@@ -518,27 +539,6 @@
         },
         {
           "tconst": [
-            "tt1877368"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Great British Baking Show"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Game-Show",
-            "Reality-TV"
-          ],
-          "averageRating": [
-            8.6
-          ]
-        },
-        {
-          "tconst": [
             "tt2301351"
           ],
           "titleType": [
@@ -591,13 +591,13 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 3,
+      "QTime": 21,
       "params": {
-        "json": "{\"query\": \"Funny TV Show\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"indexed\": \"true\", \"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": \"genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
+        "json": "{\"query\": \"Funny TV Show\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"indexed\": \"true\", \"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": \"primaryTitle^2 genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 164,
+      "numFound": 171,
       "start": 0,
       "numFoundExact": true,
       "docs": [

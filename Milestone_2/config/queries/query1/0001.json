@@ -14,10 +14,9 @@
     "defType": "edismax",
     "q.op": "OR",
     "fq": ["titleType:tvSeries", "startYear:[2000 TO 2015]"],
-    "qf" : ["description", "genres", "top_3_cast"],
+    "qf": ["primaryTitle", "description", "genres", "top_3_cast"],
     "sort": "score desc",
     "start": 0,
     "rows": 20
   }
 }
-

@@ -14,7 +14,7 @@
     "defType": "edismax",
     "q.op": "OR",
     "fq": ["titleType:movie", "weightedRating:[7.5 TO 10]"],
-    "qf": "genres^2 description^3 top_3_cast^2",
+    "qf": "primaryTitle^2 genres^2 description^3 top_3_cast^2",
     "pf": "description^6",
     "ps": 3,
     "sort": "score desc",
