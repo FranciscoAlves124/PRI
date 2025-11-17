@@ -1,5 +1,5 @@
 {
-  "query": "Sitcom",
+  "query": "Funny TV Show",
   "fields": [
     "tconst",
     "primaryTitle",
@@ -7,7 +7,8 @@
     "genres",
     "averageRating",
     "titleType",
-    "description"
+    "description",
+    "top_3_cast"
   ],
   "params": {
     "indexed": "true",
