@@ -10,7 +10,8 @@
   ],
   "params": {
     "defType": "edismax",
-    "qf": "description^4 genres^2 primaryTitle",
+    "qf": "description^1 ",
+    "pf": "description^5",
     "fq": ["titleType:movie"],
     "rows": 20,
     "sort": "score desc"

@@ -5,7 +5,7 @@
     "primaryTitle",
     "startYear",
     "genres",
-    "weightedRating",
+    "averageRating",
     "titleType",
     "description",
     "top_3_cast"
