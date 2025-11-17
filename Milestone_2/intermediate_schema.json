@@ -11,7 +11,7 @@
                 "filters": [
                     {"class": "solr.LowerCaseFilterFactory"},
                     {"class": "solr.ASCIIFoldingFilterFactory"},
-                    {"class": "solr.StopFilterFactory", "words": "lang/stopwords_en.txt,lang/stopwords_es.txt,lang/stopwords_fr.txt,lang/stopwords_de.txt,lang/stopwords_it.txt,lang/stopwords_pt.txt,lang/stopwords_nl.txt,lang/stopwords_ja.txt,lang/stopwords_ar.txt", "ignoreCase": "true", "format": "snowball"},
+                    {"class": "solr.StopFilterFactory", "words": "lang/stopwords_en.txt", "ignoreCase": "true", "format": "snowball"},
                     {"class": "solr.EnglishPossessiveFilterFactory"},
                     {"class": "solr.PorterStemFilterFactory"}
                 ]
@@ -24,7 +24,7 @@
                     {"class": "solr.LowerCaseFilterFactory"},
                     {"class": "solr.ASCIIFoldingFilterFactory"},
                     {"class": "solr.SynonymGraphFilterFactory", "expand": "true", "ignoreCase": "true", "synonyms": "synonyms.txt"},
-                    {"class": "solr.StopFilterFactory", "words": "lang/stopwords_en.txt,lang/stopwords_es.txt,lang/stopwords_fr.txt,lang/stopwords_de.txt,lang/stopwords_it.txt,lang/stopwords_pt.txt,lang/stopwords_nl.txt,lang/stopwords_ja.txt,lang/stopwords_ar.txt", "ignoreCase": "true", "format": "snowball"},
+                    {"class": "solr.StopFilterFactory", "words": "lang/stopwords_en.txt", "ignoreCase": "true", "format": "snowball"},
                     {"class": "solr.EnglishPossessiveFilterFactory"},
                     {"class": "solr.PorterStemFilterFactory"}
                 ]
@@ -44,11 +44,11 @@
                     {"class": "solr.WordDelimiterGraphFilterFactory", 
                      "generateWordParts": "1", 
                      "generateNumberParts": "1", 
-                     "catenateWords": "1", 
-                     "catenateNumbers": "1", 
+                     "catenateWords": "0", 
+                     "catenateNumbers": "0", 
                      "splitOnCaseChange": "1"},
                     {"class": "solr.FlattenGraphFilterFactory"},
-                    {"class": "solr.EdgeNGramFilterFactory", "minGramSize": "2", "maxGramSize": "15"}
+                    {"class": "solr.EdgeNGramFilterFactory", "minGramSize": "4", "maxGramSize": "8", "preserveOriginal": "true"}
                 ]
             },
             "queryAnalyzer": {
@@ -78,7 +78,8 @@
                 },
                 "filters": [
                     {"class": "solr.LowerCaseFilterFactory"},
-                    {"class": "solr.ASCIIFoldingFilterFactory"}
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.ShingleFilterFactory", "minShingleSize": "2", "maxShingleSize": "3", "outputUnigrams": "true"}
                 ]
             },
             "queryAnalyzer": {
