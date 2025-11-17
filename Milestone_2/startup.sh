@@ -157,6 +157,24 @@ case "$MODE" in
     create_core media_basic data_driven_schema_configs
     create_core media_intermediate basic_configs
 
+    # If synonyms file present in repo, copy it into the core conf so SynonymGraphFilterFactory (file-based) can read it
+    if [ -f "./synonyms.txt" ]; then
+      echo "Copying synonyms.txt into media_intermediate core conf..."
+      # give Solr a moment so conf dir exists
+      sleep 1
+      docker exec "${CONTAINER_NAME}" bash -lc '\
+        if [ -d "/var/solr/data/media_intermediate/conf" ]; then \
+          cp /data/synonyms.txt /var/solr/data/media_intermediate/conf/synonyms.txt && \
+          chown solr:solr /var/solr/data/media_intermediate/conf/synonyms.txt && \
+          echo "synonyms copied"; \
+        else \
+          echo "core conf dir missing, skipping synonyms copy"; \
+        fi'
+      # reload core so Solr picks up the new synonyms file
+      echo "Reloading media_intermediate core to pick up synonyms..."
+      curl -s "http://localhost:${HOST_PORT}/solr/admin/cores?action=RELOAD&core=media_intermediate" >/dev/null || true
+    fi
+
     if [ -f "./intermediate_schema.json" ]; then
       echo "Applying intermediate schema to media_intermediate..."
       if [ -x "./apply_schema.py" ] || [ -f "./apply_schema.py" ]; then
