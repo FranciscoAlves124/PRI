@@ -2,67 +2,26 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 3,
+      "QTime": 9,
       "params": {
-        "json": "{\"query\": \"Funny TV Show\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": [\"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
+        "json": "{\"query\": \"Funny TV Show\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": [\"primaryTitle\", \"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 694,
+      "numFound": 129,
       "start": 0,
       "numFoundExact": true,
       "docs": [
         {
-          "tconst": [
-            "tt1020116"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Boris"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.6
-          ],
-          "top_3_cast": [
-            "Luca Amorosino",
-            "Luca Amorosino - Alfredo",
-            "Antonino Bruschetta",
-            "Antonino Bruschetta - Duccio Patan\u00e9",
-            "Paolo Calabresi",
-            "Paolo Calabresi - Augusto Biascica"
-          ],
-          "description": [
-            "Boris is an Italian television series created by Luca Manzi and Carlo Mazzotta, initially produced from 2007 to 2010, with a revival season premiered in 2022.\n\nThe show brings to the stage the behind the scenes of a television set where a troupe is shooting Gli occhi del cuore 2 (The eyes of the heart 2), a satirical portrait of the many fictions airing on the Italian TV networks."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0485842"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Studio 60 on the Sunset Strip"
-          ],
-          "startYear": [
-            2006
-          ],
+          "tconst": "tt0485842",
+          "titleType": "tvSeries",
+          "primaryTitle": "Studio 60 on the Sunset Strip",
+          "startYear": 2006,
           "genres": [
             "Comedy",
             "Drama"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 8.3,
           "top_3_cast": [
             "Matthew Perry",
             "Matthew Perry - Matt Albie",
@@ -71,128 +30,66 @@
             "Bradley Whitford",
             "Bradley Whitford - Danny Tripp"
           ],
-          "description": [
-            "A behind-the-scenes look at a fictional sketch-comedy TV show."
-          ]
+          "description": "A behind-the-scenes look at a fictional sketch-comedy TV show."
         },
         {
-          "tconst": [
-            "tt0450357"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Wonder Showzen"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Animation",
-            "Comedy"
-          ],
-          "averageRating": [
-            8.4
-          ],
-          "top_3_cast": [
-            "Vernon Chatman",
-            "Vernon Chatman - Chauncey",
-            "John Lee",
-            "John Lee - Wordsworth",
-            "Alyson Levy",
-            "Alyson Levy - Sthugar"
-          ],
-          "description": [
-            "Wonder Showzen is an American sketch comedy television series that aired between 2005 and 2006 on MTV2. It was created by John Lee and Vernon Chatman of PFFR. The show is rated TV-MA.\n\nThe show's format is that of educational PBS children's television shows such as Sesame Street and The Electric Company, parodying the format with adult-oriented content. In addition to general controversial comedy, it satirizes politics, religion, war, sex, and culture with black comedy.\n\nEvery episode begins with a disclaimer, accompanied by the sound of someone screaming \"Don't eat my baby!\", which reads:\n\n\"Wonder Showzen contains offensive, despicable content that is too controversial and too awesome for actual children. The stark, ugly and profound truths Wonder Showzen exposes may be soul-crushing to the weak of spirit. If you allow a child to watch this show, you are a bad parent or guardian.\""
-          ]
-        },
-        {
-          "tconst": [
-            "tt1831164"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Leyla and Mecnun"
-          ],
-          "startYear": [
-            2011
-          ],
-          "genres": [
-            "Adventure",
-            "Comedy",
-            "Drama"
-          ],
-          "averageRating": [
-            9.0
-          ],
-          "top_3_cast": [
-            "Ali Atay",
-            "Ali Atay - Mecnun",
-            "Serkan Keskin",
-            "Serkan Keskin - Ismail",
-            "Osman Sonant",
-            "Osman Sonant - Yavuz"
-          ],
-          "description": [
-            "Leyla ile Mecnun is a Turkish television comedy series. The show is set in Istanbul, Turkey and premiered in 2011 on TRT. The series is a surreal and absurd comedy that revolves around the fictional love story between Leyla and Mecnun."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0912343"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Tim and Eric Awesome Show, Great Job!"
-          ],
-          "startYear": [
-            2007
-          ],
+          "tconst": "tt1637574",
+          "titleType": "tvSeries",
+          "primaryTitle": "Conan",
+          "startYear": 2010,
           "genres": [
             "Comedy",
-            "Music"
+            "Music",
+            "Talk-Show"
           ],
-          "averageRating": [
-            7.7
-          ],
-          "top_3_cast": [
-            "Tim Heidecker",
-            "Tim Heidecker - Various",
-            "Eric Wareheim",
-            "Eric Wareheim - Various",
-            "Bob Odenkirk",
-            "Bob Odenkirk - Announcer"
-          ],
-          "description": [
-            "Tim and Eric Awesome Show, Great Job! is an American sketch comedy television series, created by and starring Tim Heidecker and Eric Wareheim, which premiered February 11, 2007 on Cartoon Network's Adult Swim comedy block and ran until May 2010. The program features surrealistic and often satirical humor, public-access television\u2013style musical acts, bizarre faux-commercials, and editing and special effects chosen to make the show appear camp.\n\nThe program featured a wide range of actors, spanning from stars such as Will Ferrell, John C. Reilly, David Cross, Bob Odenkirk, Will Forte and Zach Galifianakis, to alternative comedians like Neil Hamburger, to television actors like Alan Thicke, celebrity look-alikes and impressionists.\n\nThe creators of the show have described it as \"the nightmare version of television.\""
-          ]
+          "averageRating": 8.2,
+          "description": "A late night television talk show hosted by  Conan O'Brien."
         },
         {
-          "tconst": [
-            "tt0421384"
+          "tconst": "tt0899126",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Tonight Show with Conan O'Brien",
+          "startYear": 2009,
+          "genres": [
+            "Comedy",
+            "Music",
+            "Talk-Show"
           ],
-          "titleType": [
-            "tvSeries"
+          "averageRating": 8.0,
+          "description": "The Tonight Show with Conan O'Brien is an American television talk show broadcast by NBC. The show is the fifth installment of The Tonight Show, hosted by Conan O'Brien. It aired from June 1, 2009, to January 22, 2010, succeeding The Tonight Show with Jay Leno and ended when Leno returned to the role of Tonight Show host."
+        },
+        {
+          "tconst": "tt0458254",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Colbert Report",
+          "startYear": 2005,
+          "genres": [
+            "Comedy",
+            "News",
+            "Talk-Show"
           ],
-          "primaryTitle": [
-            "The Valley of the Wolves"
+          "averageRating": 8.4,
+          "top_3_cast": [
+            "Jay Katsir",
+            "Jay Katsir - Jay the Intern",
+            "Paul Dinello",
+            "Paul Dinello - Tad",
+            "Tim Meadows",
+            "Tim Meadows - P.K. Winsome"
           ],
-          "startYear": [
-            2003
-          ],
+          "description": "The Colbert Report is an American satirical late night television program. It stars political humorist Stephen Colbert, a former correspondent for The Daily Show with Jon Stewart. The Colbert Report is a spin-off from and counterpart to The Daily Show that comments on politics and the media in a similar way. The show focuses on a fictional anchorman character named Stephen Colbert, played by his real-life namesake. The character, described by Colbert as a \"well-intentioned, poorly informed, high-status idiot\", is a caricature of televised political pundits."
+        },
+        {
+          "tconst": "tt0421384",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Valley of the Wolves",
+          "startYear": 2003,
           "genres": [
             "Action",
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            8.2
-          ],
+          "averageRating": 8.2,
           "top_3_cast": [
             "Necati Sasmaz",
             "Necati Sasmaz - Polat Alemdar",
@@ -201,173 +98,76 @@
             "G\u00fcrkan Uygun",
             "G\u00fcrkan Uygun - Memati"
           ],
-          "description": [
-            "Valley of the Wolves was a Turkish television drama which broadcast mainly on Show TV and then transferred to Kanal D, then atv for its last season. It was mostly about an agent named Polat Alemdar who leaked into the mafia after his plastic surgery. The scenario has direct and indirect references to the Turkish politics and political history from a viewpoint of an undercover agent. Valley of the Wolves became one of the most successful TV shows in Turkey and produced a successful feature film named Valley of the Wolves: Iraq."
-          ]
+          "description": "Valley of the Wolves was a Turkish television drama which broadcast mainly on Show TV and then transferred to Kanal D, then atv for its last season. It was mostly about an agent named Polat Alemdar who leaked into the mafia after his plastic surgery. The scenario has direct and indirect references to the Turkish politics and political history from a viewpoint of an undercover agent. Valley of the Wolves became one of the most successful TV shows in Turkey and produced a successful feature film named Valley of the Wolves: Iraq."
         },
         {
-          "tconst": [
-            "tt1637574"
+          "tconst": "tt0450357",
+          "titleType": "tvSeries",
+          "primaryTitle": "Wonder Showzen",
+          "startYear": 2005,
+          "genres": [
+            "Animation",
+            "Comedy"
           ],
-          "titleType": [
-            "tvSeries"
+          "averageRating": 8.4,
+          "top_3_cast": [
+            "Vernon Chatman",
+            "Vernon Chatman - Chauncey",
+            "John Lee",
+            "John Lee - Wordsworth",
+            "Alyson Levy",
+            "Alyson Levy - Sthugar"
           ],
-          "primaryTitle": [
-            "Conan"
-          ],
-          "startYear": [
-            2010
-          ],
+          "description": "Wonder Showzen is an American sketch comedy television series that aired between 2005 and 2006 on MTV2. It was created by John Lee and Vernon Chatman of PFFR. The show is rated TV-MA.\n\nThe show's format is that of educational PBS children's television shows such as Sesame Street and The Electric Company, parodying the format with adult-oriented content. In addition to general controversial comedy, it satirizes politics, religion, war, sex, and culture with black comedy.\n\nEvery episode begins with a disclaimer, accompanied by the sound of someone screaming \"Don't eat my baby!\", which reads:\n\n\"Wonder Showzen contains offensive, despicable content that is too controversial and too awesome for actual children. The stark, ugly and profound truths Wonder Showzen exposes may be soul-crushing to the weak of spirit. If you allow a child to watch this show, you are a bad parent or guardian.\""
+        },
+        {
+          "tconst": "tt0912343",
+          "titleType": "tvSeries",
+          "primaryTitle": "Tim and Eric Awesome Show, Great Job!",
+          "startYear": 2007,
           "genres": [
             "Comedy",
-            "Music",
-            "Talk-Show"
+            "Music"
           ],
-          "averageRating": [
-            8.2
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "Tim Heidecker",
+            "Tim Heidecker - Various",
+            "Eric Wareheim",
+            "Eric Wareheim - Various",
+            "Bob Odenkirk",
+            "Bob Odenkirk - Announcer"
           ],
-          "description": [
-            "A late night television talk show hosted by  Conan O'Brien."
-          ]
+          "description": "Tim and Eric Awesome Show, Great Job! is an American sketch comedy television series, created by and starring Tim Heidecker and Eric Wareheim, which premiered February 11, 2007 on Cartoon Network's Adult Swim comedy block and ran until May 2010. The program features surrealistic and often satirical humor, public-access television\u2013style musical acts, bizarre faux-commercials, and editing and special effects chosen to make the show appear camp.\n\nThe program featured a wide range of actors, spanning from stars such as Will Ferrell, John C. Reilly, David Cross, Bob Odenkirk, Will Forte and Zach Galifianakis, to alternative comedians like Neil Hamburger, to television actors like Alan Thicke, celebrity look-alikes and impressionists.\n\nThe creators of the show have described it as \"the nightmare version of television.\""
         },
         {
-          "tconst": [
-            "tt0922037"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "La que se avecina"
-          ],
-          "startYear": [
-            2007
-          ],
+          "tconst": "tt1020116",
+          "titleType": "tvSeries",
+          "primaryTitle": "Boris",
+          "startYear": 2007,
           "genres": [
             "Comedy"
           ],
-          "averageRating": [
-            7.6
-          ],
+          "averageRating": 8.6,
           "top_3_cast": [
-            "Pablo Chiapella",
-            "Pablo Chiapella - Amador Rivas",
-            "Nacho Guerreros",
-            "Nacho Guerreros - Coque Calatrava",
-            "Eva Isanta",
-            "Eva Isanta - Maite Figueroa"
+            "Luca Amorosino",
+            "Luca Amorosino - Alfredo",
+            "Antonino Bruschetta",
+            "Antonino Bruschetta - Duccio Patan\u00e9",
+            "Paolo Calabresi",
+            "Paolo Calabresi - Augusto Biascica"
           ],
-          "description": [
-            "La que se avecina is a Spanish television comedy created by Alberto Caballero, Laura Caballero and Daniel Deorador. The TV-series focusing around the inhabitants of Mirador de Montepinar, a fictional building located on the outskirts of a big city. Both its storylines and cast are heavily based on Aqu\u00ed no hay quien viva, which ended when Telecinco bought Miram\u00f3n Mendi, the series production company.\n\nThe episodes debuted on the Telecinco network, and were later rerun by the same network as well as cable/satellite channels Factor\u00edaDeFicci\u00f3n and Paramount Comedy. The series debuted in 22 April 2007 and became popular thanks to its funny characters, witty script, use of catchphrases and capacity to integrate and poke fun at contemporary issues; the program presents a caustic satire of many of the 'types' found in Spanish society.\n\nThe name of the show involves wordplay, as \"vecina\" is the Spanish word for neighbour."
-          ]
+          "description": "Boris is an Italian television series created by Luca Manzi and Carlo Mazzotta, initially produced from 2007 to 2010, with a revival season premiered in 2022.\n\nThe show brings to the stage the behind the scenes of a television set where a troupe is shooting Gli occhi del cuore 2 (The eyes of the heart 2), a satirical portrait of the many fictions airing on the Italian TV networks."
         },
         {
-          "tconst": [
-            "tt0475047"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Hotel Babylon"
-          ],
-          "startYear": [
-            2006
-          ],
-          "genres": [
-            "Comedy",
-            "Drama"
-          ],
-          "averageRating": [
-            7.5
-          ],
-          "top_3_cast": [
-            "Dexter Fletcher",
-            "Dexter Fletcher - Tony Casemore",
-            "Martin Marquez",
-            "Martin Marquez - Gino Primirola",
-            "Michael Obiora",
-            "Michael Obiora - Ben Trueman"
-          ],
-          "description": [
-            "Hotel Babylon is a British television drama series based on the book of the same name by Imogen Edwards-Jones. The show followed the lives of workers at a glamorous five-star hotel."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0496424"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "30 Rock"
-          ],
-          "startYear": [
-            2006
-          ],
+          "tconst": "tt0421460",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Soup",
+          "startYear": 2004,
           "genres": [
             "Comedy"
           ],
-          "averageRating": [
-            8.3
-          ],
-          "top_3_cast": [
-            "Tina Fey",
-            "Tina Fey - Liz Lemon",
-            "Alec Baldwin",
-            "Alec Baldwin - Jack Donaghy",
-            "Tracy Morgan",
-            "Tracy Morgan - Tracy Jordan"
-          ],
-          "description": [
-            "Liz Lemon, the head writer for a late-night TV variety show in New York, tries to juggle all the egos around her while chasing her own dream."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0899126"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Tonight Show with Conan O'Brien"
-          ],
-          "startYear": [
-            2009
-          ],
-          "genres": [
-            "Comedy",
-            "Music",
-            "Talk-Show"
-          ],
-          "averageRating": [
-            8.0
-          ],
-          "description": [
-            "The Tonight Show with Conan O'Brien is an American television talk show broadcast by NBC. The show is the fifth installment of The Tonight Show, hosted by Conan O'Brien. It aired from June 1, 2009, to January 22, 2010, succeeding The Tonight Show with Jay Leno and ended when Leno returned to the role of Tonight Show host."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0421460"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Soup"
-          ],
-          "startYear": [
-            2004
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.2
-          ],
+          "averageRating": 8.2,
           "top_3_cast": [
             "Kelly Levy",
             "Kelly Levy - So Meaty",
@@ -376,482 +176,37 @@
             "Dominic DeLeo",
             "Dominic DeLeo - Mankini"
           ],
-          "description": [
-            "With this satirical series, the E! Entertainment Network returns to a format they helped create with the popular '90s show Talk Soup. Only this time instead of just poking fun at talk shows, they're setting their sights on all things in entertainment, reality TV, pop culture, and politics."
-          ]
+          "description": "With this satirical series, the E! Entertainment Network returns to a format they helped create with the popular '90s show Talk Soup. Only this time instead of just poking fun at talk shows, they're setting their sights on all things in entertainment, reality TV, pop culture, and politics."
         },
         {
-          "tconst": [
-            "tt0791055"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Chaser's War on Everything"
-          ],
-          "startYear": [
-            2006
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.7
-          ],
-          "top_3_cast": [
-            "Craig Schuftan",
-            "Craig Schuftan - Voiceover",
-            "Keelin McCool",
-            "Keelin McCool - Voiceover"
-          ],
-          "description": [
-            "The Chaser's War on Everything was an Australian television satirical comedy series broadcast on the Australian Broadcasting Corporation television station ABC1. It has won an Australian Film Institute Award for Best Television Comedy Series. The cast perform sketches mocking social and political issues, and often feature comedic publicity stunts. The series is produced by the Australian satirical group, The Chaser, consisting of Chris Taylor, Julian Morrow, Craig Reucassel, Andrew Hansen, and Chas Licciardello. Fellow Chaser members Dominic Knight and Charles Firth are not part of the regular on-screen cast. However, Knight is a writer, and Firth compiled roving reports for the show from the United States, until he left the group to start a satirical newspaper in mid-2007.\n\nThe show premiered on 17 February 2006 and has since produced 58 episodes, broadcast over three seasons between 2006 to 2007 as well as during 2009. The first season was broadcast at an unstable late timeslot on Friday nights. The second and third seasons were broadcast in a more favourable timeslot of Wednesdays at 9 pm. The show did not return in 2008, but returned on 27 May 2009 for the third season featuring only ten episodes. Following the controversy of the \"Make a Realistic Wish Foundation\" sketch, the third season was reduced to 8 episodes, being suspended for 2 weeks."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0429422"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "ReGenesis"
-          ],
-          "startYear": [
-            2004
-          ],
-          "genres": [
-            "Drama",
-            "Mystery",
-            "Sci-Fi"
-          ],
-          "averageRating": [
-            7.8
-          ],
-          "top_3_cast": [
-            "Peter Outerbridge",
-            "Peter Outerbridge - David Sandstrom",
-            "Conrad Pla",
-            "Conrad Pla - Carlos Serrano",
-            "Dmitry Chepovetsky",
-            "Dmitry Chepovetsky - Bob Melnikov"
-          ],
-          "description": [
-            "ReGenesis is a Canadian television program produced by The Movie Network and Movie Central in conjunction with Shaftesbury Films. The series, which ran for four seasons, revolves around the scientists of NorBAC, a fictional organization with a lab based in Toronto. The organization investigates problems of a scientific nature, such as bio-terrorism, mysterious diseases or radical changes in environment throughout Canada, the United States, and Mexico. NorBAC is headed by David Sandstr\u00f6m, the chief scientist and molecular biologist. Through this character the show often addresses topical social, political and ethical issues related to the science at hand.\n\nThe series was originally seen on The Movie Network and Movie Central with rebroadcasts on Global and Showcase in Canada. Internationally it can be seen on FX in the United Kingdom, The Science Channel, Halogen TV and in syndication and CW Plus in the United States, and FX Latin America in Mexico; as well as numerous broadcasters in Europe and Asia. International distribution is handled by Oasis International. As of April 2012 the show can also be seen on Hulu.com."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0408381"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Doc Martin"
-          ],
-          "startYear": [
-            2004
-          ],
-          "genres": [
-            "Comedy",
-            "Drama",
-            "Romance"
-          ],
-          "averageRating": [
-            8.4
-          ],
-          "top_3_cast": [
-            "Martin Clunes",
-            "Martin Clunes - Dr. Martin Ellingham",
-            "Caroline Catz",
-            "Caroline Catz - Louisa Glasson",
-            "Ian McNeice",
-            "Ian McNeice - Bert Large"
-          ],
-          "description": [
-            "Doc Martin is a British television comedy drama series starring Martin Clunes in the title role. It was created by Dominic Minghella after the character of Dr. Martin Bamford in the 2000 comedy film Saving Grace. The show is set in the fictional seaside village of Portwenn and filmed on location in the village of Port Isaac, Cornwall, England, with most interior scenes shot in a converted local barn. Five series aired between 2004 and 2011, together with a feature-length special that aired on Christmas Day 2006. Series 6 began airing on ITV on 2 September 2013."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0437729"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Late Late Show with Craig Ferguson"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Comedy",
-            "Music",
-            "Talk-Show"
-          ],
-          "averageRating": [
-            8.4
-          ],
-          "top_3_cast": [
-            "Josh Robert Thompson",
-            "Josh Robert Thompson - Geoff Peterson",
-            "Joseph Bolter",
-            "Joseph Bolter - Secretariat",
-            "Ryan McGowan",
-            "Ryan McGowan - Secretariat"
-          ],
-          "description": [
-            "The Late Late Show with Craig Ferguson is an American late-night talk show hosted by Scottish American comedian Craig Ferguson, who is the third regular host of the Late Late Show franchise. It follows Late Show with David Letterman in the CBS late-night lineup, airing weekdays in the US at 12:37 a.m. It is taped in front of a live studio audience from Monday to Friday at CBS Television City in Los Angeles, California, directly above the Bob Barker Studio. It is produced by David Letterman's production company Worldwide Pants Incorporated and CBS Television Studios.\n\nSince becoming host on January 3, 2005, after Craig Kilborn and Tom Snyder, Ferguson has achieved the highest ratings since the show's inception in 1995. While the majority of the episodes focus on comedy, Ferguson has also addressed difficult subject matter, such as the deaths of his parents, and undertaken serious interviews, such as one with Desmond Tutu, which earned the show a 2009 Peabody Award."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0443409"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Stella"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.1
-          ],
-          "top_3_cast": [
-            "Michael Ian Black",
-            "Michael Ian Black - Michael",
-            "Michael Showalter",
-            "Michael Showalter - Michael",
-            "David Wain",
-            "David Wain - David"
-          ],
-          "description": [
-            "Stella was a short-lived television series that originally ran from June 28, 2005 to August 30, 2005 on the American television channel Comedy Central, created by and starring Michael Ian Black, Michael Showalter, and David Wain, the three members of the sketch comedy troupe of the same name and former cast members of MTV's The State. Stella, as a comedy troupe, has existed since 1997. It has a cult following and plays to sold out shows across the USA. The show aired on Tuesdays at 10:30 PM, EST.\n\nIn September, after 10 episodes, Stella's timeslot was filled by Mind of Mencia. On March 8, 2006, the following message was posted on Stella's official website: \"The STELLA series was on Comedy Central last summer. The network has officially decided not to renew it for a second season,\" thus effectively cancelling the series. The first season DVD was released on September 12, 2006. Episodes have also been available on iTunes and Hulu and some episodes on Joost. Stella premiered in Australia on The Comedy Channel on May 3, 2007."
-          ]
-        },
-        {
-          "tconst": [
-            "tt1553644"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Ricky Gervais Show"
-          ],
-          "startYear": [
-            2010
-          ],
-          "genres": [
-            "Animation",
-            "Comedy",
-            "Talk-Show"
-          ],
-          "averageRating": [
-            8.4
-          ],
-          "description": [
-            "The Ricky Gervais Show is an American cartoon series produced for and broadcast by HBO and Channel 4. The series is an animated version of the popular British audio podcasts and audiobooks of the same name, which feature Ricky Gervais and Stephen Merchant, along with colleague and friend Karl Pilkington, talking about various subjects behind the microphone. The TV show consists of past audio recordings of these unscripted \"pointless conversations,\" with animation drawn in a style similar to classic era Hanna-Barbera cartoons, presenting jokes and situations in a literal context.\n\nThe animated Ricky Gervais Show has aired 39 episodes across three seasons since it premiered in 2010. There were some plans for a possible fourth season which would have used newly recorded audio, but this was shelved in June 2012. Series 3 of The Ricky Gervais Show premiered on 20 April 2012 on HBO, and on 8 May 2012 on E4."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0241088"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Da Ali G Show"
-          ],
-          "startYear": [
-            2000
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            8.0
-          ],
-          "top_3_cast": [
-            "Sacha Baron Cohen",
-            "Sacha Baron Cohen - Ali G",
-            "T.N.T. Crew",
-            "T.N.T. Crew - Musicians",
-            "Tamzin Outhwaite",
-            "Tamzin Outhwaite - Melanie"
-          ],
-          "description": [
-            "Da Ali G Show is a British satirical television series created by and starring English comedian Sacha Baron Cohen. In the series, Baron Cohen plays three unorthodox journalists: faux-streetwise poseur Ali G, Kazakh reporter Borat Sagdiyev, and gay Austrian fashion enthusiast Br\u00fcno Gehard. These characters conduct real interviews with unsuspecting people, many of whom are celebrities, high-ranking government officials, and other well-known figures, during which they are asked absurd and ridiculous questions."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0242210"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Kids from Room 402"
-          ],
-          "startYear": [
-            2000
-          ],
-          "genres": [
-            "Animation",
-            "Comedy",
-            "Family"
-          ],
-          "averageRating": [
-            8.2
-          ],
-          "top_3_cast": [
-            "Dennis Cruzado",
-            "Dennis Cruzado - Additional Voices",
-            "Gabrielle Lazarovitz",
-            "Gabrielle Lazarovitz - Unknown Character",
-            "Jacob Holden",
-            "Jacob Holden - Freddie"
-          ],
-          "description": [
-            "The Kids from Room 402 is a television program that originally aired on Fox Family in the USA starting in 1999, previously aired on Teletoon, and currently airs in the UK.\n\nThe show is focused primarily on the students from Room 402, as the title implies. Miss Graves, the teacher, is usually shown as an interlocutor in the problems and injustices that are inflicted upon the students, whether the dilemmas be internal or external. Each show usually ends with a substantiated moral or lesson, resulting from such aforementioned situations.\n\nThe show is based on the children's book, The Kids from Room 402, by Betty Paraskevas and Michael Paraskevas. It was developed for television by Cindy Begel and Lesa Kite, who wrote all 52 episodes."
-          ]
-        }
-      ]
-    }
-  },
-  "2": {
-    "responseHeader": {
-      "status": 0,
-      "QTime": 4,
-      "params": {
-        "json": "{\"query\": \"Funny TV Show\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"indexed\": \"true\", \"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": \"genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
-      }
-    },
-    "response": {
-      "numFound": 694,
-      "start": 0,
-      "numFoundExact": true,
-      "docs": [
-        {
-          "tconst": [
-            "tt0485842"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Studio 60 on the Sunset Strip"
-          ],
-          "startYear": [
-            2006
-          ],
+          "tconst": "tt0475047",
+          "titleType": "tvSeries",
+          "primaryTitle": "Hotel Babylon",
+          "startYear": 2006,
           "genres": [
             "Comedy",
             "Drama"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 7.5,
           "top_3_cast": [
-            "Matthew Perry",
-            "Matthew Perry - Matt Albie",
-            "Amanda Peet",
-            "Amanda Peet - Jordan McDeere",
-            "Bradley Whitford",
-            "Bradley Whitford - Danny Tripp"
+            "Dexter Fletcher",
+            "Dexter Fletcher - Tony Casemore",
+            "Martin Marquez",
+            "Martin Marquez - Gino Primirola",
+            "Michael Obiora",
+            "Michael Obiora - Ben Trueman"
           ],
-          "description": [
-            "A behind-the-scenes look at a fictional sketch-comedy TV show."
-          ]
+          "description": "Hotel Babylon is a British television drama series based on the book of the same name by Imogen Edwards-Jones. The show followed the lives of workers at a glamorous five-star hotel."
         },
         {
-          "tconst": [
-            "tt1831164"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Leyla and Mecnun"
-          ],
-          "startYear": [
-            2011
-          ],
-          "genres": [
-            "Adventure",
-            "Comedy",
-            "Drama"
-          ],
-          "averageRating": [
-            9.0
-          ],
-          "top_3_cast": [
-            "Ali Atay",
-            "Ali Atay - Mecnun",
-            "Serkan Keskin",
-            "Serkan Keskin - Ismail",
-            "Osman Sonant",
-            "Osman Sonant - Yavuz"
-          ],
-          "description": [
-            "Leyla ile Mecnun is a Turkish television comedy series. The show is set in Istanbul, Turkey and premiered in 2011 on TRT. The series is a surreal and absurd comedy that revolves around the fictional love story between Leyla and Mecnun."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0450357"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Wonder Showzen"
-          ],
-          "startYear": [
-            2005
-          ],
-          "genres": [
-            "Animation",
-            "Comedy"
-          ],
-          "averageRating": [
-            8.4
-          ],
-          "top_3_cast": [
-            "Vernon Chatman",
-            "Vernon Chatman - Chauncey",
-            "John Lee",
-            "John Lee - Wordsworth",
-            "Alyson Levy",
-            "Alyson Levy - Sthugar"
-          ],
-          "description": [
-            "Wonder Showzen is an American sketch comedy television series that aired between 2005 and 2006 on MTV2. It was created by John Lee and Vernon Chatman of PFFR. The show is rated TV-MA.\n\nThe show's format is that of educational PBS children's television shows such as Sesame Street and The Electric Company, parodying the format with adult-oriented content. In addition to general controversial comedy, it satirizes politics, religion, war, sex, and culture with black comedy.\n\nEvery episode begins with a disclaimer, accompanied by the sound of someone screaming \"Don't eat my baby!\", which reads:\n\n\"Wonder Showzen contains offensive, despicable content that is too controversial and too awesome for actual children. The stark, ugly and profound truths Wonder Showzen exposes may be soul-crushing to the weak of spirit. If you allow a child to watch this show, you are a bad parent or guardian.\""
-          ]
-        },
-        {
-          "tconst": [
-            "tt0912343"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Tim and Eric Awesome Show, Great Job!"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Comedy",
-            "Music"
-          ],
-          "averageRating": [
-            7.7
-          ],
-          "top_3_cast": [
-            "Tim Heidecker",
-            "Tim Heidecker - Various",
-            "Eric Wareheim",
-            "Eric Wareheim - Various",
-            "Bob Odenkirk",
-            "Bob Odenkirk - Announcer"
-          ],
-          "description": [
-            "Tim and Eric Awesome Show, Great Job! is an American sketch comedy television series, created by and starring Tim Heidecker and Eric Wareheim, which premiered February 11, 2007 on Cartoon Network's Adult Swim comedy block and ran until May 2010. The program features surrealistic and often satirical humor, public-access television\u2013style musical acts, bizarre faux-commercials, and editing and special effects chosen to make the show appear camp.\n\nThe program featured a wide range of actors, spanning from stars such as Will Ferrell, John C. Reilly, David Cross, Bob Odenkirk, Will Forte and Zach Galifianakis, to alternative comedians like Neil Hamburger, to television actors like Alan Thicke, celebrity look-alikes and impressionists.\n\nThe creators of the show have described it as \"the nightmare version of television.\""
-          ]
-        },
-        {
-          "tconst": [
-            "tt0791055"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Chaser's War on Everything"
-          ],
-          "startYear": [
-            2006
-          ],
+          "tconst": "tt0922037",
+          "titleType": "tvSeries",
+          "primaryTitle": "La que se avecina",
+          "startYear": 2007,
           "genres": [
             "Comedy"
           ],
-          "averageRating": [
-            8.7
-          ],
-          "top_3_cast": [
-            "Craig Schuftan",
-            "Craig Schuftan - Voiceover",
-            "Keelin McCool",
-            "Keelin McCool - Voiceover"
-          ],
-          "description": [
-            "The Chaser's War on Everything was an Australian television satirical comedy series broadcast on the Australian Broadcasting Corporation television station ABC1. It has won an Australian Film Institute Award for Best Television Comedy Series. The cast perform sketches mocking social and political issues, and often feature comedic publicity stunts. The series is produced by the Australian satirical group, The Chaser, consisting of Chris Taylor, Julian Morrow, Craig Reucassel, Andrew Hansen, and Chas Licciardello. Fellow Chaser members Dominic Knight and Charles Firth are not part of the regular on-screen cast. However, Knight is a writer, and Firth compiled roving reports for the show from the United States, until he left the group to start a satirical newspaper in mid-2007.\n\nThe show premiered on 17 February 2006 and has since produced 58 episodes, broadcast over three seasons between 2006 to 2007 as well as during 2009. The first season was broadcast at an unstable late timeslot on Friday nights. The second and third seasons were broadcast in a more favourable timeslot of Wednesdays at 9 pm. The show did not return in 2008, but returned on 27 May 2009 for the third season featuring only ten episodes. Following the controversy of the \"Make a Realistic Wish Foundation\" sketch, the third season was reduced to 8 episodes, being suspended for 2 weeks."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0358856"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Little Britain"
-          ],
-          "startYear": [
-            2003
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            7.7
-          ],
-          "top_3_cast": [
-            "Matt Lucas",
-            "Matt Lucas - Various Roles",
-            "David Walliams",
-            "David Walliams - Various Roles",
-            "Tom Baker",
-            "Tom Baker - Narrator"
-          ],
-          "description": [
-            "A zany comedy show with Matt Lucas and David Walliams, featuring characters from all over Little Britain."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0922037"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "La que se avecina"
-          ],
-          "startYear": [
-            2007
-          ],
-          "genres": [
-            "Comedy"
-          ],
-          "averageRating": [
-            7.6
-          ],
+          "averageRating": 7.6,
           "top_3_cast": [
             "Pablo Chiapella",
             "Pablo Chiapella - Amador Rivas",
@@ -860,279 +215,270 @@
             "Eva Isanta",
             "Eva Isanta - Maite Figueroa"
           ],
-          "description": [
-            "La que se avecina is a Spanish television comedy created by Alberto Caballero, Laura Caballero and Daniel Deorador. The TV-series focusing around the inhabitants of Mirador de Montepinar, a fictional building located on the outskirts of a big city. Both its storylines and cast are heavily based on Aqu\u00ed no hay quien viva, which ended when Telecinco bought Miram\u00f3n Mendi, the series production company.\n\nThe episodes debuted on the Telecinco network, and were later rerun by the same network as well as cable/satellite channels Factor\u00edaDeFicci\u00f3n and Paramount Comedy. The series debuted in 22 April 2007 and became popular thanks to its funny characters, witty script, use of catchphrases and capacity to integrate and poke fun at contemporary issues; the program presents a caustic satire of many of the 'types' found in Spanish society.\n\nThe name of the show involves wordplay, as \"vecina\" is the Spanish word for neighbour."
-          ]
+          "description": "La que se avecina is a Spanish television comedy created by Alberto Caballero, Laura Caballero and Daniel Deorador. The TV-series focusing around the inhabitants of Mirador de Montepinar, a fictional building located on the outskirts of a big city. Both its storylines and cast are heavily based on Aqu\u00ed no hay quien viva, which ended when Telecinco bought Miram\u00f3n Mendi, the series production company.\n\nThe episodes debuted on the Telecinco network, and were later rerun by the same network as well as cable/satellite channels Factor\u00edaDeFicci\u00f3n and Paramount Comedy. The series debuted in 22 April 2007 and became popular thanks to its funny characters, witty script, use of catchphrases and capacity to integrate and poke fun at contemporary issues; the program presents a caustic satire of many of the 'types' found in Spanish society.\n\nThe name of the show involves wordplay, as \"vecina\" is the Spanish word for neighbour."
         },
         {
-          "tconst": [
-            "tt1020116"
+          "tconst": "tt0383126",
+          "titleType": "tvSeries",
+          "primaryTitle": "MythBusters",
+          "startYear": 2003,
+          "genres": [
+            "Documentary",
+            "Mystery",
+            "Reality-TV"
           ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Boris"
-          ],
-          "startYear": [
-            2007
-          ],
+          "averageRating": 8.3,
+          "description": "MythBusters is a science entertainment television program created and produced by Australia's Beyond Television Productions for the Discovery Channel. The show's hosts, special effects experts Adam Savage and Jamie Hyneman, use elements of the scientific method to test the validity of rumors, myths, movie scenes, adages, Internet videos, and news stories."
+        },
+        {
+          "tconst": "tt0496424",
+          "titleType": "tvSeries",
+          "primaryTitle": "30 Rock",
+          "startYear": 2006,
           "genres": [
             "Comedy"
           ],
-          "averageRating": [
-            8.6
-          ],
+          "averageRating": 8.3,
           "top_3_cast": [
-            "Luca Amorosino",
-            "Luca Amorosino - Alfredo",
-            "Antonino Bruschetta",
-            "Antonino Bruschetta - Duccio Patan\u00e9",
-            "Paolo Calabresi",
-            "Paolo Calabresi - Augusto Biascica"
+            "Tina Fey",
+            "Tina Fey - Liz Lemon",
+            "Alec Baldwin",
+            "Alec Baldwin - Jack Donaghy",
+            "Tracy Morgan",
+            "Tracy Morgan - Tracy Jordan"
           ],
-          "description": [
-            "Boris is an Italian television series created by Luca Manzi and Carlo Mazzotta, initially produced from 2007 to 2010, with a revival season premiered in 2022.\n\nThe show brings to the stage the behind the scenes of a television set where a troupe is shooting Gli occhi del cuore 2 (The eyes of the heart 2), a satirical portrait of the many fictions airing on the Italian TV networks."
-          ]
+          "description": "Liz Lemon, the head writer for a late-night TV variety show in New York, tries to juggle all the egos around her while chasing her own dream."
         },
         {
-          "tconst": [
-            "tt1305562"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Psychoville"
-          ],
-          "startYear": [
-            2009
-          ],
+          "tconst": "tt3921180",
+          "titleType": "tvSeries",
+          "primaryTitle": "Scream: The TV Series",
+          "startYear": 2015,
           "genres": [
             "Comedy",
-            "Horror",
-            "Mystery"
+            "Crime",
+            "Drama"
           ],
-          "averageRating": [
-            7.9
-          ],
+          "averageRating": 7.0,
           "top_3_cast": [
-            "Reece Shearsmith",
-            "Reece Shearsmith - Maureen Sowerbutts",
-            "Steve Pemberton",
-            "Steve Pemberton - David Sowerbutts",
-            "Daniel Kaluuya",
-            "Daniel Kaluuya - Tealeaf"
+            "Willa Fitzgerald",
+            "Willa Fitzgerald - Emma Duval",
+            "Bex Taylor-Klaus",
+            "Bex Taylor-Klaus - Audrey Jensen",
+            "John Karna",
+            "John Karna - Noah Foster"
           ],
-          "description": [
-            "Psychoville is a British dark comedy television . Pemberton and Shearsmith each play numerous characters, with Dawn French and Jason Tompkins in additional starring roles."
-          ]
+          "description": "What starts as a YouTube video going viral, soon leads to problems for the teenagers of Lakewood and serves as the catalyst for a murder that opens up a window to the town's troubled past. Everyone has secrets. Everyone tells lies. Everyone is fair game."
         },
         {
-          "tconst": [
-            "tt0408381"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Doc Martin"
-          ],
-          "startYear": [
-            2004
-          ],
+          "tconst": "tt2608368",
+          "titleType": "tvSeries",
+          "primaryTitle": "Real Husbands of Hollywood",
+          "startYear": 2013,
           "genres": [
-            "Comedy",
-            "Drama",
-            "Romance"
+            "Comedy"
           ],
-          "averageRating": [
-            8.4
-          ],
+          "averageRating": 7.7,
           "top_3_cast": [
-            "Martin Clunes",
-            "Martin Clunes - Dr. Martin Ellingham",
-            "Caroline Catz",
-            "Caroline Catz - Louisa Glasson",
-            "Ian McNeice",
-            "Ian McNeice - Bert Large"
+            "Cynthia Kaye McWilliams",
+            "Cynthia Kaye McWilliams - Trina Shaw",
+            "Erica Ash",
+            "Erica Ash - Bridgette Hart",
+            "James Davis",
+            "James Davis - Oliver"
           ],
-          "description": [
-            "Doc Martin is a British television comedy drama series starring Martin Clunes in the title role. It was created by Dominic Minghella after the character of Dr. Martin Bamford in the 2000 comedy film Saving Grace. The show is set in the fictional seaside village of Portwenn and filmed on location in the village of Port Isaac, Cornwall, England, with most interior scenes shot in a converted local barn. Five series aired between 2004 and 2011, together with a feature-length special that aired on Christmas Day 2006. Series 6 began airing on ITV on 2 September 2013."
-          ]
+          "description": "Comedian and actor, Kevin Hart teams up with BET Networks to bring viewers one of the funniest shows on television \"Real Husbands of Hollywood\". The semi-scripted series is the fakest reality show ever following these men of Hollywood along their surreal lives. Enjoy the ride as these guys take on all things, from the husband's point of view. You may recognize some situations or characters from those other reality shows."
         },
         {
-          "tconst": [
-            "tt0499410"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "That Mitchell and Webb Look"
-          ],
-          "startYear": [
-            2006
-          ],
+          "tconst": "tt0242210",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Kids from Room 402",
+          "startYear": 2000,
           "genres": [
+            "Animation",
             "Comedy",
-            "Fantasy"
+            "Family"
           ],
-          "averageRating": [
-            8.0
-          ],
+          "averageRating": 8.2,
           "top_3_cast": [
-            "David Mitchell",
-            "David Mitchell - Various",
-            "Robert Webb",
-            "Robert Webb - Various",
-            "James Bachman",
-            "James Bachman - Various"
+            "Dennis Cruzado",
+            "Dennis Cruzado - Additional Voices",
+            "Gabrielle Lazarovitz",
+            "Gabrielle Lazarovitz - Unknown Character",
+            "Jacob Holden",
+            "Jacob Holden - Freddie"
           ],
-          "description": [
-            "A comedy sketch show featuring David Mitchell and Robert Webb."
-          ]
+          "description": "The Kids from Room 402 is a television program that originally aired on Fox Family in the USA starting in 1999, previously aired on Teletoon, and currently airs in the UK.\n\nThe show is focused primarily on the students from Room 402, as the title implies. Miss Graves, the teacher, is usually shown as an interlocutor in the problems and injustices that are inflicted upon the students, whether the dilemmas be internal or external. Each show usually ends with a substantiated moral or lesson, resulting from such aforementioned situations.\n\nThe show is based on the children's book, The Kids from Room 402, by Betty Paraskevas and Michael Paraskevas. It was developed for television by Cindy Begel and Lesa Kite, who wrote all 52 episodes."
         },
         {
-          "tconst": [
-            "tt2919910"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Whose Line Is It Anyway?"
-          ],
-          "startYear": [
-            2013
-          ],
+          "tconst": "tt1831164",
+          "titleType": "tvSeries",
+          "primaryTitle": "Leyla and Mecnun",
+          "startYear": 2011,
           "genres": [
+            "Adventure",
             "Comedy",
-            "Game-Show"
+            "Drama"
           ],
-          "averageRating": [
-            8.4
-          ],
+          "averageRating": 9.0,
           "top_3_cast": [
-            "Aisha Tyler",
-            "Aisha Tyler - Regular Performer",
-            "Laura Hall",
-            "Laura Hall - Musician",
-            "Linda Taylor",
-            "Linda Taylor - Musician"
+            "Ali Atay",
+            "Ali Atay - Mecnun",
+            "Serkan Keskin",
+            "Serkan Keskin - Ismail",
+            "Osman Sonant",
+            "Osman Sonant - Yavuz"
           ],
-          "description": [
-            "Comedian Aisha Tyler hosts this improv comedy show where the actors on the show - Wayne Brady, Colin Mochrie, Ryan Stiles along with a special guest each episode -must put their comedic skills to the test through a series of spontaneous improv games, prompted only by random ideas supplied by the studio audience."
-          ]
+          "description": "Leyla ile Mecnun is a Turkish television comedy series. The show is set in Istanbul, Turkey and premiered in 2011 on TRT. The series is a surreal and absurd comedy that revolves around the fictional love story between Leyla and Mecnun."
         },
         {
-          "tconst": [
-            "tt2244495"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Eric Andre Show"
-          ],
-          "startYear": [
-            2012
-          ],
+          "tconst": "tt0437729",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Late Late Show with Craig Ferguson",
+          "startYear": 2005,
           "genres": [
             "Comedy",
+            "Music",
             "Talk-Show"
           ],
-          "averageRating": [
-            8.5
-          ],
+          "averageRating": 8.4,
           "top_3_cast": [
-            "Eric Andr\u00e9",
-            "Eric Andr\u00e9 - Eric Andr\u00e9",
-            "Hannibal Buress",
-            "Hannibal Buress - Hannibal Buress",
-            "Robert Smith",
-            "Robert Smith - Announcer"
+            "Josh Robert Thompson",
+            "Josh Robert Thompson - Geoff Peterson",
+            "Joseph Bolter",
+            "Joseph Bolter - Secretariat",
+            "Ryan McGowan",
+            "Ryan McGowan - Secretariat"
           ],
-          "description": [
-            "A comedic talk show from an alternate reality featuring unstable hosts, a variety of celebrities\u2014both real and fake\u2014and unusual studio action."
-          ]
+          "description": "The Late Late Show with Craig Ferguson is an American late-night talk show hosted by Scottish American comedian Craig Ferguson, who is the third regular host of the Late Late Show franchise. It follows Late Show with David Letterman in the CBS late-night lineup, airing weekdays in the US at 12:37 a.m. It is taped in front of a live studio audience from Monday to Friday at CBS Television City in Los Angeles, California, directly above the Bob Barker Studio. It is produced by David Letterman's production company Worldwide Pants Incorporated and CBS Television Studios.\n\nSince becoming host on January 3, 2005, after Craig Kilborn and Tom Snyder, Ferguson has achieved the highest ratings since the show's inception in 1995. While the majority of the episodes focus on comedy, Ferguson has also addressed difficult subject matter, such as the deaths of his parents, and undertaken serious interviews, such as one with Desmond Tutu, which earned the show a 2009 Peabody Award."
         },
         {
-          "tconst": [
-            "tt1451387"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "The Hard Times of RJ Berger"
-          ],
-          "startYear": [
-            2010
-          ],
+          "tconst": "tt2345481",
+          "titleType": "tvSeries",
+          "primaryTitle": "Being Mary Jane",
+          "startYear": 2013,
           "genres": [
-            "Comedy"
+            "Drama",
+            "Romance",
+            "Thriller"
           ],
-          "averageRating": [
-            7.4
-          ],
+          "averageRating": 7.6,
           "top_3_cast": [
-            "Paul Iacono",
-            "Paul Iacono - R.J. Berger",
-            "Jareb Dauplaise",
-            "Jareb Dauplaise - Miles Jenner",
-            "Kara Taitz",
-            "Kara Taitz - Lily Miran"
+            "Gabrielle Union",
+            "Gabrielle Union - Mary Jane Paul",
+            "Lisa Vidal",
+            "Lisa Vidal - Kara",
+            "Raven Goodwin",
+            "Raven Goodwin - Niecy"
           ],
-          "description": [
-            "The Hard Times of RJ Berger was an American television comedy series created by David Katzenberg and Seth Grahame-Smith for MTV. The show's central character is RJ Berger an unpopular sophomore at the fictional Pinkerton High School in Ohio who has an exceptionally large penis. Berger's two best friends are Miles Jenner, whose ambitions for popularity cause him to clash with Berger, and goth girl Lily Miran, who has been lusting after Berger for several years. Berger's love interest is Jenny Swanson, a cheerleader who is involved with Max Owens, a popular jock and bully. The show is presented as a coming of age story and has been described by Katzenberg and Grahame-Smith as a blend of the television series The Wonder Years and the film Superbad.\n\nThe pilot episode premiered on June 6, 2010, and the first season of 12 episodes concluded August 23, 2010. MTV renewed The Hard Times of RJ Berger for a second season, which premiered on March 24, 2011, and concluded on May 30, 2011, but canceled the show that August."
-          ]
+          "description": "Mary Jane Paul is a one-woman-show: a successful TV news anchor, and an entirely self-sufficient powerhouse who remains devoted to a family that doesn't share her motivation. Intense drama and unforgettable moments unfold as Mary Jane juggles her life, her relationships, her work, and commitments to her family."
         },
         {
-          "tconst": [
-            "tt0380136"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "QI"
-          ],
-          "startYear": [
-            2003
-          ],
+          "tconst": "tt0465315",
+          "titleType": "tvSeries",
+          "primaryTitle": "8 Out of 10 Cats",
+          "startYear": 2005,
           "genres": [
             "Comedy",
             "Game-Show"
           ],
-          "averageRating": [
-            8.6
+          "averageRating": 7.7,
+          "description": "8 Out of 10 Cats is a British television comedy panel game produced by Zeppotron for Channel 4. It was first broadcast on 3 June 2005. The show is based on statistics and opinion polls, and draws on polls produced by a variety of organizations and new polls commissioned for the programme, carried out by company Harris Poll. The show's title is derived from a well-known advertising tagline for Whiskas cat food, which originally claimed that \"8 out of 10 cats prefer Whiskas\"."
+        }
+      ]
+    }
+  },
+  "2": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 7,
+      "params": {
+        "json": "{\"query\": \"Funny TV Show\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"indexed\": \"true\", \"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": \"primaryTitle^2 genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
+      }
+    },
+    "response": {
+      "numFound": 129,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": "tt0485842",
+          "titleType": "tvSeries",
+          "primaryTitle": "Studio 60 on the Sunset Strip",
+          "startYear": 2006,
+          "genres": [
+            "Comedy",
+            "Drama"
           ],
-          "description": [
-            "Comedy quiz show full of quirky facts, in which contestants are rewarded more if their answers are 'quite interesting'."
-          ]
+          "averageRating": 8.3,
+          "top_3_cast": [
+            "Matthew Perry",
+            "Matthew Perry - Matt Albie",
+            "Amanda Peet",
+            "Amanda Peet - Jordan McDeere",
+            "Bradley Whitford",
+            "Bradley Whitford - Danny Tripp"
+          ],
+          "description": "A behind-the-scenes look at a fictional sketch-comedy TV show."
         },
         {
-          "tconst": [
-            "tt0421384"
+          "tconst": "tt1637574",
+          "titleType": "tvSeries",
+          "primaryTitle": "Conan",
+          "startYear": 2010,
+          "genres": [
+            "Comedy",
+            "Music",
+            "Talk-Show"
           ],
-          "titleType": [
-            "tvSeries"
+          "averageRating": 8.2,
+          "description": "A late night television talk show hosted by  Conan O'Brien."
+        },
+        {
+          "tconst": "tt0899126",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Tonight Show with Conan O'Brien",
+          "startYear": 2009,
+          "genres": [
+            "Comedy",
+            "Music",
+            "Talk-Show"
           ],
-          "primaryTitle": [
-            "The Valley of the Wolves"
+          "averageRating": 8.0,
+          "description": "The Tonight Show with Conan O'Brien is an American television talk show broadcast by NBC. The show is the fifth installment of The Tonight Show, hosted by Conan O'Brien. It aired from June 1, 2009, to January 22, 2010, succeeding The Tonight Show with Jay Leno and ended when Leno returned to the role of Tonight Show host."
+        },
+        {
+          "tconst": "tt0458254",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Colbert Report",
+          "startYear": 2005,
+          "genres": [
+            "Comedy",
+            "News",
+            "Talk-Show"
           ],
-          "startYear": [
-            2003
+          "averageRating": 8.4,
+          "top_3_cast": [
+            "Jay Katsir",
+            "Jay Katsir - Jay the Intern",
+            "Paul Dinello",
+            "Paul Dinello - Tad",
+            "Tim Meadows",
+            "Tim Meadows - P.K. Winsome"
           ],
+          "description": "The Colbert Report is an American satirical late night television program. It stars political humorist Stephen Colbert, a former correspondent for The Daily Show with Jon Stewart. The Colbert Report is a spin-off from and counterpart to The Daily Show that comments on politics and the media in a similar way. The show focuses on a fictional anchorman character named Stephen Colbert, played by his real-life namesake. The character, described by Colbert as a \"well-intentioned, poorly informed, high-status idiot\", is a caricature of televised political pundits."
+        },
+        {
+          "tconst": "tt0421384",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Valley of the Wolves",
+          "startYear": 2003,
           "genres": [
             "Action",
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            8.2
-          ],
+          "averageRating": 8.2,
           "top_3_cast": [
             "Necati Sasmaz",
             "Necati Sasmaz - Polat Alemdar",
@@ -1141,132 +487,288 @@
             "G\u00fcrkan Uygun",
             "G\u00fcrkan Uygun - Memati"
           ],
-          "description": [
-            "Valley of the Wolves was a Turkish television drama which broadcast mainly on Show TV and then transferred to Kanal D, then atv for its last season. It was mostly about an agent named Polat Alemdar who leaked into the mafia after his plastic surgery. The scenario has direct and indirect references to the Turkish politics and political history from a viewpoint of an undercover agent. Valley of the Wolves became one of the most successful TV shows in Turkey and produced a successful feature film named Valley of the Wolves: Iraq."
-          ]
+          "description": "Valley of the Wolves was a Turkish television drama which broadcast mainly on Show TV and then transferred to Kanal D, then atv for its last season. It was mostly about an agent named Polat Alemdar who leaked into the mafia after his plastic surgery. The scenario has direct and indirect references to the Turkish politics and political history from a viewpoint of an undercover agent. Valley of the Wolves became one of the most successful TV shows in Turkey and produced a successful feature film named Valley of the Wolves: Iraq."
         },
         {
-          "tconst": [
-            "tt0318390"
+          "tconst": "tt0450357",
+          "titleType": "tvSeries",
+          "primaryTitle": "Wonder Showzen",
+          "startYear": 2005,
+          "genres": [
+            "Animation",
+            "Comedy"
           ],
-          "titleType": [
-            "tvSeries"
+          "averageRating": 8.4,
+          "top_3_cast": [
+            "Vernon Chatman",
+            "Vernon Chatman - Chauncey",
+            "John Lee",
+            "John Lee - Wordsworth",
+            "Alyson Levy",
+            "Alyson Levy - Sthugar"
           ],
-          "primaryTitle": [
-            "Keen Eddie"
-          ],
-          "startYear": [
-            2003
-          ],
+          "description": "Wonder Showzen is an American sketch comedy television series that aired between 2005 and 2006 on MTV2. It was created by John Lee and Vernon Chatman of PFFR. The show is rated TV-MA.\n\nThe show's format is that of educational PBS children's television shows such as Sesame Street and The Electric Company, parodying the format with adult-oriented content. In addition to general controversial comedy, it satirizes politics, religion, war, sex, and culture with black comedy.\n\nEvery episode begins with a disclaimer, accompanied by the sound of someone screaming \"Don't eat my baby!\", which reads:\n\n\"Wonder Showzen contains offensive, despicable content that is too controversial and too awesome for actual children. The stark, ugly and profound truths Wonder Showzen exposes may be soul-crushing to the weak of spirit. If you allow a child to watch this show, you are a bad parent or guardian.\""
+        },
+        {
+          "tconst": "tt0912343",
+          "titleType": "tvSeries",
+          "primaryTitle": "Tim and Eric Awesome Show, Great Job!",
+          "startYear": 2007,
           "genres": [
             "Comedy",
-            "Crime",
-            "Drama"
+            "Music"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 7.7,
           "top_3_cast": [
-            "Mark Valley",
-            "Mark Valley - Det. Eddie Arlette",
-            "Sienna Miller",
-            "Sienna Miller - Fiona Bickerton",
-            "Julian Rhind-Tutt",
-            "Julian Rhind-Tutt - Insp. Monty Pippin"
+            "Tim Heidecker",
+            "Tim Heidecker - Various",
+            "Eric Wareheim",
+            "Eric Wareheim - Various",
+            "Bob Odenkirk",
+            "Bob Odenkirk - Announcer"
           ],
-          "description": [
-            "Keen Eddie is an American action, comedy-drama television series that aired in 2003 on the Fox Network. The series follows a brash NYPD detective who goes to London when one of his cases goes sour and remains to work with New Scotland Yard. The basic premise of the show bears a close resemblance to the popular 1980s British series Dempsey & Makepeace, the only notable difference being that the female partner has been replaced by a female housemate. Stylistically, the series derived inspiration from British feature films by Guy Ritchie, such as Lock, Stock and Two Smoking Barrels and Snatch. The soundtrack and incidental music for the first episode was provided by British techno duo Orbital. Daniel Ash of Love and Rockets scored the rest of the series."
-          ]
+          "description": "Tim and Eric Awesome Show, Great Job! is an American sketch comedy television series, created by and starring Tim Heidecker and Eric Wareheim, which premiered February 11, 2007 on Cartoon Network's Adult Swim comedy block and ran until May 2010. The program features surrealistic and often satirical humor, public-access television\u2013style musical acts, bizarre faux-commercials, and editing and special effects chosen to make the show appear camp.\n\nThe program featured a wide range of actors, spanning from stars such as Will Ferrell, John C. Reilly, David Cross, Bob Odenkirk, Will Forte and Zach Galifianakis, to alternative comedians like Neil Hamburger, to television actors like Alan Thicke, celebrity look-alikes and impressionists.\n\nThe creators of the show have described it as \"the nightmare version of television.\""
         },
         {
-          "tconst": [
-            "tt1637574"
+          "tconst": "tt1020116",
+          "titleType": "tvSeries",
+          "primaryTitle": "Boris",
+          "startYear": 2007,
+          "genres": [
+            "Comedy"
           ],
-          "titleType": [
-            "tvSeries"
+          "averageRating": 8.6,
+          "top_3_cast": [
+            "Luca Amorosino",
+            "Luca Amorosino - Alfredo",
+            "Antonino Bruschetta",
+            "Antonino Bruschetta - Duccio Patan\u00e9",
+            "Paolo Calabresi",
+            "Paolo Calabresi - Augusto Biascica"
           ],
-          "primaryTitle": [
-            "Conan"
+          "description": "Boris is an Italian television series created by Luca Manzi and Carlo Mazzotta, initially produced from 2007 to 2010, with a revival season premiered in 2022.\n\nThe show brings to the stage the behind the scenes of a television set where a troupe is shooting Gli occhi del cuore 2 (The eyes of the heart 2), a satirical portrait of the many fictions airing on the Italian TV networks."
+        },
+        {
+          "tconst": "tt0421460",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Soup",
+          "startYear": 2004,
+          "genres": [
+            "Comedy"
           ],
-          "startYear": [
-            2010
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Kelly Levy",
+            "Kelly Levy - So Meaty",
+            "Lou the Chihuahua",
+            "Lou the Chihuahua - Lou",
+            "Dominic DeLeo",
+            "Dominic DeLeo - Mankini"
           ],
+          "description": "With this satirical series, the E! Entertainment Network returns to a format they helped create with the popular '90s show Talk Soup. Only this time instead of just poking fun at talk shows, they're setting their sights on all things in entertainment, reality TV, pop culture, and politics."
+        },
+        {
+          "tconst": "tt0475047",
+          "titleType": "tvSeries",
+          "primaryTitle": "Hotel Babylon",
+          "startYear": 2006,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": 7.5,
+          "top_3_cast": [
+            "Dexter Fletcher",
+            "Dexter Fletcher - Tony Casemore",
+            "Martin Marquez",
+            "Martin Marquez - Gino Primirola",
+            "Michael Obiora",
+            "Michael Obiora - Ben Trueman"
+          ],
+          "description": "Hotel Babylon is a British television drama series based on the book of the same name by Imogen Edwards-Jones. The show followed the lives of workers at a glamorous five-star hotel."
+        },
+        {
+          "tconst": "tt0922037",
+          "titleType": "tvSeries",
+          "primaryTitle": "La que se avecina",
+          "startYear": 2007,
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "Pablo Chiapella",
+            "Pablo Chiapella - Amador Rivas",
+            "Nacho Guerreros",
+            "Nacho Guerreros - Coque Calatrava",
+            "Eva Isanta",
+            "Eva Isanta - Maite Figueroa"
+          ],
+          "description": "La que se avecina is a Spanish television comedy created by Alberto Caballero, Laura Caballero and Daniel Deorador. The TV-series focusing around the inhabitants of Mirador de Montepinar, a fictional building located on the outskirts of a big city. Both its storylines and cast are heavily based on Aqu\u00ed no hay quien viva, which ended when Telecinco bought Miram\u00f3n Mendi, the series production company.\n\nThe episodes debuted on the Telecinco network, and were later rerun by the same network as well as cable/satellite channels Factor\u00edaDeFicci\u00f3n and Paramount Comedy. The series debuted in 22 April 2007 and became popular thanks to its funny characters, witty script, use of catchphrases and capacity to integrate and poke fun at contemporary issues; the program presents a caustic satire of many of the 'types' found in Spanish society.\n\nThe name of the show involves wordplay, as \"vecina\" is the Spanish word for neighbour."
+        },
+        {
+          "tconst": "tt0383126",
+          "titleType": "tvSeries",
+          "primaryTitle": "MythBusters",
+          "startYear": 2003,
+          "genres": [
+            "Documentary",
+            "Mystery",
+            "Reality-TV"
+          ],
+          "averageRating": 8.3,
+          "description": "MythBusters is a science entertainment television program created and produced by Australia's Beyond Television Productions for the Discovery Channel. The show's hosts, special effects experts Adam Savage and Jamie Hyneman, use elements of the scientific method to test the validity of rumors, myths, movie scenes, adages, Internet videos, and news stories."
+        },
+        {
+          "tconst": "tt0496424",
+          "titleType": "tvSeries",
+          "primaryTitle": "30 Rock",
+          "startYear": 2006,
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": 8.3,
+          "top_3_cast": [
+            "Tina Fey",
+            "Tina Fey - Liz Lemon",
+            "Alec Baldwin",
+            "Alec Baldwin - Jack Donaghy",
+            "Tracy Morgan",
+            "Tracy Morgan - Tracy Jordan"
+          ],
+          "description": "Liz Lemon, the head writer for a late-night TV variety show in New York, tries to juggle all the egos around her while chasing her own dream."
+        },
+        {
+          "tconst": "tt2608368",
+          "titleType": "tvSeries",
+          "primaryTitle": "Real Husbands of Hollywood",
+          "startYear": 2013,
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "Cynthia Kaye McWilliams",
+            "Cynthia Kaye McWilliams - Trina Shaw",
+            "Erica Ash",
+            "Erica Ash - Bridgette Hart",
+            "James Davis",
+            "James Davis - Oliver"
+          ],
+          "description": "Comedian and actor, Kevin Hart teams up with BET Networks to bring viewers one of the funniest shows on television \"Real Husbands of Hollywood\". The semi-scripted series is the fakest reality show ever following these men of Hollywood along their surreal lives. Enjoy the ride as these guys take on all things, from the husband's point of view. You may recognize some situations or characters from those other reality shows."
+        },
+        {
+          "tconst": "tt0242210",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Kids from Room 402",
+          "startYear": 2000,
+          "genres": [
+            "Animation",
+            "Comedy",
+            "Family"
+          ],
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Dennis Cruzado",
+            "Dennis Cruzado - Additional Voices",
+            "Gabrielle Lazarovitz",
+            "Gabrielle Lazarovitz - Unknown Character",
+            "Jacob Holden",
+            "Jacob Holden - Freddie"
+          ],
+          "description": "The Kids from Room 402 is a television program that originally aired on Fox Family in the USA starting in 1999, previously aired on Teletoon, and currently airs in the UK.\n\nThe show is focused primarily on the students from Room 402, as the title implies. Miss Graves, the teacher, is usually shown as an interlocutor in the problems and injustices that are inflicted upon the students, whether the dilemmas be internal or external. Each show usually ends with a substantiated moral or lesson, resulting from such aforementioned situations.\n\nThe show is based on the children's book, The Kids from Room 402, by Betty Paraskevas and Michael Paraskevas. It was developed for television by Cindy Begel and Lesa Kite, who wrote all 52 episodes."
+        },
+        {
+          "tconst": "tt1831164",
+          "titleType": "tvSeries",
+          "primaryTitle": "Leyla and Mecnun",
+          "startYear": 2011,
+          "genres": [
+            "Adventure",
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Ali Atay",
+            "Ali Atay - Mecnun",
+            "Serkan Keskin",
+            "Serkan Keskin - Ismail",
+            "Osman Sonant",
+            "Osman Sonant - Yavuz"
+          ],
+          "description": "Leyla ile Mecnun is a Turkish television comedy series. The show is set in Istanbul, Turkey and premiered in 2011 on TRT. The series is a surreal and absurd comedy that revolves around the fictional love story between Leyla and Mecnun."
+        },
+        {
+          "tconst": "tt0437729",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Late Late Show with Craig Ferguson",
+          "startYear": 2005,
           "genres": [
             "Comedy",
             "Music",
             "Talk-Show"
           ],
-          "averageRating": [
-            8.2
+          "averageRating": 8.4,
+          "top_3_cast": [
+            "Josh Robert Thompson",
+            "Josh Robert Thompson - Geoff Peterson",
+            "Joseph Bolter",
+            "Joseph Bolter - Secretariat",
+            "Ryan McGowan",
+            "Ryan McGowan - Secretariat"
           ],
-          "description": [
-            "A late night television talk show hosted by  Conan O'Brien."
-          ]
+          "description": "The Late Late Show with Craig Ferguson is an American late-night talk show hosted by Scottish American comedian Craig Ferguson, who is the third regular host of the Late Late Show franchise. It follows Late Show with David Letterman in the CBS late-night lineup, airing weekdays in the US at 12:37 a.m. It is taped in front of a live studio audience from Monday to Friday at CBS Television City in Los Angeles, California, directly above the Bob Barker Studio. It is produced by David Letterman's production company Worldwide Pants Incorporated and CBS Television Studios.\n\nSince becoming host on January 3, 2005, after Craig Kilborn and Tom Snyder, Ferguson has achieved the highest ratings since the show's inception in 1995. While the majority of the episodes focus on comedy, Ferguson has also addressed difficult subject matter, such as the deaths of his parents, and undertaken serious interviews, such as one with Desmond Tutu, which earned the show a 2009 Peabody Award."
         },
         {
-          "tconst": [
-            "tt4145384"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Scream Queens"
-          ],
-          "startYear": [
-            2015
-          ],
+          "tconst": "tt2345481",
+          "titleType": "tvSeries",
+          "primaryTitle": "Being Mary Jane",
+          "startYear": 2013,
           "genres": [
-            "Comedy",
-            "Horror",
-            "Mystery"
+            "Drama",
+            "Romance",
+            "Thriller"
           ],
-          "averageRating": [
-            7.1
-          ],
+          "averageRating": 7.6,
           "top_3_cast": [
-            "Emma Roberts",
-            "Emma Roberts - Chanel Oberlin",
-            "Lea Michele",
-            "Lea Michele - Hester Ulrich",
-            "Abigail Breslin",
-            "Abigail Breslin - Chanel #5"
+            "Gabrielle Union",
+            "Gabrielle Union - Mary Jane Paul",
+            "Lisa Vidal",
+            "Lisa Vidal - Kara",
+            "Raven Goodwin",
+            "Raven Goodwin - Niecy"
           ],
-          "description": [
-            "The super-charged comedy-horror series is a modern take on the classic whodunit with a killer cast."
-          ]
+          "description": "Mary Jane Paul is a one-woman-show: a successful TV news anchor, and an entirely self-sufficient powerhouse who remains devoted to a family that doesn't share her motivation. Intense drama and unforgettable moments unfold as Mary Jane juggles her life, her relationships, her work, and commitments to her family."
         },
         {
-          "tconst": [
-            "tt2292621"
-          ],
-          "titleType": [
-            "tvSeries"
-          ],
-          "primaryTitle": [
-            "Burning Love"
-          ],
-          "startYear": [
-            2012
-          ],
+          "tconst": "tt0465315",
+          "titleType": "tvSeries",
+          "primaryTitle": "8 Out of 10 Cats",
+          "startYear": 2005,
           "genres": [
             "Comedy",
-            "Romance"
+            "Game-Show"
           ],
-          "averageRating": [
-            7.9
+          "averageRating": 7.7,
+          "description": "8 Out of 10 Cats is a British television comedy panel game produced by Zeppotron for Channel 4. It was first broadcast on 3 June 2005. The show is based on statistics and opinion polls, and draws on polls produced by a variety of organizations and new polls commissioned for the programme, carried out by company Harris Poll. The show's title is derived from a well-known advertising tagline for Whiskas cat food, which originally claimed that \"8 out of 10 cats prefer Whiskas\"."
+        },
+        {
+          "tconst": "tt0791055",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Chaser's War on Everything",
+          "startYear": 2006,
+          "genres": [
+            "Comedy"
           ],
+          "averageRating": 8.7,
           "top_3_cast": [
-            "Michael Ian Black",
-            "Michael Ian Black - Bill Tundle",
-            "June Diane Raphael",
-            "June Diane Raphael - Julie Gristlewhite",
-            "Ryan Hansen",
-            "Ryan Hansen - Blaze"
+            "Craig Schuftan",
+            "Craig Schuftan - Voiceover",
+            "Keelin McCool",
+            "Keelin McCool - Voiceover"
           ],
-          "description": [
-            "Burning Love is a scripted comedy series which is a web spoof of the television shows The Bachelor, The Bachelorette and Bachelor Pad. Depending on the season, the show either follows a man or a woman who is looking for the perfect mate from a pool of contestants, or has contestants living together in a mansion competing for a cash prize. Ben Stiller is executive co-producer.\n\nSeason 1 showcases fireman Mark Orlando as the bachelor. Season 2 of the series, which premiered in February 2013, stars June Diane Raphael reprising her role as season 1 contestant Julie, now the bachelorette given the chance to find the perfect man. Season 3 also premiered in 2013 and starred former contestants from Seasons 1 and 2 competing for a $900 prize rather than for love."
-          ]
+          "description": "The Chaser's War on Everything was an Australian television satirical comedy series broadcast on the Australian Broadcasting Corporation television station ABC1. It has won an Australian Film Institute Award for Best Television Comedy Series. The cast perform sketches mocking social and political issues, and often feature comedic publicity stunts. The series is produced by the Australian satirical group, The Chaser, consisting of Chris Taylor, Julian Morrow, Craig Reucassel, Andrew Hansen, and Chas Licciardello. Fellow Chaser members Dominic Knight and Charles Firth are not part of the regular on-screen cast. However, Knight is a writer, and Firth compiled roving reports for the show from the United States, until he left the group to start a satirical newspaper in mid-2007.\n\nThe show premiered on 17 February 2006 and has since produced 58 episodes, broadcast over three seasons between 2006 to 2007 as well as during 2009. The first season was broadcast at an unstable late timeslot on Friday nights. The second and third seasons were broadcast in a more favourable timeslot of Wednesdays at 9 pm. The show did not return in 2008, but returned on 27 May 2009 for the third season featuring only ten episodes. Following the controversy of the \"Make a Realistic Wish Foundation\" sketch, the third season was reduced to 8 episodes, being suspended for 2 weeks."
         }
       ]
     }

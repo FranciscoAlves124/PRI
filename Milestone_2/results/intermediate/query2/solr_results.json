@@ -2,36 +2,26 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 3,
+      "QTime": 10,
       "params": {
-        "json": "{\"query\": \"\\\"Robert De Niro\\\" or \\\"Al Pacino\\\" Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\", \"weightedRating:[7.5 TO 10]\"], \"qf\": [\"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
+        "json": "{\"query\": \"\\\"Robert De Niro\\\" or \\\"Al Pacino\\\" Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\", \"weightedRating:[7.5 TO 10]\"], \"qf\": [\"primaryTitle\", \"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 929,
+      "numFound": 74,
       "start": 0,
       "numFoundExact": true,
       "docs": [
         {
-          "tconst": [
-            "tt0071562"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Godfather Part II"
-          ],
-          "startYear": [
-            1974
-          ],
+          "tconst": "tt0071562",
+          "titleType": "movie",
+          "primaryTitle": "The Godfather Part II",
+          "startYear": 1974,
           "genres": [
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            9.0
-          ],
+          "averageRating": 9.0,
           "top_3_cast": [
             "Al Pacino",
             "Al Pacino - Michael",
@@ -40,31 +30,19 @@
             "Robert Duvall",
             "Robert Duvall - Tom Hagen"
           ],
-          "description": [
-            "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba."
-          ]
+          "description": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba."
         },
         {
-          "tconst": [
-            "tt1302006"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Irishman"
-          ],
-          "startYear": [
-            2019
-          ],
+          "tconst": "tt1302006",
+          "titleType": "movie",
+          "primaryTitle": "The Irishman",
+          "startYear": 2019,
           "genres": [
             "Biography",
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            7.8
-          ],
+          "averageRating": 7.8,
           "top_3_cast": [
             "Robert De Niro",
             "Robert De Niro - Frank Sheeran",
@@ -73,31 +51,19 @@
             "Joe Pesci",
             "Joe Pesci - Russell Bufalino"
           ],
-          "description": [
-            "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years."
-          ]
+          "description": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years."
         },
         {
-          "tconst": [
-            "tt0113277"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Heat"
-          ],
-          "startYear": [
-            1995
-          ],
+          "tconst": "tt0113277",
+          "titleType": "movie",
+          "primaryTitle": "Heat",
+          "startYear": 1995,
           "genres": [
             "Action",
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 8.3,
           "top_3_cast": [
             "Al Pacino",
             "Al Pacino - Vincent Hanna",
@@ -106,31 +72,19 @@
             "Val Kilmer",
             "Val Kilmer - Chris Shiherlis"
           ],
-          "description": [
-            "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence."
-          ]
+          "description": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence."
         },
         {
-          "tconst": [
-            "tt7286456"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Joker"
-          ],
-          "startYear": [
-            2019
-          ],
+          "tconst": "tt7286456",
+          "titleType": "movie",
+          "primaryTitle": "Joker",
+          "startYear": 2019,
           "genres": [
             "Crime",
             "Drama",
             "Thriller"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 8.3,
           "top_3_cast": [
             "Joaquin Phoenix",
             "Joaquin Phoenix - Arthur Fleck",
@@ -139,30 +93,18 @@
             "Zazie Beetz",
             "Zazie Beetz - Sophie Dumond"
           ],
-          "description": [
-            "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure."
-          ]
+          "description": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure."
         },
         {
-          "tconst": [
-            "tt0106489"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "A Bronx Tale"
-          ],
-          "startYear": [
-            1993
-          ],
+          "tconst": "tt0106489",
+          "titleType": "movie",
+          "primaryTitle": "A Bronx Tale",
+          "startYear": 1993,
           "genres": [
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            7.8
-          ],
+          "averageRating": 7.8,
           "top_3_cast": [
             "Robert De Niro",
             "Robert De Niro - Lorenzo",
@@ -171,30 +113,18 @@
             "Lillo Brancato",
             "Lillo Brancato - Calogero (Age 17)"
           ],
-          "description": [
-            "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl."
-          ]
+          "description": "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl."
         },
         {
-          "tconst": [
-            "tt0068646"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Godfather"
-          ],
-          "startYear": [
-            1972
-          ],
+          "tconst": "tt0068646",
+          "titleType": "movie",
+          "primaryTitle": "The Godfather",
+          "startYear": 1972,
           "genres": [
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            9.2
-          ],
+          "averageRating": 9.2,
           "top_3_cast": [
             "Marlon Brando",
             "Marlon Brando - Don Vito Corleone",
@@ -203,30 +133,18 @@
             "James Caan",
             "James Caan - Sonny"
           ],
-          "description": [
-            "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
-          ]
+          "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
         },
         {
-          "tconst": [
-            "tt0087843"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Once Upon a Time in America"
-          ],
-          "startYear": [
-            1984
-          ],
+          "tconst": "tt0087843",
+          "titleType": "movie",
+          "primaryTitle": "Once Upon a Time in America",
+          "startYear": 1984,
           "genres": [
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 8.3,
           "top_3_cast": [
             "Robert De Niro",
             "Robert De Niro - Noodles",
@@ -235,226 +153,18 @@
             "Elizabeth McGovern",
             "Elizabeth McGovern - Deborah"
           ],
-          "description": [
-            "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life."
-          ]
+          "description": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life."
         },
         {
-          "tconst": [
-            "tt0075314"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Taxi Driver"
-          ],
-          "startYear": [
-            1976
-          ],
-          "genres": [
-            "Crime",
-            "Drama"
-          ],
-          "averageRating": [
-            8.2
-          ],
-          "top_3_cast": [
-            "Robert De Niro",
-            "Robert De Niro - Travis Bickle",
-            "Jodie Foster",
-            "Jodie Foster - Iris",
-            "Cybill Shepherd",
-            "Cybill Shepherd - Betsy"
-          ],
-          "description": [
-            "Suffering from insomnia, disturbed loner Travis Bickle takes a job as a New York City cabbie, haunting the streets nightly, growing increasingly detached from reality as he dreams of cleaning up the filthy city."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0112641"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Casino"
-          ],
-          "startYear": [
-            1995
-          ],
-          "genres": [
-            "Crime",
-            "Drama"
-          ],
-          "averageRating": [
-            8.2
-          ],
-          "top_3_cast": [
-            "Robert De Niro",
-            "Robert De Niro - Sam 'Ace' Rothstein",
-            "Sharon Stone",
-            "Sharon Stone - Ginger McKenna",
-            "Joe Pesci",
-            "Joe Pesci - Nicky Santoro"
-          ],
-          "description": [
-            "In early-1970s Las Vegas, Sam \"Ace\" Rothstein gets tapped by his bosses to head the Tangiers Casino. At first, he's a great success in the job, but over the years, problems with his loose-cannon enforcer Nicky Santoro, his ex-hustler wife Ginger, her con-artist ex Lester Diamond and a handful of corrupt politicians put Sam in ever-increasing danger."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0106519"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Carlito's Way"
-          ],
-          "startYear": [
-            1993
-          ],
-          "genres": [
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "averageRating": [
-            7.9
-          ],
-          "top_3_cast": [
-            "Al Pacino",
-            "Al Pacino - Carlito",
-            "Sean Penn",
-            "Sean Penn - Kleinfeld",
-            "Penelope Ann Miller",
-            "Penelope Ann Miller - Gail"
-          ],
-          "description": [
-            "Free after years in prison, Carlito Brigante intends to give up his criminal ways, but it's not long before the ex-con is sucked back into the New York City underworld. Reconnecting with his dancer girlfriend, Carlito gets entangled in the shady dealings of his friend Dave Kleinfeld, who also serves as his lawyer. An encounter with shifty gangster Benny Blanco sets the duo on a dangerous path."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0099685"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Goodfellas"
-          ],
-          "startYear": [
-            1990
-          ],
-          "genres": [
-            "Biography",
-            "Crime",
-            "Drama"
-          ],
-          "averageRating": [
-            8.7
-          ],
-          "top_3_cast": [
-            "Robert De Niro",
-            "Robert De Niro - James Conway",
-            "Ray Liotta",
-            "Ray Liotta - Henry Hill",
-            "Joe Pesci",
-            "Joe Pesci - Tommy DeVito"
-          ],
-          "description": [
-            "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0094226"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Untouchables"
-          ],
-          "startYear": [
-            1987
-          ],
-          "genres": [
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "averageRating": [
-            7.8
-          ],
-          "top_3_cast": [
-            "Kevin Costner",
-            "Kevin Costner - Eliot Ness",
-            "Sean Connery",
-            "Sean Connery - Jim Malone",
-            "Robert De Niro",
-            "Robert De Niro - Al Capone"
-          ],
-          "description": [
-            "Elliot Ness, an ambitious prohibition agent, is determined to take down Al Capone. In order to achieve this goal, he forms a group given the nickname \u201cThe Untouchables\u201d."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0085794"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The King of Comedy"
-          ],
-          "startYear": [
-            1982
-          ],
-          "genres": [
-            "Comedy",
-            "Crime",
-            "Drama"
-          ],
-          "averageRating": [
-            7.8
-          ],
-          "top_3_cast": [
-            "Robert De Niro",
-            "Robert De Niro - Rupert Pupkin",
-            "Jerry Lewis",
-            "Jerry Lewis - Jerry Langford",
-            "Diahnne Abbott",
-            "Diahnne Abbott - Rita Keane"
-          ],
-          "description": [
-            "Aspiring comic Rupert Pupkin attempts to achieve success in show business by stalking his idol, a late night talk-show host who craves his own privacy."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0077416"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Deer Hunter"
-          ],
-          "startYear": [
-            1978
-          ],
+          "tconst": "tt0077416",
+          "titleType": "movie",
+          "primaryTitle": "The Deer Hunter",
+          "startYear": 1978,
           "genres": [
             "Drama",
             "War"
           ],
-          "averageRating": [
-            8.1
-          ],
+          "averageRating": 8.1,
           "top_3_cast": [
             "Robert De Niro",
             "Robert De Niro - Michael",
@@ -463,31 +173,39 @@
             "John Cazale",
             "John Cazale - Stan"
           ],
-          "description": [
-            "A group of working-class friends decide to enlist in the Army during the Vietnam War and finds it to be hellish chaos -- not the noble venture they imagined. Before they left, Steven married his pregnant girlfriend -- and Michael and Nick were in love with the same woman. But all three are different men upon their return."
-          ]
+          "description": "A group of working-class friends decide to enlist in the Army during the Vietnam War and finds it to be hellish chaos -- not the noble venture they imagined. Before they left, Steven married his pregnant girlfriend -- and Michael and Nick were in love with the same woman. But all three are different men upon their return."
         },
         {
-          "tconst": [
-            "tt1045658"
+          "tconst": "tt0075314",
+          "titleType": "movie",
+          "primaryTitle": "Taxi Driver",
+          "startYear": 1976,
+          "genres": [
+            "Crime",
+            "Drama"
           ],
-          "titleType": [
-            "movie"
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Robert De Niro",
+            "Robert De Niro - Travis Bickle",
+            "Jodie Foster",
+            "Jodie Foster - Iris",
+            "Cybill Shepherd",
+            "Cybill Shepherd - Betsy"
           ],
-          "primaryTitle": [
-            "Silver Linings Playbook"
-          ],
-          "startYear": [
-            2012
-          ],
+          "description": "Suffering from insomnia, disturbed loner Travis Bickle takes a job as a New York City cabbie, haunting the streets nightly, growing increasingly detached from reality as he dreams of cleaning up the filthy city."
+        },
+        {
+          "tconst": "tt1045658",
+          "titleType": "movie",
+          "primaryTitle": "Silver Linings Playbook",
+          "startYear": 2012,
           "genres": [
             "Comedy",
             "Drama",
             "Romance"
           ],
-          "averageRating": [
-            7.7
-          ],
+          "averageRating": 7.7,
           "top_3_cast": [
             "Bradley Cooper",
             "Bradley Cooper - Pat",
@@ -496,97 +214,61 @@
             "Robert De Niro",
             "Robert De Niro - Pat Sr."
           ],
-          "description": [
-            "After losing his job and wife, and spending time in an institution, a former teacher winds up living with his parents. He wants to rebuild his life and reconcile with his wife, but his father would be happy if he shared his obsession with the Philadelphia Eagles. Things get complicated when he meets Tiffany Maxwell who offers to help him reconnect with his wife if he will do something very important for her in exchange."
-          ]
+          "description": "After losing his job and wife, and spending time in an institution, a former teacher winds up living with his parents. He wants to rebuild his life and reconcile with his wife, but his father would be happy if he shared his obsession with the Philadelphia Eagles. Things get complicated when he meets Tiffany Maxwell who offers to help him reconnect with his wife if he will do something very important for her in exchange."
         },
         {
-          "tconst": [
-            "tt0072890"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Dog Day Afternoon"
-          ],
-          "startYear": [
-            1975
-          ],
+          "tconst": "tt0099685",
+          "titleType": "movie",
+          "primaryTitle": "Goodfellas",
+          "startYear": 1990,
           "genres": [
             "Biography",
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            8.0
-          ],
+          "averageRating": 8.7,
           "top_3_cast": [
-            "Al Pacino",
-            "Al Pacino - Sonny",
-            "John Cazale",
-            "John Cazale - Sal",
-            "Penelope Allen",
-            "Penelope Allen - Sylvia"
+            "Robert De Niro",
+            "Robert De Niro - James Conway",
+            "Ray Liotta",
+            "Ray Liotta - Henry Hill",
+            "Joe Pesci",
+            "Joe Pesci - Tommy DeVito"
           ],
-          "description": [
-            "Based on the true story of would-be Brooklyn bank robbers John Wojtowicz and Salvatore Naturile. Sonny and Sal attempt a bank heist which quickly turns sour and escalates into a hostage situation and stand-off with the police. As Sonny's motives for the robbery are slowly revealed and things become more complicated, the heist turns into a media circus."
-          ]
+          "description": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway."
         },
         {
-          "tconst": [
-            "tt0119008"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Donnie Brasco"
-          ],
-          "startYear": [
-            1997
-          ],
+          "tconst": "tt0094226",
+          "titleType": "movie",
+          "primaryTitle": "The Untouchables",
+          "startYear": 1987,
           "genres": [
-            "Biography",
             "Crime",
-            "Drama"
+            "Drama",
+            "Thriller"
           ],
-          "averageRating": [
-            7.7
-          ],
+          "averageRating": 7.8,
           "top_3_cast": [
-            "Al Pacino",
-            "Al Pacino - Lefty",
-            "Johnny Depp",
-            "Johnny Depp - Donnie",
-            "Michael Madsen",
-            "Michael Madsen - Sonny"
+            "Kevin Costner",
+            "Kevin Costner - Eliot Ness",
+            "Sean Connery",
+            "Sean Connery - Jim Malone",
+            "Robert De Niro",
+            "Robert De Niro - Al Capone"
           ],
-          "description": [
-            "An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one."
-          ]
+          "description": "Elliot Ness, an ambitious prohibition agent, is determined to take down Al Capone. In order to achieve this goal, he forms a group given the nickname \u201cThe Untouchables\u201d."
         },
         {
-          "tconst": [
-            "tt0088846"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Brazil"
-          ],
-          "startYear": [
-            1985
-          ],
+          "tconst": "tt0088846",
+          "titleType": "movie",
+          "primaryTitle": "Brazil",
+          "startYear": 1985,
           "genres": [
             "Drama",
             "Sci-Fi",
             "Thriller"
           ],
-          "averageRating": [
-            7.8
-          ],
+          "averageRating": 7.8,
           "top_3_cast": [
             "Jonathan Pryce",
             "Jonathan Pryce - Sam Lowry",
@@ -595,62 +277,80 @@
             "Robert De Niro",
             "Robert De Niro - Harry Tuttle"
           ],
-          "description": [
-            "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies."
-          ]
+          "description": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies."
         },
         {
-          "tconst": [
-            "tt0086250"
+          "tconst": "tt0085794",
+          "titleType": "movie",
+          "primaryTitle": "The King of Comedy",
+          "startYear": 1982,
+          "genres": [
+            "Comedy",
+            "Crime",
+            "Drama"
           ],
-          "titleType": [
-            "movie"
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "Robert De Niro",
+            "Robert De Niro - Rupert Pupkin",
+            "Jerry Lewis",
+            "Jerry Lewis - Jerry Langford",
+            "Diahnne Abbott",
+            "Diahnne Abbott - Rita Keane"
           ],
-          "primaryTitle": [
-            "Scarface"
-          ],
-          "startYear": [
-            1983
-          ],
+          "description": "Aspiring comic Rupert Pupkin attempts to achieve success in show business by stalking his idol, a late night talk-show host who craves his own privacy."
+        },
+        {
+          "tconst": "tt0112641",
+          "titleType": "movie",
+          "primaryTitle": "Casino",
+          "startYear": 1995,
           "genres": [
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 8.2,
           "top_3_cast": [
-            "Al Pacino",
-            "Al Pacino - Tony Montana",
-            "Michelle Pfeiffer",
-            "Michelle Pfeiffer - Elvira",
-            "Steven Bauer",
-            "Steven Bauer - Manny Ray"
+            "Robert De Niro",
+            "Robert De Niro - Sam 'Ace' Rothstein",
+            "Sharon Stone",
+            "Sharon Stone - Ginger McKenna",
+            "Joe Pesci",
+            "Joe Pesci - Nicky Santoro"
           ],
-          "description": [
-            "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall."
-          ]
+          "description": "In early-1970s Las Vegas, Sam \"Ace\" Rothstein gets tapped by his bosses to head the Tangiers Casino. At first, he's a great success in the job, but over the years, problems with his loose-cannon enforcer Nicky Santoro, his ex-hustler wife Ginger, her con-artist ex Lester Diamond and a handful of corrupt politicians put Sam in ever-increasing danger."
         },
         {
-          "tconst": [
-            "tt0099077"
+          "tconst": "tt0081398",
+          "titleType": "movie",
+          "primaryTitle": "Raging Bull",
+          "startYear": 1980,
+          "genres": [
+            "Biography",
+            "Drama",
+            "Sport"
           ],
-          "titleType": [
-            "movie"
+          "averageRating": 8.1,
+          "top_3_cast": [
+            "Robert De Niro",
+            "Robert De Niro - Jake La Motta",
+            "Cathy Moriarty",
+            "Cathy Moriarty - Vickie La Motta",
+            "Joe Pesci",
+            "Joe Pesci - Joey"
           ],
-          "primaryTitle": [
-            "Awakenings"
-          ],
-          "startYear": [
-            1990
-          ],
+          "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it."
+        },
+        {
+          "tconst": "tt0099077",
+          "titleType": "movie",
+          "primaryTitle": "Awakenings",
+          "startYear": 1990,
           "genres": [
             "Biography",
             "Drama"
           ],
-          "averageRating": [
-            7.8
-          ],
+          "averageRating": 7.8,
           "top_3_cast": [
             "Robert De Niro",
             "Robert De Niro - Leonard Lowe",
@@ -659,9 +359,69 @@
             "Julie Kavner",
             "Julie Kavner - Eleanor Costello"
           ],
-          "description": [
-            "Dr. Malcolm Sayer, a shy research physician, uses an experimental drug to \"awaken\" the catatonic victims of a rare disease. Leonard is the first patient to receive the controversial treatment. His awakening, filled with awe and enthusiasm, proves a rebirth for Sayer too, as the exuberant patient reveals life's simple but unutterably sweet pleasures to the introverted doctor."
-          ]
+          "description": "Dr. Malcolm Sayer, a shy research physician, uses an experimental drug to \"awaken\" the catatonic victims of a rare disease. Leonard is the first patient to receive the controversial treatment. His awakening, filled with awe and enthusiasm, proves a rebirth for Sayer too, as the exuberant patient reveals life's simple but unutterably sweet pleasures to the introverted doctor."
+        },
+        {
+          "tconst": "tt0072890",
+          "titleType": "movie",
+          "primaryTitle": "Dog Day Afternoon",
+          "startYear": 1975,
+          "genres": [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 8.0,
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Sonny",
+            "John Cazale",
+            "John Cazale - Sal",
+            "Penelope Allen",
+            "Penelope Allen - Sylvia"
+          ],
+          "description": "Based on the true story of would-be Brooklyn bank robbers John Wojtowicz and Salvatore Naturile. Sonny and Sal attempt a bank heist which quickly turns sour and escalates into a hostage situation and stand-off with the police. As Sonny's motives for the robbery are slowly revealed and things become more complicated, the heist turns into a media circus."
+        },
+        {
+          "tconst": "tt0119008",
+          "titleType": "movie",
+          "primaryTitle": "Donnie Brasco",
+          "startYear": 1997,
+          "genres": [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Lefty",
+            "Johnny Depp",
+            "Johnny Depp - Donnie",
+            "Michael Madsen",
+            "Michael Madsen - Sonny"
+          ],
+          "description": "An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one."
+        },
+        {
+          "tconst": "tt0086250",
+          "titleType": "movie",
+          "primaryTitle": "Scarface",
+          "startYear": 1983,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 8.3,
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Tony Montana",
+            "Michelle Pfeiffer",
+            "Michelle Pfeiffer - Elvira",
+            "Steven Bauer",
+            "Steven Bauer - Manny Ray"
+          ],
+          "description": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall."
         }
       ]
     }
@@ -669,36 +429,26 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 3,
+      "QTime": 4,
       "params": {
-        "json": "{\"query\": \"\\\"Robert De Niro\\\" or \\\"Al Pacino\\\" Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\", \"weightedRating:[7.5 TO 10]\"], \"qf\": \"genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
+        "json": "{\"query\": \"\\\"Robert De Niro\\\" or \\\"Al Pacino\\\" Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\", \"weightedRating:[7.5 TO 10]\"], \"qf\": \"primaryTitle^2 genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 929,
+      "numFound": 74,
       "start": 0,
       "numFoundExact": true,
       "docs": [
         {
-          "tconst": [
-            "tt0071562"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Godfather Part II"
-          ],
-          "startYear": [
-            1974
-          ],
+          "tconst": "tt0071562",
+          "titleType": "movie",
+          "primaryTitle": "The Godfather Part II",
+          "startYear": 1974,
           "genres": [
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            9.0
-          ],
+          "averageRating": 9.0,
           "top_3_cast": [
             "Al Pacino",
             "Al Pacino - Michael",
@@ -707,31 +457,19 @@
             "Robert Duvall",
             "Robert Duvall - Tom Hagen"
           ],
-          "description": [
-            "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba."
-          ]
+          "description": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba."
         },
         {
-          "tconst": [
-            "tt1302006"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Irishman"
-          ],
-          "startYear": [
-            2019
-          ],
+          "tconst": "tt1302006",
+          "titleType": "movie",
+          "primaryTitle": "The Irishman",
+          "startYear": 2019,
           "genres": [
             "Biography",
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            7.8
-          ],
+          "averageRating": 7.8,
           "top_3_cast": [
             "Robert De Niro",
             "Robert De Niro - Frank Sheeran",
@@ -740,31 +478,19 @@
             "Joe Pesci",
             "Joe Pesci - Russell Bufalino"
           ],
-          "description": [
-            "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years."
-          ]
+          "description": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years."
         },
         {
-          "tconst": [
-            "tt0113277"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Heat"
-          ],
-          "startYear": [
-            1995
-          ],
+          "tconst": "tt0113277",
+          "titleType": "movie",
+          "primaryTitle": "Heat",
+          "startYear": 1995,
           "genres": [
             "Action",
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 8.3,
           "top_3_cast": [
             "Al Pacino",
             "Al Pacino - Vincent Hanna",
@@ -773,31 +499,19 @@
             "Val Kilmer",
             "Val Kilmer - Chris Shiherlis"
           ],
-          "description": [
-            "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence."
-          ]
+          "description": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence."
         },
         {
-          "tconst": [
-            "tt7286456"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Joker"
-          ],
-          "startYear": [
-            2019
-          ],
+          "tconst": "tt7286456",
+          "titleType": "movie",
+          "primaryTitle": "Joker",
+          "startYear": 2019,
           "genres": [
             "Crime",
             "Drama",
             "Thriller"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 8.3,
           "top_3_cast": [
             "Joaquin Phoenix",
             "Joaquin Phoenix - Arthur Fleck",
@@ -806,30 +520,18 @@
             "Zazie Beetz",
             "Zazie Beetz - Sophie Dumond"
           ],
-          "description": [
-            "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure."
-          ]
+          "description": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure."
         },
         {
-          "tconst": [
-            "tt0106489"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "A Bronx Tale"
-          ],
-          "startYear": [
-            1993
-          ],
+          "tconst": "tt0106489",
+          "titleType": "movie",
+          "primaryTitle": "A Bronx Tale",
+          "startYear": 1993,
           "genres": [
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            7.8
-          ],
+          "averageRating": 7.8,
           "top_3_cast": [
             "Robert De Niro",
             "Robert De Niro - Lorenzo",
@@ -838,30 +540,18 @@
             "Lillo Brancato",
             "Lillo Brancato - Calogero (Age 17)"
           ],
-          "description": [
-            "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl."
-          ]
+          "description": "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl."
         },
         {
-          "tconst": [
-            "tt0068646"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Godfather"
-          ],
-          "startYear": [
-            1972
-          ],
+          "tconst": "tt0068646",
+          "titleType": "movie",
+          "primaryTitle": "The Godfather",
+          "startYear": 1972,
           "genres": [
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            9.2
-          ],
+          "averageRating": 9.2,
           "top_3_cast": [
             "Marlon Brando",
             "Marlon Brando - Don Vito Corleone",
@@ -870,63 +560,18 @@
             "James Caan",
             "James Caan - Sonny"
           ],
-          "description": [
-            "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
-          ]
+          "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
         },
         {
-          "tconst": [
-            "tt0106519"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Carlito's Way"
-          ],
-          "startYear": [
-            1993
-          ],
-          "genres": [
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "averageRating": [
-            7.9
-          ],
-          "top_3_cast": [
-            "Al Pacino",
-            "Al Pacino - Carlito",
-            "Sean Penn",
-            "Sean Penn - Kleinfeld",
-            "Penelope Ann Miller",
-            "Penelope Ann Miller - Gail"
-          ],
-          "description": [
-            "Free after years in prison, Carlito Brigante intends to give up his criminal ways, but it's not long before the ex-con is sucked back into the New York City underworld. Reconnecting with his dancer girlfriend, Carlito gets entangled in the shady dealings of his friend Dave Kleinfeld, who also serves as his lawyer. An encounter with shifty gangster Benny Blanco sets the duo on a dangerous path."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0087843"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Once Upon a Time in America"
-          ],
-          "startYear": [
-            1984
-          ],
+          "tconst": "tt0087843",
+          "titleType": "movie",
+          "primaryTitle": "Once Upon a Time in America",
+          "startYear": 1984,
           "genres": [
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 8.3,
           "top_3_cast": [
             "Robert De Niro",
             "Robert De Niro - Noodles",
@@ -935,193 +580,18 @@
             "Elizabeth McGovern",
             "Elizabeth McGovern - Deborah"
           ],
-          "description": [
-            "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life."
-          ]
+          "description": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life."
         },
         {
-          "tconst": [
-            "tt0075314"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Taxi Driver"
-          ],
-          "startYear": [
-            1976
-          ],
-          "genres": [
-            "Crime",
-            "Drama"
-          ],
-          "averageRating": [
-            8.2
-          ],
-          "top_3_cast": [
-            "Robert De Niro",
-            "Robert De Niro - Travis Bickle",
-            "Jodie Foster",
-            "Jodie Foster - Iris",
-            "Cybill Shepherd",
-            "Cybill Shepherd - Betsy"
-          ],
-          "description": [
-            "Suffering from insomnia, disturbed loner Travis Bickle takes a job as a New York City cabbie, haunting the streets nightly, growing increasingly detached from reality as he dreams of cleaning up the filthy city."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0112641"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Casino"
-          ],
-          "startYear": [
-            1995
-          ],
-          "genres": [
-            "Crime",
-            "Drama"
-          ],
-          "averageRating": [
-            8.2
-          ],
-          "top_3_cast": [
-            "Robert De Niro",
-            "Robert De Niro - Sam 'Ace' Rothstein",
-            "Sharon Stone",
-            "Sharon Stone - Ginger McKenna",
-            "Joe Pesci",
-            "Joe Pesci - Nicky Santoro"
-          ],
-          "description": [
-            "In early-1970s Las Vegas, Sam \"Ace\" Rothstein gets tapped by his bosses to head the Tangiers Casino. At first, he's a great success in the job, but over the years, problems with his loose-cannon enforcer Nicky Santoro, his ex-hustler wife Ginger, her con-artist ex Lester Diamond and a handful of corrupt politicians put Sam in ever-increasing danger."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0099685"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Goodfellas"
-          ],
-          "startYear": [
-            1990
-          ],
-          "genres": [
-            "Biography",
-            "Crime",
-            "Drama"
-          ],
-          "averageRating": [
-            8.7
-          ],
-          "top_3_cast": [
-            "Robert De Niro",
-            "Robert De Niro - James Conway",
-            "Ray Liotta",
-            "Ray Liotta - Henry Hill",
-            "Joe Pesci",
-            "Joe Pesci - Tommy DeVito"
-          ],
-          "description": [
-            "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0094226"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Untouchables"
-          ],
-          "startYear": [
-            1987
-          ],
-          "genres": [
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "averageRating": [
-            7.8
-          ],
-          "top_3_cast": [
-            "Kevin Costner",
-            "Kevin Costner - Eliot Ness",
-            "Sean Connery",
-            "Sean Connery - Jim Malone",
-            "Robert De Niro",
-            "Robert De Niro - Al Capone"
-          ],
-          "description": [
-            "Elliot Ness, an ambitious prohibition agent, is determined to take down Al Capone. In order to achieve this goal, he forms a group given the nickname \u201cThe Untouchables\u201d."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0085794"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The King of Comedy"
-          ],
-          "startYear": [
-            1982
-          ],
-          "genres": [
-            "Comedy",
-            "Crime",
-            "Drama"
-          ],
-          "averageRating": [
-            7.8
-          ],
-          "top_3_cast": [
-            "Robert De Niro",
-            "Robert De Niro - Rupert Pupkin",
-            "Jerry Lewis",
-            "Jerry Lewis - Jerry Langford",
-            "Diahnne Abbott",
-            "Diahnne Abbott - Rita Keane"
-          ],
-          "description": [
-            "Aspiring comic Rupert Pupkin attempts to achieve success in show business by stalking his idol, a late night talk-show host who craves his own privacy."
-          ]
-        },
-        {
-          "tconst": [
-            "tt0077416"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "The Deer Hunter"
-          ],
-          "startYear": [
-            1978
-          ],
+          "tconst": "tt0077416",
+          "titleType": "movie",
+          "primaryTitle": "The Deer Hunter",
+          "startYear": 1978,
           "genres": [
             "Drama",
             "War"
           ],
-          "averageRating": [
-            8.1
-          ],
+          "averageRating": 8.1,
           "top_3_cast": [
             "Robert De Niro",
             "Robert De Niro - Michael",
@@ -1130,31 +600,39 @@
             "John Cazale",
             "John Cazale - Stan"
           ],
-          "description": [
-            "A group of working-class friends decide to enlist in the Army during the Vietnam War and finds it to be hellish chaos -- not the noble venture they imagined. Before they left, Steven married his pregnant girlfriend -- and Michael and Nick were in love with the same woman. But all three are different men upon their return."
-          ]
+          "description": "A group of working-class friends decide to enlist in the Army during the Vietnam War and finds it to be hellish chaos -- not the noble venture they imagined. Before they left, Steven married his pregnant girlfriend -- and Michael and Nick were in love with the same woman. But all three are different men upon their return."
         },
         {
-          "tconst": [
-            "tt1045658"
+          "tconst": "tt0075314",
+          "titleType": "movie",
+          "primaryTitle": "Taxi Driver",
+          "startYear": 1976,
+          "genres": [
+            "Crime",
+            "Drama"
           ],
-          "titleType": [
-            "movie"
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Robert De Niro",
+            "Robert De Niro - Travis Bickle",
+            "Jodie Foster",
+            "Jodie Foster - Iris",
+            "Cybill Shepherd",
+            "Cybill Shepherd - Betsy"
           ],
-          "primaryTitle": [
-            "Silver Linings Playbook"
-          ],
-          "startYear": [
-            2012
-          ],
+          "description": "Suffering from insomnia, disturbed loner Travis Bickle takes a job as a New York City cabbie, haunting the streets nightly, growing increasingly detached from reality as he dreams of cleaning up the filthy city."
+        },
+        {
+          "tconst": "tt1045658",
+          "titleType": "movie",
+          "primaryTitle": "Silver Linings Playbook",
+          "startYear": 2012,
           "genres": [
             "Comedy",
             "Drama",
             "Romance"
           ],
-          "averageRating": [
-            7.7
-          ],
+          "averageRating": 7.7,
           "top_3_cast": [
             "Bradley Cooper",
             "Bradley Cooper - Pat",
@@ -1163,97 +641,61 @@
             "Robert De Niro",
             "Robert De Niro - Pat Sr."
           ],
-          "description": [
-            "After losing his job and wife, and spending time in an institution, a former teacher winds up living with his parents. He wants to rebuild his life and reconcile with his wife, but his father would be happy if he shared his obsession with the Philadelphia Eagles. Things get complicated when he meets Tiffany Maxwell who offers to help him reconnect with his wife if he will do something very important for her in exchange."
-          ]
+          "description": "After losing his job and wife, and spending time in an institution, a former teacher winds up living with his parents. He wants to rebuild his life and reconcile with his wife, but his father would be happy if he shared his obsession with the Philadelphia Eagles. Things get complicated when he meets Tiffany Maxwell who offers to help him reconnect with his wife if he will do something very important for her in exchange."
         },
         {
-          "tconst": [
-            "tt0072890"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Dog Day Afternoon"
-          ],
-          "startYear": [
-            1975
-          ],
+          "tconst": "tt0099685",
+          "titleType": "movie",
+          "primaryTitle": "Goodfellas",
+          "startYear": 1990,
           "genres": [
             "Biography",
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            8.0
-          ],
+          "averageRating": 8.7,
           "top_3_cast": [
-            "Al Pacino",
-            "Al Pacino - Sonny",
-            "John Cazale",
-            "John Cazale - Sal",
-            "Penelope Allen",
-            "Penelope Allen - Sylvia"
+            "Robert De Niro",
+            "Robert De Niro - James Conway",
+            "Ray Liotta",
+            "Ray Liotta - Henry Hill",
+            "Joe Pesci",
+            "Joe Pesci - Tommy DeVito"
           ],
-          "description": [
-            "Based on the true story of would-be Brooklyn bank robbers John Wojtowicz and Salvatore Naturile. Sonny and Sal attempt a bank heist which quickly turns sour and escalates into a hostage situation and stand-off with the police. As Sonny's motives for the robbery are slowly revealed and things become more complicated, the heist turns into a media circus."
-          ]
+          "description": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway."
         },
         {
-          "tconst": [
-            "tt0119008"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Donnie Brasco"
-          ],
-          "startYear": [
-            1997
-          ],
+          "tconst": "tt0094226",
+          "titleType": "movie",
+          "primaryTitle": "The Untouchables",
+          "startYear": 1987,
           "genres": [
-            "Biography",
             "Crime",
-            "Drama"
+            "Drama",
+            "Thriller"
           ],
-          "averageRating": [
-            7.7
-          ],
+          "averageRating": 7.8,
           "top_3_cast": [
-            "Al Pacino",
-            "Al Pacino - Lefty",
-            "Johnny Depp",
-            "Johnny Depp - Donnie",
-            "Michael Madsen",
-            "Michael Madsen - Sonny"
+            "Kevin Costner",
+            "Kevin Costner - Eliot Ness",
+            "Sean Connery",
+            "Sean Connery - Jim Malone",
+            "Robert De Niro",
+            "Robert De Niro - Al Capone"
           ],
-          "description": [
-            "An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one."
-          ]
+          "description": "Elliot Ness, an ambitious prohibition agent, is determined to take down Al Capone. In order to achieve this goal, he forms a group given the nickname \u201cThe Untouchables\u201d."
         },
         {
-          "tconst": [
-            "tt0088846"
-          ],
-          "titleType": [
-            "movie"
-          ],
-          "primaryTitle": [
-            "Brazil"
-          ],
-          "startYear": [
-            1985
-          ],
+          "tconst": "tt0088846",
+          "titleType": "movie",
+          "primaryTitle": "Brazil",
+          "startYear": 1985,
           "genres": [
             "Drama",
             "Sci-Fi",
             "Thriller"
           ],
-          "averageRating": [
-            7.8
-          ],
+          "averageRating": 7.8,
           "top_3_cast": [
             "Jonathan Pryce",
             "Jonathan Pryce - Sam Lowry",
@@ -1262,62 +704,80 @@
             "Robert De Niro",
             "Robert De Niro - Harry Tuttle"
           ],
-          "description": [
-            "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies."
-          ]
+          "description": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies."
         },
         {
-          "tconst": [
-            "tt0086250"
+          "tconst": "tt0085794",
+          "titleType": "movie",
+          "primaryTitle": "The King of Comedy",
+          "startYear": 1982,
+          "genres": [
+            "Comedy",
+            "Crime",
+            "Drama"
           ],
-          "titleType": [
-            "movie"
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "Robert De Niro",
+            "Robert De Niro - Rupert Pupkin",
+            "Jerry Lewis",
+            "Jerry Lewis - Jerry Langford",
+            "Diahnne Abbott",
+            "Diahnne Abbott - Rita Keane"
           ],
-          "primaryTitle": [
-            "Scarface"
-          ],
-          "startYear": [
-            1983
-          ],
+          "description": "Aspiring comic Rupert Pupkin attempts to achieve success in show business by stalking his idol, a late night talk-show host who craves his own privacy."
+        },
+        {
+          "tconst": "tt0112641",
+          "titleType": "movie",
+          "primaryTitle": "Casino",
+          "startYear": 1995,
           "genres": [
             "Crime",
             "Drama"
           ],
-          "averageRating": [
-            8.3
-          ],
+          "averageRating": 8.2,
           "top_3_cast": [
-            "Al Pacino",
-            "Al Pacino - Tony Montana",
-            "Michelle Pfeiffer",
-            "Michelle Pfeiffer - Elvira",
-            "Steven Bauer",
-            "Steven Bauer - Manny Ray"
+            "Robert De Niro",
+            "Robert De Niro - Sam 'Ace' Rothstein",
+            "Sharon Stone",
+            "Sharon Stone - Ginger McKenna",
+            "Joe Pesci",
+            "Joe Pesci - Nicky Santoro"
           ],
-          "description": [
-            "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall."
-          ]
+          "description": "In early-1970s Las Vegas, Sam \"Ace\" Rothstein gets tapped by his bosses to head the Tangiers Casino. At first, he's a great success in the job, but over the years, problems with his loose-cannon enforcer Nicky Santoro, his ex-hustler wife Ginger, her con-artist ex Lester Diamond and a handful of corrupt politicians put Sam in ever-increasing danger."
         },
         {
-          "tconst": [
-            "tt0099077"
+          "tconst": "tt0081398",
+          "titleType": "movie",
+          "primaryTitle": "Raging Bull",
+          "startYear": 1980,
+          "genres": [
+            "Biography",
+            "Drama",
+            "Sport"
           ],
-          "titleType": [
-            "movie"
+          "averageRating": 8.1,
+          "top_3_cast": [
+            "Robert De Niro",
+            "Robert De Niro - Jake La Motta",
+            "Cathy Moriarty",
+            "Cathy Moriarty - Vickie La Motta",
+            "Joe Pesci",
+            "Joe Pesci - Joey"
           ],
-          "primaryTitle": [
-            "Awakenings"
-          ],
-          "startYear": [
-            1990
-          ],
+          "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it."
+        },
+        {
+          "tconst": "tt0099077",
+          "titleType": "movie",
+          "primaryTitle": "Awakenings",
+          "startYear": 1990,
           "genres": [
             "Biography",
             "Drama"
           ],
-          "averageRating": [
-            7.8
-          ],
+          "averageRating": 7.8,
           "top_3_cast": [
             "Robert De Niro",
             "Robert De Niro - Leonard Lowe",
@@ -1326,9 +786,69 @@
             "Julie Kavner",
             "Julie Kavner - Eleanor Costello"
           ],
-          "description": [
-            "Dr. Malcolm Sayer, a shy research physician, uses an experimental drug to \"awaken\" the catatonic victims of a rare disease. Leonard is the first patient to receive the controversial treatment. His awakening, filled with awe and enthusiasm, proves a rebirth for Sayer too, as the exuberant patient reveals life's simple but unutterably sweet pleasures to the introverted doctor."
-          ]
+          "description": "Dr. Malcolm Sayer, a shy research physician, uses an experimental drug to \"awaken\" the catatonic victims of a rare disease. Leonard is the first patient to receive the controversial treatment. His awakening, filled with awe and enthusiasm, proves a rebirth for Sayer too, as the exuberant patient reveals life's simple but unutterably sweet pleasures to the introverted doctor."
+        },
+        {
+          "tconst": "tt0072890",
+          "titleType": "movie",
+          "primaryTitle": "Dog Day Afternoon",
+          "startYear": 1975,
+          "genres": [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 8.0,
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Sonny",
+            "John Cazale",
+            "John Cazale - Sal",
+            "Penelope Allen",
+            "Penelope Allen - Sylvia"
+          ],
+          "description": "Based on the true story of would-be Brooklyn bank robbers John Wojtowicz and Salvatore Naturile. Sonny and Sal attempt a bank heist which quickly turns sour and escalates into a hostage situation and stand-off with the police. As Sonny's motives for the robbery are slowly revealed and things become more complicated, the heist turns into a media circus."
+        },
+        {
+          "tconst": "tt0119008",
+          "titleType": "movie",
+          "primaryTitle": "Donnie Brasco",
+          "startYear": 1997,
+          "genres": [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Lefty",
+            "Johnny Depp",
+            "Johnny Depp - Donnie",
+            "Michael Madsen",
+            "Michael Madsen - Sonny"
+          ],
+          "description": "An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one."
+        },
+        {
+          "tconst": "tt0086250",
+          "titleType": "movie",
+          "primaryTitle": "Scarface",
+          "startYear": 1983,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 8.3,
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Tony Montana",
+            "Michelle Pfeiffer",
+            "Michelle Pfeiffer - Elvira",
+            "Steven Bauer",
+            "Steven Bauer - Manny Ray"
+          ],
+          "description": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall."
         }
       ]
     }

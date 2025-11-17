@@ -2,13 +2,13 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 4,
+      "QTime": 9,
       "params": {
-        "json": "{\"query\": \"\\\"artificial intelligence\\\" AI robots androids \\\"machine learning\\\" \\\"sentient machines\\\"\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\"], \"qf\": [\"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
+        "json": "{\"query\": \"\\\"artificial intelligence\\\" AI robots androids \\\"machine learning\\\" \\\"sentient machines\\\"\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\"], \"qf\": [\"primaryTitle\", \"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 12,
+      "numFound": 13,
       "start": 0,
       "numFoundExact": true,
       "docs": [
@@ -34,6 +34,39 @@
           ],
           "description": [
             "The ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. Yet in 2016, Google's DeepMind team announced that they would be taking on Lee Sedol, the world's most elite Go champion. AlphaGo chronicles the team as it prepares to test the limits of its rapidly-evolving AI technology. The film pits man against machine, and reveals as much about the workings of the human mind as it does the future of AI."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0212720"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "A.I. Artificial Intelligence"
+          ],
+          "startYear": [
+            2001
+          ],
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Sci-Fi"
+          ],
+          "averageRating": [
+            7.2
+          ],
+          "top_3_cast": [
+            "Haley Joel Osment",
+            "Haley Joel Osment - David",
+            "Jude Law",
+            "Jude Law - Gigolo Joe",
+            "Frances O'Connor",
+            "Frances O'Connor - Monica Swinton"
+          ],
+          "description": [
+            "David, a robotic boy\u2014the first of his kind programmed to love\u2014is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David."
           ]
         },
         {
@@ -402,13 +435,13 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 2,
+      "QTime": 4,
       "params": {
-        "json": "{\"query\": \"\\\"artificial intelligence\\\" AI robots androids \\\"machine learning\\\" \\\"sentient machines\\\"\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"fq\": [\"titleType:movie\"], \"qf\": \"genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
+        "json": "{\"query\": \"\\\"artificial intelligence\\\" AI robots androids \\\"machine learning\\\" \\\"sentient machines\\\"\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"fq\": [\"titleType:movie\"], \"qf\": \"primaryTitle^2 genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 12,
+      "numFound": 13,
       "start": 0,
       "numFoundExact": true,
       "docs": [
@@ -434,6 +467,39 @@
           ],
           "description": [
             "The ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. Yet in 2016, Google's DeepMind team announced that they would be taking on Lee Sedol, the world's most elite Go champion. AlphaGo chronicles the team as it prepares to test the limits of its rapidly-evolving AI technology. The film pits man against machine, and reveals as much about the workings of the human mind as it does the future of AI."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0212720"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "A.I. Artificial Intelligence"
+          ],
+          "startYear": [
+            2001
+          ],
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Sci-Fi"
+          ],
+          "averageRating": [
+            7.2
+          ],
+          "top_3_cast": [
+            "Haley Joel Osment",
+            "Haley Joel Osment - David",
+            "Jude Law",
+            "Jude Law - Gigolo Joe",
+            "Frances O'Connor",
+            "Frances O'Connor - Monica Swinton"
+          ],
+          "description": [
+            "David, a robotic boy\u2014the first of his kind programmed to love\u2014is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David."
           ]
         },
         {
