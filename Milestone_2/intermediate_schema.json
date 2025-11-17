@@ -79,8 +79,7 @@
                 "filters": [
                     {"class": "solr.LowerCaseFilterFactory"},
                     {"class": "solr.ASCIIFoldingFilterFactory"},
-                    {"class": "solr.ShingleFilterFactory", "minShingleSize": "2", "maxShingleSize": "3", "outputUnigrams": "true"},
-                    {"class": "solr.UniqueTokenFilterFactory"}
+                    {"class": "solr.ShingleFilterFactory", "minShingleSize": "2", "maxShingleSize": "3", "outputUnigrams": "true"}
                 ]
             },
             "queryAnalyzer": {
