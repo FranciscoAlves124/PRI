@@ -1,0 +1,124 @@
+
+# GENERIC SYNONYMS
+film, movie, motion picture, flick, feature film
+tv, television, tv show, television show, series, show
+episode, ep, installment
+actor, actress, performer, cast member
+director, filmmaker, moviemaker
+writer, screenwriter, scriptwriter
+script, screenplay, story draft
+plot, story, narrative, storyline
+thrilling, suspenseful, gripping
+funny, humorous, comedic, amusing
+romantic, sentimental, love-focused
+scary, frightening, horror-like, terrifying
+awful, terrible, horrible, bad, dreadful
+amazing, fantastic, incredible, outstanding
+boring, dull, uninteresting, tedious
+exciting, exhilarating, energizing
+review, critique, opinion, assessment
+character, role, persona, protagonist, antagonist
+soundtrack, score, music, ost
+visuals, imagery, aesthetics
+cinematography, camera work, shot design
+special effects, vfx, cgi, sfx
+genre, category, type
+classic, vintage, timeless
+remake, reboot, reimagining
+trilogy, saga, series
+streaming, online, digital
+rating, score, evaluation
+recommend, suggest, endorse
+predictable, obvious, expected
+underrated, overlooked, hidden gem
+overrated, overhyped, overpraised
+emotional, touching, moving, heartfelt
+violent, brutal, graphic
+dark, gritty, grim, bleak
+lighthearted, easygoing, cheerful
+masterpiece, excellent, brilliant
+cinema, film theatre, movie house
+documentary, doc, nonfiction film
+animation, animated film, cartoon
+short film, short, mini movie
+feature film, feature, full-length film
+pilot, pilot episode, first episode
+season, series run, installment batch
+
+# GENRE SYNONYMS
+action, action-packed, explosive
+adventure, exploration, quest
+comedy, humorous, funny
+romantic comedy, romcom, rom-com
+drama, dramatic, emotional
+thriller, suspense, psychological thriller
+horror, scary, frightening, terror
+mystery, detective, whodunit, crime mystery
+crime, criminal, police procedural
+fantasy, magical, mythical
+sci-fi, science fiction, scifi, futuristic
+superhero, comic book, cape film
+anime, japanese animation, animated series
+war, military, battlefield
+biographical, biopic, life story
+historical, period piece, heritage film
+family, kids, children-friendly
+musical, music film, song-based movie
+western, cowboy, frontier film
+noir, dark detective, neo-noir
+psychological, mind-bending, cerebral
+teen, coming of age, youth drama
+
+# FRANCHISE SYNONYMS
+lotr, lord of the rings, tlotr
+hp, harry potter
+mcu, marvel cinematic universe
+sw, star wars
+twd, the walking dead
+tbbt, the big bang theory
+got, game of thrones
+aot, attack on titan, shingeki no kyojin
+bb, breaking bad
+bcs, better call saul
+naruto, naruto shippuden
+dbz, dragon ball z
+tmnt, teenage mutant ninja turtles
+jjk, jujutsu kaisen
+op, one piece
+st, stranger things
+hp, harry potter, wizarding world
+jw, jurassic world, jurassic park
+ff, fast and furious, fast saga
+tf, transformers
+
+# CHARACTER ALIASES
+aragorn, strider, elessar
+daenerys, khaleesi, dany
+anakin skywalker, darth vader
+tony stark, iron man
+steve rogers, captain america
+bruce wayne, batman
+clark kent, superman
+diana prince, wonder woman
+peter parker, spiderman, spider-man
+wolverine, logan
+batman, the dark knight
+
+# TECH TERMS
+4k, ultra hd, uhd
+hdr, high dynamic range
+sd, standard definition
+hd, high definition
+frame rate, fps
+special effects, vfx, sfx, cgi
+ai, artificial inteligence, machine learning, ml
+
+# REVIEW LANGUAGE
+slow, sluggish, dragging
+fast-paced, quick, energetic
+deep, meaningful, philosophical
+shallow, surface-level, empty
+iconic, memorable, legendary
+forgettable, bland, generic
+intense, powerful, strong
+weak, poor, lacking
