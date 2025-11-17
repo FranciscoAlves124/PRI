@@ -62,10 +62,10 @@ python3 apply_schema.py --core media_intermediate --file intermediate_schema.jso
 #### verify schema applied
 curl 'http://localhost:8983/solr/media_intermediate/schema/fields?wt=json' | sed -n '1,200p'
 
-#### index documents (only after schema applied)
-docker exec initial_solr solr post -c media_basic /data/final_data_solr/movies_series.json
-docker exec initial_solr solr post -c media_intermediate /data/final_data_solr/movies_series.json
-docker cp ./Milestone_2/synonyms.txt initial_solr:/var/solr/data/media_intermediate/conf/synonyms.txt
+#### index **(fixed cast)** documents (only after schema applied)
+docker exec initial_solr solr post -c media_basic /data/final_data_solr/movies_series_fixed.json
+docker exec initial_solr solr post -c media_intermediate /data/final_data_solr/movies_series_fixed.json
+docker cp ./synonyms.txt initial_solr:/var/solr/data/media_intermediate/conf/synonyms.txt
 
 
 # optional: run the bash startup helper (will apply schema first if apply_schema.py is present)
@@ -91,11 +91,11 @@ python .\apply_schema.py --core media_intermediate --file .\intermediate_schema.
 #### verify schema applied (PowerShell)
 Invoke-RestMethod -Uri 'http://localhost:8983/solr/media_intermediate/schema/fields?wt=json' -Method Get
 
-#### index documents Basic (only after schema applied)
-docker exec initial_solr solr post -c media_basic /data/final_data_solr/movies_series.json
+#### index **(fixed)** documents Basic (only after schema applied)
+docker exec initial_solr solr post -c media_basic /data/final_data_solr/movies_series_fixed.json
 
-#### index documents Intermediate (only after schema applied)
-docker exec initial_solr solr post -c media_intermediate /data/final_data_solr/movies_series.json
+#### index **(fixed)** documents Intermediate (only after schema applied)
+docker exec initial_solr solr post -c media_intermediate /data/final_data_solr/movies_series_fixed.json
 
 #### optional: run the startup script from WSL/Git-Bash, or run in PowerShell via WSL:
 wsl bash ./startup.sh intermediate --recreate
