@@ -1,0 +1,354 @@
+{
+  "1": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 1,
+      "params": {
+        "json": "{\"query\": \"\\\"artificial intelligence\\\" AI robots androids machine-learning 'sentient machines'\", \"fields\": [\"tconst\", \"primaryTitle\", \"description\", \"genres\", \"averageRating\", \"startYear\"], \"params\": {\"defType\": \"edismax\", \"qf\": \"description genres primaryTitle\", \"fq\": [\"titleType:movie\"], \"rows\": 20, \"sort\": \"score desc\"}}"
+      }
+    },
+    "response": {
+      "numFound": 243,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": "tt0212720",
+          "primaryTitle": "A.I. Artificial Intelligence",
+          "startYear": 2001,
+          "genres": "Adventure,Drama,Sci-Fi",
+          "averageRating": 7.2,
+          "description": "David, a robotic boy\u2014the first of his kind programmed to love\u2014is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David."
+        },
+        {
+          "tconst": "tt13087796",
+          "primaryTitle": "I'm Your Man",
+          "startYear": 2021,
+          "genres": "Comedy,Drama,Romance",
+          "averageRating": 7.1,
+          "description": "Alma is a scientist coerced into participating in an extraordinary study in order to obtain research funds for her work. For three weeks, she has to live with a humanoid robot tailored to her character and needs, whose artificial intelligence is designed to be the perfect life partner for her. Enter Tom, a machine in human form in a class of its own, created solely to make her happy."
+        },
+        {
+          "tconst": "tt7979580",
+          "primaryTitle": "The Mitchells vs. the Machines",
+          "startYear": 2021,
+          "genres": "Adventure,Animation,Comedy",
+          "averageRating": 7.6,
+          "description": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope."
+        },
+        {
+          "tconst": "tt6700846",
+          "primaryTitle": "AlphaGo",
+          "startYear": 2017,
+          "genres": "Documentary,Sport",
+          "averageRating": 7.8,
+          "description": "The ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. Yet in 2016, Google's DeepMind team announced that they would be taking on Lee Sedol, the world's most elite Go champion. AlphaGo chronicles the team as it prepares to test the limits of its rapidly-evolving AI technology. The film pits man against machine, and reveals as much about the workings of the human mind as it does the future of AI."
+        },
+        {
+          "tconst": "tt0844471",
+          "primaryTitle": "Cloudy with a Chance of Meatballs",
+          "startYear": 2009,
+          "genres": "Adventure,Animation,Comedy",
+          "averageRating": 6.9,
+          "description": "Inventor Flint Lockwood creates a machine that makes clouds rain food, enabling the down-and-out citizens of Chewandswallow to feed themselves. But when the falling food reaches gargantuan proportions, Flint must scramble to avert disaster. Can he regain control of the machine and put an end to the wild weather before the town is destroyed?"
+        },
+        {
+          "tconst": "tt0480669",
+          "primaryTitle": "Timecrimes",
+          "startYear": 2007,
+          "genres": "Horror,Mystery,Sci-Fi",
+          "averageRating": 7.1,
+          "description": "A man accidentally gets into a time machine and travels back in time nearly an hour. Finding himself will be the first of a series of disasters of unforeseeable consequences."
+        },
+        {
+          "tconst": "tt0851578",
+          "primaryTitle": "Paprika",
+          "startYear": 2006,
+          "genres": "Animation,Drama,Fantasy",
+          "averageRating": 7.7,
+          "description": "When a machine that allows therapists to enter their patient's dreams is stolen, all hell breaks loose. Only a young female therapist can stop it and recover it before damage is done: Paprika."
+        },
+        {
+          "tconst": "tt7218518",
+          "primaryTitle": "Pad Man",
+          "startYear": 2018,
+          "genres": "Comedy,Drama",
+          "averageRating": 7.8,
+          "description": "Upon realizing the extent to which women are affected by their menses, a man sets out to create a sanitary pad machine and to provide inexpensive sanitary pads to the women of rural India."
+        },
+        {
+          "tconst": "tt0057578",
+          "primaryTitle": "This Sporting Life",
+          "startYear": 1963,
+          "genres": "Drama,Sport",
+          "averageRating": 7.5,
+          "description": "In Northern England in the early 1960s, Frank Machin is mean, tough and ambitious enough to become an immediate star in the rugby league team run by local employer Weaver."
+        },
+        {
+          "tconst": "tt0094737",
+          "primaryTitle": "Big",
+          "startYear": 1988,
+          "genres": "Comedy,Drama,Fantasy",
+          "averageRating": 7.3,
+          "description": "When a young boy makes a wish at a carnival machine to be big\u2014he wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman."
+        },
+        {
+          "tconst": "tt0070233",
+          "primaryTitle": "Ivan Vasilyevich Changes His Profession",
+          "startYear": 1973,
+          "genres": "Adventure,Comedy,Sci-Fi",
+          "averageRating": 8.2,
+          "description": "A scientist builds a time machine and accidentally sends his apartment complex manager and a petty burglar to 16th century Moscow, while Tsar Ivan the Terrible travels to 1973."
+        },
+        {
+          "tconst": "tt0080025",
+          "primaryTitle": "Time After Time",
+          "startYear": 1979,
+          "genres": "Adventure,Drama,Sci-Fi",
+          "averageRating": 7.0,
+          "description": "Writer H. G. Wells pursues Jack the Ripper to modern day San Francisco after the infamous serial killer steals his time machine to escape the 19th century."
+        },
+        {
+          "tconst": "tt0129167",
+          "primaryTitle": "The Iron Giant",
+          "startYear": 1999,
+          "genres": "Action,Adventure,Animation",
+          "averageRating": 8.1,
+          "description": "In the small town of Rockwell, Maine in October 1957, a giant metal machine befriends a nine-year-old boy and ultimately finds its humanity by unselfishly saving people from their own fears and prejudices."
+        },
+        {
+          "tconst": "tt4806232",
+          "primaryTitle": "Indru Netru Naalai",
+          "startYear": 2015,
+          "genres": "Comedy,Sci-Fi,Thriller",
+          "averageRating": 8.0,
+          "description": "Elango and his astrologer friend Pulivetti Arumugam come in possession of a time machine and start profiting from it. However, their meddling with time prevents the death of a gangster, who begins to wreck havoc in their lives."
+        },
+        {
+          "tconst": "tt0396555",
+          "primaryTitle": "Meet the Robinsons",
+          "startYear": 2007,
+          "genres": "Adventure,Animation,Comedy",
+          "averageRating": 6.8,
+          "description": "Lewis, a brilliant young inventor, is keen on creating a time machine to find his mother, who abandoned him in an orphanage. Things take a turn when he meets Wilbur Robinson and his family."
+        },
+        {
+          "tconst": "tt0054387",
+          "primaryTitle": "The Time Machine",
+          "startYear": 1960,
+          "genres": "Adventure,Romance,Sci-Fi",
+          "averageRating": 7.5,
+          "description": "A Victorian Englishman travels to the far future and finds that humanity has divided into two hostile species."
+        },
+        {
+          "tconst": "tt11214558",
+          "primaryTitle": "The Smashing Machine",
+          "startYear": 2025,
+          "genres": "Action,Biography,Drama",
+          "averageRating": 7.2,
+          "description": "In the late 1990s, up-and-coming mixed martial artist Mark Kerr aspires to become the greatest fighter in the world. However, he must also battle his opiod dependence and a volatile relationship with his girlfriend Dawn."
+        },
+        {
+          "tconst": "tt3233418",
+          "primaryTitle": "Spare Parts",
+          "startYear": 2015,
+          "genres": "Biography,Drama,History",
+          "averageRating": 7.2,
+          "description": "With the help of their high school's newest teacher, four Hispanic students form a robotics club. Although they have no experience, the youths set their sights on a national robotics contest. With $800 and parts scavenged from old cars, they build a robot and compete against reigning champion MIT. Along the way, the students learn not only how to build a robot but something far more important: how to forge bonds that will last a lifetime."
+        },
+        {
+          "tconst": "tt0425601",
+          "primaryTitle": "Trailer Park Boys: The Movie",
+          "startYear": 2006,
+          "genres": "Comedy,Crime",
+          "averageRating": 7.1,
+          "description": "The boys get arrested for robbing an ATM machine and spend 18 months in jail, upon release they decide to pull off \"The Big Dirty\", a plan to steal a large amount of coins because they are untraceable and quit their life of crime forever."
+        },
+        {
+          "tconst": "tt4624424",
+          "primaryTitle": "Storks",
+          "startYear": 2016,
+          "genres": "Adventure,Animation,Comedy",
+          "averageRating": 6.8,
+          "description": "Storks deliver babies\u2026or at least they used to. Now they deliver packages for a global internet retail giant. Junior, the company\u2019s top delivery stork, is about to be promoted when he accidentally activates the Baby Making Machine, producing an adorable and wholly unauthorized baby girl..."
+        }
+      ]
+    }
+  },
+  "2": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 2,
+      "params": {
+        "json": "{\"query\": \"\\\"artificial intelligence\\\" AI robots androids machine-learning 'sentient machines'\", \"fields\": [\"tconst\", \"primaryTitle\", \"description\", \"genres\", \"averageRating\", \"startYear\"], \"params\": {\"defType\": \"edismax\", \"qf\": \"description^4 genres^2 primaryTitle\", \"fq\": [\"titleType:movie\"], \"rows\": 20, \"sort\": \"score desc\"}}"
+      }
+    },
+    "response": {
+      "numFound": 243,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": "tt13087796",
+          "primaryTitle": "I'm Your Man",
+          "startYear": 2021,
+          "genres": "Comedy,Drama,Romance",
+          "averageRating": 7.1,
+          "description": "Alma is a scientist coerced into participating in an extraordinary study in order to obtain research funds for her work. For three weeks, she has to live with a humanoid robot tailored to her character and needs, whose artificial intelligence is designed to be the perfect life partner for her. Enter Tom, a machine in human form in a class of its own, created solely to make her happy."
+        },
+        {
+          "tconst": "tt6700846",
+          "primaryTitle": "AlphaGo",
+          "startYear": 2017,
+          "genres": "Documentary,Sport",
+          "averageRating": 7.8,
+          "description": "The ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. Yet in 2016, Google's DeepMind team announced that they would be taking on Lee Sedol, the world's most elite Go champion. AlphaGo chronicles the team as it prepares to test the limits of its rapidly-evolving AI technology. The film pits man against machine, and reveals as much about the workings of the human mind as it does the future of AI."
+        },
+        {
+          "tconst": "tt0844471",
+          "primaryTitle": "Cloudy with a Chance of Meatballs",
+          "startYear": 2009,
+          "genres": "Adventure,Animation,Comedy",
+          "averageRating": 6.9,
+          "description": "Inventor Flint Lockwood creates a machine that makes clouds rain food, enabling the down-and-out citizens of Chewandswallow to feed themselves. But when the falling food reaches gargantuan proportions, Flint must scramble to avert disaster. Can he regain control of the machine and put an end to the wild weather before the town is destroyed?"
+        },
+        {
+          "tconst": "tt0480669",
+          "primaryTitle": "Timecrimes",
+          "startYear": 2007,
+          "genres": "Horror,Mystery,Sci-Fi",
+          "averageRating": 7.1,
+          "description": "A man accidentally gets into a time machine and travels back in time nearly an hour. Finding himself will be the first of a series of disasters of unforeseeable consequences."
+        },
+        {
+          "tconst": "tt0851578",
+          "primaryTitle": "Paprika",
+          "startYear": 2006,
+          "genres": "Animation,Drama,Fantasy",
+          "averageRating": 7.7,
+          "description": "When a machine that allows therapists to enter their patient's dreams is stolen, all hell breaks loose. Only a young female therapist can stop it and recover it before damage is done: Paprika."
+        },
+        {
+          "tconst": "tt7218518",
+          "primaryTitle": "Pad Man",
+          "startYear": 2018,
+          "genres": "Comedy,Drama",
+          "averageRating": 7.8,
+          "description": "Upon realizing the extent to which women are affected by their menses, a man sets out to create a sanitary pad machine and to provide inexpensive sanitary pads to the women of rural India."
+        },
+        {
+          "tconst": "tt0057578",
+          "primaryTitle": "This Sporting Life",
+          "startYear": 1963,
+          "genres": "Drama,Sport",
+          "averageRating": 7.5,
+          "description": "In Northern England in the early 1960s, Frank Machin is mean, tough and ambitious enough to become an immediate star in the rugby league team run by local employer Weaver."
+        },
+        {
+          "tconst": "tt0094737",
+          "primaryTitle": "Big",
+          "startYear": 1988,
+          "genres": "Comedy,Drama,Fantasy",
+          "averageRating": 7.3,
+          "description": "When a young boy makes a wish at a carnival machine to be big\u2014he wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman."
+        },
+        {
+          "tconst": "tt0070233",
+          "primaryTitle": "Ivan Vasilyevich Changes His Profession",
+          "startYear": 1973,
+          "genres": "Adventure,Comedy,Sci-Fi",
+          "averageRating": 8.2,
+          "description": "A scientist builds a time machine and accidentally sends his apartment complex manager and a petty burglar to 16th century Moscow, while Tsar Ivan the Terrible travels to 1973."
+        },
+        {
+          "tconst": "tt0080025",
+          "primaryTitle": "Time After Time",
+          "startYear": 1979,
+          "genres": "Adventure,Drama,Sci-Fi",
+          "averageRating": 7.0,
+          "description": "Writer H. G. Wells pursues Jack the Ripper to modern day San Francisco after the infamous serial killer steals his time machine to escape the 19th century."
+        },
+        {
+          "tconst": "tt0129167",
+          "primaryTitle": "The Iron Giant",
+          "startYear": 1999,
+          "genres": "Action,Adventure,Animation",
+          "averageRating": 8.1,
+          "description": "In the small town of Rockwell, Maine in October 1957, a giant metal machine befriends a nine-year-old boy and ultimately finds its humanity by unselfishly saving people from their own fears and prejudices."
+        },
+        {
+          "tconst": "tt4806232",
+          "primaryTitle": "Indru Netru Naalai",
+          "startYear": 2015,
+          "genres": "Comedy,Sci-Fi,Thriller",
+          "averageRating": 8.0,
+          "description": "Elango and his astrologer friend Pulivetti Arumugam come in possession of a time machine and start profiting from it. However, their meddling with time prevents the death of a gangster, who begins to wreck havoc in their lives."
+        },
+        {
+          "tconst": "tt0396555",
+          "primaryTitle": "Meet the Robinsons",
+          "startYear": 2007,
+          "genres": "Adventure,Animation,Comedy",
+          "averageRating": 6.8,
+          "description": "Lewis, a brilliant young inventor, is keen on creating a time machine to find his mother, who abandoned him in an orphanage. Things take a turn when he meets Wilbur Robinson and his family."
+        },
+        {
+          "tconst": "tt0212720",
+          "primaryTitle": "A.I. Artificial Intelligence",
+          "startYear": 2001,
+          "genres": "Adventure,Drama,Sci-Fi",
+          "averageRating": 7.2,
+          "description": "David, a robotic boy\u2014the first of his kind programmed to love\u2014is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David."
+        },
+        {
+          "tconst": "tt3233418",
+          "primaryTitle": "Spare Parts",
+          "startYear": 2015,
+          "genres": "Biography,Drama,History",
+          "averageRating": 7.2,
+          "description": "With the help of their high school's newest teacher, four Hispanic students form a robotics club. Although they have no experience, the youths set their sights on a national robotics contest. With $800 and parts scavenged from old cars, they build a robot and compete against reigning champion MIT. Along the way, the students learn not only how to build a robot but something far more important: how to forge bonds that will last a lifetime."
+        },
+        {
+          "tconst": "tt0425601",
+          "primaryTitle": "Trailer Park Boys: The Movie",
+          "startYear": 2006,
+          "genres": "Comedy,Crime",
+          "averageRating": 7.1,
+          "description": "The boys get arrested for robbing an ATM machine and spend 18 months in jail, upon release they decide to pull off \"The Big Dirty\", a plan to steal a large amount of coins because they are untraceable and quit their life of crime forever."
+        },
+        {
+          "tconst": "tt4624424",
+          "primaryTitle": "Storks",
+          "startYear": 2016,
+          "genres": "Adventure,Animation,Comedy",
+          "averageRating": 6.8,
+          "description": "Storks deliver babies\u2026or at least they used to. Now they deliver packages for a global internet retail giant. Junior, the company\u2019s top delivery stork, is about to be promoted when he accidentally activates the Baby Making Machine, producing an adorable and wholly unauthorized baby girl..."
+        },
+        {
+          "tconst": "tt0142236",
+          "primaryTitle": "Dragon Ball Z: Fusion Reborn",
+          "startYear": 1995,
+          "genres": "Action,Animation,Sci-Fi",
+          "averageRating": 7.6,
+          "description": "Not paying attention to his job, a young demon allows the evil cleansing machine to overflow and explode, turning the young demon into the infamous monster Janemba. Goku and Vegeta make solo attempts to defeat the monster, but realize their only option is fusion."
+        },
+        {
+          "tconst": "tt26915336",
+          "primaryTitle": "Mars Express",
+          "startYear": 2023,
+          "genres": "Action,Animation,Mystery",
+          "averageRating": 7.5,
+          "description": "In 2200, private detective Aline Ruby and her android partner Carlos Rivera are hired by a wealthy businessman to track down a notorious hacker. On Mars, they descend deep into the underbelly of the planet's capital city where they uncover a darker story of brain farms, corruption, and a missing girl who holds a secret about the robots that threatens to change the face of the universe."
+        },
+        {
+          "tconst": "tt0234215",
+          "primaryTitle": "The Matrix Reloaded",
+          "startYear": 2003,
+          "genres": "Action,Sci-Fi",
+          "averageRating": 7.2,
+          "description": "The Resistance builds in numbers as humans are freed from the Matrix and brought to the city of Zion. Neo discovers his superpowers, including the ability to see the code inside the Matrix. With machine sentinels digging to Zion in 72 hours, Neo, Morpheus and Trinity must find the Keymaker to ultimately reach the Source."
+        }
+      ]
+    }
+  }
+}
