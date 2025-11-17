@@ -3,10 +3,12 @@
   "fields": [
     "tconst",
     "primaryTitle",
-    "description",
+    "startYear",
     "genres",
     "averageRating",
-    "startYear"
+    "titleType",
+    "description",
+    "top_3_cast"
   ],
   "params": {
     "defType": "edismax",
