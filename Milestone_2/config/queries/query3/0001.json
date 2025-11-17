@@ -1,18 +1,22 @@
 {
-  "query": "\"artificial intelligence\" AI robots androids machine-learning 'sentient machines'",
+  "query": "\"artificial intelligence\" AI robots androids \"machine learning\" \"sentient machines\"",
   "fields": [
     "tconst",
     "primaryTitle",
-    "description",
+    "startYear",
     "genres",
     "averageRating",
-    "startYear"
+    "titleType",
+    "description",
+    "top_3_cast"
   ],
   "params": {
     "defType": "edismax",
-    "qf": "description genres primaryTitle",
+    "q.op": "OR",
     "fq": ["titleType:movie"],
-    "rows": 20,
-    "sort": "score desc"
+    "qf" : ["description", "genres", "top_3_cast"],
+    "sort": "score desc",
+    "start": 0,
+    "rows": 20
   }
 }

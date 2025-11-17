@@ -118,3 +118,7 @@ File-based (SynonymGraphFilterFactory)
   - Use the helper `apply_schema.py` (it will add missing types/fields instead of blindly replacing).
   - TextField types do not support `docValues=true`; use a StrField (string) or add a copy-field to a StrField for docValues usage.
 - If startup reports "core present but conf dir missing", run `docker exec initial_solr bash -lc 'rm -rf /var/solr/data/media_intermediate || true'` and recreate the core.
+
+### Qrels Commands
+
+python scripts/make_qrels.py
