@@ -9,6 +9,12 @@ for query_folder in config/queries/query*; do
     # Create results directory for this query if it doesn't exist
     mkdir -p "results/basic/$query_name"
     
+    echo "=== Precision@20 for $query_name ==="
+    ./trec_eval/trec_eval -q -m P.20 \
+    results/basic/$query_name/trec_qrels.txt results/basic/$query_name/trec_results.txt
+    
+    echo ""
+    echo "=== Full metrics for $query_name ==="
     ./trec_eval/trec_eval \
     -q -m all_trec \
     results/basic/$query_name/trec_qrels.txt results/basic/$query_name/trec_results.txt | ./scripts/plot_pr.py --output-folder "results/basic/$query_name"
@@ -26,6 +32,12 @@ for query_folder in config/queries/query*; do
     # Create results directory for this query if it doesn't exist
     mkdir -p "results/intermediate/$query_name"
     
+    echo "=== Precision@20 for $query_name ==="
+    ./trec_eval/trec_eval -q -m P.20 \
+    results/intermediate/$query_name/trec_qrels.txt results/intermediate/$query_name/trec_results.txt
+    
+    echo ""
+    echo "=== Full metrics for $query_name ==="
     ./trec_eval/trec_eval \
     -q -m all_trec \
     results/intermediate/$query_name/trec_qrels.txt results/intermediate/$query_name/trec_results.txt | ./scripts/plot_pr.py --output-folder "results/intermediate/$query_name"
