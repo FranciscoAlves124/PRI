@@ -1,0 +1,281 @@
+{
+    "add-field-type": [
+        {
+            "name": "text_general",
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.StopFilterFactory", "words": "lang/stopwords_en.txt", "ignoreCase": "true", "format": "snowball"},
+                    {"class": "solr.EnglishPossessiveFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.SynonymGraphFilterFactory", "expand": "true", "ignoreCase": "true", "synonyms": "synonyms.txt"},
+                    {"class": "solr.StopFilterFactory", "words": "lang/stopwords_en.txt", "ignoreCase": "true", "format": "snowball"},
+                    {"class": "solr.EnglishPossessiveFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"}
+                ]
+            }
+        },
+        {
+            "name": "title_text",
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.WordDelimiterGraphFilterFactory", 
+                     "generateWordParts": "1", 
+                     "generateNumberParts": "1", 
+                     "catenateWords": "0", 
+                     "catenateNumbers": "0", 
+                     "splitOnCaseChange": "1"},
+                    {"class": "solr.FlattenGraphFilterFactory"},
+                    {"class": "solr.EdgeNGramFilterFactory", "minGramSize": "4", "maxGramSize": "8", "preserveOriginal": "true"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.SynonymGraphFilterFactory", "expand": "true", "ignoreCase": "true", "synonyms": "synonyms.txt"},
+                    {"class": "solr.WordDelimiterGraphFilterFactory", 
+                     "generateWordParts": "1", 
+                     "generateNumberParts": "1", 
+                     "catenateWords": "0", 
+                     "catenateNumbers": "0", 
+                     "splitOnCaseChange": "1"}
+                ]
+            }
+        },
+        {
+            "name": "name_text",
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.ShingleFilterFactory", "minShingleSize": "2", "maxShingleSize": "3", "outputUnigrams": "true"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"}
+                ]
+            }
+        },
+        {
+            "name": "string_ci",
+            "class": "solr.TextField",
+            "sortMissingLast": true,
+            "omitNorms": true,
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.KeywordTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.TrimFilterFactory"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.KeywordTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.TrimFilterFactory"}
+                ]
+            }
+        },
+        {
+            "name": "text_ws",
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "analyzer": {
+                "tokenizer": {
+                    "class": "solr.WhitespaceTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"}
+                ]
+            }
+        },
+        {
+            "name": "string_dv",
+            "class": "solr.StrField",
+            "sortMissingLast": true
+        },
+        {
+            "name": "movieVector",
+            "class": "solr.DenseVectorField",
+            "vectorDimension": 384,
+            "similarityFunction": "cosine",
+            "knnAlgorithm": "hnsw"
+        }
+    ],
+    "add-field": [
+        {
+            "name": "primaryTitle",
+            "type": "title_text",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "originalTitle",
+            "type": "title_text",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "titleType",
+            "type": "string_ci",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "titleType_s",
+            "type": "string_dv",
+            "indexed": false,
+            "stored": false,
+            "docValues": true
+        },
+        {
+            "name": "startYear",
+            "type": "pint",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
+        },
+        {
+            "name": "endYear",
+            "type": "pint",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
+        },
+        {
+            "name": "runtimeMinutes",
+            "type": "pint",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
+        },
+        {
+            "name": "genres",
+            "type": "string_ci",
+            "indexed": true,
+            "stored": true,
+            "multiValued": true
+        },
+        {
+            "name": "genres_s",
+            "type": "string_dv",
+            "indexed": false,
+            "stored": false,
+            "multiValued": true,
+            "docValues": true
+        },
+        {
+            "name": "averageRating",
+            "type": "pfloat",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
+        },
+        {
+            "name": "numVotes",
+            "type": "pint",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
+        },
+        {
+            "name": "weightedRating",
+            "type": "pfloat",
+            "indexed": true,
+            "stored": true,
+            "docValues": true
+        },
+        {
+            "name": "top_3_cast",
+            "type": "name_text",
+            "indexed": true,
+            "stored": true,
+            "multiValued": true
+        },
+        {
+            "name": "top_3_cast_search",
+            "type": "text_general",
+            "indexed": true,
+            "stored": false,
+            "multiValued": true
+        },
+        {
+            "name": "description",
+            "type": "text_general",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "top_3_cast_s",
+            "type": "string_dv",
+            "indexed": false,
+            "stored": false,
+            "multiValued": true,
+            "docValues": true
+        },
+        {
+            "name": "vector",
+            "type": "movieVector",
+            "indexed": true,
+            "stored": true
+        }
+    ],
+    "add-copy-field": [
+        {
+            "source": "top_3_cast",
+            "dest": "top_3_cast_s"
+        },
+        {
+            "source": "top_3_cast",
+            "dest": "top_3_cast_search"
+        },
+        {
+            "source": "genres",
+            "dest": "genres_s"
+        },
+        {
+            "source": "titleType",
+            "dest": "titleType_s"
+        }
+    ]
+}
