@@ -1,5 +1,5 @@
 {
-    "add-field-type": [
+    "replace-field-type": [
         {
             "name": "text_general",
             "class": "solr.TextField",
@@ -30,6 +30,21 @@
                 ]
             }
         },
+        {
+            "name": "text_ws",
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "analyzer": {
+                "tokenizer": {
+                    "class": "solr.WhitespaceTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"}
+                ]
+            }
+        }
+    ],
+    "add-field-type": [
         {
             "name": "title_text",
             "class": "solr.TextField",
@@ -113,19 +128,6 @@
                 "filters": [
                     {"class": "solr.LowerCaseFilterFactory"},
                     {"class": "solr.TrimFilterFactory"}
-                ]
-            }
-        },
-        {
-            "name": "text_ws",
-            "class": "solr.TextField",
-            "positionIncrementGap": "100",
-            "analyzer": {
-                "tokenizer": {
-                    "class": "solr.WhitespaceTokenizerFactory"
-                },
-                "filters": [
-                    {"class": "solr.LowerCaseFilterFactory"}
                 ]
             }
         },
