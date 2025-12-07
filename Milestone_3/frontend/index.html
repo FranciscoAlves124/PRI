@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie & Series Search - PRI System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <h1 class="logo">
+                    <i class="fas fa-film"></i> 
+                    Movie & Series Search
+                </h1>
+                <nav class="nav">
+                    <button id="basicSearchBtn" class="nav-btn active">Basic Search</button>
+                    <button id="intermediateSearchBtn" class="nav-btn">Intermediate Search</button>
+                    <button id="semanticSearchBtn" class="nav-btn">Semantic Search</button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <!-- Search Section -->
+                <section class="search-section">
+                    <div class="search-container">
+                        <div class="search-mode-indicator">
+                            <span id="currentMode">Basic Search</span>
+                        </div>
+                        
+                        <!-- Search Bar -->
+                        <div class="search-bar">
+                            <input 
+                                type="text" 
+                                id="searchInput" 
+                                placeholder="Search for movies and series..."
+                                aria-label="Search query"
+                            >
+                            <button id="searchBtn" class="btn-primary">
+                                <i class="fas fa-search"></i> Search
+                            </button>
+                        </div>
+
+                        <!-- Advanced Filters (hidden by default) -->
+                        <div id="filtersPanel" class="filters-panel hidden">
+                            <h3>Advanced Filters</h3>
+                            <div class="filter-grid">
+                                <div class="filter-group">
+                                    <label for="typeFilter">Type</label>
+                                    <select id="typeFilter">
+                                        <option value="">All</option>
+                                        <option value="movie">Movie</option>
+                                        <option value="tvSeries">TV Series</option>
+                                    </select>
+                                </div>
+
+                                <div class="filter-group">
+                                    <label for="genreFilter">Genre</label>
+                                    <select id="genreFilter" multiple>
+                                        <option value="Action">Action</option>
+                                        <option value="Comedy">Comedy</option>
+                                        <option value="Drama">Drama</option>
+                                        <option value="Horror">Horror</option>
+                                        <option value="Thriller">Thriller</option>
+                                        <option value="Romance">Romance</option>
+                                        <option value="Sci-Fi">Sci-Fi</option>
+                                        <option value="Crime">Crime</option>
+                                    </select>
+                                </div>
+
+                                <div class="filter-group">
+                                    <label for="yearFrom">Year From</label>
+                                    <input type="number" id="yearFrom" placeholder="e.g., 2000">
+                                </div>
+
+                                <div class="filter-group">
+                                    <label for="yearTo">Year To</label>
+                                    <input type="number" id="yearTo" placeholder="e.g., 2024">
+                                </div>
+
+                                <div class="filter-group">
+                                    <label for="minRating">Min Rating</label>
+                                    <input type="number" id="minRating" min="0" max="10" step="0.1" placeholder="0-10">
+                                </div>
+
+                                <div class="filter-group">
+                                    <label for="sortBy">Sort By</label>
+                                    <select id="sortBy">
+                                        <option value="relevance">Relevance</option>
+                                        <option value="rating_desc">Rating (High to Low)</option>
+                                        <option value="rating_asc">Rating (Low to High)</option>
+                                        <option value="year_desc">Year (Newest)</option>
+                                        <option value="year_asc">Year (Oldest)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button id="applyFiltersBtn" class="btn-secondary">Apply Filters</button>
+                        </div>
+
+                        <button id="toggleFiltersBtn" class="btn-text">
+                            <i class="fas fa-filter"></i> Toggle Filters
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Results Section -->
+                <section class="results-section">
+                    <!-- Loading Indicator -->
+                    <div id="loadingIndicator" class="loading hidden">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Searching...</p>
+                    </div>
+
+                    <!-- Error Message -->
+                    <div id="errorMessage" class="error-message hidden">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p id="errorText"></p>
+                    </div>
+
+                    <!-- Results Info -->
+                    <div id="resultsInfo" class="results-info hidden">
+                        <p>Found <strong id="resultCount">0</strong> results in <strong id="queryTime">0</strong>ms</p>
+                    </div>
+
+                    <!-- Results Grid -->
+                    <div id="resultsGrid" class="results-grid"></div>
+
+                    <!-- Pagination -->
+                    <div id="pagination" class="pagination hidden">
+                        <button id="prevPage" class="btn-secondary" disabled>
+                            <i class="fas fa-chevron-left"></i> Previous
+                        </button>
+                        <span id="pageInfo">Page 1 of 1</span>
+                        <button id="nextPage" class="btn-secondary" disabled>
+                            Next <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2024 Movie & Series Search System - PRI Milestone 3</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Result Detail Modal -->
+    <div id="detailModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
