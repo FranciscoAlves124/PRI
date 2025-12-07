@@ -1,0 +1,25 @@
+{
+  "query": "Funny TV Show",
+  "fields": [
+    "tconst",
+    "primaryTitle",
+    "startYear",
+    "genres",
+    "averageRating",
+    "titleType",
+    "description",
+    "top_3_cast"
+  ],
+  "params": {
+    "indexed": "true",
+    "defType": "edismax",
+    "q.op": "OR",
+    "fq": ["titleType:tvSeries", "startYear:[2000 TO 2015]"],
+    "qf": "primaryTitle^2 genres^2 description^3 top_3_cast^2",
+    "pf": "description^6",
+    "ps": 3,
+    "sort": "score desc",
+    "start": 0,
+    "rows": 20
+  }
+}

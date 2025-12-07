@@ -1,0 +1,23 @@
+{
+  "query": "\"artificial intelligence\" AI robots androids \"machine learning\" \"sentient machines\"",
+  "fields": [
+    "tconst",
+    "primaryTitle",
+    "startYear",
+    "genres",
+    "averageRating",
+    "titleType",
+    "description",
+    "top_3_cast"
+  ],
+  "params": {
+    "defType": "edismax",
+    "fq": ["titleType:movie"],
+    "qf": "primaryTitle^2 genres^2 description^3 top_3_cast^2",
+    "pf": "description^6",
+    "ps": 3,
+    "sort": "score desc",
+    "start": 0,
+    "rows": 20
+  }
+}
