@@ -2,13 +2,13 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 4,
+      "QTime": 43,
       "params": {
         "json": "{\"query\": \"\\\"Robert De Niro\\\" or \\\"Al Pacino\\\" Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\", \"weightedRating:[7.5 TO 10]\"], \"qf\": [\"primaryTitle\", \"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 109,
+      "numFound": 74,
       "start": 0,
       "numFoundExact": true,
       "docs": [
@@ -174,27 +174,6 @@
             "John Cazale - Stan"
           ],
           "description": "A group of working-class friends decide to enlist in the Army during the Vietnam War and finds it to be hellish chaos -- not the noble venture they imagined. Before they left, Steven married his pregnant girlfriend -- and Michael and Nick were in love with the same woman. But all three are different men upon their return."
-        },
-        {
-          "tconst": "tt0106519",
-          "titleType": "movie",
-          "primaryTitle": "Carlito's Way",
-          "startYear": 1993,
-          "genres": [
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "averageRating": 7.9,
-          "top_3_cast": [
-            "Al Pacino",
-            "Al Pacino - Carlito",
-            "Sean Penn",
-            "Sean Penn - Kleinfeld",
-            "Penelope Ann Miller",
-            "Penelope Ann Miller - Gail"
-          ],
-          "description": "Free after years in prison, Carlito Brigante intends to give up his criminal ways, but it's not long before the ex-con is sucked back into the New York City underworld. Reconnecting with his dancer girlfriend, Carlito gets entangled in the shady dealings of his friend Dave Kleinfeld, who also serves as his lawyer. An encounter with shifty gangster Benny Blanco sets the duo on a dangerous path."
         },
         {
           "tconst": "tt0075314",
@@ -423,6 +402,26 @@
             "Michael Madsen - Sonny"
           ],
           "description": "An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one."
+        },
+        {
+          "tconst": "tt0086250",
+          "titleType": "movie",
+          "primaryTitle": "Scarface",
+          "startYear": 1983,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 8.3,
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Tony Montana",
+            "Michelle Pfeiffer",
+            "Michelle Pfeiffer - Elvira",
+            "Steven Bauer",
+            "Steven Bauer - Manny Ray"
+          ],
+          "description": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall."
         }
       ]
     }
@@ -430,13 +429,13 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 6,
+      "QTime": 20,
       "params": {
         "json": "{\"query\": \"\\\"Robert De Niro\\\" or \\\"Al Pacino\\\" Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\", \"weightedRating:[7.5 TO 10]\"], \"qf\": \"primaryTitle^2 genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 109,
+      "numFound": 74,
       "start": 0,
       "numFoundExact": true,
       "docs": [
@@ -562,27 +561,6 @@
             "James Caan - Sonny"
           ],
           "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
-        },
-        {
-          "tconst": "tt0106519",
-          "titleType": "movie",
-          "primaryTitle": "Carlito's Way",
-          "startYear": 1993,
-          "genres": [
-            "Crime",
-            "Drama",
-            "Thriller"
-          ],
-          "averageRating": 7.9,
-          "top_3_cast": [
-            "Al Pacino",
-            "Al Pacino - Carlito",
-            "Sean Penn",
-            "Sean Penn - Kleinfeld",
-            "Penelope Ann Miller",
-            "Penelope Ann Miller - Gail"
-          ],
-          "description": "Free after years in prison, Carlito Brigante intends to give up his criminal ways, but it's not long before the ex-con is sucked back into the New York City underworld. Reconnecting with his dancer girlfriend, Carlito gets entangled in the shady dealings of his friend Dave Kleinfeld, who also serves as his lawyer. An encounter with shifty gangster Benny Blanco sets the duo on a dangerous path."
         },
         {
           "tconst": "tt0087843",
@@ -851,6 +829,26 @@
             "Michael Madsen - Sonny"
           ],
           "description": "An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one."
+        },
+        {
+          "tconst": "tt0086250",
+          "titleType": "movie",
+          "primaryTitle": "Scarface",
+          "startYear": 1983,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 8.3,
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Tony Montana",
+            "Michelle Pfeiffer",
+            "Michelle Pfeiffer - Elvira",
+            "Steven Bauer",
+            "Steven Bauer - Manny Ray"
+          ],
+          "description": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall."
         }
       ]
     }

@@ -2,28 +2,16 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 6,
+      "QTime": 49,
       "params": {
         "json": "{\"query\": \"\\\"artificial intelligence\\\" AI robots androids \\\"machine learning\\\" \\\"sentient machines\\\"\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\"], \"qf\": [\"primaryTitle\", \"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 30,
+      "numFound": 29,
       "start": 0,
       "numFoundExact": true,
       "docs": [
-        {
-          "tconst": "tt6700846",
-          "titleType": "movie",
-          "primaryTitle": "AlphaGo",
-          "startYear": 2017,
-          "genres": [
-            "Documentary",
-            "Sport"
-          ],
-          "averageRating": 7.8,
-          "description": "The ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. Yet in 2016, Google's DeepMind team announced that they would be taking on Lee Sedol, the world's most elite Go champion. AlphaGo chronicles the team as it prepares to test the limits of its rapidly-evolving AI technology. The film pits man against machine, and reveals as much about the workings of the human mind as it does the future of AI."
-        },
         {
           "tconst": "tt0212720",
           "titleType": "movie",
@@ -44,6 +32,18 @@
             "Frances O'Connor - Monica Swinton"
           ],
           "description": "David, a robotic boy\u2014the first of his kind programmed to love\u2014is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David."
+        },
+        {
+          "tconst": "tt6700846",
+          "titleType": "movie",
+          "primaryTitle": "AlphaGo",
+          "startYear": 2017,
+          "genres": [
+            "Documentary",
+            "Sport"
+          ],
+          "averageRating": 7.8,
+          "description": "The ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. Yet in 2016, Google's DeepMind team announced that they would be taking on Lee Sedol, the world's most elite Go champion. AlphaGo chronicles the team as it prepares to test the limits of its rapidly-evolving AI technology. The film pits man against machine, and reveals as much about the workings of the human mind as it does the future of AI."
         },
         {
           "tconst": "tt13087796",
@@ -276,27 +276,6 @@
           "description": "The Red Ribbon Army, an evil organization that was once destroyed by Goku in the past, has been reformed by a group of people who have created new and mightier Androids, Gamma 1 and Gamma 2, and seek vengeance against Goku and his family."
         },
         {
-          "tconst": "tt0094737",
-          "titleType": "movie",
-          "primaryTitle": "Big",
-          "startYear": 1988,
-          "genres": [
-            "Comedy",
-            "Drama",
-            "Fantasy"
-          ],
-          "averageRating": 7.3,
-          "top_3_cast": [
-            "Tom Hanks",
-            "Tom Hanks - Josh",
-            "Elizabeth Perkins",
-            "Elizabeth Perkins - Susan",
-            "Robert Loggia",
-            "Robert Loggia - MacMillan"
-          ],
-          "description": "When a young boy makes a wish at a carnival machine to be big\u2014he wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman."
-        },
-        {
           "tconst": "tt0043456",
           "titleType": "movie",
           "primaryTitle": "The Day the Earth Stood Still",
@@ -420,6 +399,27 @@
             "Yuka Imoto - Tima"
           ],
           "description": "In the midst of societal conflict in the futuristic city of Metropolis, Kenichi and his uncle Shunsaku Ban set out to uncover the mystery behind the first human-like robot, Tima."
+        },
+        {
+          "tconst": "tt2245084",
+          "titleType": "movie",
+          "primaryTitle": "Big Hero 6",
+          "startYear": 2014,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "Ryan Potter",
+            "Ryan Potter - Hiro",
+            "Scott Adsit",
+            "Scott Adsit - Baymax",
+            "Jamie Chung",
+            "Jamie Chung - Go Go"
+          ],
+          "description": "A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes."
         }
       ]
     }
@@ -427,28 +427,16 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 5,
+      "QTime": 21,
       "params": {
         "json": "{\"query\": \"\\\"artificial intelligence\\\" AI robots androids \\\"machine learning\\\" \\\"sentient machines\\\"\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"fq\": [\"titleType:movie\"], \"qf\": \"primaryTitle^2 genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
     },
     "response": {
-      "numFound": 30,
+      "numFound": 29,
       "start": 0,
       "numFoundExact": true,
       "docs": [
-        {
-          "tconst": "tt6700846",
-          "titleType": "movie",
-          "primaryTitle": "AlphaGo",
-          "startYear": 2017,
-          "genres": [
-            "Documentary",
-            "Sport"
-          ],
-          "averageRating": 7.8,
-          "description": "The ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. Yet in 2016, Google's DeepMind team announced that they would be taking on Lee Sedol, the world's most elite Go champion. AlphaGo chronicles the team as it prepares to test the limits of its rapidly-evolving AI technology. The film pits man against machine, and reveals as much about the workings of the human mind as it does the future of AI."
-        },
         {
           "tconst": "tt0212720",
           "titleType": "movie",
@@ -469,6 +457,18 @@
             "Frances O'Connor - Monica Swinton"
           ],
           "description": "David, a robotic boy\u2014the first of his kind programmed to love\u2014is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David."
+        },
+        {
+          "tconst": "tt6700846",
+          "titleType": "movie",
+          "primaryTitle": "AlphaGo",
+          "startYear": 2017,
+          "genres": [
+            "Documentary",
+            "Sport"
+          ],
+          "averageRating": 7.8,
+          "description": "The ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. Yet in 2016, Google's DeepMind team announced that they would be taking on Lee Sedol, the world's most elite Go champion. AlphaGo chronicles the team as it prepares to test the limits of its rapidly-evolving AI technology. The film pits man against machine, and reveals as much about the workings of the human mind as it does the future of AI."
         },
         {
           "tconst": "tt13087796",
@@ -681,27 +681,6 @@
           "description": "The Red Ribbon Army, an evil organization that was once destroyed by Goku in the past, has been reformed by a group of people who have created new and mightier Androids, Gamma 1 and Gamma 2, and seek vengeance against Goku and his family."
         },
         {
-          "tconst": "tt0094737",
-          "titleType": "movie",
-          "primaryTitle": "Big",
-          "startYear": 1988,
-          "genres": [
-            "Comedy",
-            "Drama",
-            "Fantasy"
-          ],
-          "averageRating": 7.3,
-          "top_3_cast": [
-            "Tom Hanks",
-            "Tom Hanks - Josh",
-            "Elizabeth Perkins",
-            "Elizabeth Perkins - Susan",
-            "Robert Loggia",
-            "Robert Loggia - MacMillan"
-          ],
-          "description": "When a young boy makes a wish at a carnival machine to be big\u2014he wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman."
-        },
-        {
           "tconst": "tt0043456",
           "titleType": "movie",
           "primaryTitle": "The Day the Earth Stood Still",
@@ -845,6 +824,27 @@
             "Yuka Imoto - Tima"
           ],
           "description": "In the midst of societal conflict in the futuristic city of Metropolis, Kenichi and his uncle Shunsaku Ban set out to uncover the mystery behind the first human-like robot, Tima."
+        },
+        {
+          "tconst": "tt2245084",
+          "titleType": "movie",
+          "primaryTitle": "Big Hero 6",
+          "startYear": 2014,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "Ryan Potter",
+            "Ryan Potter - Hiro",
+            "Scott Adsit",
+            "Scott Adsit - Baymax",
+            "Jamie Chung",
+            "Jamie Chung - Go Go"
+          ],
+          "description": "A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes."
         }
       ]
     }
