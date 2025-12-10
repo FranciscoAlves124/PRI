@@ -1,0 +1,1233 @@
+{
+  "1": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 1,
+      "params": {
+        "q": "psychological thriller mind manipulation reality perception",
+        "defType": "edismax",
+        "qf": "primaryTitle description genres",
+        "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast",
+        "q.op": "OR",
+        "fq": [
+          "titleType:movie",
+          "averageRating:[7.5 TO 10]"
+        ],
+        "rows": "20"
+      }
+    },
+    "response": {
+      "numFound": 81,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": "tt0220832",
+          "titleType": "movie",
+          "primaryTitle": "Vaastav: The Reality",
+          "startYear": 1999,
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 8.0,
+          "top_3_cast": [
+            "Sanjay Dutt",
+            "Sanjay Dutt - Raghunath Namdev Shivalkar",
+            "Namrata Shirodkar",
+            "Namrata Shirodkar - Sonia (Sonu)",
+            "Sanjay Narvekar",
+            "Sanjay Narvekar - Dedh Footiya"
+          ]
+        },
+        {
+          "tconst": "tt2375605",
+          "titleType": "movie",
+          "primaryTitle": "The Act of Killing",
+          "startYear": 2012,
+          "genres": [
+            "Biography",
+            "Crime",
+            "Documentary"
+          ],
+          "averageRating": 8.2,
+          "description": "In this chilling and groundbreaking documentary, former Indonesian death squad leaders reenact their real-life mass killings in the style of various film genres, from gangster epics to musicals. As they recreate their past atrocities, the line between reality and performance blurs, exposing the lingering impact of Indonesia\u2019s 1965-66 anti-communist purge and the unsettling psychology of its perpetrators."
+        },
+        {
+          "tconst": "tt10272386",
+          "titleType": "movie",
+          "primaryTitle": "The Father",
+          "startYear": 2020,
+          "genres": [
+            "Drama",
+            "Mystery"
+          ],
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Anthony Hopkins",
+            "Anthony Hopkins - Anthony",
+            "Olivia Colman",
+            "Olivia Colman - Anne",
+            "Mark Gatiss",
+            "Mark Gatiss - The Man"
+          ],
+          "description": "A man refuses all assistance from his daughter as he ages and, as he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality."
+        },
+        {
+          "tconst": "tt0452039",
+          "titleType": "movie",
+          "primaryTitle": "Mind Game",
+          "startYear": 2004,
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ],
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "K\u00f4ji Imada",
+            "K\u00f4ji Imada - Nishi",
+            "Sayaka Maeda",
+            "Sayaka Maeda - Myon",
+            "Takashi Fujii",
+            "Takashi Fujii - Jiisan"
+          ],
+          "description": "Nishi is a loser who has a crush on his childhood girlfriend. After an encounter with the Japanese mafia, he journeys to heaven and back, and ends up trapped in an even more unlikely place."
+        },
+        {
+          "tconst": "tt0460791",
+          "titleType": "movie",
+          "primaryTitle": "The Fall",
+          "startYear": 2006,
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "Lee Pace",
+            "Lee Pace - Roy Walker",
+            "Catinca Untaru",
+            "Catinca Untaru - Alexandria",
+            "Justine Waddell",
+            "Justine Waddell - Nurse Evelyn"
+          ],
+          "description": "In a hospital on the outskirts of 1920s Los Angeles, an injured stuntman begins to tell a fellow patient, a little girl with a broken arm, a fantastic story about 5 mythical heroes. Thanks to his fractured state of mind and her vivid imagination, the line between fiction and reality starts to blur as the tale advances."
+        },
+        {
+          "tconst": "tt0268978",
+          "titleType": "movie",
+          "primaryTitle": "A Beautiful Mind",
+          "startYear": 2001,
+          "genres": [
+            "Biography",
+            "Drama",
+            "Mystery"
+          ],
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Russell Crowe",
+            "Russell Crowe - John Nash",
+            "Ed Harris",
+            "Ed Harris - Parcher",
+            "Jennifer Connelly",
+            "Jennifer Connelly - Alicia Nash"
+          ],
+          "description": "From the heights of notoriety to the depths of depravity, John Forbes Nash Jr. experiences it all. As a brilliant but socially awkward mathematician, he made a groundbreaking discovery early in his career and stands on the brink of international acclaim. But as the handsome and arrogant Nash accepts secret work in cryptography, he becomes entangled in a mysterious conspiracy. His life takes a nightmarish turn and he soon finds himself on a painful and harrowing journey of self-discovery."
+        },
+        {
+          "tconst": "tt7476236",
+          "titleType": "movie",
+          "primaryTitle": "Minding the Gap",
+          "startYear": 2018,
+          "genres": [
+            "Documentary",
+            "Sport"
+          ],
+          "averageRating": 8.0,
+          "description": "Three young men bond together to escape volatile families in their Rust Belt hometown. As they face adult responsibilities, unexpected revelations threaten their decade-long friendship."
+        },
+        {
+          "tconst": "tt0071604",
+          "titleType": "movie",
+          "primaryTitle": "Hearts and Minds",
+          "startYear": 1974,
+          "genres": [
+            "Documentary",
+            "History",
+            "War"
+          ],
+          "averageRating": 8.2,
+          "description": "Many times during his presidency, Lyndon B. Johnson said that ultimate victory in the Vietnam War depended upon the U.S. military winning the \"hearts and minds\" of the Vietnamese people. Filmmaker Peter Davis uses Johnson's phrase in an ironic context in this anti-war documentary, filmed and released while the Vietnam War was still under way, juxtaposing interviews with military figures like U.S. Army Chief of Staff William C. Westmoreland with shocking scenes of violence and brutality."
+        },
+        {
+          "tconst": "tt0040338",
+          "titleType": "movie",
+          "primaryTitle": "The Fallen Idol",
+          "startYear": 1948,
+          "genres": [
+            "Drama",
+            "Film-Noir",
+            "Mystery"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "Ralph Richardson",
+            "Ralph Richardson - Baines",
+            "Mich\u00e8le Morgan",
+            "Mich\u00e8le Morgan - Julie",
+            "Sonia Dresdel",
+            "Sonia Dresdel - Mrs. Baines"
+          ],
+          "description": "Phillipe, the son of an ambassador in London, idolizes Baines, his father's butler, a kind of hero in the eyes of the child, whose perception changes when he accidentally discovers the secret that Baines keeps and witnesses the consequences that adults' lies can cause."
+        },
+        {
+          "tconst": "tt0246578",
+          "titleType": "movie",
+          "primaryTitle": "Donnie Darko",
+          "startYear": 2001,
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi"
+          ],
+          "averageRating": 8.0,
+          "top_3_cast": [
+            "Jake Gyllenhaal",
+            "Jake Gyllenhaal - Donnie Darko",
+            "Jena Malone",
+            "Jena Malone - Gretchen Ross",
+            "Mary McDonnell",
+            "Mary McDonnell - Rose Darko"
+          ],
+          "description": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes."
+        },
+        {
+          "tconst": "tt28252563",
+          "titleType": "movie",
+          "primaryTitle": "Madharasi",
+          "startYear": 2025,
+          "genres": [
+            "Action",
+            "Romance",
+            "Thriller"
+          ],
+          "averageRating": 7.9,
+          "top_3_cast": [
+            "Rukmini Vasanth",
+            "Rukmini Vasanth - Malathy",
+            "Sivakarthikeyan",
+            "Sivakarthikeyan - Raghu",
+            "Vidyut Jammwal",
+            "Vidyut Jammwal - Unknown Character"
+          ],
+          "description": "A man with a psychological disorder overcomes trauma and confronts his nemesis in a fast-paced action film with romance and unique elements, exploring themes of resilience and redemption."
+        },
+        {
+          "tconst": "tt0058625",
+          "titleType": "movie",
+          "primaryTitle": "Woman in the Dunes",
+          "startYear": 1964,
+          "genres": [
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": 8.4,
+          "top_3_cast": [
+            "Eiji Okada",
+            "Eiji Okada - Entomologist Niki Jumpei",
+            "Ky\u00f4ko Kishida",
+            "Ky\u00f4ko Kishida - Woman",
+            "K\u00f4ji Mitsui",
+            "K\u00f4ji Mitsui - Village elder"
+          ],
+          "description": "A vacationing entomologist suffers extreme physical and psychological trauma after being taken captive by the residents of a poor seaside village and made to live with a woman whose life task is shoveling sand for them."
+        },
+        {
+          "tconst": "tt0338013",
+          "titleType": "movie",
+          "primaryTitle": "Eternal Sunshine of the Spotless Mind",
+          "startYear": 2004,
+          "genres": [
+            "Drama",
+            "Romance",
+            "Sci-Fi"
+          ],
+          "averageRating": 8.3,
+          "top_3_cast": [
+            "Jim Carrey",
+            "Jim Carrey - Joel Barish",
+            "Kate Winslet",
+            "Kate Winslet - Clementine Kruczynski",
+            "Tom Wilkinson",
+            "Tom Wilkinson - Dr. Mierzwiak"
+          ],
+          "description": "Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake."
+        },
+        {
+          "tconst": "tt7689966",
+          "titleType": "movie",
+          "primaryTitle": "Robin Williams: Come Inside My Mind",
+          "startYear": 2018,
+          "genres": [
+            "Biography",
+            "Comedy",
+            "Documentary"
+          ],
+          "averageRating": 7.9,
+          "description": "A funny, intimate and heartbreaking portrait of one of the world\u2019s most beloved and inventive comedians, Robin Williams, told largely through his own words. Celebrates what he brought to comedy and to the culture at large, from the wild days of late-1970s L.A. to his death in 2014."
+        },
+        {
+          "tconst": "tt0065088",
+          "titleType": "movie",
+          "primaryTitle": "They Shoot Horses, Don't They?",
+          "startYear": 1969,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "Jane Fonda",
+            "Jane Fonda - Gloria",
+            "Michael Sarrazin",
+            "Michael Sarrazin - Robert",
+            "Susannah York",
+            "Susannah York - Alice"
+          ],
+          "description": "In the midst of the Great Depression, manipulative emcee Rocky enlists contestants for a dance marathon offering a $1,500 cash prize. Among them are a failed actress, a middle-aged sailor, a delusional blonde and a pregnant girl."
+        },
+        {
+          "tconst": "tt0065488",
+          "titleType": "movie",
+          "primaryTitle": "The Boys in the Band",
+          "startYear": 1970,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "Kenneth Nelson",
+            "Kenneth Nelson - Michael",
+            "Peter White",
+            "Peter White - Alan McCarthy",
+            "Leonard Frey",
+            "Leonard Frey - Harold"
+          ],
+          "description": "A witty, perceptive and devastating look at the personal agendas and suppressed revelations swirling among a group of gay men in Manhattan. Harold is celebrating a birthday, and his friend Michael has drafted some other friends to help commemorate the event. As the evening progresses, the alcohol flows, the knives come out, and Michael's demand that the group participate in a devious telephone game, unleashing dormant and unspoken emotions."
+        },
+        {
+          "tconst": "tt0034162",
+          "titleType": "movie",
+          "primaryTitle": "The Sea Wolf",
+          "startYear": 1941,
+          "genres": [
+            "Adventure",
+            "Drama"
+          ],
+          "averageRating": 7.5,
+          "top_3_cast": [
+            "Edward G. Robinson",
+            "Edward G. Robinson - 'Wolf' Larsen",
+            "Ida Lupino",
+            "Ida Lupino - Ruth Brewster",
+            "John Garfield",
+            "John Garfield - George Leach"
+          ],
+          "description": "Shipwrecked fugitives try to escape a brutal sea captain who's losing his mind."
+        },
+        {
+          "tconst": "tt0056172",
+          "titleType": "movie",
+          "primaryTitle": "Lawrence of Arabia",
+          "startYear": 1962,
+          "genres": [
+            "Adventure",
+            "Biography",
+            "Drama"
+          ],
+          "averageRating": 8.3,
+          "top_3_cast": [
+            "Peter O'Toole",
+            "Peter O'Toole - Lawrence",
+            "Alec Guinness",
+            "Alec Guinness - Prince Faisal",
+            "Anthony Quinn",
+            "Anthony Quinn - Auda Abu Tayi"
+          ],
+          "description": "The story of British officer T.E. Lawrence's mission to aid the Arab tribes in their revolt against the Ottoman Empire during the First World War. Lawrence becomes a flamboyant, messianic figure in the cause of Arab unity but his psychological instability threatens to undermine his achievements."
+        },
+        {
+          "tconst": "tt13243898",
+          "titleType": "movie",
+          "primaryTitle": "The Mole: Undercover in North Korea",
+          "startYear": 2020,
+          "genres": [
+            "Documentary",
+            "Thriller"
+          ],
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Jim Latrache-Qvortrup",
+            "Jim Latrache-Qvortrup - Mr. James"
+          ],
+          "description": "A real-life undercover thriller about two ordinary men who embark on an outrageously dangerous ten-year mission to penetrate the world's most secretive and brutal dictatorship: North Korea."
+        },
+        {
+          "tconst": "tt0391024",
+          "titleType": "movie",
+          "primaryTitle": "Control Room",
+          "startYear": 2004,
+          "genres": [
+            "Documentary"
+          ],
+          "averageRating": 7.6,
+          "description": "A chronicle which provides a rare window into the international perception of the Iraq War, courtesy of Al Jazeera, the Arab world's most popular news outlet. Roundly criticized by Cabinet members and Pentagon officials for reporting with a pro-Iraqi bias, and strongly condemned for frequently airing civilian causalities as well as footage of American POWs, the station has revealed (and continues to show the world) everything about the Iraq War that the Bush administration did not want it to see."
+        }
+      ]
+    }
+  },
+  "2": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 1,
+      "params": {
+        "q": "psychological thriller mind manipulation reality perception",
+        "defType": "edismax",
+        "ps": "3",
+        "qf": "primaryTitle^2 description^3 genres^2",
+        "pf": "description^6",
+        "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast",
+        "q.op": "OR",
+        "fq": [
+          "titleType:movie",
+          "averageRating:[7.5 TO 10]"
+        ],
+        "rows": "20"
+      }
+    },
+    "response": {
+      "numFound": 81,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": "tt2375605",
+          "titleType": "movie",
+          "primaryTitle": "The Act of Killing",
+          "startYear": 2012,
+          "genres": [
+            "Biography",
+            "Crime",
+            "Documentary"
+          ],
+          "averageRating": 8.2,
+          "description": "In this chilling and groundbreaking documentary, former Indonesian death squad leaders reenact their real-life mass killings in the style of various film genres, from gangster epics to musicals. As they recreate their past atrocities, the line between reality and performance blurs, exposing the lingering impact of Indonesia\u2019s 1965-66 anti-communist purge and the unsettling psychology of its perpetrators."
+        },
+        {
+          "tconst": "tt10272386",
+          "titleType": "movie",
+          "primaryTitle": "The Father",
+          "startYear": 2020,
+          "genres": [
+            "Drama",
+            "Mystery"
+          ],
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Anthony Hopkins",
+            "Anthony Hopkins - Anthony",
+            "Olivia Colman",
+            "Olivia Colman - Anne",
+            "Mark Gatiss",
+            "Mark Gatiss - The Man"
+          ],
+          "description": "A man refuses all assistance from his daughter as he ages and, as he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality."
+        },
+        {
+          "tconst": "tt0460791",
+          "titleType": "movie",
+          "primaryTitle": "The Fall",
+          "startYear": 2006,
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "Lee Pace",
+            "Lee Pace - Roy Walker",
+            "Catinca Untaru",
+            "Catinca Untaru - Alexandria",
+            "Justine Waddell",
+            "Justine Waddell - Nurse Evelyn"
+          ],
+          "description": "In a hospital on the outskirts of 1920s Los Angeles, an injured stuntman begins to tell a fellow patient, a little girl with a broken arm, a fantastic story about 5 mythical heroes. Thanks to his fractured state of mind and her vivid imagination, the line between fiction and reality starts to blur as the tale advances."
+        },
+        {
+          "tconst": "tt0040338",
+          "titleType": "movie",
+          "primaryTitle": "The Fallen Idol",
+          "startYear": 1948,
+          "genres": [
+            "Drama",
+            "Film-Noir",
+            "Mystery"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "Ralph Richardson",
+            "Ralph Richardson - Baines",
+            "Mich\u00e8le Morgan",
+            "Mich\u00e8le Morgan - Julie",
+            "Sonia Dresdel",
+            "Sonia Dresdel - Mrs. Baines"
+          ],
+          "description": "Phillipe, the son of an ambassador in London, idolizes Baines, his father's butler, a kind of hero in the eyes of the child, whose perception changes when he accidentally discovers the secret that Baines keeps and witnesses the consequences that adults' lies can cause."
+        },
+        {
+          "tconst": "tt0246578",
+          "titleType": "movie",
+          "primaryTitle": "Donnie Darko",
+          "startYear": 2001,
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi"
+          ],
+          "averageRating": 8.0,
+          "top_3_cast": [
+            "Jake Gyllenhaal",
+            "Jake Gyllenhaal - Donnie Darko",
+            "Jena Malone",
+            "Jena Malone - Gretchen Ross",
+            "Mary McDonnell",
+            "Mary McDonnell - Rose Darko"
+          ],
+          "description": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes."
+        },
+        {
+          "tconst": "tt0220832",
+          "titleType": "movie",
+          "primaryTitle": "Vaastav: The Reality",
+          "startYear": 1999,
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 8.0,
+          "top_3_cast": [
+            "Sanjay Dutt",
+            "Sanjay Dutt - Raghunath Namdev Shivalkar",
+            "Namrata Shirodkar",
+            "Namrata Shirodkar - Sonia (Sonu)",
+            "Sanjay Narvekar",
+            "Sanjay Narvekar - Dedh Footiya"
+          ]
+        },
+        {
+          "tconst": "tt28252563",
+          "titleType": "movie",
+          "primaryTitle": "Madharasi",
+          "startYear": 2025,
+          "genres": [
+            "Action",
+            "Romance",
+            "Thriller"
+          ],
+          "averageRating": 7.9,
+          "top_3_cast": [
+            "Rukmini Vasanth",
+            "Rukmini Vasanth - Malathy",
+            "Sivakarthikeyan",
+            "Sivakarthikeyan - Raghu",
+            "Vidyut Jammwal",
+            "Vidyut Jammwal - Unknown Character"
+          ],
+          "description": "A man with a psychological disorder overcomes trauma and confronts his nemesis in a fast-paced action film with romance and unique elements, exploring themes of resilience and redemption."
+        },
+        {
+          "tconst": "tt0058625",
+          "titleType": "movie",
+          "primaryTitle": "Woman in the Dunes",
+          "startYear": 1964,
+          "genres": [
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": 8.4,
+          "top_3_cast": [
+            "Eiji Okada",
+            "Eiji Okada - Entomologist Niki Jumpei",
+            "Ky\u00f4ko Kishida",
+            "Ky\u00f4ko Kishida - Woman",
+            "K\u00f4ji Mitsui",
+            "K\u00f4ji Mitsui - Village elder"
+          ],
+          "description": "A vacationing entomologist suffers extreme physical and psychological trauma after being taken captive by the residents of a poor seaside village and made to live with a woman whose life task is shoveling sand for them."
+        },
+        {
+          "tconst": "tt0065088",
+          "titleType": "movie",
+          "primaryTitle": "They Shoot Horses, Don't They?",
+          "startYear": 1969,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "Jane Fonda",
+            "Jane Fonda - Gloria",
+            "Michael Sarrazin",
+            "Michael Sarrazin - Robert",
+            "Susannah York",
+            "Susannah York - Alice"
+          ],
+          "description": "In the midst of the Great Depression, manipulative emcee Rocky enlists contestants for a dance marathon offering a $1,500 cash prize. Among them are a failed actress, a middle-aged sailor, a delusional blonde and a pregnant girl."
+        },
+        {
+          "tconst": "tt0065488",
+          "titleType": "movie",
+          "primaryTitle": "The Boys in the Band",
+          "startYear": 1970,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "Kenneth Nelson",
+            "Kenneth Nelson - Michael",
+            "Peter White",
+            "Peter White - Alan McCarthy",
+            "Leonard Frey",
+            "Leonard Frey - Harold"
+          ],
+          "description": "A witty, perceptive and devastating look at the personal agendas and suppressed revelations swirling among a group of gay men in Manhattan. Harold is celebrating a birthday, and his friend Michael has drafted some other friends to help commemorate the event. As the evening progresses, the alcohol flows, the knives come out, and Michael's demand that the group participate in a devious telephone game, unleashing dormant and unspoken emotions."
+        },
+        {
+          "tconst": "tt0034162",
+          "titleType": "movie",
+          "primaryTitle": "The Sea Wolf",
+          "startYear": 1941,
+          "genres": [
+            "Adventure",
+            "Drama"
+          ],
+          "averageRating": 7.5,
+          "top_3_cast": [
+            "Edward G. Robinson",
+            "Edward G. Robinson - 'Wolf' Larsen",
+            "Ida Lupino",
+            "Ida Lupino - Ruth Brewster",
+            "John Garfield",
+            "John Garfield - George Leach"
+          ],
+          "description": "Shipwrecked fugitives try to escape a brutal sea captain who's losing his mind."
+        },
+        {
+          "tconst": "tt0452039",
+          "titleType": "movie",
+          "primaryTitle": "Mind Game",
+          "startYear": 2004,
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ],
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "K\u00f4ji Imada",
+            "K\u00f4ji Imada - Nishi",
+            "Sayaka Maeda",
+            "Sayaka Maeda - Myon",
+            "Takashi Fujii",
+            "Takashi Fujii - Jiisan"
+          ],
+          "description": "Nishi is a loser who has a crush on his childhood girlfriend. After an encounter with the Japanese mafia, he journeys to heaven and back, and ends up trapped in an even more unlikely place."
+        },
+        {
+          "tconst": "tt0056172",
+          "titleType": "movie",
+          "primaryTitle": "Lawrence of Arabia",
+          "startYear": 1962,
+          "genres": [
+            "Adventure",
+            "Biography",
+            "Drama"
+          ],
+          "averageRating": 8.3,
+          "top_3_cast": [
+            "Peter O'Toole",
+            "Peter O'Toole - Lawrence",
+            "Alec Guinness",
+            "Alec Guinness - Prince Faisal",
+            "Anthony Quinn",
+            "Anthony Quinn - Auda Abu Tayi"
+          ],
+          "description": "The story of British officer T.E. Lawrence's mission to aid the Arab tribes in their revolt against the Ottoman Empire during the First World War. Lawrence becomes a flamboyant, messianic figure in the cause of Arab unity but his psychological instability threatens to undermine his achievements."
+        },
+        {
+          "tconst": "tt13243898",
+          "titleType": "movie",
+          "primaryTitle": "The Mole: Undercover in North Korea",
+          "startYear": 2020,
+          "genres": [
+            "Documentary",
+            "Thriller"
+          ],
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Jim Latrache-Qvortrup",
+            "Jim Latrache-Qvortrup - Mr. James"
+          ],
+          "description": "A real-life undercover thriller about two ordinary men who embark on an outrageously dangerous ten-year mission to penetrate the world's most secretive and brutal dictatorship: North Korea."
+        },
+        {
+          "tconst": "tt0391024",
+          "titleType": "movie",
+          "primaryTitle": "Control Room",
+          "startYear": 2004,
+          "genres": [
+            "Documentary"
+          ],
+          "averageRating": 7.6,
+          "description": "A chronicle which provides a rare window into the international perception of the Iraq War, courtesy of Al Jazeera, the Arab world's most popular news outlet. Roundly criticized by Cabinet members and Pentagon officials for reporting with a pro-Iraqi bias, and strongly condemned for frequently airing civilian causalities as well as footage of American POWs, the station has revealed (and continues to show the world) everything about the Iraq War that the Bush administration did not want it to see."
+        },
+        {
+          "tconst": "tt0120382",
+          "titleType": "movie",
+          "primaryTitle": "The Truman Show",
+          "startYear": 1998,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Jim Carrey",
+            "Jim Carrey - Truman Burbank",
+            "Ed Harris",
+            "Ed Harris - Christof",
+            "Laura Linney",
+            "Laura Linney - Meryl Burbank"
+          ],
+          "description": "An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show."
+        },
+        {
+          "tconst": "tt0125659",
+          "titleType": "movie",
+          "primaryTitle": "Open Your Eyes",
+          "startYear": 1997,
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi"
+          ],
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "Eduardo Noriega",
+            "Eduardo Noriega - C\u00e9sar",
+            "Pen\u00e9lope Cruz",
+            "Pen\u00e9lope Cruz - Sof\u00eda",
+            "Chete Lera",
+            "Chete Lera - Antonio"
+          ],
+          "description": "Handsome 25-year-old Cesar had it all -- a successful career, expensive cars, a swank bachelor's pad, and an endless string of beautiful and willing women -- until he is thrown into a strange psychological mystery after a car accident scars his face and lands him in prison."
+        },
+        {
+          "tconst": "tt8108268",
+          "titleType": "movie",
+          "primaryTitle": "The Tashkent Files",
+          "startYear": 2019,
+          "genres": [
+            "Drama",
+            "Mystery",
+            "Thriller"
+          ],
+          "averageRating": 8.1,
+          "top_3_cast": [
+            "Shweta Basu Prasad",
+            "Shweta Basu Prasad - Raagini Phule",
+            "Mithun Chakraborty",
+            "Mithun Chakraborty - Shyam Sunder Tripathi",
+            "Naseeruddin Shah",
+            "Naseeruddin Shah - PKR Natarajan"
+          ],
+          "description": "The Tashkent Files is a thriller that revolves around the mysterious death of India's 2nd Prime Minister Shri Lal Bahadur Shastri and attempts to uncover if he had actually died a natural death, or, as alleged, was assassinated."
+        },
+        {
+          "tconst": "tt1063669",
+          "titleType": "movie",
+          "primaryTitle": "The Wave",
+          "startYear": 2008,
+          "genres": [
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "J\u00fcrgen Vogel",
+            "J\u00fcrgen Vogel - Rainer Wenger",
+            "Frederick Lau",
+            "Frederick Lau - Tim Stoltefuss",
+            "Max Riemelt",
+            "Max Riemelt - Marco"
+          ],
+          "description": "A school teacher discusses types of government with his class. His students find it too boring to repeatedly go over national socialism and believe that dictatorship cannot be established in modern Germany. He starts an experiment to show how easily the masses can become manipulated."
+        },
+        {
+          "tconst": "tt0075793",
+          "titleType": "movie",
+          "primaryTitle": "We All Loved Each Other So Much",
+          "startYear": 1974,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": 8.0,
+          "top_3_cast": [
+            "Nino Manfredi",
+            "Nino Manfredi - Antonio",
+            "Vittorio Gassman",
+            "Vittorio Gassman - Gianni Perego",
+            "Stefania Sandrelli",
+            "Stefania Sandrelli - Luciana Zanon"
+          ],
+          "description": "Three partisans bound by a strong friendship return home after the war, but the clash with everyday reality puts a strain on their bond."
+        }
+      ]
+    }
+  },
+  "3": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 0,
+      "params": {
+        "q": "*:*",
+        "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast,vector",
+        "start": "0",
+        "sort": "score desc",
+        "rows": "20"
+      }
+    },
+    "response": {
+      "numFound": 10000,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": "tt0903747",
+          "titleType": "tvSeries",
+          "primaryTitle": "Breaking Bad",
+          "startYear": 2008,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": 9.5,
+          "top_3_cast": [
+            "Bryan Cranston",
+            "Bryan Cranston - Walter White",
+            "Aaron Paul",
+            "Aaron Paul - Jesse Pinkman",
+            "Anna Gunn",
+            "Anna Gunn - Skyler White"
+          ],
+          "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime."
+        },
+        {
+          "tconst": "tt0111161",
+          "titleType": "movie",
+          "primaryTitle": "The Shawshank Redemption",
+          "startYear": 1994,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 9.3,
+          "top_3_cast": [
+            "Tim Robbins",
+            "Tim Robbins - Andy Dufresne",
+            "Morgan Freeman",
+            "Morgan Freeman - Ellis Boyd 'Red' Redding",
+            "Bob Gunton",
+            "Bob Gunton - Warden Norton"
+          ],
+          "description": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope."
+        },
+        {
+          "tconst": "tt0417299",
+          "titleType": "tvSeries",
+          "primaryTitle": "Avatar: The Last Airbender",
+          "startYear": 2005,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 9.3,
+          "top_3_cast": [
+            "Dee Bradley Baker",
+            "Dee Bradley Baker - Appa",
+            "Zach Tyler Eisen",
+            "Zach Tyler Eisen - Aang",
+            "Mae Whitman",
+            "Mae Whitman - Katara"
+          ],
+          "description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world."
+        },
+        {
+          "tconst": "tt0306414",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Wire",
+          "startYear": 2002,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": 9.3,
+          "top_3_cast": [
+            "Dominic West",
+            "Dominic West - Detective James 'Jimmy' McNulty",
+            "Lance Reddick",
+            "Lance Reddick - Lieutenant Cedric Daniels",
+            "Sonja Sohn",
+            "Sonja Sohn - Detective Shakima 'Kima' Greggs"
+          ],
+          "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated."
+        },
+        {
+          "tconst": "tt0944947",
+          "titleType": "tvSeries",
+          "primaryTitle": "Game of Thrones",
+          "startYear": 2011,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "averageRating": 9.2,
+          "top_3_cast": [
+            "Emilia Clarke",
+            "Emilia Clarke - Daenerys Targaryen",
+            "Peter Dinklage",
+            "Peter Dinklage - Tyrion Lannister",
+            "Kit Harington",
+            "Kit Harington - Jon Snow"
+          ],
+          "description": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond."
+        },
+        {
+          "tconst": "tt0068646",
+          "titleType": "movie",
+          "primaryTitle": "The Godfather",
+          "startYear": 1972,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.2,
+          "top_3_cast": [
+            "Marlon Brando",
+            "Marlon Brando - Don Vito Corleone",
+            "Al Pacino",
+            "Al Pacino - Michael",
+            "James Caan",
+            "James Caan - Sonny"
+          ],
+          "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
+        },
+        {
+          "tconst": "tt0141842",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Sopranos",
+          "startYear": 1999,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.2,
+          "top_3_cast": [
+            "James Gandolfini",
+            "James Gandolfini - Tony Soprano",
+            "Lorraine Bracco",
+            "Lorraine Bracco - Dr. Jennifer Melfi",
+            "Edie Falco",
+            "Edie Falco - Carmela Soprano"
+          ],
+          "description": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and prot\u00e9g\u00e9 Christopher Moltisanti."
+        },
+        {
+          "tconst": "tt0468569",
+          "titleType": "movie",
+          "primaryTitle": "The Dark Knight",
+          "startYear": 2008,
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.1,
+          "top_3_cast": [
+            "Christian Bale",
+            "Christian Bale - Bruce Wayne",
+            "Heath Ledger",
+            "Heath Ledger - Joker",
+            "Aaron Eckhart",
+            "Aaron Eckhart - Harvey Dent"
+          ],
+          "description": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker."
+        },
+        {
+          "tconst": "tt2560140",
+          "titleType": "tvSeries",
+          "primaryTitle": "Attack on Titan",
+          "startYear": 2013,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 9.1,
+          "top_3_cast": [
+            "Jessie James Grelle",
+            "Jessie James Grelle - Armin Arlert",
+            "Bryce Papenbrook",
+            "Bryce Papenbrook - Eren Jaeger",
+            "Trina Nishimura",
+            "Trina Nishimura - Mikasa Ackermann"
+          ],
+          "description": "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls \u2013 but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill \u2013 or be devoured!"
+        },
+        {
+          "tconst": "tt14392248",
+          "titleType": "tvSeries",
+          "primaryTitle": "Aspirants",
+          "startYear": 2021,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 9.1,
+          "top_3_cast": [
+            "Naveen Kasturia",
+            "Naveen Kasturia - Abhilash Sharma",
+            "Shivankit Singh Parihar",
+            "Shivankit Singh Parihar - Guri",
+            "Abhilash Thapliyal",
+            "Abhilash Thapliyal - SK"
+          ],
+          "description": "Aspirants is a story of 3 friends - Abhilash, SK, and Guri. The story takes place in the past and the present where the past captures the struggle and the drama behind the making of UPSC CSE aspirants in Old Rajinder Nagar of Delhi, while the present talks about the aftermath. It is the story of three UPSC aspirants journey."
+        },
+        {
+          "tconst": "tt0167260",
+          "titleType": "movie",
+          "primaryTitle": "The Lord of the Rings: The Return of the King",
+          "startYear": 2003,
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Elijah Wood",
+            "Elijah Wood - Frodo",
+            "Viggo Mortensen",
+            "Viggo Mortensen - Aragorn",
+            "Ian McKellen",
+            "Ian McKellen - Gandalf"
+          ],
+          "description": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.\u200b"
+        },
+        {
+          "tconst": "tt1355642",
+          "titleType": "tvSeries",
+          "primaryTitle": "Fullmetal Alchemist: Brotherhood",
+          "startYear": 2009,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 9.1,
+          "top_3_cast": [
+            "Kent Williams",
+            "Kent Williams - Narrator",
+            "Iemasa Kayumi",
+            "Iemasa Kayumi - Narrator",
+            "Vic Mignogna",
+            "Vic Mignogna - Edward Elric"
+          ],
+          "description": "Disregard for alchemy\u2019s laws ripped half of Edward Elric\u2019s limbs from his body and left his brother Alphonse\u2019s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher\u2019s Stone. Enemies and allies \u2013 the corrupt military, the Homunculi, and foreign alchemists \u2013 will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable."
+        },
+        {
+          "tconst": "tt0108052",
+          "titleType": "movie",
+          "primaryTitle": "Schindler's List",
+          "startYear": 1993,
+          "genres": [
+            "Biography",
+            "Drama",
+            "History"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Liam Neeson",
+            "Liam Neeson - Oskar Schindler",
+            "Ralph Fiennes",
+            "Ralph Fiennes - Amon Goeth",
+            "Ben Kingsley",
+            "Ben Kingsley - Itzhak Stern"
+          ],
+          "description": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II."
+        },
+        {
+          "tconst": "tt0071562",
+          "titleType": "movie",
+          "primaryTitle": "The Godfather Part II",
+          "startYear": 1974,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Michael",
+            "Robert De Niro",
+            "Robert De Niro - Vito Corleone",
+            "Robert Duvall",
+            "Robert Duvall - Tom Hagen"
+          ],
+          "description": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba."
+        },
+        {
+          "tconst": "tt1475582",
+          "titleType": "tvSeries",
+          "primaryTitle": "Sherlock",
+          "startYear": 2010,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Mystery"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Benedict Cumberbatch",
+            "Benedict Cumberbatch - Sherlock Holmes",
+            "Martin Freeman",
+            "Martin Freeman - Dr. John Watson",
+            "Una Stubbs",
+            "Una Stubbs - Mrs. Hudson"
+          ],
+          "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London."
+        },
+        {
+          "tconst": "tt0050083",
+          "titleType": "movie",
+          "primaryTitle": "12 Angry Men",
+          "startYear": 1957,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Henry Fonda",
+            "Henry Fonda - Juror 8",
+            "Lee J. Cobb",
+            "Lee J. Cobb - Juror 3",
+            "Martin Balsam",
+            "Martin Balsam - Juror 1"
+          ],
+          "description": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other."
+        },
+        {
+          "tconst": "tt0386676",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Office",
+          "startYear": 2005,
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Steve Carell",
+            "Steve Carell - Michael Scott",
+            "Jenna Fischer",
+            "Jenna Fischer - Pam Beesly",
+            "John Krasinski",
+            "John Krasinski - Jim Halpert"
+          ],
+          "description": "The everyday lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company."
+        },
+        {
+          "tconst": "tt3032476",
+          "titleType": "tvSeries",
+          "primaryTitle": "Better Call Saul",
+          "startYear": 2015,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Bob Odenkirk",
+            "Bob Odenkirk - Jimmy McGill",
+            "Rhea Seehorn",
+            "Rhea Seehorn - Kim Wexler",
+            "Jonathan Banks",
+            "Jonathan Banks - Mike Ehrmantraut"
+          ],
+          "description": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is \u201cfixer\u201d Mike Ehrmantraut. The series tracks Jimmy\u2019s transformation into Saul Goodman, the man who puts \u201ccriminal\u201d in \u201ccriminal lawyer\"."
+        },
+        {
+          "tconst": "tt2861424",
+          "titleType": "tvSeries",
+          "primaryTitle": "Rick and Morty",
+          "startYear": 2013,
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Chris Parnell",
+            "Chris Parnell - Jerry Smith",
+            "Spencer Grammer",
+            "Spencer Grammer - Summer Smith",
+            "Sarah Chalke",
+            "Sarah Chalke - Beth Smith"
+          ],
+          "description": "Rick is a mentally-unbalanced but scientifically gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school."
+        },
+        {
+          "tconst": "tt11126994",
+          "titleType": "tvSeries",
+          "primaryTitle": "Arcane",
+          "startYear": 2021,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Kevin Alejandro",
+            "Kevin Alejandro - Jayce",
+            "Hailee Steinfeld",
+            "Hailee Steinfeld - Vi",
+            "Ella Purnell",
+            "Ella Purnell - Jinx"
+          ],
+          "description": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions."
+        }
+      ]
+    }
+  }
+}

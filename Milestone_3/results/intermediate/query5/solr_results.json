@@ -1,0 +1,1284 @@
+{
+  "1": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 1,
+      "params": {
+        "q": "high school chemistry teacher turns drug dealer desert new mexico",
+        "defType": "edismax",
+        "qf": "primaryTitle description genres top_3_cast",
+        "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast",
+        "q.op": "OR",
+        "fq": "averageRating:[7.0 TO 10]",
+        "rows": "20"
+      }
+    },
+    "response": {
+      "numFound": 1890,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": "tt0903747",
+          "titleType": "tvSeries",
+          "primaryTitle": "Breaking Bad",
+          "startYear": 2008,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": 9.5,
+          "top_3_cast": [
+            "Bryan Cranston",
+            "Bryan Cranston - Walter White",
+            "Aaron Paul",
+            "Aaron Paul - Jesse Pinkman",
+            "Anna Gunn",
+            "Anna Gunn - Skyler White"
+          ],
+          "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime."
+        },
+        {
+          "tconst": "tt0056945",
+          "titleType": "movie",
+          "primaryTitle": "The Organizer",
+          "startYear": 1963,
+          "genres": [
+            "Drama",
+            "History"
+          ],
+          "averageRating": 8.0,
+          "top_3_cast": [
+            "Marcello Mastroianni",
+            "Marcello Mastroianni - Professor Sinigaglia",
+            "Renato Salvatori",
+            "Renato Salvatori - Raoul",
+            "Gabriella Giorgelli",
+            "Gabriella Giorgelli - Adele"
+          ],
+          "description": "In the late 19th century, a former high school teacher turned unionist tries to organize workers laboring with inhuman conditions at a textile factory."
+        },
+        {
+          "tconst": "tt0112461",
+          "titleType": "movie",
+          "primaryTitle": "The Basketball Diaries",
+          "startYear": 1995,
+          "genres": [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 7.3,
+          "top_3_cast": [
+            "Leonardo DiCaprio",
+            "Leonardo DiCaprio - Jim Carroll",
+            "Lorraine Bracco",
+            "Lorraine Bracco - Jim's Mother",
+            "Marilyn Sokol",
+            "Marilyn Sokol - Chanting Woman"
+          ],
+          "description": "A high school basketball player\u2019s life turns upside down after free-falling into the harrowing world of drug addiction."
+        },
+        {
+          "tconst": "tt0097722",
+          "titleType": "movie",
+          "primaryTitle": "Lean on Me",
+          "startYear": 1989,
+          "genres": [
+            "Biography",
+            "Drama"
+          ],
+          "averageRating": 7.4,
+          "top_3_cast": [
+            "Morgan Freeman",
+            "Morgan Freeman - Principal Joe Clark",
+            "Beverly Todd",
+            "Beverly Todd - Ms. Levias",
+            "Robert Guillaume",
+            "Robert Guillaume - Dr. Frank Napier"
+          ],
+          "description": "When principal Joe Clark takes over decaying Eastside High School, he's faced with students wearing gang colors and graffiti-covered walls. Determined to do anything he must to turn the school around, he expels suspected drug dealers, padlocks doors and demands effort and results from students, staff and parents. Autocratic to a fault, this real-life educator put it all on the line."
+        },
+        {
+          "tconst": "tt2230051",
+          "titleType": "tvSeries",
+          "primaryTitle": "High School DxD",
+          "startYear": 2012,
+          "genres": [
+            "Action",
+            "Animation",
+            "Comedy"
+          ],
+          "averageRating": 7.5,
+          "top_3_cast": [
+            "Y\u00fbki Kaji",
+            "Y\u00fbki Kaji - Issei Hyoudou",
+            "Y\u00f4ko Hikasa",
+            "Y\u00f4ko Hikasa - Rias Gremory",
+            "Shizuka It\u00f4",
+            "Shizuka It\u00f4 - Akeno Himejima"
+          ]
+        },
+        {
+          "tconst": "tt0465551",
+          "titleType": "movie",
+          "primaryTitle": "Notes on a Scandal",
+          "startYear": 2006,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": 7.4,
+          "top_3_cast": [
+            "Cate Blanchett",
+            "Cate Blanchett - Sheba Hart",
+            "Judi Dench",
+            "Judi Dench - Barbara Covett",
+            "Andrew Simpson",
+            "Andrew Simpson - Steven Connolly"
+          ],
+          "description": "A veteran high school teacher befriends a younger art teacher, who is having an affair with one of her 15-year-old students. However, her intentions with this new \"friend\" also go well beyond platonic friendship."
+        },
+        {
+          "tconst": "tt0252488",
+          "titleType": "movie",
+          "primaryTitle": "The Chaos Class Failed the Class",
+          "startYear": 1975,
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": 8.6,
+          "top_3_cast": [
+            "M\u00fcnir \u00d6zkul",
+            "M\u00fcnir \u00d6zkul - Mahmut Hoca",
+            "Tarik Akan",
+            "Tarik Akan - Damat Ferit",
+            "Kemal Sunal",
+            "Kemal Sunal - Inek Saban"
+          ],
+          "description": "A young and beautiful female teacher starts working in an all boys high school."
+        },
+        {
+          "tconst": "tt2170584",
+          "titleType": "tvSeries",
+          "primaryTitle": "Video Game High School",
+          "startYear": 2012,
+          "genres": [
+            "Action",
+            "Comedy",
+            "Romance"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "Josh Blaylock",
+            "Josh Blaylock - Brian D",
+            "Ellary Porterfield",
+            "Ellary Porterfield - Ki Swan",
+            "Johanna Braddy",
+            "Johanna Braddy - Jenny Matrix"
+          ],
+          "description": "It's the near future: You're dead. Your kids are probably dead. Your grandkids (if they're alive) are playing video games. Why? Because professional gaming is the biggest sport on earth. Around the world, millions of players duke it out in fighters, RTS\u2019s, First Person Shooters and more. To the victors go the spoils: glory, clan contracts and million dollar endorsements. The best young gamers are recruited by elite boarding schools to sharpen their skills. The best of the best go to VGHS: VIDEO GAME HIGH SCHOOL."
+        },
+        {
+          "tconst": "tt1282140",
+          "titleType": "movie",
+          "primaryTitle": "Easy A",
+          "startYear": 2010,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": 7.0,
+          "top_3_cast": [
+            "Emma Stone",
+            "Emma Stone - Olive",
+            "Amanda Bynes",
+            "Amanda Bynes - Marianne",
+            "Penn Badgley",
+            "Penn Badgley - Woodchuck Todd"
+          ],
+          "description": "Olive, an average high school student, sees her below-the-radar existence turn around overnight once she decides to use the school's gossip grapevine to advance her social standing. Now her classmates are turning against her and the school board is becoming concerned, including her favorite teacher and the distracted guidance counselor. With the support of her hilariously idiosyncratic parents and a little help from a long-time crush, Olive attempts to take on her notorious new identity and crush the rumor mill once and for all."
+        },
+        {
+          "tconst": "tt1683526",
+          "titleType": "movie",
+          "primaryTitle": "Detachment",
+          "startYear": 2011,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "Adrien Brody",
+            "Adrien Brody - Henry Barthes",
+            "Christina Hendricks",
+            "Christina Hendricks - Ms. Sarah Madison",
+            "Marcia Gay Harden",
+            "Marcia Gay Harden - Principal Carol Dearden"
+          ],
+          "description": "A chronicle of three weeks in the lives of several high school teachers, administrators and students through the eyes of substitute teacher, Henry Barthes. Henry roams from school to school, imparting modes of knowledge, but never staying long enough to form any semblance of sentient attachment."
+        },
+        {
+          "tconst": "tt1723121",
+          "titleType": "movie",
+          "primaryTitle": "We're the Millers",
+          "startYear": 2013,
+          "genres": [
+            "Comedy",
+            "Crime"
+          ],
+          "averageRating": 7.0,
+          "top_3_cast": [
+            "Jason Sudeikis",
+            "Jason Sudeikis - David Clark",
+            "Jennifer Aniston",
+            "Jennifer Aniston - Rose O'Reilly",
+            "Emma Roberts",
+            "Emma Roberts - Casey Mathis"
+          ],
+          "description": "A veteran pot dealer creates a fake family as part of his plan to move a huge shipment of weed into the U.S. from Mexico."
+        },
+        {
+          "tconst": "tt0816397",
+          "titleType": "tvSeries",
+          "primaryTitle": "Ouran High School Host Club",
+          "startYear": 2006,
+          "genres": [
+            "Animation",
+            "Comedy",
+            "Romance"
+          ],
+          "averageRating": 8.1,
+          "top_3_cast": [
+            "Maaya Sakamoto",
+            "Maaya Sakamoto - Haruhi Fujioka",
+            "Mamoru Miyano",
+            "Mamoru Miyano - Tamaki Suou",
+            "Masaya Matsukaze",
+            "Masaya Matsukaze - Kyouya Otori"
+          ],
+          "description": "New student Haruhi stumbles on the Ouran High School Host Club, an all-male group that makes money by entertaining the girls of the school."
+        },
+        {
+          "tconst": "tt12227418",
+          "titleType": "tvSeries",
+          "primaryTitle": "The God of High School",
+          "startYear": 2020,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 7.2,
+          "top_3_cast": [
+            "Robbie Daymond",
+            "Robbie Daymond - Mori Jin",
+            "Tara Sands",
+            "Tara Sands - Nurse Heal",
+            "Landon McDonald",
+            "Landon McDonald - Gidong Nah"
+          ],
+          "description": "When an island half-disappears from the face of the earth, a mysterious organization sends out invitations for a tournament to every skilled fighter in the world. \"If you win you can have ANYTHING you want,\" they claim. They're recruiting only the best to fight the best and claim the title of The God of High School. Jin Mori, a Taekwondo specialist and a high school student, soon learns that there is something much greater beneath the stage of the tournament."
+        },
+        {
+          "tconst": "tt8772296",
+          "titleType": "tvSeries",
+          "primaryTitle": "Euphoria",
+          "startYear": 2019,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Zendaya",
+            "Zendaya - Rue Bennett",
+            "Hunter Schafer",
+            "Hunter Schafer - Jules Vaughn",
+            "Jacob Elordi",
+            "Jacob Elordi - Nate Jacobs"
+          ],
+          "description": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media."
+        },
+        {
+          "tconst": "tt10288566",
+          "titleType": "movie",
+          "primaryTitle": "Another Round",
+          "startYear": 2020,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "Mads Mikkelsen",
+            "Mads Mikkelsen - Martin",
+            "Thomas Bo Larsen",
+            "Thomas Bo Larsen - Tommy",
+            "Magnus Millang",
+            "Magnus Millang - Nikolaj"
+          ],
+          "description": "Four stagnant high school teachers decide to test out a theory that maintaining a constant level of intoxication will improve their overall lives."
+        },
+        {
+          "tconst": "tt0372824",
+          "titleType": "movie",
+          "primaryTitle": "The Chorus",
+          "startYear": 2004,
+          "genres": [
+            "Drama",
+            "Music"
+          ],
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "G\u00e9rard Jugnot",
+            "G\u00e9rard Jugnot - Cl\u00e9ment Mathieu",
+            "Fran\u00e7ois Berl\u00e9and",
+            "Fran\u00e7ois Berl\u00e9and - Headmaster Rachin",
+            "Jean-Baptiste Maunier",
+            "Jean-Baptiste Maunier - Pierre Morhange"
+          ],
+          "description": "In 1940s France, a new teacher at a school for disruptive boys gives hope and inspiration."
+        },
+        {
+          "tconst": "tt0463998",
+          "titleType": "movie",
+          "primaryTitle": "Freedom Writers",
+          "startYear": 2007,
+          "genres": [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "Hilary Swank",
+            "Hilary Swank - Erin Gruwell",
+            "Imelda Staunton",
+            "Imelda Staunton - Margaret Campbell",
+            "Patrick Dempsey",
+            "Patrick Dempsey - Scott Casey"
+          ],
+          "description": "A young teacher inspires her class of at-risk students to learn tolerance, apply themselves, and pursue education beyond high school."
+        },
+        {
+          "tconst": "tt0479468",
+          "titleType": "movie",
+          "primaryTitle": "Gonzo",
+          "startYear": 2008,
+          "genres": [
+            "Biography",
+            "Documentary",
+            "Music"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "Joe Cairo",
+            "Joe Cairo - New York Studio Shoot",
+            "David Carlo",
+            "David Carlo - New York Studio Shoot",
+            "Victor Ortiz",
+            "Victor Ortiz - New York Studio Shoot"
+          ]
+        },
+        {
+          "tconst": "tt20782190",
+          "titleType": "tvSeries",
+          "primaryTitle": "English Teacher",
+          "startYear": 2024,
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": 7.4,
+          "top_3_cast": [
+            "Brian Jordan Alvarez",
+            "Brian Jordan Alvarez - Evan Marquez",
+            "Stephanie Koenig",
+            "Stephanie Koenig - Gwen Sanders",
+            "Enrico Colantoni",
+            "Enrico Colantoni - Principal Grant Moretti"
+          ],
+          "description": "A high school teacher in Austin tries to balance the competing demands of the students and their parents in a world where the rules seem to change every day."
+        },
+        {
+          "tconst": "tt0275719",
+          "titleType": "movie",
+          "primaryTitle": "Tape",
+          "startYear": 2001,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 7.2,
+          "top_3_cast": [
+            "Ethan Hawke",
+            "Ethan Hawke - Vin",
+            "Robert Sean Leonard",
+            "Robert Sean Leonard - Jon",
+            "Uma Thurman",
+            "Uma Thurman - Amy"
+          ],
+          "description": "Jon, a first-time filmmaker, finds himself in Lansing, Michigan to present his film at a local film festival. Vince, his high school friend who is now a volunteer fireman and small-time drug dealer, also visits the town to support Jon on his big day, or so it seems. After a raucous hello and much backslapping, it appears that there is an undercurrent of tension in the air."
+        }
+      ]
+    }
+  },
+  "2": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 1,
+      "params": {
+        "q": "high school chemistry teacher turns drug dealer desert new mexico",
+        "defType": "edismax",
+        "ps": "3",
+        "qf": "primaryTitle^2 description^4 genres^2 top_3_cast^1.5",
+        "pf": "description^8",
+        "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast",
+        "q.op": "OR",
+        "fq": "averageRating:[7.0 TO 10]",
+        "rows": "20"
+      }
+    },
+    "response": {
+      "numFound": 1890,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": "tt0903747",
+          "titleType": "tvSeries",
+          "primaryTitle": "Breaking Bad",
+          "startYear": 2008,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": 9.5,
+          "top_3_cast": [
+            "Bryan Cranston",
+            "Bryan Cranston - Walter White",
+            "Aaron Paul",
+            "Aaron Paul - Jesse Pinkman",
+            "Anna Gunn",
+            "Anna Gunn - Skyler White"
+          ],
+          "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime."
+        },
+        {
+          "tconst": "tt0056945",
+          "titleType": "movie",
+          "primaryTitle": "The Organizer",
+          "startYear": 1963,
+          "genres": [
+            "Drama",
+            "History"
+          ],
+          "averageRating": 8.0,
+          "top_3_cast": [
+            "Marcello Mastroianni",
+            "Marcello Mastroianni - Professor Sinigaglia",
+            "Renato Salvatori",
+            "Renato Salvatori - Raoul",
+            "Gabriella Giorgelli",
+            "Gabriella Giorgelli - Adele"
+          ],
+          "description": "In the late 19th century, a former high school teacher turned unionist tries to organize workers laboring with inhuman conditions at a textile factory."
+        },
+        {
+          "tconst": "tt0112461",
+          "titleType": "movie",
+          "primaryTitle": "The Basketball Diaries",
+          "startYear": 1995,
+          "genres": [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 7.3,
+          "top_3_cast": [
+            "Leonardo DiCaprio",
+            "Leonardo DiCaprio - Jim Carroll",
+            "Lorraine Bracco",
+            "Lorraine Bracco - Jim's Mother",
+            "Marilyn Sokol",
+            "Marilyn Sokol - Chanting Woman"
+          ],
+          "description": "A high school basketball player\u2019s life turns upside down after free-falling into the harrowing world of drug addiction."
+        },
+        {
+          "tconst": "tt0097722",
+          "titleType": "movie",
+          "primaryTitle": "Lean on Me",
+          "startYear": 1989,
+          "genres": [
+            "Biography",
+            "Drama"
+          ],
+          "averageRating": 7.4,
+          "top_3_cast": [
+            "Morgan Freeman",
+            "Morgan Freeman - Principal Joe Clark",
+            "Beverly Todd",
+            "Beverly Todd - Ms. Levias",
+            "Robert Guillaume",
+            "Robert Guillaume - Dr. Frank Napier"
+          ],
+          "description": "When principal Joe Clark takes over decaying Eastside High School, he's faced with students wearing gang colors and graffiti-covered walls. Determined to do anything he must to turn the school around, he expels suspected drug dealers, padlocks doors and demands effort and results from students, staff and parents. Autocratic to a fault, this real-life educator put it all on the line."
+        },
+        {
+          "tconst": "tt0465551",
+          "titleType": "movie",
+          "primaryTitle": "Notes on a Scandal",
+          "startYear": 2006,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": 7.4,
+          "top_3_cast": [
+            "Cate Blanchett",
+            "Cate Blanchett - Sheba Hart",
+            "Judi Dench",
+            "Judi Dench - Barbara Covett",
+            "Andrew Simpson",
+            "Andrew Simpson - Steven Connolly"
+          ],
+          "description": "A veteran high school teacher befriends a younger art teacher, who is having an affair with one of her 15-year-old students. However, her intentions with this new \"friend\" also go well beyond platonic friendship."
+        },
+        {
+          "tconst": "tt0252488",
+          "titleType": "movie",
+          "primaryTitle": "The Chaos Class Failed the Class",
+          "startYear": 1975,
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": 8.6,
+          "top_3_cast": [
+            "M\u00fcnir \u00d6zkul",
+            "M\u00fcnir \u00d6zkul - Mahmut Hoca",
+            "Tarik Akan",
+            "Tarik Akan - Damat Ferit",
+            "Kemal Sunal",
+            "Kemal Sunal - Inek Saban"
+          ],
+          "description": "A young and beautiful female teacher starts working in an all boys high school."
+        },
+        {
+          "tconst": "tt1282140",
+          "titleType": "movie",
+          "primaryTitle": "Easy A",
+          "startYear": 2010,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": 7.0,
+          "top_3_cast": [
+            "Emma Stone",
+            "Emma Stone - Olive",
+            "Amanda Bynes",
+            "Amanda Bynes - Marianne",
+            "Penn Badgley",
+            "Penn Badgley - Woodchuck Todd"
+          ],
+          "description": "Olive, an average high school student, sees her below-the-radar existence turn around overnight once she decides to use the school's gossip grapevine to advance her social standing. Now her classmates are turning against her and the school board is becoming concerned, including her favorite teacher and the distracted guidance counselor. With the support of her hilariously idiosyncratic parents and a little help from a long-time crush, Olive attempts to take on her notorious new identity and crush the rumor mill once and for all."
+        },
+        {
+          "tconst": "tt1683526",
+          "titleType": "movie",
+          "primaryTitle": "Detachment",
+          "startYear": 2011,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "Adrien Brody",
+            "Adrien Brody - Henry Barthes",
+            "Christina Hendricks",
+            "Christina Hendricks - Ms. Sarah Madison",
+            "Marcia Gay Harden",
+            "Marcia Gay Harden - Principal Carol Dearden"
+          ],
+          "description": "A chronicle of three weeks in the lives of several high school teachers, administrators and students through the eyes of substitute teacher, Henry Barthes. Henry roams from school to school, imparting modes of knowledge, but never staying long enough to form any semblance of sentient attachment."
+        },
+        {
+          "tconst": "tt1723121",
+          "titleType": "movie",
+          "primaryTitle": "We're the Millers",
+          "startYear": 2013,
+          "genres": [
+            "Comedy",
+            "Crime"
+          ],
+          "averageRating": 7.0,
+          "top_3_cast": [
+            "Jason Sudeikis",
+            "Jason Sudeikis - David Clark",
+            "Jennifer Aniston",
+            "Jennifer Aniston - Rose O'Reilly",
+            "Emma Roberts",
+            "Emma Roberts - Casey Mathis"
+          ],
+          "description": "A veteran pot dealer creates a fake family as part of his plan to move a huge shipment of weed into the U.S. from Mexico."
+        },
+        {
+          "tconst": "tt8772296",
+          "titleType": "tvSeries",
+          "primaryTitle": "Euphoria",
+          "startYear": 2019,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 8.2,
+          "top_3_cast": [
+            "Zendaya",
+            "Zendaya - Rue Bennett",
+            "Hunter Schafer",
+            "Hunter Schafer - Jules Vaughn",
+            "Jacob Elordi",
+            "Jacob Elordi - Nate Jacobs"
+          ],
+          "description": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media."
+        },
+        {
+          "tconst": "tt10288566",
+          "titleType": "movie",
+          "primaryTitle": "Another Round",
+          "startYear": 2020,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": 7.7,
+          "top_3_cast": [
+            "Mads Mikkelsen",
+            "Mads Mikkelsen - Martin",
+            "Thomas Bo Larsen",
+            "Thomas Bo Larsen - Tommy",
+            "Magnus Millang",
+            "Magnus Millang - Nikolaj"
+          ],
+          "description": "Four stagnant high school teachers decide to test out a theory that maintaining a constant level of intoxication will improve their overall lives."
+        },
+        {
+          "tconst": "tt0372824",
+          "titleType": "movie",
+          "primaryTitle": "The Chorus",
+          "startYear": 2004,
+          "genres": [
+            "Drama",
+            "Music"
+          ],
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "G\u00e9rard Jugnot",
+            "G\u00e9rard Jugnot - Cl\u00e9ment Mathieu",
+            "Fran\u00e7ois Berl\u00e9and",
+            "Fran\u00e7ois Berl\u00e9and - Headmaster Rachin",
+            "Jean-Baptiste Maunier",
+            "Jean-Baptiste Maunier - Pierre Morhange"
+          ],
+          "description": "In 1940s France, a new teacher at a school for disruptive boys gives hope and inspiration."
+        },
+        {
+          "tconst": "tt0463998",
+          "titleType": "movie",
+          "primaryTitle": "Freedom Writers",
+          "startYear": 2007,
+          "genres": [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "Hilary Swank",
+            "Hilary Swank - Erin Gruwell",
+            "Imelda Staunton",
+            "Imelda Staunton - Margaret Campbell",
+            "Patrick Dempsey",
+            "Patrick Dempsey - Scott Casey"
+          ],
+          "description": "A young teacher inspires her class of at-risk students to learn tolerance, apply themselves, and pursue education beyond high school."
+        },
+        {
+          "tconst": "tt20782190",
+          "titleType": "tvSeries",
+          "primaryTitle": "English Teacher",
+          "startYear": 2024,
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": 7.4,
+          "top_3_cast": [
+            "Brian Jordan Alvarez",
+            "Brian Jordan Alvarez - Evan Marquez",
+            "Stephanie Koenig",
+            "Stephanie Koenig - Gwen Sanders",
+            "Enrico Colantoni",
+            "Enrico Colantoni - Principal Grant Moretti"
+          ],
+          "description": "A high school teacher in Austin tries to balance the competing demands of the students and their parents in a world where the rules seem to change every day."
+        },
+        {
+          "tconst": "tt0275719",
+          "titleType": "movie",
+          "primaryTitle": "Tape",
+          "startYear": 2001,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 7.2,
+          "top_3_cast": [
+            "Ethan Hawke",
+            "Ethan Hawke - Vin",
+            "Robert Sean Leonard",
+            "Robert Sean Leonard - Jon",
+            "Uma Thurman",
+            "Uma Thurman - Amy"
+          ],
+          "description": "Jon, a first-time filmmaker, finds himself in Lansing, Michigan to present his film at a local film festival. Vince, his high school friend who is now a volunteer fireman and small-time drug dealer, also visits the town to support Jon on his big day, or so it seems. After a raucous hello and much backslapping, it appears that there is an undercurrent of tension in the air."
+        },
+        {
+          "tconst": "tt14331144",
+          "titleType": "movie",
+          "primaryTitle": "Jujutsu Kaisen 0",
+          "startYear": 2021,
+          "genres": [
+            "Action",
+            "Animation",
+            "Fantasy"
+          ],
+          "averageRating": 7.8,
+          "top_3_cast": [
+            "Megumi Ogata",
+            "Megumi Ogata - Yuta Okkotsu",
+            "Kana Hanazawa",
+            "Kana Hanazawa - Rika Orimoto",
+            "Y\u00fbichi Nakamura",
+            "Y\u00fbichi Nakamura - Satoru Gojo"
+          ],
+          "description": "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem\u2014his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?"
+        },
+        {
+          "tconst": "tt0187231",
+          "titleType": "movie",
+          "primaryTitle": "Barking at the Stars",
+          "startYear": 1998,
+          "genres": [
+            "Comedy",
+            "Romance"
+          ],
+          "averageRating": 8.6,
+          "top_3_cast": [
+            "Dragan Micanovic",
+            "Dragan Micanovic - Mihailo Knezevic - Filozof",
+            "Natasa Tapuskovic",
+            "Natasa Tapuskovic - Danica Jankovic",
+            "Nikola Simic",
+            "Nikola Simic - Direktor"
+          ],
+          "description": "Comedy about teachers and students at a high school in a small provincial town. Mihailo tries to win the heart of a girl his brother is also chasing."
+        },
+        {
+          "tconst": "tt3138782",
+          "titleType": "movie",
+          "primaryTitle": "The Miracle",
+          "startYear": 2015,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "History"
+          ],
+          "averageRating": 7.6,
+          "top_3_cast": [
+            "Talat Bulut",
+            "Talat Bulut - Mahir",
+            "Mert Turak",
+            "Mert Turak - Aziz",
+            "Mahsun Kirmizig\u00fcl",
+            "Mahsun Kirmizig\u00fcl - Bozat"
+          ],
+          "description": "1960s Turkey countryside. A newly assigned teacher finds out that the solitary village is missing a school. He gets fond of the village people and especially a disabled man. The teacher helps the village to build a new school and educate the children and the disabled man."
+        },
+        {
+          "tconst": "tt1064899",
+          "titleType": "tvSeries",
+          "primaryTitle": "Queen of the South",
+          "startYear": 2016,
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 8.0,
+          "top_3_cast": [
+            "Alice Braga",
+            "Alice Braga - Teresa Mendoza",
+            "Hemky Madera",
+            "Hemky Madera - Pote Galvez",
+            "Peter Gadiot",
+            "Peter Gadiot - James Valdez"
+          ],
+          "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder."
+        },
+        {
+          "tconst": "tt1830379",
+          "titleType": "tvSeries",
+          "primaryTitle": "Top Boy",
+          "startYear": 2011,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": 8.4,
+          "top_3_cast": [
+            "Ashley Walters",
+            "Ashley Walters - Dushane",
+            "Kano",
+            "Kano - Sully",
+            "Jasmine Jobson",
+            "Jasmine Jobson - Jaq"
+          ],
+          "description": "A thrilling and raw crime drama following a gang of drug dealers in Hackney, London - an honest and gripping rendition of inner-city drug and gang culture."
+        }
+      ]
+    }
+  },
+  "3": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 0,
+      "params": {
+        "q": "*:*",
+        "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast,vector",
+        "start": "0",
+        "sort": "score desc",
+        "rows": "20"
+      }
+    },
+    "response": {
+      "numFound": 10000,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": "tt0903747",
+          "titleType": "tvSeries",
+          "primaryTitle": "Breaking Bad",
+          "startYear": 2008,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": 9.5,
+          "top_3_cast": [
+            "Bryan Cranston",
+            "Bryan Cranston - Walter White",
+            "Aaron Paul",
+            "Aaron Paul - Jesse Pinkman",
+            "Anna Gunn",
+            "Anna Gunn - Skyler White"
+          ],
+          "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime."
+        },
+        {
+          "tconst": "tt0111161",
+          "titleType": "movie",
+          "primaryTitle": "The Shawshank Redemption",
+          "startYear": 1994,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 9.3,
+          "top_3_cast": [
+            "Tim Robbins",
+            "Tim Robbins - Andy Dufresne",
+            "Morgan Freeman",
+            "Morgan Freeman - Ellis Boyd 'Red' Redding",
+            "Bob Gunton",
+            "Bob Gunton - Warden Norton"
+          ],
+          "description": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope."
+        },
+        {
+          "tconst": "tt0417299",
+          "titleType": "tvSeries",
+          "primaryTitle": "Avatar: The Last Airbender",
+          "startYear": 2005,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 9.3,
+          "top_3_cast": [
+            "Dee Bradley Baker",
+            "Dee Bradley Baker - Appa",
+            "Zach Tyler Eisen",
+            "Zach Tyler Eisen - Aang",
+            "Mae Whitman",
+            "Mae Whitman - Katara"
+          ],
+          "description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world."
+        },
+        {
+          "tconst": "tt0306414",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Wire",
+          "startYear": 2002,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": 9.3,
+          "top_3_cast": [
+            "Dominic West",
+            "Dominic West - Detective James 'Jimmy' McNulty",
+            "Lance Reddick",
+            "Lance Reddick - Lieutenant Cedric Daniels",
+            "Sonja Sohn",
+            "Sonja Sohn - Detective Shakima 'Kima' Greggs"
+          ],
+          "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated."
+        },
+        {
+          "tconst": "tt0944947",
+          "titleType": "tvSeries",
+          "primaryTitle": "Game of Thrones",
+          "startYear": 2011,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "averageRating": 9.2,
+          "top_3_cast": [
+            "Emilia Clarke",
+            "Emilia Clarke - Daenerys Targaryen",
+            "Peter Dinklage",
+            "Peter Dinklage - Tyrion Lannister",
+            "Kit Harington",
+            "Kit Harington - Jon Snow"
+          ],
+          "description": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond."
+        },
+        {
+          "tconst": "tt0068646",
+          "titleType": "movie",
+          "primaryTitle": "The Godfather",
+          "startYear": 1972,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.2,
+          "top_3_cast": [
+            "Marlon Brando",
+            "Marlon Brando - Don Vito Corleone",
+            "Al Pacino",
+            "Al Pacino - Michael",
+            "James Caan",
+            "James Caan - Sonny"
+          ],
+          "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
+        },
+        {
+          "tconst": "tt0141842",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Sopranos",
+          "startYear": 1999,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.2,
+          "top_3_cast": [
+            "James Gandolfini",
+            "James Gandolfini - Tony Soprano",
+            "Lorraine Bracco",
+            "Lorraine Bracco - Dr. Jennifer Melfi",
+            "Edie Falco",
+            "Edie Falco - Carmela Soprano"
+          ],
+          "description": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and prot\u00e9g\u00e9 Christopher Moltisanti."
+        },
+        {
+          "tconst": "tt0468569",
+          "titleType": "movie",
+          "primaryTitle": "The Dark Knight",
+          "startYear": 2008,
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.1,
+          "top_3_cast": [
+            "Christian Bale",
+            "Christian Bale - Bruce Wayne",
+            "Heath Ledger",
+            "Heath Ledger - Joker",
+            "Aaron Eckhart",
+            "Aaron Eckhart - Harvey Dent"
+          ],
+          "description": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker."
+        },
+        {
+          "tconst": "tt2560140",
+          "titleType": "tvSeries",
+          "primaryTitle": "Attack on Titan",
+          "startYear": 2013,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 9.1,
+          "top_3_cast": [
+            "Jessie James Grelle",
+            "Jessie James Grelle - Armin Arlert",
+            "Bryce Papenbrook",
+            "Bryce Papenbrook - Eren Jaeger",
+            "Trina Nishimura",
+            "Trina Nishimura - Mikasa Ackermann"
+          ],
+          "description": "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls \u2013 but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill \u2013 or be devoured!"
+        },
+        {
+          "tconst": "tt14392248",
+          "titleType": "tvSeries",
+          "primaryTitle": "Aspirants",
+          "startYear": 2021,
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": 9.1,
+          "top_3_cast": [
+            "Naveen Kasturia",
+            "Naveen Kasturia - Abhilash Sharma",
+            "Shivankit Singh Parihar",
+            "Shivankit Singh Parihar - Guri",
+            "Abhilash Thapliyal",
+            "Abhilash Thapliyal - SK"
+          ],
+          "description": "Aspirants is a story of 3 friends - Abhilash, SK, and Guri. The story takes place in the past and the present where the past captures the struggle and the drama behind the making of UPSC CSE aspirants in Old Rajinder Nagar of Delhi, while the present talks about the aftermath. It is the story of three UPSC aspirants journey."
+        },
+        {
+          "tconst": "tt0167260",
+          "titleType": "movie",
+          "primaryTitle": "The Lord of the Rings: The Return of the King",
+          "startYear": 2003,
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Elijah Wood",
+            "Elijah Wood - Frodo",
+            "Viggo Mortensen",
+            "Viggo Mortensen - Aragorn",
+            "Ian McKellen",
+            "Ian McKellen - Gandalf"
+          ],
+          "description": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.\u200b"
+        },
+        {
+          "tconst": "tt1355642",
+          "titleType": "tvSeries",
+          "primaryTitle": "Fullmetal Alchemist: Brotherhood",
+          "startYear": 2009,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 9.1,
+          "top_3_cast": [
+            "Kent Williams",
+            "Kent Williams - Narrator",
+            "Iemasa Kayumi",
+            "Iemasa Kayumi - Narrator",
+            "Vic Mignogna",
+            "Vic Mignogna - Edward Elric"
+          ],
+          "description": "Disregard for alchemy\u2019s laws ripped half of Edward Elric\u2019s limbs from his body and left his brother Alphonse\u2019s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher\u2019s Stone. Enemies and allies \u2013 the corrupt military, the Homunculi, and foreign alchemists \u2013 will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable."
+        },
+        {
+          "tconst": "tt0108052",
+          "titleType": "movie",
+          "primaryTitle": "Schindler's List",
+          "startYear": 1993,
+          "genres": [
+            "Biography",
+            "Drama",
+            "History"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Liam Neeson",
+            "Liam Neeson - Oskar Schindler",
+            "Ralph Fiennes",
+            "Ralph Fiennes - Amon Goeth",
+            "Ben Kingsley",
+            "Ben Kingsley - Itzhak Stern"
+          ],
+          "description": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II."
+        },
+        {
+          "tconst": "tt0071562",
+          "titleType": "movie",
+          "primaryTitle": "The Godfather Part II",
+          "startYear": 1974,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Michael",
+            "Robert De Niro",
+            "Robert De Niro - Vito Corleone",
+            "Robert Duvall",
+            "Robert Duvall - Tom Hagen"
+          ],
+          "description": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba."
+        },
+        {
+          "tconst": "tt1475582",
+          "titleType": "tvSeries",
+          "primaryTitle": "Sherlock",
+          "startYear": 2010,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Mystery"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Benedict Cumberbatch",
+            "Benedict Cumberbatch - Sherlock Holmes",
+            "Martin Freeman",
+            "Martin Freeman - Dr. John Watson",
+            "Una Stubbs",
+            "Una Stubbs - Mrs. Hudson"
+          ],
+          "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London."
+        },
+        {
+          "tconst": "tt0050083",
+          "titleType": "movie",
+          "primaryTitle": "12 Angry Men",
+          "startYear": 1957,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Henry Fonda",
+            "Henry Fonda - Juror 8",
+            "Lee J. Cobb",
+            "Lee J. Cobb - Juror 3",
+            "Martin Balsam",
+            "Martin Balsam - Juror 1"
+          ],
+          "description": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other."
+        },
+        {
+          "tconst": "tt0386676",
+          "titleType": "tvSeries",
+          "primaryTitle": "The Office",
+          "startYear": 2005,
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Steve Carell",
+            "Steve Carell - Michael Scott",
+            "Jenna Fischer",
+            "Jenna Fischer - Pam Beesly",
+            "John Krasinski",
+            "John Krasinski - Jim Halpert"
+          ],
+          "description": "The everyday lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company."
+        },
+        {
+          "tconst": "tt3032476",
+          "titleType": "tvSeries",
+          "primaryTitle": "Better Call Saul",
+          "startYear": 2015,
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Bob Odenkirk",
+            "Bob Odenkirk - Jimmy McGill",
+            "Rhea Seehorn",
+            "Rhea Seehorn - Kim Wexler",
+            "Jonathan Banks",
+            "Jonathan Banks - Mike Ehrmantraut"
+          ],
+          "description": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is \u201cfixer\u201d Mike Ehrmantraut. The series tracks Jimmy\u2019s transformation into Saul Goodman, the man who puts \u201ccriminal\u201d in \u201ccriminal lawyer\"."
+        },
+        {
+          "tconst": "tt2861424",
+          "titleType": "tvSeries",
+          "primaryTitle": "Rick and Morty",
+          "startYear": 2013,
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Chris Parnell",
+            "Chris Parnell - Jerry Smith",
+            "Spencer Grammer",
+            "Spencer Grammer - Summer Smith",
+            "Sarah Chalke",
+            "Sarah Chalke - Beth Smith"
+          ],
+          "description": "Rick is a mentally-unbalanced but scientifically gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school."
+        },
+        {
+          "tconst": "tt11126994",
+          "titleType": "tvSeries",
+          "primaryTitle": "Arcane",
+          "startYear": 2021,
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": 9.0,
+          "top_3_cast": [
+            "Kevin Alejandro",
+            "Kevin Alejandro - Jayce",
+            "Hailee Steinfeld",
+            "Hailee Steinfeld - Vi",
+            "Ella Purnell",
+            "Ella Purnell - Jinx"
+          ],
+          "description": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions."
+        }
+      ]
+    }
+  }
+}

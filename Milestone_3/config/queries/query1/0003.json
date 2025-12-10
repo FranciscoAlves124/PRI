@@ -1,0 +1,20 @@
+{
+  "query": "Funny TV Show",
+  "fields": [
+    "tconst",
+    "primaryTitle",
+    "startYear",
+    "genres",
+    "averageRating",
+    "titleType",
+    "description",
+    "top_3_cast",
+    "vector"
+  ],
+  "params": {
+    "q": "{!knn f=vector topK=20}Funny TV Show",
+    "sort": "score desc",
+    "start": 0,
+    "rows": 20
+  }
+}
