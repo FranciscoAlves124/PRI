@@ -1,0 +1,22 @@
+{
+  "query": "\"Robert De Niro\" or \"Al Pacino\" Crime Drama",
+  "fields": [
+    "tconst",
+    "primaryTitle",
+    "startYear",
+    "genres",
+    "averageRating",
+    "titleType",
+    "description",
+    "top_3_cast",
+    "vector"
+  ],
+  "params": {
+    "q": "{!knn f=vector topK=20}Robert De Niro Al Pacino Crime Drama",
+    "qf": "primaryTitle^2 genres^2 description^3 top_3_cast^2",
+    "pf": "description^6",
+    "sort": "score desc",
+    "start": 0,
+    "rows": 20
+  }
+}

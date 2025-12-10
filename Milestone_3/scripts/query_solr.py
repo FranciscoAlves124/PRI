@@ -156,9 +156,11 @@ def main(query_folder: Path, solr_uri, output_folder, collection):
         # filename contains query number
         filename = Path(query_file).stem
 
-        results[int(filename)] = fetch_solr_results(
-            query_file, solr_uri, collection
-        )
+        if(((filename == "0001" or filename == "0002") and (not "semantic" in collection.lower()))
+           or ((filename == "0003" or filename == "0004") and ("semantic" in collection.lower()))):
+            results[int(filename)] = fetch_solr_results(
+                query_file, solr_uri, collection
+            )
 
     print(json.dumps(results, indent=2))
 
