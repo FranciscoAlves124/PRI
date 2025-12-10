@@ -1,0 +1,1989 @@
+{
+  "1": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 1,
+      "params": {
+        "q": "lonely isolated person forms unlikely friendship emotional connection",
+        "defType": "edismax",
+        "qf": "primaryTitle description genres",
+        "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast",
+        "q.op": "OR",
+        "fq": "averageRating:[7.5 TO 10]",
+        "rows": "20"
+      }
+    },
+    "response": {
+      "numFound": 256,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": [
+            "tt9586294"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Better Days"
+          ],
+          "startYear": [
+            2019
+          ],
+          "genres": [
+            "Crime",
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "Dongyu Zhou",
+            "Dongyu Zhou - Chen Nian",
+            "Jackson Yee",
+            "Jackson Yee - Xiao Bei",
+            "Fang Yin",
+            "Fang Yin - Zheng Yi"
+          ],
+          "description": [
+            "A bullied teenage girl forms an unlikely friendship with a mysterious young man who protects her from her assailants, while she copes with the pressures of her final examinations."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0978762"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Mary and Max"
+          ],
+          "startYear": [
+            2009
+          ],
+          "genres": [
+            "Animation",
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            8.1
+          ],
+          "top_3_cast": [
+            "Toni Collette",
+            "Toni Collette - Mary Daisy Dinkle",
+            "Philip Seymour Hoffman",
+            "Philip Seymour Hoffman - Max Jerry Horovitz",
+            "Eric Bana",
+            "Eric Bana - Damien Popodopolous"
+          ],
+          "description": [
+            "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0388795"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Brokeback Mountain"
+          ],
+          "startYear": [
+            2005
+          ],
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            7.7
+          ],
+          "top_3_cast": [
+            "Jake Gyllenhaal",
+            "Jake Gyllenhaal - Jack Twist",
+            "Heath Ledger",
+            "Heath Ledger - Ennis Del Mar",
+            "Michelle Williams",
+            "Michelle Williams - Alma"
+          ],
+          "description": [
+            "In 1960s Wyoming, two men develop a strong emotional and sexual relationship that endures as a lifelong connection complicating their lives as they get married and start families of their own."
+          ]
+        },
+        {
+          "tconst": [
+            "tt5598102"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Faces Places"
+          ],
+          "startYear": [
+            2017
+          ],
+          "genres": [
+            "Adventure",
+            "Documentary"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "description": [
+            "Director Agn\u00e8s Varda and photographer/muralist JR journey through rural France and form an unlikely friendship."
+          ]
+        },
+        {
+          "tconst": [
+            "tt13430782"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Jan.E.Man"
+          ],
+          "startYear": [
+            2021
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "top_3_cast": [
+            "Lal",
+            "Lal - Kochu Kunj",
+            "Arjun Ashokan",
+            "Arjun Ashokan - Sambath",
+            "Balu Varghese",
+            "Balu Varghese - Monichan"
+          ],
+          "description": [
+            "The hilarious comic twists that awaits when Joymon, desperate to escape his lonely, mundane and routine life in remote freezing Canada, decides to travel to his hometown in Kerala only to celebrate his 30th birthday, forms the base of the story."
+          ]
+        },
+        {
+          "tconst": [
+            "tt4729430"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Klaus"
+          ],
+          "startYear": [
+            2019
+          ],
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ],
+          "averageRating": [
+            8.2
+          ],
+          "top_3_cast": [
+            "Jason Schwartzman",
+            "Jason Schwartzman - Jesper",
+            "J.K. Simmons",
+            "J.K. Simmons - Klaus",
+            "Rashida Jones",
+            "Rashida Jones - Alva"
+          ],
+          "description": [
+            "A selfish postman and a reclusive toymaker form an unlikely friendship, delivering joy to a cold, dark town that desperately needs it."
+          ]
+        },
+        {
+          "tconst": [
+            "tt1199099"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Merlin"
+          ],
+          "startYear": [
+            2008
+          ],
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "averageRating": [
+            7.9
+          ],
+          "top_3_cast": [
+            "John Hurt",
+            "John Hurt - The Dragon",
+            "Colin Morgan",
+            "Colin Morgan - Merlin",
+            "Bradley James",
+            "Bradley James - Arthur"
+          ],
+          "description": [
+            "The unlikely friendship between Merlin, a young man gifted with extraordinary magical powers, and Prince Arthur, heir to the crown of Camelot."
+          ]
+        },
+        {
+          "tconst": [
+            "tt13429870"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Robot Dreams"
+          ],
+          "startYear": [
+            2023
+          ],
+          "genres": [
+            "Animation",
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "Ivan Labanda",
+            "Ivan Labanda - Dog",
+            "Robin Krambroeckers",
+            "Robin Krambroeckers - Technology entrepreneur",
+            "Metodi Dimitrov",
+            "Metodi Dimitrov - Tech enthusiast"
+          ],
+          "description": [
+            "A lonely dog's friendship with his robot companion takes a sad turn when an unexpected malfunction forces him to abandon Robot at the beach. Will Dog ever meet Robot again?"
+          ]
+        },
+        {
+          "tconst": [
+            "tt6752992"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Happy as Lazzaro"
+          ],
+          "startYear": [
+            2018
+          ],
+          "genres": [
+            "Drama",
+            "Fantasy",
+            "Mystery"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "Adriano Tardiolo",
+            "Adriano Tardiolo - Lazzaro",
+            "Agnese Graziani",
+            "Agnese Graziani - Antonia bambina",
+            "Alba Rohrwacher",
+            "Alba Rohrwacher - Antonia"
+          ],
+          "description": [
+            "Purehearted teen Lazzaro is content living as a sharecropper in rural Italy, but an unlikely friendship with the marquise\u2019s son will change his world."
+          ]
+        },
+        {
+          "tconst": [
+            "tt10638036"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Heartstopper"
+          ],
+          "startYear": [
+            2022
+          ],
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            8.5
+          ],
+          "top_3_cast": [
+            "Kit Connor",
+            "Kit Connor - Nick Nelson",
+            "Joe Locke",
+            "Joe Locke - Charlie Spring",
+            "William Gao",
+            "William Gao - Tao Xu"
+          ],
+          "description": [
+            "Teens Charlie and Nick discover their unlikely friendship might be something more as they navigate school and young love in this coming-of-age series."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0113627"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Leaving Las Vegas"
+          ],
+          "startYear": [
+            1995
+          ],
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "Nicolas Cage",
+            "Nicolas Cage - Ben Sanderson",
+            "Elisabeth Shue",
+            "Elisabeth Shue - Sera",
+            "Julian Sands",
+            "Julian Sands - Yuri"
+          ],
+          "description": [
+            "Ben Sanderson, an alcoholic Hollywood screenwriter who lost everything because of his drinking, arrives in Las Vegas to drink himself to death. There, he meets and forms an uneasy friendship and non-interference pact with prostitute Sera."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0107818"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Philadelphia"
+          ],
+          "startYear": [
+            1993
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            7.7
+          ],
+          "top_3_cast": [
+            "Tom Hanks",
+            "Tom Hanks - Andrew Beckett",
+            "Denzel Washington",
+            "Denzel Washington - Joe Miller",
+            "Roberta Maxwell",
+            "Roberta Maxwell - Judge Tate"
+          ],
+          "description": [
+            "Two competing lawyers join forces to sue a prestigious law firm for AIDS discrimination. As their unlikely friendship develops their courage overcomes the prejudice and corruption of their powerful adversaries."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0393775"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Simon"
+          ],
+          "startYear": [
+            2004
+          ],
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "top_3_cast": [
+            "Cees Geel",
+            "Cees Geel - Simon Cohen",
+            "Marcel Hensema",
+            "Marcel Hensema - Camiel Vrolijk",
+            "Rifka Lodeizen",
+            "Rifka Lodeizen - Sharon"
+          ],
+          "description": [
+            "A mild-mannered gay dentist and a womanizing bar owner rekindle their unlikely friendship when, upon meeting by chance after a decade apart, the latter turns out to be severely ill."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0048356"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Marty"
+          ],
+          "startYear": [
+            1955
+          ],
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "Ernest Borgnine",
+            "Ernest Borgnine - Marty Piletti",
+            "Betsy Blair",
+            "Betsy Blair - Clara Snyder",
+            "Esther Minciotti",
+            "Esther Minciotti - Teresa Piletti"
+          ],
+          "description": [
+            "Marty, a butcher who lives in the Bronx with his mother is unmarried at 34. Good-natured but socially awkward he faces constant badgering from family and friends to get married but has reluctantly resigned himself to bachelorhood. Marty meets Clara, an unattractive school teacher, realising their emotional connection, he promises to call but family and friends try to convince him not to."
+          ]
+        },
+        {
+          "tconst": [
+            "tt7405458"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "A Man Called Otto"
+          ],
+          "startYear": [
+            2022
+          ],
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "Tom Hanks",
+            "Tom Hanks - Otto",
+            "Mariana Trevi\u00f1o",
+            "Mariana Trevi\u00f1o - Marisol",
+            "Rachel Keller",
+            "Rachel Keller - Sonya"
+          ],
+          "description": [
+            "When a lively young family moves in next door, grumpy widower Otto Anderson meets his match in a quick-witted, pregnant woman named Marisol, leading to an unlikely friendship that turns his world upside down."
+          ]
+        },
+        {
+          "tconst": [
+            "tt14849194"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Holdovers"
+          ],
+          "startYear": [
+            2023
+          ],
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            7.9
+          ],
+          "top_3_cast": [
+            "Paul Giamatti",
+            "Paul Giamatti - Professor Paul Hunham",
+            "Da'Vine Joy Randolph",
+            "Da'Vine Joy Randolph - Mary Lamb",
+            "Dominic Sessa",
+            "Dominic Sessa - Angus Tully"
+          ],
+          "description": [
+            "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go. Eventually, he forms an unlikely bond with one of them \u2014 a damaged, brainy troublemaker \u2014 and with the school\u2019s head cook, who has just lost a son in Vietnam."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0116581"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Eighth Day"
+          ],
+          "startYear": [
+            1996
+          ],
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "Daniel Auteuil",
+            "Daniel Auteuil - Harry",
+            "Pascal Duquenne",
+            "Pascal Duquenne - Georges",
+            "Miou-Miou",
+            "Miou-Miou - Julie"
+          ],
+          "description": [
+            "Georges has Down syndrome, living at a mental-institution, Harry is a busy businessman, giving lectures for young aspiring salesmen. He is successful in his business life, but his social life is a disaster since his wife left him and took their two children with her. This weekend his children came by train to meet him, but Harry, working as always, forgot to pick them up. Neither his wife or his children want to see him again and he is driving around on the country roads, anguished and angry. He almost runs over Georges, on the run from the institution since everybody else went home with their parents except him, whose mother is dead. Harry tries to get rid of Georges but he won't leave his new friend. Eventually a special friendship forms between the two of them, a friendship which makes Harry a different person."
+          ]
+        },
+        {
+          "tconst": [
+            "tt7187044"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "City on a Hill"
+          ],
+          "startYear": [
+            2019
+          ],
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "Kevin Bacon",
+            "Kevin Bacon - Jackie Rohr",
+            "Aldis Hodge",
+            "Aldis Hodge - Decourcy Ward",
+            "Lauren E. Banks",
+            "Lauren E. Banks - Siobhan Quays"
+          ],
+          "description": [
+            "In early 90s Boston, an African-American District Attorney comes in from Brooklyn advocating change and forms an unlikely alliance with a corrupt yet venerated FBI veteran invested in maintaining the status quo. Together they take on a family of armored car robbers from Charlestown in a case that grows to encompass and eventually upend Boston\u2019s city-wide criminal justice system."
+          ]
+        },
+        {
+          "tconst": [
+            "tt8543390"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Modern Love"
+          ],
+          "startYear": [
+            2019
+          ],
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            7.9
+          ],
+          "top_3_cast": [
+            "Anne Hathaway",
+            "Anne Hathaway - Lexi",
+            "Tina Fey",
+            "Tina Fey - Sarah",
+            "Andy Garcia",
+            "Andy Garcia - Michael"
+          ],
+          "description": [
+            "An unlikely friendship. A lost love resurfaced. A marriage at its turning point. A date that might not have been a date. An unconventional new family. These are unique stories about the joys and tribulations of love, each inspired by true events."
+          ]
+        },
+        {
+          "tconst": [
+            "tt16211650"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Mr Lonely"
+          ],
+          "startYear": [
+            2021
+          ],
+          "genres": [
+            "Romance"
+          ],
+          "averageRating": [
+            8.4
+          ],
+          "top_3_cast": [
+            "Lohitha",
+            "Lohitha - Unknown Character",
+            "Kiya Reddy",
+            "Kiya Reddy - Unknown Character",
+            "Nuraj Mani Sai",
+            "Nuraj Mani Sai - Unknown Character"
+          ]
+        }
+      ]
+    }
+  },
+  "2": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 1,
+      "params": {
+        "q": "lonely isolated person forms unlikely friendship emotional connection",
+        "defType": "edismax",
+        "ps": "3",
+        "qf": "primaryTitle^2 description^4 genres^1.5",
+        "pf": "description^8",
+        "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast",
+        "q.op": "OR",
+        "fq": "averageRating:[7.5 TO 10]",
+        "rows": "20"
+      }
+    },
+    "response": {
+      "numFound": 256,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": [
+            "tt9586294"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Better Days"
+          ],
+          "startYear": [
+            2019
+          ],
+          "genres": [
+            "Crime",
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "Dongyu Zhou",
+            "Dongyu Zhou - Chen Nian",
+            "Jackson Yee",
+            "Jackson Yee - Xiao Bei",
+            "Fang Yin",
+            "Fang Yin - Zheng Yi"
+          ],
+          "description": [
+            "A bullied teenage girl forms an unlikely friendship with a mysterious young man who protects her from her assailants, while she copes with the pressures of her final examinations."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0978762"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Mary and Max"
+          ],
+          "startYear": [
+            2009
+          ],
+          "genres": [
+            "Animation",
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            8.1
+          ],
+          "top_3_cast": [
+            "Toni Collette",
+            "Toni Collette - Mary Daisy Dinkle",
+            "Philip Seymour Hoffman",
+            "Philip Seymour Hoffman - Max Jerry Horovitz",
+            "Eric Bana",
+            "Eric Bana - Damien Popodopolous"
+          ],
+          "description": [
+            "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0388795"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Brokeback Mountain"
+          ],
+          "startYear": [
+            2005
+          ],
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            7.7
+          ],
+          "top_3_cast": [
+            "Jake Gyllenhaal",
+            "Jake Gyllenhaal - Jack Twist",
+            "Heath Ledger",
+            "Heath Ledger - Ennis Del Mar",
+            "Michelle Williams",
+            "Michelle Williams - Alma"
+          ],
+          "description": [
+            "In 1960s Wyoming, two men develop a strong emotional and sexual relationship that endures as a lifelong connection complicating their lives as they get married and start families of their own."
+          ]
+        },
+        {
+          "tconst": [
+            "tt5598102"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Faces Places"
+          ],
+          "startYear": [
+            2017
+          ],
+          "genres": [
+            "Adventure",
+            "Documentary"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "description": [
+            "Director Agn\u00e8s Varda and photographer/muralist JR journey through rural France and form an unlikely friendship."
+          ]
+        },
+        {
+          "tconst": [
+            "tt13430782"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Jan.E.Man"
+          ],
+          "startYear": [
+            2021
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "top_3_cast": [
+            "Lal",
+            "Lal - Kochu Kunj",
+            "Arjun Ashokan",
+            "Arjun Ashokan - Sambath",
+            "Balu Varghese",
+            "Balu Varghese - Monichan"
+          ],
+          "description": [
+            "The hilarious comic twists that awaits when Joymon, desperate to escape his lonely, mundane and routine life in remote freezing Canada, decides to travel to his hometown in Kerala only to celebrate his 30th birthday, forms the base of the story."
+          ]
+        },
+        {
+          "tconst": [
+            "tt4729430"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Klaus"
+          ],
+          "startYear": [
+            2019
+          ],
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ],
+          "averageRating": [
+            8.2
+          ],
+          "top_3_cast": [
+            "Jason Schwartzman",
+            "Jason Schwartzman - Jesper",
+            "J.K. Simmons",
+            "J.K. Simmons - Klaus",
+            "Rashida Jones",
+            "Rashida Jones - Alva"
+          ],
+          "description": [
+            "A selfish postman and a reclusive toymaker form an unlikely friendship, delivering joy to a cold, dark town that desperately needs it."
+          ]
+        },
+        {
+          "tconst": [
+            "tt1199099"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Merlin"
+          ],
+          "startYear": [
+            2008
+          ],
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "averageRating": [
+            7.9
+          ],
+          "top_3_cast": [
+            "John Hurt",
+            "John Hurt - The Dragon",
+            "Colin Morgan",
+            "Colin Morgan - Merlin",
+            "Bradley James",
+            "Bradley James - Arthur"
+          ],
+          "description": [
+            "The unlikely friendship between Merlin, a young man gifted with extraordinary magical powers, and Prince Arthur, heir to the crown of Camelot."
+          ]
+        },
+        {
+          "tconst": [
+            "tt13429870"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Robot Dreams"
+          ],
+          "startYear": [
+            2023
+          ],
+          "genres": [
+            "Animation",
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "Ivan Labanda",
+            "Ivan Labanda - Dog",
+            "Robin Krambroeckers",
+            "Robin Krambroeckers - Technology entrepreneur",
+            "Metodi Dimitrov",
+            "Metodi Dimitrov - Tech enthusiast"
+          ],
+          "description": [
+            "A lonely dog's friendship with his robot companion takes a sad turn when an unexpected malfunction forces him to abandon Robot at the beach. Will Dog ever meet Robot again?"
+          ]
+        },
+        {
+          "tconst": [
+            "tt6752992"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Happy as Lazzaro"
+          ],
+          "startYear": [
+            2018
+          ],
+          "genres": [
+            "Drama",
+            "Fantasy",
+            "Mystery"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "Adriano Tardiolo",
+            "Adriano Tardiolo - Lazzaro",
+            "Agnese Graziani",
+            "Agnese Graziani - Antonia bambina",
+            "Alba Rohrwacher",
+            "Alba Rohrwacher - Antonia"
+          ],
+          "description": [
+            "Purehearted teen Lazzaro is content living as a sharecropper in rural Italy, but an unlikely friendship with the marquise\u2019s son will change his world."
+          ]
+        },
+        {
+          "tconst": [
+            "tt10638036"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Heartstopper"
+          ],
+          "startYear": [
+            2022
+          ],
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            8.5
+          ],
+          "top_3_cast": [
+            "Kit Connor",
+            "Kit Connor - Nick Nelson",
+            "Joe Locke",
+            "Joe Locke - Charlie Spring",
+            "William Gao",
+            "William Gao - Tao Xu"
+          ],
+          "description": [
+            "Teens Charlie and Nick discover their unlikely friendship might be something more as they navigate school and young love in this coming-of-age series."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0113627"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Leaving Las Vegas"
+          ],
+          "startYear": [
+            1995
+          ],
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "Nicolas Cage",
+            "Nicolas Cage - Ben Sanderson",
+            "Elisabeth Shue",
+            "Elisabeth Shue - Sera",
+            "Julian Sands",
+            "Julian Sands - Yuri"
+          ],
+          "description": [
+            "Ben Sanderson, an alcoholic Hollywood screenwriter who lost everything because of his drinking, arrives in Las Vegas to drink himself to death. There, he meets and forms an uneasy friendship and non-interference pact with prostitute Sera."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0107818"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Philadelphia"
+          ],
+          "startYear": [
+            1993
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            7.7
+          ],
+          "top_3_cast": [
+            "Tom Hanks",
+            "Tom Hanks - Andrew Beckett",
+            "Denzel Washington",
+            "Denzel Washington - Joe Miller",
+            "Roberta Maxwell",
+            "Roberta Maxwell - Judge Tate"
+          ],
+          "description": [
+            "Two competing lawyers join forces to sue a prestigious law firm for AIDS discrimination. As their unlikely friendship develops their courage overcomes the prejudice and corruption of their powerful adversaries."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0393775"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Simon"
+          ],
+          "startYear": [
+            2004
+          ],
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            7.8
+          ],
+          "top_3_cast": [
+            "Cees Geel",
+            "Cees Geel - Simon Cohen",
+            "Marcel Hensema",
+            "Marcel Hensema - Camiel Vrolijk",
+            "Rifka Lodeizen",
+            "Rifka Lodeizen - Sharon"
+          ],
+          "description": [
+            "A mild-mannered gay dentist and a womanizing bar owner rekindle their unlikely friendship when, upon meeting by chance after a decade apart, the latter turns out to be severely ill."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0048356"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Marty"
+          ],
+          "startYear": [
+            1955
+          ],
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "Ernest Borgnine",
+            "Ernest Borgnine - Marty Piletti",
+            "Betsy Blair",
+            "Betsy Blair - Clara Snyder",
+            "Esther Minciotti",
+            "Esther Minciotti - Teresa Piletti"
+          ],
+          "description": [
+            "Marty, a butcher who lives in the Bronx with his mother is unmarried at 34. Good-natured but socially awkward he faces constant badgering from family and friends to get married but has reluctantly resigned himself to bachelorhood. Marty meets Clara, an unattractive school teacher, realising their emotional connection, he promises to call but family and friends try to convince him not to."
+          ]
+        },
+        {
+          "tconst": [
+            "tt7405458"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "A Man Called Otto"
+          ],
+          "startYear": [
+            2022
+          ],
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "Tom Hanks",
+            "Tom Hanks - Otto",
+            "Mariana Trevi\u00f1o",
+            "Mariana Trevi\u00f1o - Marisol",
+            "Rachel Keller",
+            "Rachel Keller - Sonya"
+          ],
+          "description": [
+            "When a lively young family moves in next door, grumpy widower Otto Anderson meets his match in a quick-witted, pregnant woman named Marisol, leading to an unlikely friendship that turns his world upside down."
+          ]
+        },
+        {
+          "tconst": [
+            "tt14849194"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Holdovers"
+          ],
+          "startYear": [
+            2023
+          ],
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            7.9
+          ],
+          "top_3_cast": [
+            "Paul Giamatti",
+            "Paul Giamatti - Professor Paul Hunham",
+            "Da'Vine Joy Randolph",
+            "Da'Vine Joy Randolph - Mary Lamb",
+            "Dominic Sessa",
+            "Dominic Sessa - Angus Tully"
+          ],
+          "description": [
+            "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go. Eventually, he forms an unlikely bond with one of them \u2014 a damaged, brainy troublemaker \u2014 and with the school\u2019s head cook, who has just lost a son in Vietnam."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0116581"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Eighth Day"
+          ],
+          "startYear": [
+            1996
+          ],
+          "genres": [
+            "Comedy",
+            "Drama"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "Daniel Auteuil",
+            "Daniel Auteuil - Harry",
+            "Pascal Duquenne",
+            "Pascal Duquenne - Georges",
+            "Miou-Miou",
+            "Miou-Miou - Julie"
+          ],
+          "description": [
+            "Georges has Down syndrome, living at a mental-institution, Harry is a busy businessman, giving lectures for young aspiring salesmen. He is successful in his business life, but his social life is a disaster since his wife left him and took their two children with her. This weekend his children came by train to meet him, but Harry, working as always, forgot to pick them up. Neither his wife or his children want to see him again and he is driving around on the country roads, anguished and angry. He almost runs over Georges, on the run from the institution since everybody else went home with their parents except him, whose mother is dead. Harry tries to get rid of Georges but he won't leave his new friend. Eventually a special friendship forms between the two of them, a friendship which makes Harry a different person."
+          ]
+        },
+        {
+          "tconst": [
+            "tt7187044"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "City on a Hill"
+          ],
+          "startYear": [
+            2019
+          ],
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": [
+            7.6
+          ],
+          "top_3_cast": [
+            "Kevin Bacon",
+            "Kevin Bacon - Jackie Rohr",
+            "Aldis Hodge",
+            "Aldis Hodge - Decourcy Ward",
+            "Lauren E. Banks",
+            "Lauren E. Banks - Siobhan Quays"
+          ],
+          "description": [
+            "In early 90s Boston, an African-American District Attorney comes in from Brooklyn advocating change and forms an unlikely alliance with a corrupt yet venerated FBI veteran invested in maintaining the status quo. Together they take on a family of armored car robbers from Charlestown in a case that grows to encompass and eventually upend Boston\u2019s city-wide criminal justice system."
+          ]
+        },
+        {
+          "tconst": [
+            "tt8543390"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Modern Love"
+          ],
+          "startYear": [
+            2019
+          ],
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "averageRating": [
+            7.9
+          ],
+          "top_3_cast": [
+            "Anne Hathaway",
+            "Anne Hathaway - Lexi",
+            "Tina Fey",
+            "Tina Fey - Sarah",
+            "Andy Garcia",
+            "Andy Garcia - Michael"
+          ],
+          "description": [
+            "An unlikely friendship. A lost love resurfaced. A marriage at its turning point. A date that might not have been a date. An unconventional new family. These are unique stories about the joys and tribulations of love, each inspired by true events."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0059358"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "King Rat"
+          ],
+          "startYear": [
+            1965
+          ],
+          "genres": [
+            "Drama",
+            "War"
+          ],
+          "averageRating": [
+            7.5
+          ],
+          "top_3_cast": [
+            "George Segal",
+            "George Segal - Corporal King",
+            "Tom Courtenay",
+            "Tom Courtenay - Grey",
+            "Patrick O'Neal",
+            "Patrick O'Neal - Max"
+          ],
+          "description": [
+            "When Singapore surrendered to the Japanese in 1942, the Allied POWs, mostly British but including a few Americans, were incarcerated in Changi prison. Among the American prisoners is Cpl. King, a wheeler-dealer who has managed to establish a pretty good life for himself in the camp. King soon forms a friendship with an upper-class British officer who is fascinated with King's enthusiastic approach to life."
+          ]
+        }
+      ]
+    }
+  },
+  "3": {
+    "responseHeader": {
+      "status": 0,
+      "QTime": 0,
+      "params": {
+        "q": "*:*",
+        "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast,vector",
+        "start": "0",
+        "sort": "score desc",
+        "rows": "20"
+      }
+    },
+    "response": {
+      "numFound": 10000,
+      "start": 0,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "tconst": [
+            "tt0903747"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Breaking Bad"
+          ],
+          "startYear": [
+            2008
+          ],
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": [
+            9.5
+          ],
+          "top_3_cast": [
+            "Bryan Cranston",
+            "Bryan Cranston - Walter White",
+            "Aaron Paul",
+            "Aaron Paul - Jesse Pinkman",
+            "Anna Gunn",
+            "Anna Gunn - Skyler White"
+          ],
+          "description": [
+            "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0111161"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Shawshank Redemption"
+          ],
+          "startYear": [
+            1994
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            9.3
+          ],
+          "top_3_cast": [
+            "Tim Robbins",
+            "Tim Robbins - Andy Dufresne",
+            "Morgan Freeman",
+            "Morgan Freeman - Ellis Boyd 'Red' Redding",
+            "Bob Gunton",
+            "Bob Gunton - Warden Norton"
+          ],
+          "description": [
+            "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0417299"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Avatar: The Last Airbender"
+          ],
+          "startYear": [
+            2005
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": [
+            9.3
+          ],
+          "top_3_cast": [
+            "Dee Bradley Baker",
+            "Dee Bradley Baker - Appa",
+            "Zach Tyler Eisen",
+            "Zach Tyler Eisen - Aang",
+            "Mae Whitman",
+            "Mae Whitman - Katara"
+          ],
+          "description": [
+            "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0306414"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "The Wire"
+          ],
+          "startYear": [
+            2002
+          ],
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "averageRating": [
+            9.3
+          ],
+          "top_3_cast": [
+            "Dominic West",
+            "Dominic West - Detective James 'Jimmy' McNulty",
+            "Lance Reddick",
+            "Lance Reddick - Lieutenant Cedric Daniels",
+            "Sonja Sohn",
+            "Sonja Sohn - Detective Shakima 'Kima' Greggs"
+          ],
+          "description": [
+            "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0944947"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Game of Thrones"
+          ],
+          "startYear": [
+            2011
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "averageRating": [
+            9.2
+          ],
+          "top_3_cast": [
+            "Emilia Clarke",
+            "Emilia Clarke - Daenerys Targaryen",
+            "Peter Dinklage",
+            "Peter Dinklage - Tyrion Lannister",
+            "Kit Harington",
+            "Kit Harington - Jon Snow"
+          ],
+          "description": [
+            "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0068646"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Godfather"
+          ],
+          "startYear": [
+            1972
+          ],
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": [
+            9.2
+          ],
+          "top_3_cast": [
+            "Marlon Brando",
+            "Marlon Brando - Don Vito Corleone",
+            "Al Pacino",
+            "Al Pacino - Michael",
+            "James Caan",
+            "James Caan - Sonny"
+          ],
+          "description": [
+            "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0141842"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "The Sopranos"
+          ],
+          "startYear": [
+            1999
+          ],
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": [
+            9.2
+          ],
+          "top_3_cast": [
+            "James Gandolfini",
+            "James Gandolfini - Tony Soprano",
+            "Lorraine Bracco",
+            "Lorraine Bracco - Dr. Jennifer Melfi",
+            "Edie Falco",
+            "Edie Falco - Carmela Soprano"
+          ],
+          "description": [
+            "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and prot\u00e9g\u00e9 Christopher Moltisanti."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0468569"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Dark Knight"
+          ],
+          "startYear": [
+            2008
+          ],
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": [
+            9.1
+          ],
+          "top_3_cast": [
+            "Christian Bale",
+            "Christian Bale - Bruce Wayne",
+            "Heath Ledger",
+            "Heath Ledger - Joker",
+            "Aaron Eckhart",
+            "Aaron Eckhart - Harvey Dent"
+          ],
+          "description": [
+            "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker."
+          ]
+        },
+        {
+          "tconst": [
+            "tt2560140"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Attack on Titan"
+          ],
+          "startYear": [
+            2013
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": [
+            9.1
+          ],
+          "top_3_cast": [
+            "Jessie James Grelle",
+            "Jessie James Grelle - Armin Arlert",
+            "Bryce Papenbrook",
+            "Bryce Papenbrook - Eren Jaeger",
+            "Trina Nishimura",
+            "Trina Nishimura - Mikasa Ackermann"
+          ],
+          "description": [
+            "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls \u2013 but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill \u2013 or be devoured!"
+          ]
+        },
+        {
+          "tconst": [
+            "tt14392248"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Aspirants"
+          ],
+          "startYear": [
+            2021
+          ],
+          "genres": [
+            "Drama"
+          ],
+          "averageRating": [
+            9.1
+          ],
+          "top_3_cast": [
+            "Naveen Kasturia",
+            "Naveen Kasturia - Abhilash Sharma",
+            "Shivankit Singh Parihar",
+            "Shivankit Singh Parihar - Guri",
+            "Abhilash Thapliyal",
+            "Abhilash Thapliyal - SK"
+          ],
+          "description": [
+            "Aspirants is a story of 3 friends - Abhilash, SK, and Guri. The story takes place in the past and the present where the past captures the struggle and the drama behind the making of UPSC CSE aspirants in Old Rajinder Nagar of Delhi, while the present talks about the aftermath. It is the story of three UPSC aspirants journey."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0167260"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Lord of the Rings: The Return of the King"
+          ],
+          "startYear": [
+            2003
+          ],
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "averageRating": [
+            9.0
+          ],
+          "top_3_cast": [
+            "Elijah Wood",
+            "Elijah Wood - Frodo",
+            "Viggo Mortensen",
+            "Viggo Mortensen - Aragorn",
+            "Ian McKellen",
+            "Ian McKellen - Gandalf"
+          ],
+          "description": [
+            "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.\u200b"
+          ]
+        },
+        {
+          "tconst": [
+            "tt1355642"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Fullmetal Alchemist: Brotherhood"
+          ],
+          "startYear": [
+            2009
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": [
+            9.1
+          ],
+          "top_3_cast": [
+            "Kent Williams",
+            "Kent Williams - Narrator",
+            "Iemasa Kayumi",
+            "Iemasa Kayumi - Narrator",
+            "Vic Mignogna",
+            "Vic Mignogna - Edward Elric"
+          ],
+          "description": [
+            "Disregard for alchemy\u2019s laws ripped half of Edward Elric\u2019s limbs from his body and left his brother Alphonse\u2019s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher\u2019s Stone. Enemies and allies \u2013 the corrupt military, the Homunculi, and foreign alchemists \u2013 will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0108052"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "Schindler's List"
+          ],
+          "startYear": [
+            1993
+          ],
+          "genres": [
+            "Biography",
+            "Drama",
+            "History"
+          ],
+          "averageRating": [
+            9.0
+          ],
+          "top_3_cast": [
+            "Liam Neeson",
+            "Liam Neeson - Oskar Schindler",
+            "Ralph Fiennes",
+            "Ralph Fiennes - Amon Goeth",
+            "Ben Kingsley",
+            "Ben Kingsley - Itzhak Stern"
+          ],
+          "description": [
+            "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0071562"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "The Godfather Part II"
+          ],
+          "startYear": [
+            1974
+          ],
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": [
+            9.0
+          ],
+          "top_3_cast": [
+            "Al Pacino",
+            "Al Pacino - Michael",
+            "Robert De Niro",
+            "Robert De Niro - Vito Corleone",
+            "Robert Duvall",
+            "Robert Duvall - Tom Hagen"
+          ],
+          "description": [
+            "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba."
+          ]
+        },
+        {
+          "tconst": [
+            "tt1475582"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Sherlock"
+          ],
+          "startYear": [
+            2010
+          ],
+          "genres": [
+            "Crime",
+            "Drama",
+            "Mystery"
+          ],
+          "averageRating": [
+            9.0
+          ],
+          "top_3_cast": [
+            "Benedict Cumberbatch",
+            "Benedict Cumberbatch - Sherlock Holmes",
+            "Martin Freeman",
+            "Martin Freeman - Dr. John Watson",
+            "Una Stubbs",
+            "Una Stubbs - Mrs. Hudson"
+          ],
+          "description": [
+            "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0050083"
+          ],
+          "titleType": [
+            "movie"
+          ],
+          "primaryTitle": [
+            "12 Angry Men"
+          ],
+          "startYear": [
+            1957
+          ],
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": [
+            9.0
+          ],
+          "top_3_cast": [
+            "Henry Fonda",
+            "Henry Fonda - Juror 8",
+            "Lee J. Cobb",
+            "Lee J. Cobb - Juror 3",
+            "Martin Balsam",
+            "Martin Balsam - Juror 1"
+          ],
+          "description": [
+            "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other."
+          ]
+        },
+        {
+          "tconst": [
+            "tt0386676"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "The Office"
+          ],
+          "startYear": [
+            2005
+          ],
+          "genres": [
+            "Comedy"
+          ],
+          "averageRating": [
+            9.0
+          ],
+          "top_3_cast": [
+            "Steve Carell",
+            "Steve Carell - Michael Scott",
+            "Jenna Fischer",
+            "Jenna Fischer - Pam Beesly",
+            "John Krasinski",
+            "John Krasinski - Jim Halpert"
+          ],
+          "description": [
+            "The everyday lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company."
+          ]
+        },
+        {
+          "tconst": [
+            "tt3032476"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Better Call Saul"
+          ],
+          "startYear": [
+            2015
+          ],
+          "genres": [
+            "Crime",
+            "Drama"
+          ],
+          "averageRating": [
+            9.0
+          ],
+          "top_3_cast": [
+            "Bob Odenkirk",
+            "Bob Odenkirk - Jimmy McGill",
+            "Rhea Seehorn",
+            "Rhea Seehorn - Kim Wexler",
+            "Jonathan Banks",
+            "Jonathan Banks - Mike Ehrmantraut"
+          ],
+          "description": [
+            "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is \u201cfixer\u201d Mike Ehrmantraut. The series tracks Jimmy\u2019s transformation into Saul Goodman, the man who puts \u201ccriminal\u201d in \u201ccriminal lawyer\"."
+          ]
+        },
+        {
+          "tconst": [
+            "tt2861424"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Rick and Morty"
+          ],
+          "startYear": [
+            2013
+          ],
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ],
+          "averageRating": [
+            9.0
+          ],
+          "top_3_cast": [
+            "Chris Parnell",
+            "Chris Parnell - Jerry Smith",
+            "Spencer Grammer",
+            "Spencer Grammer - Summer Smith",
+            "Sarah Chalke",
+            "Sarah Chalke - Beth Smith"
+          ],
+          "description": [
+            "Rick is a mentally-unbalanced but scientifically gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school."
+          ]
+        },
+        {
+          "tconst": [
+            "tt11126994"
+          ],
+          "titleType": [
+            "tvSeries"
+          ],
+          "primaryTitle": [
+            "Arcane"
+          ],
+          "startYear": [
+            2021
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "Animation"
+          ],
+          "averageRating": [
+            9.0
+          ],
+          "top_3_cast": [
+            "Kevin Alejandro",
+            "Kevin Alejandro - Jayce",
+            "Hailee Steinfeld",
+            "Hailee Steinfeld - Vi",
+            "Ella Purnell",
+            "Ella Purnell - Jinx"
+          ],
+          "description": [
+            "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions."
+          ]
+        }
+      ]
+    }
+  }
+}

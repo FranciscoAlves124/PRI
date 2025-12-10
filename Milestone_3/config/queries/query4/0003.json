@@ -1,0 +1,21 @@
+{
+  "query": "psychological thriller mind manipulation reality perception",
+  "fields": [
+    "tconst",
+    "primaryTitle",
+    "startYear",
+    "genres",
+    "averageRating",
+    "titleType",
+    "description",
+    "top_3_cast",
+    "vector"
+  ],
+  "params": {
+    "q": "{!knn f=vector topK=20}psychological thriller mind manipulation reality perception",
+    "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast,vector",
+    "sort": "score desc",
+    "start": 0,
+    "rows": 20
+  }
+}

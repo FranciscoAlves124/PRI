@@ -1,0 +1,22 @@
+{
+  "query": "psychological thriller mind manipulation reality perception",
+  "fields": [
+    "tconst",
+    "primaryTitle",
+    "startYear",
+    "genres",
+    "averageRating",
+    "titleType",
+    "description",
+    "top_3_cast"
+  ],
+  "params": {
+    "defType": "edismax",
+    "qf": ["primaryTitle^2", "description^3", "genres^2"],
+    "pf": ["description^6"],
+    "ps": "3",
+    "fq": ["titleType:movie", "averageRating:[7.5 TO 10]"],
+    "q.op": "OR",
+    "rows": 20
+  }
+}

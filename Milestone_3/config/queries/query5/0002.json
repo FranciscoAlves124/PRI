@@ -1,0 +1,22 @@
+{
+  "query": "high school chemistry teacher turns drug dealer desert new mexico",
+  "fields": [
+    "tconst",
+    "primaryTitle",
+    "startYear",
+    "genres",
+    "averageRating",
+    "titleType",
+    "description",
+    "top_3_cast"
+  ],
+  "params": {
+    "defType": "edismax",
+    "qf": ["primaryTitle^2", "description^4", "genres^2", "top_3_cast^1.5"],
+    "pf": ["description^8"],
+    "ps": "3",
+    "fq": ["averageRating:[7.0 TO 10]"],
+    "q.op": "OR",
+    "rows": 20
+  }
+}
