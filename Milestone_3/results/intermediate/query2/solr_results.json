@@ -2,7 +2,7 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 4,
+      "QTime": 1,
       "params": {
         "json": "{\"query\": \"\\\"Robert De Niro\\\" or \\\"Al Pacino\\\" Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\", \"weightedRating:[7.5 TO 10]\"], \"qf\": [\"primaryTitle\", \"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
@@ -430,7 +430,7 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 6,
+      "QTime": 1,
       "params": {
         "json": "{\"query\": \"\\\"Robert De Niro\\\" or \\\"Al Pacino\\\" Crime Drama\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:movie\", \"weightedRating:[7.5 TO 10]\"], \"qf\": \"primaryTitle^2 genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
