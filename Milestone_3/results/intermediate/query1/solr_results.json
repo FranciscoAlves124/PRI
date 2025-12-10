@@ -2,7 +2,7 @@
   "1": {
     "responseHeader": {
       "status": 0,
-      "QTime": 8,
+      "QTime": 1,
       "params": {
         "json": "{\"query\": \"Funny TV Show\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": [\"primaryTitle\", \"description\", \"genres\", \"top_3_cast\"], \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }
@@ -402,7 +402,7 @@
   "2": {
     "responseHeader": {
       "status": 0,
-      "QTime": 5,
+      "QTime": 2,
       "params": {
         "json": "{\"query\": \"Funny TV Show\", \"fields\": [\"tconst\", \"primaryTitle\", \"startYear\", \"genres\", \"averageRating\", \"titleType\", \"description\", \"top_3_cast\"], \"params\": {\"indexed\": \"true\", \"defType\": \"edismax\", \"q.op\": \"OR\", \"fq\": [\"titleType:tvSeries\", \"startYear:[2000 TO 2015]\"], \"qf\": \"primaryTitle^2 genres^2 description^3 top_3_cast^2\", \"pf\": \"description^6\", \"ps\": 3, \"sort\": \"score desc\", \"start\": 0, \"rows\": 20}}"
       }

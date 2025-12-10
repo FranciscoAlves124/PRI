@@ -16,8 +16,8 @@ for query_folder in config/queries/query*; do
     # Query solr and save results
     python3 scripts/query_solr.py --queries "$query_folder" --uri http://localhost:8983/solr --output-folder "results/basic/$query_name" --collection media_basic
     
-    # Convert to TREC format and save to query-specific folder
-    python3 scripts/solr2trec.py --output-folder "results/basic/$query_name" > "results/basic/$query_name/trec_results.txt"
+    # Convert to TREC format and save to query-specific folder Also add new qrels
+    python3 scripts/solr2trec.py --queryName "$query_name" --core basic > "results/basic/$query_name/trec_results.txt"
     
     echo "✓ Completed $query_name"
 done
@@ -35,8 +35,8 @@ for query_folder in config/queries/query*; do
     # Query solr and save results
     python3 scripts/query_solr.py --queries "$query_folder" --uri http://localhost:8983/solr --output-folder "results/intermediate/$query_name" --collection media_intermediate
     
-    # Convert to TREC format and save to query-specific folder
-    python3 scripts/solr2trec.py --output-folder "results/intermediate/$query_name" > "results/intermediate/$query_name/trec_results.txt"
+    # Convert to TREC format and save to query-specific folder Also add new qrels
+    python3 scripts/solr2trec.py --queryName "$query_name" --core intermediate > "results/intermediate/$query_name/trec_results.txt"
     
     echo "✓ Completed $query_name"
 done
@@ -56,8 +56,8 @@ for query_folder in config/queries/query*; do
     # Query solr and save results
     python3 scripts/query_solr.py --queries "$query_folder" --uri http://localhost:8983/solr --output-folder "results/semantic/$query_name" --collection semantic_core
     
-    # Convert to TREC format and save to query-specific folder
-    python3 scripts/solr2trec.py --output-folder "results/semantic/$query_name" > "results/semantic/$query_name/trec_results.txt"
+    # Convert to TREC format and save to query-specific folder Also add new qrels
+    python3 scripts/solr2trec.py --queryName "$query_name" --core semantic > "results/semantic/$query_name/trec_results.txt"
     
     echo "✓ Completed $query_name"
 done

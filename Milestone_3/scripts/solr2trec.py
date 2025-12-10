@@ -50,27 +50,35 @@ def solr_to_trec(solr_response, run_id="run0"):
             sys.exit(1)
 
 
-def create_qrels(solr_response, output_file="results/trec_qrels.txt"):
-    """
-    Creates a qrels file from the Solr response for evaluation purposes.
-
-    Arguments:
-    - solr_response: Dictionary containing Solr response with document IDs and scores.
-    - output_file: Path to the output qrels file (default: results/qrels.txt).
-    """
-
-    with open(output_file, "w") as f:
+def add_new_qrels(solr_response, output_file):
+    
+    # Load existing qrels if file exists
+    if os.path.exists(output_file):
+        with open(output_file, "r") as existing_f:
+            existing_tconsts = set()
+            for line in existing_f:
+                parts = line.strip().split()
+                if len(parts) >= 1:
+                    existing_tconsts.add(parts[0])
+    else:
+        existing_tconsts = set()
+    
+    # Add new qrels to qrels file
+    with open(output_file, "a") as f:
         for query_id, response in solr_response.items():
             try:
                 docs = response["response"]["docs"]
                 for doc in docs:
-                    # Handle both list and scalar formats for tconst
                     tconst = doc['tconst'][0] if isinstance(doc['tconst'], list) else doc['tconst']
-                    f.write(f"{int(query_id)} 0 {tconst} 1\n")
+                    # Only write if tconst not already in qrels file
+                    if tconst not in existing_tconsts:
+                        f.write(f"{tconst} 2\n")
+                        existing_tconsts.add(tconst)  # Update set to avoid duplicates in same run
             except KeyError as e:
                 print(f"Error: Invalid Solr response format. Missing key: {e}")
                 print(f"Response structure for query {query_id}: {response.keys()}")
                 sys.exit(1)
+
 
 if __name__ == "__main__":
     # Set up argument parsing for command-line interface
@@ -85,16 +93,23 @@ if __name__ == "__main__":
     )
 
     parser.add_argument(
-        "--output-folder",
+        "--queryName",
         type=str,
         default="results",
         help="Folder to save the qrels file (default: results).",
     )
 
+    parser.add_argument(
+        "--core",
+        type=str,
+        default="basic",
+        help="Core name to identify the correct results folder (default: media_basic).",
+    )
+
     # Parse command-line arguments
     args = parser.parse_args()
 
-    input_file = os.path.join(args.output_folder, "solr_results.json")
+    input_file = os.path.join("results", args.core, args.queryName, "solr_results.json")
     with open(input_file, "r") as f:
         solr_response = json.load(f)
 
@@ -102,4 +117,4 @@ if __name__ == "__main__":
     solr_to_trec(solr_response, args.run_id)
 
     # Create qrels file for evaluation
-    create_qrels(solr_response, args.output_folder + "/trec_qrels.txt")
+    add_new_qrels(solr_response, os.path.join("config/queries", args.queryName, "qrels.txt"))
