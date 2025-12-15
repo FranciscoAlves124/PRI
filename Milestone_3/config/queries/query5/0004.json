@@ -1,5 +1,5 @@
 {
-  "query": "\"Robert De Niro\" or \"Al Pacino\" Crime Drama",
+  "query": "R2-D2 and C-3PO droids",
   "fields": [
     "tconst",
     "primaryTitle",
@@ -13,9 +13,11 @@
   ],
   "params": {
     "defType": "edismax",
-    "q": "\"Robert De Niro\" or \"Al Pacino\" Crime Drama",
-    "qf": "primaryTitle^2 description^3 genres^2 top_3_cast",
-    "bq": "{!knn f=vector topK=20}Robert De Niro Al Pacino Crime Drama",
+    "q": "R2-D2 and C-3PO droids",
+    "qf": "primaryTitle^2 genres^2 description^3 top_3_cast^2",
+    "pf": "description^6",
+    "bq": "{!knn f=vector topK=20}R2-D2 and C-3PO droids",
     "sort": "score desc",
     "rows": 20
   }
+}

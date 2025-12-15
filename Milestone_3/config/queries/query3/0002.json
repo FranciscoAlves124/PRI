@@ -1,5 +1,5 @@
 {
-  "query": "\"artificial intelligence\" AI robots androids \"machine learning\" \"sentient machines\"",
+  "query": "artificial intelligence AI robots androids machine learning sentient machines",
   "fields": [
     "tconst",
     "primaryTitle",
