@@ -5,7 +5,7 @@ from datasets import load_dataset
 source_ds = load_dataset("Pablinho/movies-dataset", split="train")
 tconst_to_poster = {row["Title"]: row.get("Poster_Url") for row in source_ds if row.get("Title")}
 
-input_path = "data/movies_series_with_embeddings.json"
+input_path = "data/movies_series_mpnet.json"
 output_path = "data/movies_series_with_posters.json"
 
 # Read your dataset

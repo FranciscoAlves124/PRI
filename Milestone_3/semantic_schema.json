@@ -151,13 +151,6 @@
             "knnAlgorithm": "hnsw"
         },
         {
-            "name": "reviewsVector",
-            "class": "solr.DenseVectorField",
-            "vectorDimension": 384,
-            "similarityFunction": "cosine",
-            "knnAlgorithm": "hnsw"
-        },
-        {
             "name": "review_text",
             "class": "solr.TextField",
             "positionIncrementGap": "100",
