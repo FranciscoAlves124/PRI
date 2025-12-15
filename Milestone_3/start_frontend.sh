@@ -14,11 +14,11 @@ VENV_DIR="$SCRIPT_DIR/venv"
 if [ ! -d "$VENV_DIR" ]; then
     echo -e "\033[0;33mCreating virtual environment...\033[0m"
     python3 -m venv "$VENV_DIR"
-    
-    echo -e "\033[0;33mInstalling dependencies...\033[0m"
-    "$VENV_DIR/bin/pip" install flask flask-cors sentence-transformers
-    echo -e "\033[0;32mDependencies installed!\033[0m"
 fi
+
+echo -e "\033[0;33mChecking/Installing dependencies...\033[0m"
+"$VENV_DIR/bin/pip" install flask flask-cors sentence-transformers
+echo -e "\033[0;32mDependencies checked!\033[0m"
 
 # Use virtual environment Python
 PYTHON="$VENV_DIR/bin/python"

@@ -1,5 +1,5 @@
 {
-  "query": "high school chemistry teacher turns drug dealer desert new mexico",
+  "query": "R2-D2 and C-3PO droids",
   "fields": [
     "tconst",
     "primaryTitle",
@@ -12,8 +12,8 @@
   ],
   "params": {
     "defType": "edismax",
-    "qf": ["primaryTitle", "description", "genres", "top_3_cast"],
-    "fq": ["averageRating:[7.0 TO 10]"],
+    "qf": ["primaryTitle", "description", "genres"],
+    "fq": ["averageRating:[7.5 TO 10]"],
     "q.op": "OR",
     "rows": 20
   }
