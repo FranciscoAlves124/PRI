@@ -1,5 +1,5 @@
 {
-  "query": "\"artificial intelligence\" AI robots androids \"machine learning\" \"sentient machines\"",
+  "query": "psychological thriller mind manipulation reality perception",
   "fields": [
     "tconst",
     "primaryTitle",
@@ -13,10 +13,10 @@
   ],
   "params": {
     "defType": "edismax",
-    "q": "artificial intelligence AI robots androids machine learning sentient machines",
+    "q": "Robert De Niro Al Pacino Crime Drama",
     "qf": "primaryTitle^2 genres^2 description^3 top_3_cast^2",
     "pf": "description^6",
-    "bq": "{!knn f=vector topK=20}artificial intelligence AI robots androids machine learning sentient machines",
+    "bq": "{!knn f=vector topK=20}Robert De Niro Al Pacino Crime Drama",
     "sort": "score desc",
     "rows": 20
   }
