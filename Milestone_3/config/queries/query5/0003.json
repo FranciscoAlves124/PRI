@@ -11,7 +11,7 @@
     "top_3_cast"
   ],
   "params": {
-    "q": "{!knn f=vector topK=20}lonely isolated person forms unlikely friendship emotional connection",
+    "q": "{!knn f=vector topK=20}R2-D2 and C-3PO droids",
     "sort": "score desc",
     "start": 0,
     "rows": 20
