@@ -142,6 +142,43 @@
             "vectorDimension": 384,
             "similarityFunction": "cosine",
             "knnAlgorithm": "hnsw"
+        },
+        {
+            "name": "reviewsVector",
+            "class": "solr.DenseVectorField",
+            "vectorDimension": 384,
+            "similarityFunction": "cosine",
+            "knnAlgorithm": "hnsw"
+        },
+        {
+            "name": "review_text",
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.StopFilterFactory", "words": "lang/stopwords_en.txt", "ignoreCase": "true", "format": "snowball"},
+                    {"class": "solr.EnglishPossessiveFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.ASCIIFoldingFilterFactory"},
+                    {"class": "solr.SynonymGraphFilterFactory", "expand": "true", "ignoreCase": "true", "synonyms": "synonyms.txt"},
+                    {"class": "solr.StopFilterFactory", "words": "lang/stopwords_en.txt", "ignoreCase": "true", "format": "snowball"},
+                    {"class": "solr.EnglishPossessiveFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"}
+                ]
+            }
         }
     ],
     "add-field": [
@@ -258,6 +295,35 @@
         {
             "name": "vector",
             "type": "movieVector",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "reviews_vector",
+            "type": "reviewsVector",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "_root_",
+            "type": "string",
+            "indexed": true,
+            "stored": false,
+            "docValues": false
+        },
+        {
+            "name": "_nest_path_",
+            "type": "_nest_path_"
+        },
+        {
+            "name": "review_content",
+            "type": "review_text",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "review_author",
+            "type": "string_ci",
             "indexed": true,
             "stored": true
         }
