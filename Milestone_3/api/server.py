@@ -13,7 +13,7 @@ CORS(app)  # Enable CORS for frontend requests
 SOLR_BASE_URL = 'http://localhost:8983/solr'
 
 # Load the SentenceTransformer model
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('all-mpnet-base-v2')
 
 @app.route('/api/solr/<core>/select', methods=['POST', 'GET'])
 def proxy_solr(core):
@@ -123,9 +123,9 @@ def get_embedding():
 @app.route('/api/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
-    return jsonify({'status': 'ok', 'model': 'all-MiniLM-L6-v2'})
+    return jsonify({'status': 'ok', 'model': 'all-mpnet-base-v2'})
 
 if __name__ == '__main__':
     print("Starting Flask API server...")
-    print("Model loaded: all-MiniLM-L6-v2")
+    print("Model loaded: all-mpnet-base-v2")
     app.run(host='0.0.0.0', port=5000, debug=True)

@@ -11,7 +11,7 @@
     "top_3_cast"
   ],
   "params": {
-    "q": "{!knn f=vector topK=20}psychological thriller mind manipulation reality perception",
+    "q": "{!knn f=vector topK=20}The one with the ring and the little people",
     "sort": "score desc",
     "start": 0,
     "rows": 20
