@@ -14,11 +14,24 @@ export function renderResultCard(doc, mode) {
     const description = getFieldValue(doc.description);
     const genres = parseGenres(doc.genres);
     const cast = getArrayField(doc.top_3_cast);
+    const poster_url = getFieldValue(doc.poster_url);
     const score = doc.score;
+
+    console.log("Poster_Url : " + doc.poster_url); // should log the URL
 
     card.innerHTML = `
         <div class="result-card-image">
-            <i class="fas fa-film"></i>
+            ${
+                poster_url && poster_url !== "N/A"
+                    ? `<img 
+                        src="${escapeHtml(poster_url)}"
+                        alt="${escapeHtml(title)} poster"
+                        loading="lazy"
+                        onload="console.log('Poster loaded:', '${escapeHtml(title)}')"
+                        onerror="console.warn('Poster failed to load:', '${escapeHtml(title)}', '${escapeHtml(poster_url)}')"
+                    >`
+                    : `<i class="fas fa-film"></i>`
+            }
         </div>
         <div class="result-card-content">
             <h3 class="result-card-title">${escapeHtml(title)}</h3>
