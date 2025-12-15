@@ -1,3 +1,14 @@
+
+
+# Ensure 'datasets' is installed
+if ! python3 -c "import datasets" 2>/dev/null; then
+	echo "Installing required Python package: datasets"
+	pip install datasets
+fi
+
+# Run add_poster_urls.py
+python3 scripts/add_poster_urls.py
+
 # Startup script to launch a Solr container with a pre-created core for semantic movies/series data.
 # Run this on the '/Milestone_3' directory.
 docker exec initial_solr solr delete -c semantic_core
