@@ -1,5 +1,5 @@
 {
-  "query": "Funny TV Show",
+  "query": "{!knn f=vector topK=200}Funny TV Show",
   "fields": [
     "tconst",
     "primaryTitle",
@@ -8,15 +8,11 @@
     "averageRating",
     "titleType",
     "description",
-    "top_3_cast",
-    "vector"
+    "top_3_cast"
   ],
   "params": {
-    "defType": "edismax",
-    "q": "Funny TV Show",
-    "qf": "primaryTitle^2 description^3 genres^2 top_3_cast",
-    "bq": "{!knn f=vector topK=20}Funny TV Show",
-    "sort": "score desc",
-    "rows": 20
+    "rows": 20,
+    "rq": "{!rerank reRankQuery=$rqq reRankDocs=100 reRankWeight=1.0}",
+    "rqq": "{!edismax qf='primaryTitle^2 description^3 genres^2 top_3_cast'}Funny TV Show"
   }
 }
