@@ -305,17 +305,6 @@
             "stored": true
         },
         {
-            "name": "_root_",
-            "type": "string",
-            "indexed": true,
-            "stored": false,
-            "docValues": false
-        },
-        {
-            "name": "_nest_path_",
-            "type": "_nest_path_"
-        },
-        {
             "name": "review_content",
             "type": "review_text",
             "indexed": true,
