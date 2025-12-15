@@ -11,7 +11,7 @@
     "top_3_cast"
   ],
   "params": {
-    "q": "{!knn f=vector topK=20}Robert De Niro Al Pacino Crime Drama",
+    "q": "{!knn f=vector topK=20}\"Robert De Niro\" or \"Al Pacino\" Crime Drama",
     "sort": "score desc",
     "start": 0,
     "rows": 20

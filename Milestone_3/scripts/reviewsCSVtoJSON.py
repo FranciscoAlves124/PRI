@@ -23,6 +23,6 @@ def csv_to_json(csv_file_path, json_file_path):
 
 if __name__ == "__main__":
     # Example usage
-    csv_input = "filtered_reviews2.csv"   # Replace with your CSV file path
-    json_output = "filtered_reviews2.json"
+    csv_input = "Milestone_3/data/FinalReviews.csv"   # Replace with your CSV file path
+    json_output = "Milestone_3/data/filtered_reviews2.json"
     csv_to_json(csv_input, json_output)

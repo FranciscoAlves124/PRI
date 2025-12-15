@@ -1,4 +1,6 @@
 /data/movies_series_with_embeddings.json
+/data/movies_series_mpnet.json
+/data/movies_series_emb_final.json
 .venv
 /venv/
 results/

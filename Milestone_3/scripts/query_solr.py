@@ -18,8 +18,8 @@ def get_embedding_model():
     if _model is None:
         try:
             from sentence_transformers import SentenceTransformer
-            print("Loading SentenceTransformer model 'all-MiniLM-L6-v2'...", file=sys.stderr)
-            _model = SentenceTransformer('all-MiniLM-L6-v2')
+            print("Loading SentenceTransformer model 'all-mpnet-base-v2'...", file=sys.stderr)
+            _model = SentenceTransformer('all-mpnet-base-v2')
             print("Model loaded successfully.", file=sys.stderr)
         except ImportError:
             print("Error: sentence-transformers package not found. Install it with: pip install sentence-transformers", file=sys.stderr)
@@ -60,26 +60,27 @@ def fetch_solr_results(query_file, solr_uri, collection):
     # Pattern to match {!knn f=vector topK=N}text_query
     knn_pattern = re.compile(r'\{!knn\s+f=vector\s+topK=(\d+)\}(.+)')
     
-    # Process knn query in params.q (main query parameter)
-    if "params" in query_params and "q" in query_params["params"]:
-        q_param = query_params["params"]["q"]
-        match = knn_pattern.match(q_param)
-        if match:
-            if is_semantic:
-                # Convert text to embedding for semantic collections
-                topK = match.group(1)
-                query_text = match.group(2).strip()
-                
-                print(f"Converting text to embedding: '{query_text}'", file=sys.stderr)
-                embedding_vector = convert_text_to_embedding(query_text)
-                
-                # Replace the text with the embedding vector
-                query_params["params"]["q"] = f"{{!knn f=vector topK={topK}}}{embedding_vector}"
-                print(f"Converted to vector query (first 100 chars): {query_params['params']['q'][:100]}...", file=sys.stderr)
-            else:
-                # Skip knn queries for non-semantic collections - use empty query
-                print(f"Skipping knn query for non-semantic collection: {collection}", file=sys.stderr)
-                query_params["params"]["q"] = "*:*"
+    # Process knn query in ANY param (e.g. q, bq, fq)
+    if "params" in query_params:
+        for key, value in query_params["params"].items():
+            if isinstance(value, str):
+                match = knn_pattern.match(value)
+                if match:
+                    if is_semantic:
+                        # Convert text to embedding for semantic collections
+                        topK = match.group(1)
+                        query_text = match.group(2).strip()
+                        
+                        print(f"Converting text to embedding for param '{key}': '{query_text}'", file=sys.stderr)
+                        embedding_vector = convert_text_to_embedding(query_text)
+                        
+                        # Replace the text with the embedding vector
+                        query_params["params"][key] = f"{{!knn f=vector topK={topK}}}{embedding_vector}"
+                        print(f"Converted to vector query (first 100 chars): {query_params['params'][key][:100]}...", file=sys.stderr)
+                    else:
+                        # Skip knn queries for non-semantic collections - use empty query
+                        print(f"Skipping knn query in '{key}' for non-semantic collection: {collection}", file=sys.stderr)
+                        query_params["params"][key] = "*:*"
 
     # Construct the Solr request URL
     uri = f"{solr_uri}/{collection}/select"
