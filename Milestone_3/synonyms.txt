@@ -122,3 +122,258 @@ iconic, memorable, legendary
 forgettable, bland, generic
 intense, powerful, strong
 weak, poor, lacking
+
+
+# WORDNET KNOWLEDGE BASE - NOUNS
+actor, doer, histrion, player, role player, thespian, worker
+adaptation, adaption, adjustment, version
+adventure, dangerous undertaking, escapade, risky venture
+aliveness, animation, brio, invigoration, life, liveliness, living, spiritedness
+adversary, antagonist, opponent, opposer, resister
+audience, consultation, hearing, interview
+accolade, award, awarding, honor, honour, laurels, prize
+battle, combat, conflict, engagement, fight, struggle
+betrayal, perfidy, treachery, treason
+blockbuster, megahit, smash hit
+bomb, bomb calorimeter, dud, turkey
+animated cartoon, cartoon, sketch, toon
+cast, cast of characters, casting, dramatis personae, form, hurl, mold, mould
+celebrity, fame, famous person, renown
+case, character, character reference, eccentric, fiber, fibre, fictional character, fictitious character
+chamfer, chase, chase after, dog, following, furrow, give chase, go after
+celluloid, cinema, film, movie house, movie theater, movie theatre, picture palace
+cinematography, filming, motion-picture photography
+authoritative, classic, classical, definitive, graeco-roman, greco-roman, hellenic
+clowning, comedy, drollery, funniness
+battle, conflict, difference, difference of opinion, dispute, engagement, fight, struggle
+bunch, crew, crowd, gang, work party
+dialog, dialogue, duologue, negotiation, talks
+conductor, director, film director, manager, managing director, music director, theater director, theatre director
+docudrama, documentary, documentary film, infotainment
+drama, dramatic event, dramatic play, play
+editing, redaction
+corps de ballet, ensemble, supporting players, tout ensemble
+episode, installment, instalment, sequence
+break away, break loose, bunk, dodging, elude, escape, escape cock, escape valve
+category, class, crime syndicate, family, family line, family unit, fellowship, folk
+fancy, fantasy, illusion, phantasy
+agitate, battle, campaign, combat, competitiveness, conflict, contend, crusade
+celluloid, cinema, film, flick, motion picture, motion-picture show, movie, moving picture
+bust, collapse, dud, fizzle, floating-point operation, flop, washout
+friendly relationship, friendship
+genre, literary genre, music genre, musical genre, musical style, writing style
+armed robbery, heist, holdup, rip-off, stickup
+bomber, champion, cuban sandwich, fighter, grinder, hero, hero of alexandria, hero sandwich
+bang, collision, hit, hitting, smash, smasher, strike, striking
+horror, repugnance, repulsion, revulsion
+icon, ikon, image, picture
+investigating, investigation, probe
+journey, journeying
+firing, ignition, inflammation, kindling, light, lighting
+emplacement, fix, localisation, localization, locating, location, placement, position
+bang, be intimate, bed, beloved, bonk, dear, dearest, do it
+composition, constitution, make-up, makeup, physical composition, war paint
+chef-d'oeuvre, masterpiece
+charge, commission, delegacy, delegation, deputation, foreign mission, military mission, mission
+monologue, soliloquy
+collage, montage
+film, flick, motion picture, motion-picture show, movie, moving picture, moving-picture show, pic
+euphony, medicine, music
+closed book, enigma, mystery, mystery story, secret, whodunit
+narration, narrative, story, tale
+nominating address, nominating speech, nomination
+carrying into action, carrying out, execution, functioning, operation, performance, public presentation
+photography, picture taking
+game, patch, plot, plot of ground, plot of land, secret plan
+award, booty, dirty money, loot, pillage, plunder, prize, swag
+manufacturer, producer
+admirer, agonist, booster, champion, friend, protagonist, supporter
+pursuance, pursuit, quest, seeking
+evaluation, military rank, military rating, paygrade, rating, valuation
+buyback, redemption, repurchase, salvation
+acquittance, button, departure, discharge, dismissal, dismission, exit, expiration
+remake, remaking
+retaliation, revenge
+brush up, brushup, critical review, critique, follow-up, followup, go over, inspection
+latinian language, love affair, love story, romance, romance language, romanticism
+aspect, conniption, fit, panorama, picture, prospect, scene, scenery
+account, grade, grievance, grudge, mark, musical score, score, scotch
+cover, covering, masking, screening, showing, viewing
+book, hand, handwriting, playscript, script
+season, time of year
+continuation, sequel, subsequence
+serial, serial publication, series
+band, bent, circle, curing, exercise set, hardening, lot, readiness
+looker, spectator, spectator pump, viewer, watcher, witness
+ace, adept, asterisk, champion, genius, headliner, hotshot, lead
+account, chronicle, fib, floor, history, level, narration, narrative
+studio, studio apartment
+dramatic art, dramatics, dramaturgy, field, field of operations, house, theater, theater of operations
+calamity, cataclysm, catastrophe, disaster, tragedy
+looker, spectator, viewer, watcher, witness
+baddie, scoundrel, villain
+state of war, war, warfare
+closet, press, wardrobe
+author, writer
+
+# WORDNET KNOWLEDGE BASE - ADJECTIVES
+absurd, cockeyed, derisory, idiotic, laughable, ludicrous, nonsensical, preposterous
+amazing, astonishing, awe-inspiring, awesome, awful, awing
+amusing, amusive, comic, comical, diverting, funny, laughable, mirthful
+authentic, bona fide, reliable, unquestionable, veritable
+average, fair, intermediate, mean, median, mediocre, medium, middling
+abominable, amazing, atrocious, awe-inspiring, awed, awesome, awful, awing
+bad, big, defective, forged, high-risk, regretful, risky, sorry
+believable, credible
+bland, flat, flavorless, flavourless, insipid, politic, savorless, savourless
+bally, blinking, bloody, blooming, crashing, flaming, fucking
+boring, deadening, dull, ho-hum, irksome, slow, tedious, tiresome
+brainy, bright, brilliant, glorious, magnificent, smart as a whip, splendid, superb
+barbarous, beastly, bestial, brutal, brute, brutish, cruel, fell
+bewitching, captivating, enchanting, enthralling, entrancing, fascinating
+chilling, scarey, scary, shivery, shuddery
+apt, cagey, cagy, canny, clever, cunning, ingenious
+confusing, perplexing, puzzling
+contemporaneous, contemporary, modern-day, present-day
+creative, originative
+creepy, creepy-crawly
+curious, funny, odd, peculiar, queer, rum, rummy, singular
+benighted, black, blue, colored, coloured, dark, dark-skinned, dingy
+delicious, delightful
+cheerless, depressing, uncheerful
+distressful, distressing, disturbing, perturbing, troubling, worrisome, worrying
+dramatic, spectacular, striking
+dense, dim, dull, dumb, mute, obtuse, silent, slow
+active, dynamic, dynamical
+eerie, eery
+aroused, emotional, excited, worked up
+engaging, piquant
+enigmatic, enigmatical, oracular, puzzling
+enjoyable, gratifying, pleasurable
+epic, epical, heroic, larger-than-life
+excellent, fantabulous, first-class, splendid
+explosive, volatile
+antic, fantastic, fantastical, grand, grotesque, howling, marvellous, marvelous
+debauched, degenerate, degraded, dissipated, dissolute, fast, firm, flying
+bracing, brisk, clean, fresh, impertinent, impudent, invigorated, new
+amusing, comic, comical, curious, fishy, funny, laughable, mirthful
+adept, beneficial, dear, dependable, effective, estimable, expert, full
+bloodstained, butcherly, gory, sanguinary, sanguineous, slaughterous
+august, deluxe, distinguished, elevated, exalted, expansive, fantastic, gilded
+graphic, graphical, in writing, lifelike, pictorial, vivid
+bang-up, big, bully, capital, corking, cracking, dandy, enceinte
+absorbing, engrossing, fascinating, gripping, riveting
+felicitous, glad, happy, well-chosen
+haunting, persistent
+dear, devout, earnest, heartfelt
+hideous, horrid, horrific, outrageous, repulsive
+hilarious, screaming, uproarious
+bright, hopeful, promising
+impressive, telling
+advanced, forward-looking, groundbreaking, innovational, innovative, modern
+healthy, intelligent, level-headed, levelheaded, reasoning, sound, thinking, well-informed
+acute, intense, vivid
+challenging, intriguing
+fabled, legendary
+abstemious, calorie-free, clean, clear, easy, faint, idle, light
+brilliant, glorious, magnificent, splendid
+average, fair, mediocre, middling, second-rate
+melancholic, melancholy
+advanced, forward-looking, innovative, mod, modern, modernistic, new
+cryptic, cryptical, deep, inscrutable, mysterious, mystic, mystical, mystifying
+nerve-racking, nerve-wracking, stressful, trying
+fresh, modern, new, newfangled, novel, raw, unexampled, young
+erstwhile, former, honest-to-god, honest-to-goodness, old, older, one-time, onetime
+affirmative, optimistic
+great, outstanding, owing, prominent, salient, spectacular, striking, undischarged
+brawny, hefty, herculean, knock-down, muscular, potent, powerful, sinewy
+confusing, enigmatic, enigmatical, perplexing, puzzling
+agile, fast, flying, immediate, nimble, prompt, quick, ready
+rapid, speedy
+naturalistic, realistic
+relaxing, reposeful, restful
+ex post facto, retro, retroactive
+absorbing, engrossing, fascinating, gripping, riveting
+amatory, amorous, quixotic, romantic, romanticist, romanticistic, wild-eyed
+deplorable, distressing, lamentable, pitiful, sad, sorry
+chilling, scarey, scary, shivery, shuddery
+bathetic, drippy, hokey, kitschy, maudlin, mawkish, mushy, schmaltzy
+disgraceful, lurid, scandalous, shameful, shocking
+bare, childlike, dewy-eyed, dim-witted, elementary, mere, round-eyed, simple
+boring, deadening, dense, dim, dull, dumb, ho-hum, irksome
+dull, inert, slow, sluggish, soggy, sulky, torpid
+bright, chic, fresh, impertinent, impudent, overbold, sassy, saucy
+dramatic, outstanding, prominent, salient, spectacular, striking
+flighty, nervous, skittish, spooky
+dead, moribund, stagnant
+electrostatic, inactive, motionless, stable, static, still, unchanging
+aboveboard, square, straight, straightforward
+arresting, sensational, stunning
+dazed, stunned, stupefied, stupid, unintelligent
+cliff-hanging, nail-biting, suspenseful, suspensive
+boring, deadening, dull, ho-hum, irksome, long-winded, slow, tedious
+abominable, atrocious, awful, dire, direful, dread, dreaded, dreadful
+terrific, terrifying
+electrifying, thrilling
+affecting, poignant, touching
+tragic, tragical
+atrocious, despicable, frightful, horrible, horrifying, slimy, surly, ugly
+alone, singular, unequaled, unequalled, unique, unparalleled
+crimson, fierce, red, tearing, trigger-happy, vehement, violent, wild
+debile, decrepit, faint, fallible, feeble, frail, imperfect, infirm
+
+# WORDNET KNOWLEDGE BASE - VERBS
+act, act as, behave, dissemble, move, play, playact, pretend
+accommodate, adapt, adjust, conform
+admire, look up to
+advise, apprise, apprize, counsel, give notice, notify, propose, rede
+analyse, analyze, break down, canvas, canvass, dissect, examine, psychoanalyse
+acclaim, applaud, clap, spat
+appreciate, apprise, apprize, prize, revalue, take account, treasure, value
+appropriate, becharm, beguile, bewitch, captivate, capture, catch, charm
+alter, change, commute, convert, deepen, exchange, interchange, modify
+barrack, cheer, cheer up, chirk up, embolden, exhort, hearten, inspire
+create, make, produce
+critique, review
+blazon out, call, call out, cry, cry out, exclaim, holler, hollo
+abbreviate, abridge, bring down, burn, contract, curve, cut, cut back
+depict, describe, draw, limn, picture, portray, render, show
+acquire, arise, break, build up, develop, educate, evolve, explicate
+become flat, break, break down, buy the farm, cash in one's chips, choke, conk, conk out
+address, aim, calculate, channelise, channelize, conduct, direct, engineer
+attain, break, bring out, chance on, chance upon, come across, come upon, describe
+blue-pencil, cut, delete, edit, edit out, redact
+body forth, embody, incarnate, personify, substantiate
+back, certify, endorse, indorse, plump for, plunk for, second, support
+bask, delight, enjoy, love, relish, revel, savor, savour
+appraise, assess, evaluate, judge, measure, pass judgment, valuate, value
+acquire, develop, evolve, germinate
+break, bring out, debunk, disclose, discover, display, divulge, endanger
+gasp, heave, pant, puff
+acquire, arise, develop, farm, get, grow, maturate, mature
+detest, hate
+enquire, inquire, investigate, look into
+express joy, express mirth, laugh
+age, get on, grow, maturate, mature, ripen, senesce, suppurate
+execute, perform
+act, act as, bet, bring, dally, diddle, encounter, fiddle
+depict, impersonate, limn, portray, present
+acquire, bring about, bring forth, bring on, bring out, create, develop, farm
+advance, advertise, advertize, boost, elevate, encourage, further, kick upstairs
+grade, order, outrank, place, range, rank, rate
+grade, order, place, range, rank, rate, value
+advocate, commend, recommend, urge
+commemorate, enter, immortalise, immortalize, memorialise, memorialize, put down, read
+act, comprise, constitute, correspond, defend, exemplify, interpret, lay out
+break, bring out, disclose, discover, divulge, expose, give away, let on
+call, cry, holler, hollo, scream, shout, shout out, squall
+ascertain, assure, attend, catch, check, come across, consider, construe
+blast, bourgeon, buck, burgeon forth, charge, dart, dash, dissipate
+pelt, pour, pullulate, rain buckets, rain cats and dogs, stream, swarm, teem
+advise, evoke, hint, indicate, intimate, paint a picture, propose, suggest
+come through, endure, exist, hold out, hold up, last, live, live on
+metamorphose, transform, translate, transmute, transubstantiate
+bring out, expose, reveal, uncover, unveil
+catch, consider, look at, reckon, regard, see, take in, view
+ascertain, catch, check, determine, find out, follow, keep an eye on, learn
+compose, drop a line, indite, pen, publish, save, spell, write
