@@ -12,11 +12,12 @@
     "vector"
   ],
   "params": {
-    "q": "{!knn f=vector topK=20}Funny TV Show",
+    "defType": "edismax",
+    "q": "Funny TV Show",
     "qf": "primaryTitle^2 genres^2 description^3 top_3_cast^2",
     "pf": "description^6",
+    "bq": "{!knn f=vector topK=20}Funny TV Show",
     "sort": "score desc",
-    "start": 0,
     "rows": 20
   }
 }
