@@ -11,5 +11,5 @@ http://localhost:8983/solr/semantic_core/schema
 
 # Index the JSON documents.
 curl -X POST -H 'Content-type:application/json' \
---data-binary "@./data/movies_series_with_embeddings.json" \
+--data-binary "@./data/movies_series_mpnet.json" \
 http://localhost:8983/solr/semantic_core/update?commit=true

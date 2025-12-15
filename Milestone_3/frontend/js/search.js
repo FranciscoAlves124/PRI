@@ -57,7 +57,7 @@ export class SearchManager {
     }
 
     /**
-     * Semantic search - using vector embeddings
+     * Semantic search - using vector embeddings (description only)
      */
     async semanticSearch(query, filters = {}) {
         // Get embedding for the query
@@ -77,6 +77,129 @@ export class SearchManager {
         }
 
         return await this.api.querySemantic(params);
+    }
+
+    /**
+     * Semantic search using reviews embeddings only
+     */
+    async semanticSearchReviews(query, filters = {}) {
+        const embedding = await this.api.getEmbedding(query);
+        
+        const params = {
+            q: `{!knn f=reviews_vector topK=100}${JSON.stringify(embedding)}`,
+            rows: 100,
+            fl: 'tconst,primaryTitle,description,genres,titleType,startYear,averageRating,score',
+            wt: 'json'
+        };
+
+        const fq = this.buildFilterQuery(filters);
+        if (fq.length > 0) {
+            params.fq = fq;
+        }
+
+        return await this.api.querySemantic(params);
+    }
+
+    /**
+     * Hybrid semantic search - combines description and reviews vectors
+     * Uses reranking to merge results from both vector searches
+     */
+    async semanticSearchHybrid(query, filters = {}, descWeight = 0.6, reviewsWeight = 0.4) {
+        const embedding = await this.api.getEmbedding(query);
+        const embeddingStr = JSON.stringify(embedding);
+        
+        // Use Solr's query-time boosting with multiple KNN queries
+        // This performs both searches and combines scores
+        const params = {
+            q: '*:*',
+            rq: `{!rerank reRankQuery=$rqq reRankDocs=200 reRankWeight=1}`,
+            rqq: `(_query_:"{!knn f=vector topK=100}${embeddingStr}")^${descWeight} OR (_query_:"{!knn f=reviews_vector topK=100}${embeddingStr}")^${reviewsWeight}`,
+            rows: 100,
+            fl: 'tconst,primaryTitle,description,genres,titleType,startYear,averageRating,score',
+            wt: 'json'
+        };
+
+        const fq = this.buildFilterQuery(filters);
+        if (fq.length > 0) {
+            params.fq = fq;
+        }
+
+        return await this.api.querySemantic(params);
+    }
+
+    /**
+     * Combined semantic search - fetches from both vectors and merges client-side
+     * More reliable approach for comparing both embeddings
+     */
+    async semanticSearchCombined(query, filters = {}, descWeight = 0.6, reviewsWeight = 0.4) {
+        const embedding = await this.api.getEmbedding(query);
+        
+        // Query both vectors in parallel
+        const [descResults, reviewResults] = await Promise.all([
+            this.api.querySemantic({
+                q: `{!knn f=vector topK=100}${JSON.stringify(embedding)}`,
+                rows: 100,
+                fl: 'tconst,primaryTitle,description,genres,titleType,startYear,averageRating,score',
+                wt: 'json',
+                fq: this.buildFilterQuery(filters)
+            }),
+            this.api.querySemantic({
+                q: `{!knn f=reviews_vector topK=100}${JSON.stringify(embedding)}`,
+                rows: 100,
+                fl: 'tconst,primaryTitle,description,genres,titleType,startYear,averageRating,score',
+                wt: 'json',
+                fq: this.buildFilterQuery(filters)
+            })
+        ]);
+
+        // Merge results with weighted scores
+        return this.mergeSemanticResults(descResults, reviewResults, descWeight, reviewsWeight);
+    }
+
+    /**
+     * Merge results from two semantic searches with weighted scoring
+     */
+    mergeSemanticResults(descResults, reviewResults, descWeight, reviewsWeight) {
+        const scoreMap = new Map();
+        const docMap = new Map();
+
+        // Process description results
+        const descDocs = descResults?.response?.docs || [];
+        const maxDescScore = descDocs.length > 0 ? descDocs[0].score : 1;
+        
+        descDocs.forEach((doc, idx) => {
+            const normalizedScore = doc.score / maxDescScore;
+            scoreMap.set(doc.tconst, (scoreMap.get(doc.tconst) || 0) + normalizedScore * descWeight);
+            docMap.set(doc.tconst, doc);
+        });
+
+        // Process review results
+        const reviewDocs = reviewResults?.response?.docs || [];
+        const maxReviewScore = reviewDocs.length > 0 ? reviewDocs[0].score : 1;
+        
+        reviewDocs.forEach((doc, idx) => {
+            const normalizedScore = doc.score / maxReviewScore;
+            scoreMap.set(doc.tconst, (scoreMap.get(doc.tconst) || 0) + normalizedScore * reviewsWeight);
+            if (!docMap.has(doc.tconst)) {
+                docMap.set(doc.tconst, doc);
+            }
+        });
+
+        // Sort by combined score and rebuild response
+        const sortedDocs = Array.from(scoreMap.entries())
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 100)
+            .map(([tconst, score]) => {
+                const doc = docMap.get(tconst);
+                return { ...doc, score: score };
+            });
+
+        return {
+            response: {
+                numFound: sortedDocs.length,
+                docs: sortedDocs
+            }
+        };
     }
 
     /**

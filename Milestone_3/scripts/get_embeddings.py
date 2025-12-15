@@ -3,25 +3,45 @@ import json
 from sentence_transformers import SentenceTransformer
 
 # Load the SentenceTransformer model
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('all-mpnet-base-v2')
 
 def get_embedding(text):
     # The model.encode() method already returns a list of floats
     return model.encode(text, convert_to_tensor=False).tolist()
 
 if __name__ == "__main__":
-    # Read JSON from STDIN
-    data = json.load(sys.stdin)
+    # Check if input/output files are provided as arguments
+    if len(sys.argv) > 1:
+        input_file = sys.argv[1]
+        output_file = sys.argv[2] if len(sys.argv) > 2 else None
+        
+        with open(input_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    else:
+        # Fallback to stdin
+        data = json.load(sys.stdin)
 
     # Update each document in the JSON data
-    for document in data:
-        # Extract fields if they exist, otherwise default to empty strings
-        title = document.get("title", "")
-        objectives = document.get("objectives", "")
-        learning_outcomes = document.get("learning_outcomes", "")
+    total = len(data)
+    print(f"Generating embeddings for {total} documents...", file=sys.stderr)
+    
+    for i, document in enumerate(data):
+        if (i + 1) % 100 == 0:
+            print(f"Processing document {i + 1}/{total}...", file=sys.stderr)
 
-        combined_text = title + " " + objectives + " " + learning_outcomes
+        # Extract fields relevant for movies
+        title = document.get("primaryTitle", "")
+        description = document.get("description", "")
+        # Optional: include genres or cast if you want them in the vector
+        
+        combined_text = title + " " + description
         document["vector"] = get_embedding(combined_text)
+    
+    print("Embedding generation complete.", file=sys.stderr)
 
-    # Output updated JSON to STDOUT
-    json.dump(data, sys.stdout, indent=4, ensure_ascii=False)
+    # Output updated JSON
+    if len(sys.argv) > 2 and output_file:
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+    else:
+        json.dump(data, sys.stdout, indent=4, ensure_ascii=False)
