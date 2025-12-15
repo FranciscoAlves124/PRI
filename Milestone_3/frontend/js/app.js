@@ -115,10 +115,6 @@ class MovieSearchApp {
             this.semanticCombinedBtn.classList.add('active');
             this.currentModeSpan.textContent = 'Semantic Search (Combined)';
             this.searchInput.placeholder = 'Natural language search using descriptions + reviews...';
-        } else if (mode === 'semantic') {
-            this.semanticSearchBtn.classList.add('active');
-            this.currentModeSpan.textContent = 'Semantic Search';
-            this.searchInput.placeholder = 'Natural language semantic search...';
         }
     }
 
