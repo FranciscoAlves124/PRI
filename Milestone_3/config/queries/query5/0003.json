@@ -1,5 +1,5 @@
 {
-  "query": "high school chemistry teacher turns drug dealer desert new mexico",
+  "query": "R2-D2 and C-3PO droids",
   "fields": [
     "tconst",
     "primaryTitle",
@@ -8,12 +8,10 @@
     "averageRating",
     "titleType",
     "description",
-    "top_3_cast",
-    "vector"
+    "top_3_cast"
   ],
   "params": {
-    "q": "{!knn f=vector topK=20}high school chemistry teacher turns drug dealer desert new mexico",
-    "fl": "tconst,primaryTitle,startYear,genres,averageRating,titleType,description,top_3_cast,vector",
+    "q": "{!knn f=vector topK=20}lonely isolated person forms unlikely friendship emotional connection",
     "sort": "score desc",
     "start": 0,
     "rows": 20

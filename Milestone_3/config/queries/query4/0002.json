@@ -1,5 +1,5 @@
 {
-  "query": "psychological thriller mind manipulation reality perception",
+  "query": "The one with the ring and the little people",
   "fields": [
     "tconst",
     "primaryTitle",
@@ -12,8 +12,7 @@
   ],
   "params": {
     "defType": "edismax",
-    "qf": ["primaryTitle^2", "description^3", "genres^2"],
-    "pf": ["description^6"],
+    "qf": "primaryTitle^2 description^3 genres^2 top_3_cast",
     "ps": "3",
     "fq": ["titleType:movie", "averageRating:[7.5 TO 10]"],
     "q.op": "OR",
