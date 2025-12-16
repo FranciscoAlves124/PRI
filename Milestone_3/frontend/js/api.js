@@ -97,6 +97,21 @@ export class SolrAPI {
 
             const data = await response.json();
             console.log('MLT response:', data);
+
+            if (data.moreLikeThis) {
+                // moreLikeThis is an object with document IDs as keys
+                // Each key contains {numFound, docs} for similar documents
+                const mltKeys = Object.keys(data.moreLikeThis);
+                if (mltKeys.length > 0) {
+                    const firstKey = mltKeys[0];
+                    const mltData = data.moreLikeThis[firstKey];
+                    return {
+                        numFound: mltData.numFound || mltData.docs?.length || 0,
+                        docs: mltData.docs || []
+                    };
+                }
+            }
+
             return data.response;
             
         } catch (error) {
