@@ -146,7 +146,7 @@
         {
             "name": "reviewsVector",
             "class": "solr.DenseVectorField",
-            "vectorDimension": 384,
+            "vectorDimension": 768,
             "similarityFunction": "cosine",
             "knnAlgorithm": "hnsw"
         },
