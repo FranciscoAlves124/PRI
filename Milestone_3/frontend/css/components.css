@@ -230,6 +230,7 @@
     font-size: 0.9rem;
 }
 
+<<<<<<< HEAD
 img .result-card-image {
     width: 100%;
     max-width: 300px;
@@ -237,6 +238,8 @@ img .result-card-image {
     margin-bottom: 1rem;
 }
 
+=======
+>>>>>>> f088350fd09a5bc9a7f8e4ffd248bde537ea8af0
 /* Rating Display */
 .rating-display {
     display: inline-flex;
