@@ -247,4 +247,23 @@ export class SearchManager {
                 return 'score desc';
         }
     }
+
+    /**
+     * More Like This - find similar documents based on content
+     */
+    async moreLikeThis(tconst, core = 'media_intermediate') {
+        const params = {
+            q: `tconst:${tconst}`,
+            mlt: 'true',
+            'mlt.fl': 'description,genres,top_3_cast',
+            'mlt.mindf': 1,
+            'mlt.mintf': 1,
+            'mlt.count': 12,
+            fl: 'tconst,primaryTitle,description,genres,titleType,startYear,averageRating,score,poster_url,top_3_cast',
+            rows: 12,
+            wt: 'json'
+        };
+
+        return await this.api.moreLikeThis(core, params);
+    }
 }

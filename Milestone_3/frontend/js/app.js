@@ -230,7 +230,23 @@ class MovieSearchApp {
         // Render result cards
         pageResults.forEach(doc => {
             const card = renderResultCard(doc, this.currentMode);
-            card.addEventListener('click', () => this.showDetail(doc));
+            
+            // Click on card (not on Similar button) shows detail
+            card.addEventListener('click', (e) => {
+                if (!e.target.closest('.btn-similar')) {
+                    this.showDetail(doc);
+                }
+            });
+            
+            // Similar button click
+            const similarBtn = card.querySelector('.btn-similar');
+            if (similarBtn) {
+                similarBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    this.findSimilar(similarBtn.dataset.tconst);
+                });
+            }
+            
             this.resultsGrid.appendChild(card);
         });
 
@@ -256,6 +272,42 @@ class MovieSearchApp {
 
     hideModal() {
         this.detailModal.classList.add('hidden');
+    }
+
+    async findSimilar(tconst) {
+        if (!tconst) {
+            this.showError('Cannot find similar items - no ID available');
+            return;
+        }
+
+        this.showLoading();
+        this.hideError();
+        this.hideResults();
+
+        try {
+            const startTime = performance.now();
+            
+            // Use intermediate core for MLT (has better text analysis)
+            const results = await this.searchManager.moreLikeThis(tconst, 'media_intermediate');
+            
+            const endTime = performance.now();
+            const queryTime = Math.round(endTime - startTime);
+            
+            // Filter out the source document itself
+            this.currentResults = (results.docs || []).filter(doc => doc.tconst !== tconst);
+            this.currentPage = 1;
+            
+            // Update mode indicator
+            this.currentModeSpan.textContent = `Similar to: ${tconst}`;
+            
+            this.hideLoading();
+            this.displayResults(queryTime);
+            
+        } catch (error) {
+            console.error('Find Similar error:', error);
+            this.hideLoading();
+            this.showError(error.message || 'An error occurred while finding similar items');
+        }
     }
 }
 

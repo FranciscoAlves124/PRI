@@ -120,6 +120,44 @@ def get_embedding():
         print(f"Error generating embedding: {e}", file=sys.stderr)
         return jsonify({'error': str(e)}), 500
 
+@app.route('/api/solr/<core>/mlt', methods=['POST', 'GET'])
+def proxy_solr_mlt(core):
+    """
+    Proxy More Like This requests to Solr.
+    """
+    try:
+        solr_url = f'{SOLR_BASE_URL}/{core}/select'
+        
+        if request.method == 'POST':
+            json_data = request.get_json()
+            print(f"MLT query params: {json_data}", file=sys.stderr)
+            
+            # Build params list for Solr
+            params = []
+            for key, value in json_data.items():
+                if isinstance(value, list):
+                    for v in value:
+                        params.append((key, v))
+                else:
+                    params.append((key, value))
+            
+            response = requests.get(solr_url, params=params)
+        else:
+            response = requests.get(solr_url, params=request.args)
+        
+        print(f"MLT response status: {response.status_code}", file=sys.stderr)
+        
+        if response.status_code == 200:
+            return jsonify(response.json()), 200
+        else:
+            error_text = response.text
+            print(f"MLT error: {error_text}", file=sys.stderr)
+            return jsonify({'error': error_text}), response.status_code
+    
+    except Exception as e:
+        print(f"MLT error: {e}", file=sys.stderr)
+        return jsonify({'error': str(e)}), 500
+
 @app.route('/api/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""

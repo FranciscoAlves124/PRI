@@ -19,6 +19,8 @@ export function renderResultCard(doc, mode) {
 
     console.log("Poster_Url : " + doc.poster_url); // should log the URL
 
+    const tconst = getFieldValue(doc.tconst);
+
     card.innerHTML = `
         <div class="result-card-image">
             ${
@@ -54,12 +56,17 @@ export function renderResultCard(doc, mode) {
                     ${escapeHtml(cast[0].split(' - ')[0])}
                 </div>
             ` : '<div></div>'}
-            ${mode === 'semantic' && score ? `
-                <div class="similarity-score">
-                    <i class="fas fa-brain"></i>
-                    ${(score * 100).toFixed(0)}%
-                </div>
-            ` : ''}
+            <div class="result-card-actions">
+                ${mode === 'semantic' && score ? `
+                    <div class="similarity-score">
+                        <i class="fas fa-brain"></i>
+                        ${(score * 100).toFixed(0)}%
+                    </div>
+                ` : ''}
+                <button class="btn-similar" data-tconst="${escapeHtml(tconst)}" title="Find Similar">
+                    <i class="fas fa-magic"></i> Similar
+                </button>
+            </div>
         </div>
     `;
 

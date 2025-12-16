@@ -74,6 +74,38 @@ export class SolrAPI {
     }
 
     /**
+     * More Like This query
+     */
+    async moreLikeThis(core, params) {
+        const url = `${this.proxyURL}/${core}/mlt`;
+        
+        try {
+            console.log('MLT Query:', { core, params });
+            
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(params)
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.error || `HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            console.log('MLT response:', data);
+            return data.response;
+            
+        } catch (error) {
+            console.error('MLT query error:', error);
+            throw new Error(error.message || 'Failed to fetch similar results');
+        }
+    }
+
+    /**
      * Get semantic embedding for a query
      */
     async getEmbedding(text) {
