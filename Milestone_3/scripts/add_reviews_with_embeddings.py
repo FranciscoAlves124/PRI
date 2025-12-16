@@ -15,7 +15,7 @@ from sentence_transformers import SentenceTransformer
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, '..', 'data')
 
-MOVIES_FILE = os.path.join(DATA_DIR, 'movies_series_with_embeddings.json')
+MOVIES_FILE = os.path.join(DATA_DIR, 'movies_series_mpnet.json')
 REVIEWS_FILE = os.path.join(DATA_DIR, 'reviews.json')
 OUTPUT_FILE = os.path.join(DATA_DIR, 'movies_series_with_reviews.json')
 
@@ -84,7 +84,7 @@ def get_combined_reviews_text(reviews):
 def main():
     # Load the embedding model
     print("Loading SentenceTransformer model...")
-    model = SentenceTransformer('all-MiniLM-L6-v2')
+    model = SentenceTransformer('all-mpnet-base-v2')
     print("Model loaded.")
     
     # Load data
