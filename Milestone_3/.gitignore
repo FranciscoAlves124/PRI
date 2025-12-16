@@ -2,6 +2,8 @@
 /data/movies_series_mpnet.json
 /data/movies_series_emb_final.json
 /data/movies_series_with_posters.json
+/data/movies_series_reviews.json
+/data/movies_series_with_posters_reviews.json
 .venv
 /venv/
 results/

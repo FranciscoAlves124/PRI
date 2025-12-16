@@ -26,10 +26,21 @@ if ! [ -f data/movies_series_with_posters.json ]; then
 	python3 scripts/add_poster_urls.py
 fi
 
+#check if file already in data
+if ! [ -f data/movies_series_with_posters_reviews.json ]; then
+	# Ensure 'datasets' is installed
+	if ! python3 -c "import datasets" 2>/dev/null; then
+		echo "Installing required Python package: datasets"
+		pip install datasets
+	fi
+	# Run add_poster_urls.py
+	python3 scripts/add_poster_urls_reviews.py
+fi
+
 # Index the JSON documents.
-curl.exe -X POST -H "Content-type:application/json" --data-binary "@./data/movies_series_with_posters.json" "http://localhost:8983/solr/semantic_core/update?commit=true"
 curl.exe -X POST -H "Content-type:application/json" --data-binary "@./data/movies_series_with_posters.json" "http://localhost:8983/solr/media_basic/update?commit=true"
 curl.exe -X POST -H "Content-type:application/json" --data-binary "@./data/movies_series_with_posters.json" "http://localhost:8983/solr/media_intermediate/update?commit=true"
+curl.exe -X POST -H "Content-type:application/json" --data-binary "@./data/movies_series_with_posters_reviews.json" "http://localhost:8983/solr/semantic_core/update?commit=true"
 
 curl "http://localhost:8983/solr/admin/cores?action=RELOAD&core=media_intermediate"
 curl "http://localhost:8983/solr/admin/cores?action=RELOAD&core=semantic_core"
