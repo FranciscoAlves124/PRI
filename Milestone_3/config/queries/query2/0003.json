@@ -8,8 +8,7 @@
     "averageRating",
     "titleType",
     "description",
-    "top_3_cast",
-    "vector"
+    "top_3_cast"
   ],
   "params": {
     "q": "{!knn f=vector topK=20}\"Robert De Niro\" or \"Al Pacino\" Crime Drama",

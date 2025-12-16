@@ -172,8 +172,9 @@ body {
 .btn-text {
     background: transparent;
     color: var(--secondary-color);
-    padding: 0.5rem;
+    padding: 0.1rem;
 }
+
 
 .btn-text:hover {
     color: #2980b9;

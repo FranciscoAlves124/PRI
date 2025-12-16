@@ -66,7 +66,7 @@ export class SearchManager {
         const params = {
             q: `{!knn f=vector topK=100}${JSON.stringify(embedding)}`,
             rows: 100,
-            fl: 'tconst,primaryTitle,description,genres,titleType,startYear,averageRating,score',
+            fl: 'tconst,primaryTitle,description,genres,titleType,startYear,averageRating,score,poster_url',
             wt: 'json'
         };
 

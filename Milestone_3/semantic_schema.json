@@ -315,6 +315,12 @@
             "type": "string_ci",
             "indexed": true,
             "stored": true
+        },
+        {
+            "name": "poster_url",
+            "type": "string_ci",
+            "indexed": true,
+            "stored": true
         }
     ],
     "add-copy-field": [

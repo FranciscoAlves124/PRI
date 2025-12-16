@@ -15,6 +15,18 @@
     box-shadow: var(--shadow-hover);
 }
 
+.result-card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
+}
+
 .result-card-image {
     width: 100%;
     height: 200px;
@@ -218,6 +230,16 @@
     font-size: 0.9rem;
 }
 
+<<<<<<< HEAD
+img .result-card-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+=======
+>>>>>>> f088350fd09a5bc9a7f8e4ffd248bde537ea8af0
 /* Rating Display */
 .rating-display {
     display: inline-flex;
