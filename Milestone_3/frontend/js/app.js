@@ -29,7 +29,6 @@ class MovieSearchApp {
         this.intermediateSearchBtn = document.getElementById('intermediateSearchBtn');
         this.semanticSearchBtn = document.getElementById('semanticSearchBtn');
         this.semanticReviewsBtn = document.getElementById('semanticReviewsBtn');
-        this.semanticCombinedBtn = document.getElementById('semanticCombinedBtn');
         this.currentModeSpan = document.getElementById('currentMode');
         
         // Results elements
@@ -69,7 +68,6 @@ class MovieSearchApp {
         this.intermediateSearchBtn.addEventListener('click', () => this.switchMode('intermediate'));
         this.semanticSearchBtn.addEventListener('click', () => this.switchMode('semantic'));
         this.semanticReviewsBtn.addEventListener('click', () => this.switchMode('semantic-reviews'));
-        this.semanticCombinedBtn.addEventListener('click', () => this.switchMode('semantic-combined'));
         
         // Pagination
         this.prevPageBtn.addEventListener('click', () => this.changePage(-1));
@@ -91,7 +89,7 @@ class MovieSearchApp {
         
         // Update UI
         [this.basicSearchBtn, this.intermediateSearchBtn, this.semanticSearchBtn, 
-         this.semanticReviewsBtn, this.semanticCombinedBtn].forEach(btn => {
+         this.semanticReviewsBtn].forEach(btn => {
             btn.classList.remove('active');
         });
         
@@ -111,10 +109,6 @@ class MovieSearchApp {
             this.semanticReviewsBtn.classList.add('active');
             this.currentModeSpan.textContent = 'Semantic Search (Reviews)';
             this.searchInput.placeholder = 'Natural language search using reviews...';
-        } else if (mode === 'semantic-combined') {
-            this.semanticCombinedBtn.classList.add('active');
-            this.currentModeSpan.textContent = 'Semantic Search (Combined)';
-            this.searchInput.placeholder = 'Natural language search using descriptions + reviews...';
         }
     }
 
@@ -161,8 +155,6 @@ class MovieSearchApp {
                 results = await this.searchManager.semanticSearch(query, filters);
             } else if (this.currentMode === 'semantic-reviews') {
                 results = await this.searchManager.semanticSearchReviews(query, filters);
-            } else if (this.currentMode === 'semantic-combined') {
-                results = await this.searchManager.semanticSearchCombined(query, filters);
             }
             
             const endTime = performance.now();

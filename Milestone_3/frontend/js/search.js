@@ -128,35 +128,6 @@ export class SearchManager {
     }
 
     /**
-     * Combined semantic search - fetches from both vectors and merges client-side
-     * More reliable approach for comparing both embeddings
-     */
-    async semanticSearchCombined(query, filters = {}, descWeight = 0.6, reviewsWeight = 0.4) {
-        const embedding = await this.api.getEmbedding(query);
-        
-        // Query both vectors in parallel
-        const [descResults, reviewResults] = await Promise.all([
-            this.api.querySemantic({
-                q: `{!knn f=vector topK=100}${JSON.stringify(embedding)}`,
-                rows: 100,
-                fl: 'tconst,primaryTitle,description,genres,titleType,startYear,averageRating,score',
-                wt: 'json',
-                fq: this.buildFilterQuery(filters)
-            }),
-            this.api.querySemantic({
-                q: `{!knn f=reviews_vector topK=100}${JSON.stringify(embedding)}`,
-                rows: 100,
-                fl: 'tconst,primaryTitle,description,genres,titleType,startYear,averageRating,score',
-                wt: 'json',
-                fq: this.buildFilterQuery(filters)
-            })
-        ]);
-
-        // Merge results with weighted scores
-        return this.mergeSemanticResults(descResults, reviewResults, descWeight, reviewsWeight);
-    }
-
-    /**
      * Merge results from two semantic searches with weighted scoring
      */
     mergeSemanticResults(descResults, reviewResults, descWeight, reviewsWeight) {
